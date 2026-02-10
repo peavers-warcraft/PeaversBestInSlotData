@@ -45,25 +45,27 @@ local function BuildCache()
     local numTiers = EJ_GetNumTiers()
     if not numTiers or numTiers == 0 then return end
 
-    -- Select latest expansion tier
-    EJ_SelectTier(numTiers)
+    -- Scan all expansion tiers (M+ pools include dungeons from older expansions)
+    for tier = 1, numTiers do
+        EJ_SelectTier(tier)
 
-    -- Scan raid instances
-    local index = 1
-    while true do
-        local instanceID, instanceName = EJ_GetInstanceByIndex(index, true)
-        if not instanceID then break end
-        ScanInstance(instanceID, instanceName, true)
-        index = index + 1
-    end
+        -- Scan raid instances
+        local index = 1
+        while true do
+            local instanceID, instanceName = EJ_GetInstanceByIndex(index, true)
+            if not instanceID then break end
+            ScanInstance(instanceID, instanceName, true)
+            index = index + 1
+        end
 
-    -- Scan dungeon instances
-    index = 1
-    while true do
-        local instanceID, instanceName = EJ_GetInstanceByIndex(index, false)
-        if not instanceID then break end
-        ScanInstance(instanceID, instanceName, false)
-        index = index + 1
+        -- Scan dungeon instances
+        index = 1
+        while true do
+            local instanceID, instanceName = EJ_GetInstanceByIndex(index, false)
+            if not instanceID then break end
+            ScanInstance(instanceID, instanceName, false)
+            index = index + 1
+        end
     end
 
     cacheBuilt = true
