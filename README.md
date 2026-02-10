@@ -4,6 +4,10 @@ A data library addon for World of Warcraft that provides Best in Slot gear recom
 
 **Website:** [peavers.io](https://peavers.io) | **Addon Backup:** [vault.peavers.io](https://vault.peavers.io) | **Issues:** [GitHub](https://github.com/peavers-warcraft/PeaversBestInSlotData/issues)
 
+## Data Source
+
+This addon is updated daily with Best in Slot recommendations from [Archon.gg](https://www.archon.gg), a trusted source for high-end WoW theorycrafting and gear optimization.
+
 ## Features
 
 - Best in Slot gear data for all classes and specializations
