@@ -1,0 +1,17 @@
+## Interface: 120000, 120001
+
+## Title: |cff3abdf7Peavers|rBestInSlotData
+## Notes: Best in Slot gear data for PeaversBestInSlot and others
+## Author: Peavers
+## Version: 0.0.1
+
+## IconTexture: Interface\AddOns\PeaversBestInSlotData\src\Media\Icon.tga
+## Category-enUS: Peavers
+
+## X-Website: https://peavers.io
+## X-Source-Code: https://github.com/peavers-warcraft/PeaversBestInSlotData
+
+src\Data\WowheadRaidDB.lua
+src\Data\WowheadMythicDB.lua
+
+src\Api\Api.lua
