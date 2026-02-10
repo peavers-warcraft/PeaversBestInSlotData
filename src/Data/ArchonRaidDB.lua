@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ArchonRaidDB = addonTable.ArchonRaidDB or {}
 
 local bisData = {
-	updated = "2026-02-10 13:38:35",
+	updated = "2026-02-10 13:50:39",
 
 	[1] = {
 		specs = {
@@ -32,7 +32,6 @@ local bisData = {
 						{
 							itemID = 185842,
 							itemName = "Ornately Engraved Amplifier",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -45,7 +44,6 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -194,7 +192,6 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -221,7 +218,6 @@ local bisData = {
 						{
 							itemID = 246344,
 							itemName = "Cursed Stone Idol",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -300,7 +296,6 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -313,7 +308,6 @@ local bisData = {
 						{
 							itemID = 251880,
 							itemName = "Momma's Mega Medallion",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -462,14 +456,12 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -496,7 +488,6 @@ local bisData = {
 						{
 							itemID = 232541,
 							itemName = "Improvised Seaforium Pacemaker",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -575,14 +566,12 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185842,
 							itemName = "Ornately Engraved Amplifier",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -731,14 +720,12 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242405,
 							itemName = "Band of the Shattered Soul",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -759,7 +746,6 @@ local bisData = {
 						{
 							itemID = 232541,
 							itemName = "Improvised Seaforium Pacemaker",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -786,7 +772,6 @@ local bisData = {
 						{
 							itemID = 222440,
 							itemName = "Everforged Longsword",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -843,14 +828,12 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1005,14 +988,12 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1111,14 +1092,12 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 185842,
 							itemName = "Ornately Engraved Amplifier",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1273,7 +1252,6 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1286,7 +1264,6 @@ local bisData = {
 						{
 							itemID = 242405,
 							itemName = "Band of the Shattered Soul",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1301,14 +1278,12 @@ local bisData = {
 						{
 							itemID = 232541,
 							itemName = "Improvised Seaforium Pacemaker",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1323,7 +1298,6 @@ local bisData = {
 						{
 							itemID = 222440,
 							itemName = "Everforged Longsword",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1402,21 +1376,18 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 185842,
 							itemName = "Ornately Engraved Amplifier",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1565,14 +1536,12 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 178824,
 							itemName = "Signet of the False Accuser",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1587,14 +1556,12 @@ local bisData = {
 						{
 							itemID = 232541,
 							itemName = "Improvised Seaforium Pacemaker",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242399,
 							itemName = "Screams of a Forgotten Sky",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1664,7 +1631,6 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1819,14 +1785,12 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 246281,
 							itemName = "Ring of the Panoply",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1841,7 +1805,6 @@ local bisData = {
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1887,7 +1850,6 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2048,7 +2010,6 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2061,7 +2022,6 @@ local bisData = {
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2070,14 +2030,12 @@ local bisData = {
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 232541,
 							itemName = "Improvised Seaforium Pacemaker",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2144,7 +2102,6 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2157,7 +2114,6 @@ local bisData = {
 						{
 							itemID = 185842,
 							itemName = "Ornately Engraved Amplifier",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2306,7 +2262,6 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2319,7 +2274,6 @@ local bisData = {
 						{
 							itemID = 242405,
 							itemName = "Band of the Shattered Soul",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2381,7 +2335,6 @@ local bisData = {
 						{
 							itemID = 222440,
 							itemName = "Everforged Longsword",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2398,21 +2351,18 @@ local bisData = {
 						{
 							itemID = 237525,
 							itemName = "Irradiated Impurity Filter",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219329,
 							itemName = "Rune-Branded Hood",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 221163,
 							itemName = "Whispering Mask",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2421,7 +2371,6 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2434,7 +2383,6 @@ local bisData = {
 						{
 							itemID = 251880,
 							itemName = "Momma's Mega Medallion",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2443,21 +2391,18 @@ local bisData = {
 						{
 							itemID = 237552,
 							itemName = "Deathbound Shoulderpads",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 185802,
 							itemName = "Breakbeat Shoulderguards",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242486,
 							itemName = "Mantle of Wounded Fate",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2466,14 +2411,12 @@ local bisData = {
 						{
 							itemID = 237541,
 							itemName = "Darksorrow's Corrupted Carapace",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 246273,
 							itemName = "Vest of Refracted Shadows",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2489,14 +2432,12 @@ local bisData = {
 						{
 							itemID = 219331,
 							itemName = "Rune-Branded Waistband",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237557,
 							itemName = "Reaper's Dreadbelt",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2511,7 +2452,6 @@ local bisData = {
 						{
 							itemID = 221153,
 							itemName = "Gauzewoven Legguards",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2524,7 +2464,6 @@ local bisData = {
 						{
 							itemID = 185801,
 							itemName = "Anomalous Starlit Breeches",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2533,7 +2472,6 @@ local bisData = {
 						{
 							itemID = 246280,
 							itemName = "Boots of Titanic Deconversion",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2555,7 +2493,6 @@ local bisData = {
 						{
 							itemID = 237546,
 							itemName = "Bindings of Lost Essence",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2568,7 +2505,6 @@ local bisData = {
 						{
 							itemID = 185817,
 							itemName = "Bracers of Autonomous Classification",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2577,21 +2513,18 @@ local bisData = {
 						{
 							itemID = 219333,
 							itemName = "Rune-Branded Grasps",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237540,
 							itemName = "Winged Gamma Handlers",
-							dropSource = "Loomithar",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 178832,
 							itemName = "Gloves of Haunting Fixation",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2600,21 +2533,18 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 178824,
 							itemName = "Signet of the False Accuser",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2636,7 +2566,6 @@ local bisData = {
 						{
 							itemID = 232541,
 							itemName = "Improvised Seaforium Pacemaker",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2703,7 +2632,6 @@ local bisData = {
 						{
 							itemID = 237525,
 							itemName = "Irradiated Impurity Filter",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2716,7 +2644,6 @@ local bisData = {
 						{
 							itemID = 234498,
 							itemName = "Waterworks Filtration Mask",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2725,14 +2652,12 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 252009,
 							itemName = "Bloodstained Memento",
-							dropSource = "Loomithar",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2747,7 +2672,6 @@ local bisData = {
 						{
 							itemID = 237552,
 							itemName = "Deathbound Shoulderpads",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2760,7 +2684,6 @@ local bisData = {
 						{
 							itemID = 242486,
 							itemName = "Mantle of Wounded Fate",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2769,7 +2692,6 @@ local bisData = {
 						{
 							itemID = 237541,
 							itemName = "Darksorrow's Corrupted Carapace",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2797,14 +2719,12 @@ local bisData = {
 						{
 							itemID = 238027,
 							itemName = "Harvested Creephide Cord",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237557,
 							itemName = "Reaper's Dreadbelt",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2819,7 +2739,6 @@ local bisData = {
 						{
 							itemID = 185801,
 							itemName = "Anomalous Starlit Breeches",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2834,14 +2753,12 @@ local bisData = {
 						{
 							itemID = 237565,
 							itemName = "Kinetic Dunerunners",
-							dropSource = "Forgeweaver Araz",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 246274,
 							itemName = "Geezle's Zapstep Boots",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2862,14 +2779,12 @@ local bisData = {
 						{
 							itemID = 237546,
 							itemName = "Bindings of Lost Essence",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 221157,
 							itemName = "Unbreakable Beetlebane Bindings",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2884,14 +2799,12 @@ local bisData = {
 						{
 							itemID = 219333,
 							itemName = "Rune-Branded Grasps",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237540,
 							itemName = "Winged Gamma Handlers",
-							dropSource = "Loomithar",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2912,7 +2825,6 @@ local bisData = {
 						{
 							itemID = 242405,
 							itemName = "Band of the Shattered Soul",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2921,7 +2833,6 @@ local bisData = {
 						{
 							itemID = 232541,
 							itemName = "Improvised Seaforium Pacemaker",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2956,14 +2867,12 @@ local bisData = {
 						{
 							itemID = 222440,
 							itemName = "Everforged Longsword",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237738,
 							itemName = "Unbound Training Claws",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2984,7 +2893,6 @@ local bisData = {
 						{
 							itemID = 222440,
 							itemName = "Everforged Longsword",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -3003,21 +2911,18 @@ local bisData = {
 						{
 							itemID = 237525,
 							itemName = "Irradiated Impurity Filter",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 234498,
 							itemName = "Waterworks Filtration Mask",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 219329,
 							itemName = "Rune-Branded Hood",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3032,14 +2937,12 @@ local bisData = {
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 251880,
 							itemName = "Momma's Mega Medallion",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3048,21 +2951,18 @@ local bisData = {
 						{
 							itemID = 237552,
 							itemName = "Deathbound Shoulderpads",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219330,
 							itemName = "Rune-Branded Mantle",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185802,
 							itemName = "Breakbeat Shoulderguards",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3071,21 +2971,18 @@ local bisData = {
 						{
 							itemID = 237541,
 							itemName = "Darksorrow's Corrupted Carapace",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219328,
 							itemName = "Rune-Branded Tunic",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 246273,
 							itemName = "Vest of Refracted Shadows",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3106,7 +3003,6 @@ local bisData = {
 						{
 							itemID = 219331,
 							itemName = "Rune-Branded Waistband",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3121,14 +3017,12 @@ local bisData = {
 						{
 							itemID = 185801,
 							itemName = "Anomalous Starlit Breeches",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 219332,
 							itemName = "Rune-Branded Legwraps",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3143,7 +3037,6 @@ local bisData = {
 						{
 							itemID = 237565,
 							itemName = "Kinetic Dunerunners",
-							dropSource = "Forgeweaver Araz",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -3165,14 +3058,12 @@ local bisData = {
 						{
 							itemID = 237546,
 							itemName = "Bindings of Lost Essence",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185817,
 							itemName = "Bracers of Autonomous Classification",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3181,21 +3072,18 @@ local bisData = {
 						{
 							itemID = 237540,
 							itemName = "Winged Gamma Handlers",
-							dropSource = "Loomithar",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219333,
 							itemName = "Rune-Branded Grasps",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 178832,
 							itemName = "Gloves of Haunting Fixation",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3204,7 +3092,6 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3217,7 +3104,6 @@ local bisData = {
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3226,7 +3112,6 @@ local bisData = {
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3315,14 +3200,12 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -3477,14 +3360,12 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -3583,7 +3464,6 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3596,7 +3476,6 @@ local bisData = {
 						{
 							itemID = 251880,
 							itemName = "Momma's Mega Medallion",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3745,21 +3624,18 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 178824,
 							itemName = "Signet of the False Accuser",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3852,21 +3728,18 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185842,
 							itemName = "Ornately Engraved Amplifier",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4015,7 +3888,6 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4151,14 +4023,12 @@ local bisData = {
 						{
 							itemID = 252009,
 							itemName = "Bloodstained Memento",
-							dropSource = "Loomithar",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4307,14 +4177,12 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242405,
 							itemName = "Band of the Shattered Soul",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -4341,7 +4209,6 @@ local bisData = {
 						{
 							itemID = 232541,
 							itemName = "Improvised Seaforium Pacemaker",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4374,21 +4241,18 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 251880,
 							itemName = "Momma's Mega Medallion",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 178827,
 							itemName = "Sin Stained Pendant",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4531,14 +4395,12 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 178824,
 							itemName = "Signet of the False Accuser",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -4560,14 +4422,12 @@ local bisData = {
 						{
 							itemID = 246344,
 							itemName = "Cursed Stone Idol",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 232541,
 							itemName = "Improvised Seaforium Pacemaker",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4596,7 +4456,6 @@ local bisData = {
 						{
 							itemID = 222440,
 							itemName = "Everforged Longsword",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4662,21 +4521,18 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 251880,
 							itemName = "Momma's Mega Medallion",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 178827,
 							itemName = "Sin Stained Pendant",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4825,14 +4681,12 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 178824,
 							itemName = "Signet of the False Accuser",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -4847,7 +4701,6 @@ local bisData = {
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4861,7 +4714,6 @@ local bisData = {
 						{
 							itemID = 232541,
 							itemName = "Improvised Seaforium Pacemaker",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4904,14 +4756,12 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5060,21 +4910,18 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 178824,
 							itemName = "Signet of the False Accuser",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5167,21 +5014,18 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 178827,
 							itemName = "Sin Stained Pendant",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5330,21 +5174,18 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 178824,
 							itemName = "Signet of the False Accuser",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242405,
 							itemName = "Band of the Shattered Soul",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5386,7 +5227,6 @@ local bisData = {
 						{
 							itemID = 185778,
 							itemName = "First Fist of the So Cartel",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5440,7 +5280,6 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5453,7 +5292,6 @@ local bisData = {
 						{
 							itemID = 252009,
 							itemName = "Bloodstained Memento",
-							dropSource = "Loomithar",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5602,7 +5440,6 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5717,14 +5554,12 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 252009,
 							itemName = "Bloodstained Memento",
-							dropSource = "Loomithar",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5873,7 +5708,6 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5886,7 +5720,6 @@ local bisData = {
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5901,14 +5734,12 @@ local bisData = {
 						{
 							itemID = 242399,
 							itemName = "Screams of a Forgotten Sky",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5981,7 +5812,6 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5994,7 +5824,6 @@ local bisData = {
 						{
 							itemID = 252009,
 							itemName = "Bloodstained Memento",
-							dropSource = "Loomithar",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6143,7 +5972,6 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6170,14 +5998,12 @@ local bisData = {
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242399,
 							itemName = "Screams of a Forgotten Sky",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6256,7 +6082,6 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -6411,7 +6236,6 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6444,7 +6268,6 @@ local bisData = {
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6535,14 +6358,12 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -6697,14 +6518,12 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -6804,7 +6623,6 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6817,7 +6635,6 @@ local bisData = {
 						{
 							itemID = 185842,
 							itemName = "Ornately Engraved Amplifier",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6966,7 +6783,6 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6979,7 +6795,6 @@ local bisData = {
 						{
 							itemID = 246281,
 							itemName = "Ring of the Panoply",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7087,14 +6902,12 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 185842,
 							itemName = "Ornately Engraved Amplifier",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7249,21 +7062,18 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 246281,
 							itemName = "Ring of the Panoply",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7278,7 +7088,6 @@ local bisData = {
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7349,14 +7158,12 @@ local bisData = {
 						{
 							itemID = 237525,
 							itemName = "Irradiated Impurity Filter",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219329,
 							itemName = "Rune-Branded Hood",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7365,7 +7172,6 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7378,7 +7184,6 @@ local bisData = {
 						{
 							itemID = 251880,
 							itemName = "Momma's Mega Medallion",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7387,21 +7192,18 @@ local bisData = {
 						{
 							itemID = 237552,
 							itemName = "Deathbound Shoulderpads",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219330,
 							itemName = "Rune-Branded Mantle",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185802,
 							itemName = "Breakbeat Shoulderguards",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7410,7 +7212,6 @@ local bisData = {
 						{
 							itemID = 237541,
 							itemName = "Darksorrow's Corrupted Carapace",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7424,7 +7225,6 @@ local bisData = {
 						{
 							itemID = 219328,
 							itemName = "Rune-Branded Tunic",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7433,7 +7233,6 @@ local bisData = {
 						{
 							itemID = 219331,
 							itemName = "Rune-Branded Waistband",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7460,14 +7259,12 @@ local bisData = {
 						{
 							itemID = 219332,
 							itemName = "Rune-Branded Legwraps",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 221153,
 							itemName = "Gauzewoven Legguards",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7476,21 +7273,18 @@ local bisData = {
 						{
 							itemID = 237565,
 							itemName = "Kinetic Dunerunners",
-							dropSource = "Forgeweaver Araz",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 246274,
 							itemName = "Geezle's Zapstep Boots",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 219327,
 							itemName = "Rune-Branded Kickers",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7499,7 +7293,6 @@ local bisData = {
 						{
 							itemID = 237546,
 							itemName = "Bindings of Lost Essence",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7512,7 +7305,6 @@ local bisData = {
 						{
 							itemID = 221157,
 							itemName = "Unbreakable Beetlebane Bindings",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7521,21 +7313,18 @@ local bisData = {
 						{
 							itemID = 219333,
 							itemName = "Rune-Branded Grasps",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 185791,
 							itemName = "Knuckle-Dusting Handwraps",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 178832,
 							itemName = "Gloves of Haunting Fixation",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7544,7 +7333,6 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7577,7 +7365,6 @@ local bisData = {
 						{
 							itemID = 232541,
 							itemName = "Improvised Seaforium Pacemaker",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7606,7 +7393,6 @@ local bisData = {
 						{
 							itemID = 237738,
 							itemName = "Unbound Training Claws",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7619,7 +7405,6 @@ local bisData = {
 						{
 							itemID = 222440,
 							itemName = "Everforged Longsword",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7632,21 +7417,18 @@ local bisData = {
 						{
 							itemID = 237525,
 							itemName = "Irradiated Impurity Filter",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219329,
 							itemName = "Rune-Branded Hood",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 221163,
 							itemName = "Whispering Mask",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7655,7 +7437,6 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7668,7 +7449,6 @@ local bisData = {
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7677,21 +7457,18 @@ local bisData = {
 						{
 							itemID = 237552,
 							itemName = "Deathbound Shoulderpads",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219330,
 							itemName = "Rune-Branded Mantle",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185802,
 							itemName = "Breakbeat Shoulderguards",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7700,21 +7477,18 @@ local bisData = {
 						{
 							itemID = 237541,
 							itemName = "Darksorrow's Corrupted Carapace",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219328,
 							itemName = "Rune-Branded Tunic",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185786,
 							itemName = "So'azmi's Fractal Vest",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7743,21 +7517,18 @@ local bisData = {
 						{
 							itemID = 219332,
 							itemName = "Rune-Branded Legwraps",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 178819,
 							itemName = "Skyterror's Stonehide Leggings",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242473,
 							itemName = "Spittle-Stained Trousers",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7766,21 +7537,18 @@ local bisData = {
 						{
 							itemID = 237565,
 							itemName = "Kinetic Dunerunners",
-							dropSource = "Forgeweaver Araz",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219327,
 							itemName = "Rune-Branded Kickers",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 221120,
 							itemName = "Stalwart Guardian's Boots",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7789,7 +7557,6 @@ local bisData = {
 						{
 							itemID = 237546,
 							itemName = "Bindings of Lost Essence",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7811,21 +7578,18 @@ local bisData = {
 						{
 							itemID = 219333,
 							itemName = "Rune-Branded Grasps",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237540,
 							itemName = "Winged Gamma Handlers",
-							dropSource = "Loomithar",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 178832,
 							itemName = "Gloves of Haunting Fixation",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7834,14 +7598,12 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7863,14 +7625,12 @@ local bisData = {
 						{
 							itemID = 232541,
 							itemName = "Improvised Seaforium Pacemaker",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242399,
 							itemName = "Screams of a Forgotten Sky",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7899,14 +7659,12 @@ local bisData = {
 						{
 							itemID = 237738,
 							itemName = "Unbound Training Claws",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222440,
 							itemName = "Everforged Longsword",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7925,21 +7683,18 @@ local bisData = {
 						{
 							itemID = 237525,
 							itemName = "Irradiated Impurity Filter",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 234498,
 							itemName = "Waterworks Filtration Mask",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 219329,
 							itemName = "Rune-Branded Hood",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7948,14 +7703,12 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 185842,
 							itemName = "Ornately Engraved Amplifier",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7970,7 +7723,6 @@ local bisData = {
 						{
 							itemID = 242486,
 							itemName = "Mantle of Wounded Fate",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7983,7 +7735,6 @@ local bisData = {
 						{
 							itemID = 237552,
 							itemName = "Deathbound Shoulderpads",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7998,7 +7749,6 @@ local bisData = {
 						{
 							itemID = 219328,
 							itemName = "Rune-Branded Tunic",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8014,7 +7764,6 @@ local bisData = {
 						{
 							itemID = 219331,
 							itemName = "Rune-Branded Waistband",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8028,7 +7777,6 @@ local bisData = {
 						{
 							itemID = 238027,
 							itemName = "Harvested Creephide Cord",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8037,14 +7785,12 @@ local bisData = {
 						{
 							itemID = 185801,
 							itemName = "Anomalous Starlit Breeches",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219332,
 							itemName = "Rune-Branded Legwraps",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8072,7 +7818,6 @@ local bisData = {
 						{
 							itemID = 246274,
 							itemName = "Geezle's Zapstep Boots",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8081,14 +7826,12 @@ local bisData = {
 						{
 							itemID = 237546,
 							itemName = "Bindings of Lost Essence",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 221142,
 							itemName = "Scheming Assailer's Bands",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8103,21 +7846,18 @@ local bisData = {
 						{
 							itemID = 219333,
 							itemName = "Rune-Branded Grasps",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237540,
 							itemName = "Winged Gamma Handlers",
-							dropSource = "Loomithar",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 178832,
 							itemName = "Gloves of Haunting Fixation",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8126,14 +7866,12 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242405,
 							itemName = "Band of the Shattered Soul",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8216,21 +7954,18 @@ local bisData = {
 						{
 							itemID = 219329,
 							itemName = "Rune-Branded Hood",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237525,
 							itemName = "Irradiated Impurity Filter",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 221125,
 							itemName = "Helm of the Righteous Crusade",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8239,14 +7974,12 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8261,21 +7994,18 @@ local bisData = {
 						{
 							itemID = 237552,
 							itemName = "Deathbound Shoulderpads",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219330,
 							itemName = "Rune-Branded Mantle",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185802,
 							itemName = "Breakbeat Shoulderguards",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8284,21 +8014,18 @@ local bisData = {
 						{
 							itemID = 219328,
 							itemName = "Rune-Branded Tunic",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 185786,
 							itemName = "So'azmi's Fractal Vest",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237541,
 							itemName = "Darksorrow's Corrupted Carapace",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8307,7 +8034,6 @@ local bisData = {
 						{
 							itemID = 219331,
 							itemName = "Rune-Branded Waistband",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8320,7 +8046,6 @@ local bisData = {
 						{
 							itemID = 238027,
 							itemName = "Harvested Creephide Cord",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8335,14 +8060,12 @@ local bisData = {
 						{
 							itemID = 219332,
 							itemName = "Rune-Branded Legwraps",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 178819,
 							itemName = "Skyterror's Stonehide Leggings",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8351,7 +8074,6 @@ local bisData = {
 						{
 							itemID = 219327,
 							itemName = "Rune-Branded Kickers",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8364,7 +8086,6 @@ local bisData = {
 						{
 							itemID = 246280,
 							itemName = "Boots of Titanic Deconversion",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8373,7 +8094,6 @@ local bisData = {
 						{
 							itemID = 237546,
 							itemName = "Bindings of Lost Essence",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8395,21 +8115,18 @@ local bisData = {
 						{
 							itemID = 219333,
 							itemName = "Rune-Branded Grasps",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 185791,
 							itemName = "Knuckle-Dusting Handwraps",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237540,
 							itemName = "Winged Gamma Handlers",
-							dropSource = "Loomithar",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8418,7 +8135,6 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8523,21 +8239,18 @@ local bisData = {
 						{
 							itemID = 237525,
 							itemName = "Irradiated Impurity Filter",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219329,
 							itemName = "Rune-Branded Hood",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 221125,
 							itemName = "Helm of the Righteous Crusade",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8546,21 +8259,18 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 178827,
 							itemName = "Sin Stained Pendant",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8569,21 +8279,18 @@ local bisData = {
 						{
 							itemID = 237552,
 							itemName = "Deathbound Shoulderpads",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219330,
 							itemName = "Rune-Branded Mantle",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185802,
 							itemName = "Breakbeat Shoulderguards",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8598,14 +8305,12 @@ local bisData = {
 						{
 							itemID = 237541,
 							itemName = "Darksorrow's Corrupted Carapace",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 219328,
 							itemName = "Rune-Branded Tunic",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8634,21 +8339,18 @@ local bisData = {
 						{
 							itemID = 219332,
 							itemName = "Rune-Branded Legwraps",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 178819,
 							itemName = "Skyterror's Stonehide Leggings",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242473,
 							itemName = "Spittle-Stained Trousers",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8663,7 +8365,6 @@ local bisData = {
 						{
 							itemID = 246280,
 							itemName = "Boots of Titanic Deconversion",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8679,7 +8380,6 @@ local bisData = {
 						{
 							itemID = 237546,
 							itemName = "Bindings of Lost Essence",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8700,21 +8400,18 @@ local bisData = {
 						{
 							itemID = 219333,
 							itemName = "Rune-Branded Grasps",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 185791,
 							itemName = "Knuckle-Dusting Handwraps",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237540,
 							itemName = "Winged Gamma Handlers",
-							dropSource = "Loomithar",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8723,14 +8420,12 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8745,7 +8440,6 @@ local bisData = {
 						{
 							itemID = 232541,
 							itemName = "Improvised Seaforium Pacemaker",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8791,21 +8485,18 @@ local bisData = {
 						{
 							itemID = 237525,
 							itemName = "Irradiated Impurity Filter",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219329,
 							itemName = "Rune-Branded Hood",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 221163,
 							itemName = "Whispering Mask",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8826,7 +8517,6 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8835,14 +8525,12 @@ local bisData = {
 						{
 							itemID = 237552,
 							itemName = "Deathbound Shoulderpads",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 221148,
 							itemName = "Epaulets of the Clipped Wings",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8864,14 +8552,12 @@ local bisData = {
 						{
 							itemID = 237541,
 							itemName = "Darksorrow's Corrupted Carapace",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 219328,
 							itemName = "Rune-Branded Tunic",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8880,7 +8566,6 @@ local bisData = {
 						{
 							itemID = 219331,
 							itemName = "Rune-Branded Waistband",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8901,7 +8586,6 @@ local bisData = {
 						{
 							itemID = 219332,
 							itemName = "Rune-Branded Legwraps",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8914,7 +8598,6 @@ local bisData = {
 						{
 							itemID = 185801,
 							itemName = "Anomalous Starlit Breeches",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8930,14 +8613,12 @@ local bisData = {
 						{
 							itemID = 219327,
 							itemName = "Rune-Branded Kickers",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 221120,
 							itemName = "Stalwart Guardian's Boots",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8946,7 +8627,6 @@ local bisData = {
 						{
 							itemID = 237546,
 							itemName = "Bindings of Lost Essence",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8959,7 +8639,6 @@ local bisData = {
 						{
 							itemID = 221142,
 							itemName = "Scheming Assailer's Bands",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8974,14 +8653,12 @@ local bisData = {
 						{
 							itemID = 178832,
 							itemName = "Gloves of Haunting Fixation",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 219333,
 							itemName = "Rune-Branded Grasps",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8990,7 +8667,6 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9017,7 +8693,6 @@ local bisData = {
 						{
 							itemID = 232541,
 							itemName = "Improvised Seaforium Pacemaker",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9042,14 +8717,12 @@ local bisData = {
 						{
 							itemID = 219329,
 							itemName = "Rune-Branded Hood",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237525,
 							itemName = "Irradiated Impurity Filter",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9058,21 +8731,18 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 178827,
 							itemName = "Sin Stained Pendant",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9087,14 +8757,12 @@ local bisData = {
 						{
 							itemID = 237552,
 							itemName = "Deathbound Shoulderpads",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 219330,
 							itemName = "Rune-Branded Mantle",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9109,14 +8777,12 @@ local bisData = {
 						{
 							itemID = 185786,
 							itemName = "So'azmi's Fractal Vest",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 219328,
 							itemName = "Rune-Branded Tunic",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9131,7 +8797,6 @@ local bisData = {
 						{
 							itemID = 219331,
 							itemName = "Rune-Branded Waistband",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9152,14 +8817,12 @@ local bisData = {
 						{
 							itemID = 219332,
 							itemName = "Rune-Branded Legwraps",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242473,
 							itemName = "Spittle-Stained Trousers",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9174,7 +8837,6 @@ local bisData = {
 						{
 							itemID = 221120,
 							itemName = "Stalwart Guardian's Boots",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9216,14 +8878,12 @@ local bisData = {
 						{
 							itemID = 219333,
 							itemName = "Rune-Branded Grasps",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 178832,
 							itemName = "Gloves of Haunting Fixation",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9232,7 +8892,6 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9245,7 +8904,6 @@ local bisData = {
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9330,21 +8988,18 @@ local bisData = {
 						{
 							itemID = 237525,
 							itemName = "Irradiated Impurity Filter",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 221125,
 							itemName = "Helm of the Righteous Crusade",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 219329,
 							itemName = "Rune-Branded Hood",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9353,21 +9008,18 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 185842,
 							itemName = "Ornately Engraved Amplifier",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 251880,
 							itemName = "Momma's Mega Medallion",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9376,21 +9028,18 @@ local bisData = {
 						{
 							itemID = 237552,
 							itemName = "Deathbound Shoulderpads",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 185802,
 							itemName = "Breakbeat Shoulderguards",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 219330,
 							itemName = "Rune-Branded Mantle",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9399,21 +9048,18 @@ local bisData = {
 						{
 							itemID = 237541,
 							itemName = "Darksorrow's Corrupted Carapace",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 246273,
 							itemName = "Vest of Refracted Shadows",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 219328,
 							itemName = "Rune-Branded Tunic",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9422,21 +9068,18 @@ local bisData = {
 						{
 							itemID = 219331,
 							itemName = "Rune-Branded Waistband",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 221134,
 							itemName = "Shadow Congregant's Belt",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237557,
 							itemName = "Reaper's Dreadbelt",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9445,21 +9088,18 @@ local bisData = {
 						{
 							itemID = 219332,
 							itemName = "Rune-Branded Legwraps",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 221153,
 							itemName = "Gauzewoven Legguards",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185801,
 							itemName = "Anomalous Starlit Breeches",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9468,21 +9108,18 @@ local bisData = {
 						{
 							itemID = 246280,
 							itemName = "Boots of Titanic Deconversion",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219327,
 							itemName = "Rune-Branded Kickers",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 246274,
 							itemName = "Geezle's Zapstep Boots",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9491,21 +9128,18 @@ local bisData = {
 						{
 							itemID = 237546,
 							itemName = "Bindings of Lost Essence",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 185817,
 							itemName = "Bracers of Autonomous Classification",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 221157,
 							itemName = "Unbreakable Beetlebane Bindings",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9514,21 +9148,18 @@ local bisData = {
 						{
 							itemID = 219333,
 							itemName = "Rune-Branded Grasps",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 178832,
 							itemName = "Gloves of Haunting Fixation",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237540,
 							itemName = "Winged Gamma Handlers",
-							dropSource = "Loomithar",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9537,21 +9168,18 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242405,
 							itemName = "Band of the Shattered Soul",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9560,21 +9188,18 @@ local bisData = {
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 246344,
 							itemName = "Cursed Stone Idol",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 232541,
 							itemName = "Improvised Seaforium Pacemaker",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9583,21 +9208,18 @@ local bisData = {
 						{
 							itemID = 237738,
 							itemName = "Unbound Training Claws",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 185780,
 							itemName = "Interrogator's Flensing Blade",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185778,
 							itemName = "First Fist of the So Cartel",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9606,21 +9228,18 @@ local bisData = {
 						{
 							itemID = 222440,
 							itemName = "Everforged Longsword",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237738,
 							itemName = "Unbound Training Claws",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185780,
 							itemName = "Interrogator's Flensing Blade",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9639,14 +9258,12 @@ local bisData = {
 						{
 							itemID = 234498,
 							itemName = "Waterworks Filtration Mask",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 219329,
 							itemName = "Rune-Branded Hood",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9655,7 +9272,6 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9676,21 +9292,18 @@ local bisData = {
 						{
 							itemID = 242486,
 							itemName = "Mantle of Wounded Fate",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237552,
 							itemName = "Deathbound Shoulderpads",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 219330,
 							itemName = "Rune-Branded Mantle",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9699,14 +9312,12 @@ local bisData = {
 						{
 							itemID = 237541,
 							itemName = "Darksorrow's Corrupted Carapace",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219328,
 							itemName = "Rune-Branded Tunic",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9722,7 +9333,6 @@ local bisData = {
 						{
 							itemID = 219331,
 							itemName = "Rune-Branded Waistband",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9743,21 +9353,18 @@ local bisData = {
 						{
 							itemID = 219332,
 							itemName = "Rune-Branded Legwraps",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 221153,
 							itemName = "Gauzewoven Legguards",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185801,
 							itemName = "Anomalous Starlit Breeches",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9773,14 +9380,12 @@ local bisData = {
 						{
 							itemID = 237693,
 							itemName = "Charhound's Vicious Flametabi",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 246280,
 							itemName = "Boots of Titanic Deconversion",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9789,21 +9394,18 @@ local bisData = {
 						{
 							itemID = 237546,
 							itemName = "Bindings of Lost Essence",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237687,
 							itemName = "Charhound's Vicious Restraints",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 221142,
 							itemName = "Scheming Assailer's Bands",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9812,21 +9414,18 @@ local bisData = {
 						{
 							itemID = 219333,
 							itemName = "Rune-Branded Grasps",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 178832,
 							itemName = "Gloves of Haunting Fixation",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237540,
 							itemName = "Winged Gamma Handlers",
-							dropSource = "Loomithar",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9835,7 +9434,6 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9862,14 +9460,12 @@ local bisData = {
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 232541,
 							itemName = "Improvised Seaforium Pacemaker",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9878,7 +9474,6 @@ local bisData = {
 						{
 							itemID = 237738,
 							itemName = "Unbound Training Claws",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9891,7 +9486,6 @@ local bisData = {
 						{
 							itemID = 185778,
 							itemName = "First Fist of the So Cartel",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9906,7 +9500,6 @@ local bisData = {
 						{
 							itemID = 237738,
 							itemName = "Unbound Training Claws",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9949,21 +9542,18 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 178827,
 							itemName = "Sin Stained Pendant",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10112,7 +9702,6 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10139,7 +9728,6 @@ local bisData = {
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -10238,14 +9826,12 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -10400,7 +9986,6 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10505,7 +10090,6 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10518,7 +10102,6 @@ local bisData = {
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10667,7 +10250,6 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10680,7 +10262,6 @@ local bisData = {
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
-							dropSource = "Plexus Sentinel",
 							sourceType = "raid",
 							priority = 3,
 						},
