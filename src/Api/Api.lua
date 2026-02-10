@@ -11,18 +11,12 @@ local API = publicAPI.API
 -- Constants for error messages
 local ERR_INVALID_CLASS = "Invalid class ID provided"
 local ERR_INVALID_SPEC = "Invalid specialization ID provided"
-local ERR_INVALID_SOURCE = "Invalid source provided. Valid sources are: 'wowhead', 'archon'"
+local ERR_INVALID_SOURCE = "Invalid source provided. Valid sources are: 'archon'"
 local ERR_INVALID_CONTENT = "Invalid content type. Valid types are: 'raid', 'dungeon'"
 local ERR_INVALID_SLOT = "Invalid slot ID provided"
 
 -- Provider configuration
 local PROVIDERS = {
-    wowhead = {
-        databases = {
-            raid = { db = "WowheadRaidDB", category = "raid" },
-            dungeon = { db = "WowheadMythicDB", category = "dungeon" },
-        }
-    },
     archon = {
         databases = {
             raid = { db = "ArchonRaidDB", category = "raid" },
@@ -100,7 +94,7 @@ end
 ---@param specID number The specialization ID
 ---@param slotID number The equipment slot ID (1-17, excluding 4)
 ---@param contentType string|nil "raid" or "dungeon" (default: "raid")
----@param source string|nil "wowhead" (default: all sources)
+---@param source string|nil "archon" (default: all sources)
 ---@return table|nil items Array of BiS item tables
 ---@return string|nil errorMsg Error message if request fails
 function API.GetBiSForSlot(classID, specID, slotID, contentType, source)
@@ -157,7 +151,7 @@ end
 ---Check if an item is BiS for any spec
 ---@param itemID number The item ID to check
 ---@param contentType string|nil "raid" or "dungeon" (default: both)
----@param source string|nil "wowhead" (default: all sources)
+---@param source string|nil "archon" (default: all sources)
 ---@return table|nil bisInfo Table with class/spec/slot info where this item is BiS
 function API.IsItemBiS(itemID, contentType, source)
     if not itemID or type(itemID) ~= "number" then
@@ -220,7 +214,7 @@ end
 ---@param classID number The WoW class ID (1-13)
 ---@param specID number The specialization ID
 ---@param contentType string|nil "raid" or "dungeon" (default: "raid")
----@param source string|nil "wowhead" (default: all sources)
+---@param source string|nil "archon" (default: all sources)
 ---@return table|nil bisList Table of slotID -> items
 ---@return string|nil errorMsg Error message if request fails
 function API.GetFullBiSList(classID, specID, contentType, source)

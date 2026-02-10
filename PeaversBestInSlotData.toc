@@ -11,7 +11,7 @@
 ## X-Website: https://peavers.io
 ## X-Source-Code: https://github.com/peavers-warcraft/PeaversBestInSlotData
 
-src\Data\WowheadRaidDB.lua
-src\Data\WowheadMythicDB.lua
+src\Data\ArchonRaidDB.lua
+src\Data\ArchonMythicDB.lua
 
 src\Api\Api.lua
