@@ -7,6 +7,7 @@
 
 ## IconTexture: Interface\AddOns\PeaversBestInSlotData\src\Media\Icon.tga
 ## Category-enUS: Peavers
+## X-Curse-Project-ID: 1459091
 
 ## X-Website: https://peavers.io
 ## X-Source-Code: https://github.com/peavers-warcraft/PeaversBestInSlotData
