@@ -11,7 +11,7 @@
 ## X-Website: https://peavers.io
 ## X-Source-Code: https://github.com/peavers-warcraft/PeaversBestInSlotData
 
-src\Data\MostPopularRaidDB.lua
-src\Data\MostPopularMythicDB.lua
+src\Data\WowCompareRaidDB.lua
+src\Data\WowCompareMythicDB.lua
 
 src\Api\Api.lua
