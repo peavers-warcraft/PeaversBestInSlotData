@@ -120,11 +120,17 @@ function API.GetBiSForSlot(classID, specID, slotID, contentType, source)
 
         local slotItems = db[classID].specs[specID][contentType][slotID]
         for _, item in ipairs(slotItems) do
+            -- Enrich drop source from encounter journal if not in scraped data
+            local dropSource = item.dropSource
+            if (not dropSource or dropSource == "") and addon.DropSourceProvider then
+                dropSource = addon.DropSourceProvider:GetDropSource(item.itemID)
+            end
+
             table.insert(items, {
                 source = providerName,
                 itemID = item.itemID,
                 itemName = item.itemName,
-                dropSource = item.dropSource,
+                dropSource = dropSource,
                 sourceType = item.sourceType,
                 priority = item.priority or 1,
                 updated = db.updated,
@@ -175,6 +181,11 @@ function API.IsItemBiS(itemID, contentType, source)
                                     for slotID, slotItems in pairs(specData[cType]) do
                                         for _, item in ipairs(slotItems) do
                                             if item.itemID == itemID then
+                                                local dropSource = item.dropSource
+                                                if (not dropSource or dropSource == "") and addon.DropSourceProvider then
+                                                    dropSource = addon.DropSourceProvider:GetDropSource(item.itemID)
+                                                end
+
                                                 table.insert(results, {
                                                     source = providerName,
                                                     contentType = cType,
@@ -182,7 +193,7 @@ function API.IsItemBiS(itemID, contentType, source)
                                                     specID = specID,
                                                     slotID = slotID,
                                                     priority = item.priority or 1,
-                                                    dropSource = item.dropSource,
+                                                    dropSource = dropSource,
                                                 })
                                             end
                                         end
