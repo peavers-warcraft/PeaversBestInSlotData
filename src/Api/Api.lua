@@ -11,7 +11,7 @@ local API = publicAPI.API
 -- Constants for error messages
 local ERR_INVALID_CLASS = "Invalid class ID provided"
 local ERR_INVALID_SPEC = "Invalid specialization ID provided"
-local ERR_INVALID_SOURCE = "Invalid source provided. Valid sources are: 'wowcompare.io'"
+local ERR_INVALID_SOURCE = "Invalid source provided. Valid sources are: 'wowcompare.io', 'wowcompare'"
 local ERR_INVALID_CONTENT = "Invalid content type. Valid types are: 'raid', 'dungeon'"
 local ERR_INVALID_SLOT = "Invalid slot ID provided"
 
@@ -21,6 +21,12 @@ local PROVIDERS = {
         databases = {
             raid = { db = "MostPopularRaidDB", category = "raid" },
             dungeon = { db = "MostPopularMythicDB", category = "dungeon" },
+        }
+    },
+    wowcompare = {
+        databases = {
+            raid = { db = "WowCompareRaidDB", category = "raid" },
+            dungeon = { db = "WowCompareMythicDB", category = "dungeon" },
         }
     },
 }
