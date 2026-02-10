@@ -1,0 +1,14 @@
+# .peavers.yml - Addon metadata for peavers.io website
+
+# Icon to display on website
+iconType: DataRuneIcon
+
+# CurseForge project ID for download statistics
+curseForgeProjectId: PLACEHOLDER
+
+# Tags for filtering and categorization
+tags:
+  - gear
+  - best-in-slot
+  - data
+  - library
