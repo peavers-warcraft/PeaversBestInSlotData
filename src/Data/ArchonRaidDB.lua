@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ArchonRaidDB = addonTable.ArchonRaidDB or {}
 
 local bisData = {
-	updated = "2026-02-11 01:26:02",
+	updated = "2026-02-11 03:02:57",
 
 	[1] = {
 		specs = {
@@ -12,12 +12,14 @@ local bisData = {
 						{
 							itemID = 237610,
 							itemName = "Living Weapon's Faceshield",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 238028,
 							itemName = "Bone-Melted Faceplate",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -47,6 +49,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -55,6 +58,7 @@ local bisData = {
 						{
 							itemID = 237608,
 							itemName = "Living Weapon's Ramparts",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -68,6 +72,7 @@ local bisData = {
 						{
 							itemID = 222436,
 							itemName = "Everforged Pauldrons",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -76,6 +81,7 @@ local bisData = {
 						{
 							itemID = 237613,
 							itemName = "Living Weapon's Bulwark",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -98,6 +104,7 @@ local bisData = {
 						{
 							itemID = 222431,
 							itemName = "Everforged Greatbelt",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -119,6 +126,7 @@ local bisData = {
 						{
 							itemID = 237609,
 							itemName = "Living Weapon's Legguards",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -132,6 +140,7 @@ local bisData = {
 						{
 							itemID = 222434,
 							itemName = "Everforged Legplates",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -162,6 +171,7 @@ local bisData = {
 						{
 							itemID = 222435,
 							itemName = "Everforged Vambraces",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -183,6 +193,7 @@ local bisData = {
 						{
 							itemID = 237611,
 							itemName = "Living Weapon's Crushers",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -196,6 +207,7 @@ local bisData = {
 						{
 							itemID = 222437,
 							itemName = "Everforged Gauntlets",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -204,6 +216,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -284,6 +297,7 @@ local bisData = {
 						{
 							itemID = 222443,
 							itemName = "Everforged Greataxe",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -296,6 +310,7 @@ local bisData = {
 						{
 							itemID = 237610,
 							itemName = "Living Weapon's Faceshield",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -309,6 +324,7 @@ local bisData = {
 						{
 							itemID = 238028,
 							itemName = "Bone-Melted Faceplate",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -324,6 +340,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -339,6 +356,7 @@ local bisData = {
 						{
 							itemID = 237608,
 							itemName = "Living Weapon's Ramparts",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -352,6 +370,7 @@ local bisData = {
 						{
 							itemID = 222436,
 							itemName = "Everforged Pauldrons",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -360,6 +379,7 @@ local bisData = {
 						{
 							itemID = 237613,
 							itemName = "Living Weapon's Bulwark",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -389,6 +409,7 @@ local bisData = {
 						{
 							itemID = 222431,
 							itemName = "Everforged Greatbelt",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -403,6 +424,7 @@ local bisData = {
 						{
 							itemID = 237609,
 							itemName = "Living Weapon's Legguards",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -416,6 +438,7 @@ local bisData = {
 						{
 							itemID = 222434,
 							itemName = "Everforged Legplates",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -446,6 +469,7 @@ local bisData = {
 						{
 							itemID = 222435,
 							itemName = "Everforged Vambraces",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -468,12 +492,14 @@ local bisData = {
 						{
 							itemID = 237611,
 							itemName = "Living Weapon's Crushers",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222437,
 							itemName = "Everforged Gauntlets",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -489,6 +515,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -565,12 +592,14 @@ local bisData = {
 						{
 							itemID = 222447,
 							itemName = "Charged Claymore",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222443,
 							itemName = "Everforged Greataxe",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -590,12 +619,14 @@ local bisData = {
 						{
 							itemID = 237610,
 							itemName = "Living Weapon's Faceshield",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222433,
 							itemName = "Everforged Helm",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -618,6 +649,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -633,12 +665,14 @@ local bisData = {
 						{
 							itemID = 237608,
 							itemName = "Living Weapon's Ramparts",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222436,
 							itemName = "Everforged Pauldrons",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -654,6 +688,7 @@ local bisData = {
 						{
 							itemID = 237613,
 							itemName = "Living Weapon's Bulwark",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -676,6 +711,7 @@ local bisData = {
 						{
 							itemID = 222431,
 							itemName = "Everforged Greatbelt",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -698,6 +734,7 @@ local bisData = {
 						{
 							itemID = 237609,
 							itemName = "Living Weapon's Legguards",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -711,6 +748,7 @@ local bisData = {
 						{
 							itemID = 222434,
 							itemName = "Everforged Legplates",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -741,6 +779,7 @@ local bisData = {
 						{
 							itemID = 222435,
 							itemName = "Everforged Vambraces",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -763,6 +802,7 @@ local bisData = {
 						{
 							itemID = 237611,
 							itemName = "Living Weapon's Crushers",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -776,6 +816,7 @@ local bisData = {
 						{
 							itemID = 222437,
 							itemName = "Everforged Gauntlets",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -784,6 +825,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -867,6 +909,7 @@ local bisData = {
 						{
 							itemID = 222432,
 							itemName = "Everforged Defender",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -890,6 +933,7 @@ local bisData = {
 						{
 							itemID = 237619,
 							itemName = "Lightmane of the Lucent Battalion",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -903,6 +947,7 @@ local bisData = {
 						{
 							itemID = 222433,
 							itemName = "Everforged Helm",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -911,6 +956,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -933,12 +979,14 @@ local bisData = {
 						{
 							itemID = 237617,
 							itemName = "Chargers of the Lucent Battalion",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222436,
 							itemName = "Everforged Pauldrons",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -954,6 +1002,7 @@ local bisData = {
 						{
 							itemID = 237622,
 							itemName = "Cuirass of the Lucent Battalion",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -967,6 +1016,7 @@ local bisData = {
 						{
 							itemID = 222430,
 							itemName = "Everforged Breastplate",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -975,6 +1025,7 @@ local bisData = {
 						{
 							itemID = 222431,
 							itemName = "Everforged Greatbelt",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -996,12 +1047,14 @@ local bisData = {
 						{
 							itemID = 237618,
 							itemName = "Cuisses of the Lucent Battalion",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222434,
 							itemName = "Everforged Legplates",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1039,6 +1092,7 @@ local bisData = {
 						{
 							itemID = 222435,
 							itemName = "Everforged Vambraces",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1061,6 +1115,7 @@ local bisData = {
 						{
 							itemID = 237620,
 							itemName = "Protectors of the Lucent Battalion",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1083,6 +1138,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1143,6 +1199,7 @@ local bisData = {
 						{
 							itemID = 222444,
 							itemName = "Charged Hexsword",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1165,6 +1222,7 @@ local bisData = {
 						{
 							itemID = 222432,
 							itemName = "Everforged Defender",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1184,6 +1242,7 @@ local bisData = {
 						{
 							itemID = 237619,
 							itemName = "Lightmane of the Lucent Battalion",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1197,6 +1256,7 @@ local bisData = {
 						{
 							itemID = 222433,
 							itemName = "Everforged Helm",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1205,6 +1265,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1227,6 +1288,7 @@ local bisData = {
 						{
 							itemID = 237617,
 							itemName = "Chargers of the Lucent Battalion",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1240,6 +1302,7 @@ local bisData = {
 						{
 							itemID = 222436,
 							itemName = "Everforged Pauldrons",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1248,6 +1311,7 @@ local bisData = {
 						{
 							itemID = 237622,
 							itemName = "Cuirass of the Lucent Battalion",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1270,6 +1334,7 @@ local bisData = {
 						{
 							itemID = 222431,
 							itemName = "Everforged Greatbelt",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1291,6 +1356,7 @@ local bisData = {
 						{
 							itemID = 237618,
 							itemName = "Cuisses of the Lucent Battalion",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1304,6 +1370,7 @@ local bisData = {
 						{
 							itemID = 222434,
 							itemName = "Everforged Legplates",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1335,6 +1402,7 @@ local bisData = {
 						{
 							itemID = 222435,
 							itemName = "Everforged Vambraces",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1357,6 +1425,7 @@ local bisData = {
 						{
 							itemID = 237620,
 							itemName = "Protectors of the Lucent Battalion",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1370,6 +1439,7 @@ local bisData = {
 						{
 							itemID = 222437,
 							itemName = "Everforged Gauntlets",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1378,6 +1448,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1438,6 +1509,7 @@ local bisData = {
 						{
 							itemID = 222440,
 							itemName = "Everforged Longsword",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1460,6 +1532,7 @@ local bisData = {
 						{
 							itemID = 222432,
 							itemName = "Everforged Defender",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1479,12 +1552,14 @@ local bisData = {
 						{
 							itemID = 237619,
 							itemName = "Lightmane of the Lucent Battalion",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222433,
 							itemName = "Everforged Helm",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1500,6 +1575,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1522,12 +1598,14 @@ local bisData = {
 						{
 							itemID = 237617,
 							itemName = "Chargers of the Lucent Battalion",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222436,
 							itemName = "Everforged Pauldrons",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1543,6 +1621,7 @@ local bisData = {
 						{
 							itemID = 237622,
 							itemName = "Cuirass of the Lucent Battalion",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1565,6 +1644,7 @@ local bisData = {
 						{
 							itemID = 222431,
 							itemName = "Everforged Greatbelt",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1586,12 +1666,14 @@ local bisData = {
 						{
 							itemID = 237618,
 							itemName = "Cuisses of the Lucent Battalion",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222434,
 							itemName = "Everforged Legplates",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1630,6 +1712,7 @@ local bisData = {
 						{
 							itemID = 222435,
 							itemName = "Everforged Vambraces",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1652,12 +1735,14 @@ local bisData = {
 						{
 							itemID = 237620,
 							itemName = "Protectors of the Lucent Battalion",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222437,
 							itemName = "Everforged Gauntlets",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1680,6 +1765,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1740,6 +1826,7 @@ local bisData = {
 						{
 							itemID = 222443,
 							itemName = "Everforged Greataxe",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1756,12 +1843,14 @@ local bisData = {
 						{
 							itemID = 237646,
 							itemName = "Midnight Herald's Cowl",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219337,
 							itemName = "Glyph-Etched Guise",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1784,6 +1873,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1799,12 +1889,14 @@ local bisData = {
 						{
 							itemID = 237644,
 							itemName = "Midnight Herald's Shadowguards",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219338,
 							itemName = "Glyph-Etched Epaulets",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1820,12 +1912,14 @@ local bisData = {
 						{
 							itemID = 237649,
 							itemName = "Midnight Herald's Hauberk",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219336,
 							itemName = "Glyph-Etched Breastplate",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1841,6 +1935,7 @@ local bisData = {
 						{
 							itemID = 219339,
 							itemName = "Glyph-Etched Binding",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1863,12 +1958,14 @@ local bisData = {
 						{
 							itemID = 237645,
 							itemName = "Midnight Herald's Petticoat",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219340,
 							itemName = "Glyph-Etched Cuisses",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1906,6 +2003,7 @@ local bisData = {
 						{
 							itemID = 219342,
 							itemName = "Glyph-Etched Vambraces",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1927,12 +2025,14 @@ local bisData = {
 						{
 							itemID = 237647,
 							itemName = "Midnight Herald's Gloves",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219341,
 							itemName = "Glyph-Etched Gauntlets",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1948,6 +2048,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2028,6 +2129,7 @@ local bisData = {
 						{
 							itemID = 237646,
 							itemName = "Midnight Herald's Cowl",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2041,6 +2143,7 @@ local bisData = {
 						{
 							itemID = 219337,
 							itemName = "Glyph-Etched Guise",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2049,6 +2152,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2071,12 +2175,14 @@ local bisData = {
 						{
 							itemID = 237644,
 							itemName = "Midnight Herald's Shadowguards",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219338,
 							itemName = "Glyph-Etched Epaulets",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2091,6 +2197,7 @@ local bisData = {
 						{
 							itemID = 237649,
 							itemName = "Midnight Herald's Hauberk",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2104,6 +2211,7 @@ local bisData = {
 						{
 							itemID = 229274,
 							itemName = "Tireless Collector's Battlegear",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2119,6 +2227,7 @@ local bisData = {
 						{
 							itemID = 219339,
 							itemName = "Glyph-Etched Binding",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2133,6 +2242,7 @@ local bisData = {
 						{
 							itemID = 237645,
 							itemName = "Midnight Herald's Petticoat",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2146,6 +2256,7 @@ local bisData = {
 						{
 							itemID = 219340,
 							itemName = "Glyph-Etched Cuisses",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2176,6 +2287,7 @@ local bisData = {
 						{
 							itemID = 219342,
 							itemName = "Glyph-Etched Vambraces",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2197,12 +2309,14 @@ local bisData = {
 						{
 							itemID = 219341,
 							itemName = "Glyph-Etched Gauntlets",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237647,
 							itemName = "Midnight Herald's Gloves",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2225,6 +2339,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2276,6 +2391,7 @@ local bisData = {
 						{
 							itemID = 179948,
 							itemName = "Selfless Forgelite's Drape",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2298,6 +2414,7 @@ local bisData = {
 						{
 							itemID = 221969,
 							itemName = "P.0.W. x2",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2310,6 +2427,7 @@ local bisData = {
 						{
 							itemID = 237646,
 							itemName = "Midnight Herald's Cowl",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2323,6 +2441,7 @@ local bisData = {
 						{
 							itemID = 219337,
 							itemName = "Glyph-Etched Guise",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2331,6 +2450,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2353,12 +2473,14 @@ local bisData = {
 						{
 							itemID = 237644,
 							itemName = "Midnight Herald's Shadowguards",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219338,
 							itemName = "Glyph-Etched Epaulets",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2374,6 +2496,7 @@ local bisData = {
 						{
 							itemID = 237649,
 							itemName = "Midnight Herald's Hauberk",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2387,6 +2510,7 @@ local bisData = {
 						{
 							itemID = 219336,
 							itemName = "Glyph-Etched Breastplate",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2395,6 +2519,7 @@ local bisData = {
 						{
 							itemID = 219339,
 							itemName = "Glyph-Etched Binding",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2417,12 +2542,14 @@ local bisData = {
 						{
 							itemID = 237645,
 							itemName = "Midnight Herald's Petticoat",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219340,
 							itemName = "Glyph-Etched Cuisses",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2460,6 +2587,7 @@ local bisData = {
 						{
 							itemID = 219342,
 							itemName = "Glyph-Etched Vambraces",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2481,12 +2609,14 @@ local bisData = {
 						{
 							itemID = 219341,
 							itemName = "Glyph-Etched Gauntlets",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237647,
 							itemName = "Midnight Herald's Gloves",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2502,6 +2632,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2569,6 +2700,7 @@ local bisData = {
 						{
 							itemID = 222448,
 							itemName = "Charged Halberd",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2577,6 +2709,7 @@ local bisData = {
 						{
 							itemID = 222438,
 							itemName = "Everforged Stabber",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2590,6 +2723,7 @@ local bisData = {
 						{
 							itemID = 222440,
 							itemName = "Everforged Longsword",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2606,6 +2740,7 @@ local bisData = {
 						{
 							itemID = 237664,
 							itemName = "Hood of the Sudden Eclipse",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2619,6 +2754,7 @@ local bisData = {
 						{
 							itemID = 219329,
 							itemName = "Rune-Branded Hood",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2627,6 +2763,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2649,6 +2786,7 @@ local bisData = {
 						{
 							itemID = 237662,
 							itemName = "Smokemantle of the Sudden Eclipse",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2671,6 +2809,7 @@ local bisData = {
 						{
 							itemID = 237667,
 							itemName = "Tactical Vest of the Sudden Eclipse",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2700,6 +2839,7 @@ local bisData = {
 						{
 							itemID = 219331,
 							itemName = "Rune-Branded Waistband",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2715,6 +2855,7 @@ local bisData = {
 						{
 							itemID = 237663,
 							itemName = "Pants of the Sudden Eclipse",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2759,6 +2900,7 @@ local bisData = {
 						{
 							itemID = 219334,
 							itemName = "Rune-Branded Armbands",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2780,12 +2922,14 @@ local bisData = {
 						{
 							itemID = 237665,
 							itemName = "Deathgrips of the Sudden Eclipse",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219333,
 							itemName = "Rune-Branded Grasps",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2808,6 +2952,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2858,6 +3003,7 @@ local bisData = {
 						{
 							itemID = 222817,
 							itemName = "Consecrated Cloak",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2873,6 +3019,7 @@ local bisData = {
 						{
 							itemID = 222438,
 							itemName = "Everforged Stabber",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2888,6 +3035,7 @@ local bisData = {
 						{
 							itemID = 222438,
 							itemName = "Everforged Stabber",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2914,6 +3062,7 @@ local bisData = {
 						{
 							itemID = 237664,
 							itemName = "Hood of the Sudden Eclipse",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2927,6 +3076,7 @@ local bisData = {
 						{
 							itemID = 229289,
 							itemName = "Spectral Gambler's Damned Visage",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2942,6 +3092,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2957,6 +3108,7 @@ local bisData = {
 						{
 							itemID = 237662,
 							itemName = "Smokemantle of the Sudden Eclipse",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2970,6 +3122,7 @@ local bisData = {
 						{
 							itemID = 229287,
 							itemName = "Spectral Gambler's Bladed Mantle",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2978,6 +3131,7 @@ local bisData = {
 						{
 							itemID = 237667,
 							itemName = "Tactical Vest of the Sudden Eclipse",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2991,6 +3145,7 @@ local bisData = {
 						{
 							itemID = 229292,
 							itemName = "Spectral Gambler's Vest",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2999,6 +3154,7 @@ local bisData = {
 						{
 							itemID = 219331,
 							itemName = "Rune-Branded Waistband",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3012,6 +3168,7 @@ local bisData = {
 						{
 							itemID = 238027,
 							itemName = "Harvested Creephide Cord",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3020,6 +3177,7 @@ local bisData = {
 						{
 							itemID = 237663,
 							itemName = "Pants of the Sudden Eclipse",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3065,6 +3223,7 @@ local bisData = {
 						{
 							itemID = 219334,
 							itemName = "Rune-Branded Armbands",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3086,12 +3245,14 @@ local bisData = {
 						{
 							itemID = 237665,
 							itemName = "Deathgrips of the Sudden Eclipse",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219333,
 							itemName = "Rune-Branded Grasps",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -3107,6 +3268,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3172,6 +3334,7 @@ local bisData = {
 						{
 							itemID = 222440,
 							itemName = "Everforged Longsword",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3194,12 +3357,14 @@ local bisData = {
 						{
 							itemID = 222438,
 							itemName = "Everforged Stabber",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222440,
 							itemName = "Everforged Longsword",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -3219,6 +3384,7 @@ local bisData = {
 						{
 							itemID = 237664,
 							itemName = "Hood of the Sudden Eclipse",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3232,6 +3398,7 @@ local bisData = {
 						{
 							itemID = 219329,
 							itemName = "Rune-Branded Hood",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3240,6 +3407,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3262,6 +3430,7 @@ local bisData = {
 						{
 							itemID = 237662,
 							itemName = "Smokemantle of the Sudden Eclipse",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3275,6 +3444,7 @@ local bisData = {
 						{
 							itemID = 219330,
 							itemName = "Rune-Branded Mantle",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3283,6 +3453,7 @@ local bisData = {
 						{
 							itemID = 237667,
 							itemName = "Tactical Vest of the Sudden Eclipse",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3296,6 +3467,7 @@ local bisData = {
 						{
 							itemID = 219328,
 							itemName = "Rune-Branded Tunic",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3317,6 +3489,7 @@ local bisData = {
 						{
 							itemID = 219331,
 							itemName = "Rune-Branded Waistband",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3325,6 +3498,7 @@ local bisData = {
 						{
 							itemID = 237663,
 							itemName = "Pants of the Sudden Eclipse",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3369,6 +3543,7 @@ local bisData = {
 						{
 							itemID = 219334,
 							itemName = "Rune-Branded Armbands",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3390,6 +3565,7 @@ local bisData = {
 						{
 							itemID = 237665,
 							itemName = "Deathgrips of the Sudden Eclipse",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3403,6 +3579,7 @@ local bisData = {
 						{
 							itemID = 219333,
 							itemName = "Rune-Branded Grasps",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3411,6 +3588,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3487,6 +3665,7 @@ local bisData = {
 						{
 							itemID = 222438,
 							itemName = "Everforged Stabber",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3517,6 +3696,7 @@ local bisData = {
 						{
 							itemID = 237709,
 							itemName = "Dying Star's Veil",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3530,6 +3710,7 @@ local bisData = {
 						{
 							itemID = 222818,
 							itemName = "Consecrated Hood",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3538,6 +3719,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3560,6 +3742,7 @@ local bisData = {
 						{
 							itemID = 237707,
 							itemName = "Dying Star's Pyrelights",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3573,6 +3756,7 @@ local bisData = {
 						{
 							itemID = 222821,
 							itemName = "Consecrated Mantle",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3581,6 +3765,7 @@ local bisData = {
 						{
 							itemID = 237712,
 							itemName = "Dying Star's Cassock",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3594,6 +3779,7 @@ local bisData = {
 						{
 							itemID = 222819,
 							itemName = "Consecrated Robe",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3602,6 +3788,7 @@ local bisData = {
 						{
 							itemID = 222816,
 							itemName = "Consecrated Cord",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3623,12 +3810,14 @@ local bisData = {
 						{
 							itemID = 237708,
 							itemName = "Dying Star's Leggings",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222820,
 							itemName = "Consecrated Leggings",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -3666,6 +3855,7 @@ local bisData = {
 						{
 							itemID = 222815,
 							itemName = "Consecrated Cuffs",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3688,6 +3878,7 @@ local bisData = {
 						{
 							itemID = 237710,
 							itemName = "Dying Star's Caress",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3701,6 +3892,7 @@ local bisData = {
 						{
 							itemID = 222822,
 							itemName = "Consecrated Gloves",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3716,6 +3908,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -3776,6 +3969,7 @@ local bisData = {
 						{
 							itemID = 222568,
 							itemName = "Vagabond's Bounding Baton",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3784,6 +3978,7 @@ local bisData = {
 						{
 							itemID = 222566,
 							itemName = "Vagabond's Torch",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3810,12 +4005,14 @@ local bisData = {
 						{
 							itemID = 237709,
 							itemName = "Dying Star's Veil",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222818,
 							itemName = "Consecrated Hood",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -3831,6 +4028,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3853,6 +4051,7 @@ local bisData = {
 						{
 							itemID = 237707,
 							itemName = "Dying Star's Pyrelights",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3866,6 +4065,7 @@ local bisData = {
 						{
 							itemID = 222821,
 							itemName = "Consecrated Mantle",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3874,6 +4074,7 @@ local bisData = {
 						{
 							itemID = 237712,
 							itemName = "Dying Star's Cassock",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3896,6 +4097,7 @@ local bisData = {
 						{
 							itemID = 222816,
 							itemName = "Consecrated Cord",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3917,12 +4119,14 @@ local bisData = {
 						{
 							itemID = 237708,
 							itemName = "Dying Star's Leggings",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222820,
 							itemName = "Consecrated Leggings",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -3960,6 +4164,7 @@ local bisData = {
 						{
 							itemID = 222815,
 							itemName = "Consecrated Cuffs",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3981,6 +4186,7 @@ local bisData = {
 						{
 							itemID = 237710,
 							itemName = "Dying Star's Caress",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3994,6 +4200,7 @@ local bisData = {
 						{
 							itemID = 222822,
 							itemName = "Consecrated Gloves",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4009,6 +4216,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -4069,6 +4277,7 @@ local bisData = {
 						{
 							itemID = 222568,
 							itemName = "Vagabond's Bounding Baton",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4077,6 +4286,7 @@ local bisData = {
 						{
 							itemID = 222566,
 							itemName = "Vagabond's Torch",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4103,6 +4313,7 @@ local bisData = {
 						{
 							itemID = 237709,
 							itemName = "Dying Star's Veil",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4116,6 +4327,7 @@ local bisData = {
 						{
 							itemID = 222818,
 							itemName = "Consecrated Hood",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4124,6 +4336,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4146,6 +4359,7 @@ local bisData = {
 						{
 							itemID = 237707,
 							itemName = "Dying Star's Pyrelights",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4168,6 +4382,7 @@ local bisData = {
 						{
 							itemID = 237712,
 							itemName = "Dying Star's Cassock",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4181,6 +4396,7 @@ local bisData = {
 						{
 							itemID = 222819,
 							itemName = "Consecrated Robe",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4189,6 +4405,7 @@ local bisData = {
 						{
 							itemID = 222816,
 							itemName = "Consecrated Cord",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4210,12 +4427,14 @@ local bisData = {
 						{
 							itemID = 237708,
 							itemName = "Dying Star's Leggings",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222820,
 							itemName = "Consecrated Leggings",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -4253,6 +4472,7 @@ local bisData = {
 						{
 							itemID = 222815,
 							itemName = "Consecrated Cuffs",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4275,6 +4495,7 @@ local bisData = {
 						{
 							itemID = 237710,
 							itemName = "Dying Star's Caress",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4297,6 +4518,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4364,6 +4586,7 @@ local bisData = {
 						{
 							itemID = 222568,
 							itemName = "Vagabond's Bounding Baton",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4372,6 +4595,7 @@ local bisData = {
 						{
 							itemID = 222566,
 							itemName = "Vagabond's Torch",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4402,6 +4626,7 @@ local bisData = {
 						{
 							itemID = 237628,
 							itemName = "Hollow Sentinel's Stonemask",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4424,6 +4649,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4446,6 +4672,7 @@ local bisData = {
 						{
 							itemID = 237626,
 							itemName = "Hollow Sentinel's Perches",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4459,6 +4686,7 @@ local bisData = {
 						{
 							itemID = 222436,
 							itemName = "Everforged Pauldrons",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4467,6 +4695,7 @@ local bisData = {
 						{
 							itemID = 237631,
 							itemName = "Hollow Sentinel's Breastplate",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4480,6 +4709,7 @@ local bisData = {
 						{
 							itemID = 222430,
 							itemName = "Everforged Breastplate",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4488,6 +4718,7 @@ local bisData = {
 						{
 							itemID = 222431,
 							itemName = "Everforged Greatbelt",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4510,6 +4741,7 @@ local bisData = {
 						{
 							itemID = 237627,
 							itemName = "Hollow Sentinel's Stonekilt",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4554,6 +4786,7 @@ local bisData = {
 						{
 							itemID = 222435,
 							itemName = "Everforged Vambraces",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4575,6 +4808,7 @@ local bisData = {
 						{
 							itemID = 237629,
 							itemName = "Hollow Sentinel's Gauntlets",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4588,6 +4822,7 @@ local bisData = {
 						{
 							itemID = 222437,
 							itemName = "Everforged Gauntlets",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4596,6 +4831,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4663,6 +4899,7 @@ local bisData = {
 						{
 							itemID = 222447,
 							itemName = "Charged Claymore",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4675,12 +4912,14 @@ local bisData = {
 						{
 							itemID = 237628,
 							itemName = "Hollow Sentinel's Stonemask",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222433,
 							itemName = "Everforged Helm",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -4696,6 +4935,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4718,12 +4958,14 @@ local bisData = {
 						{
 							itemID = 237626,
 							itemName = "Hollow Sentinel's Perches",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222436,
 							itemName = "Everforged Pauldrons",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -4739,6 +4981,7 @@ local bisData = {
 						{
 							itemID = 237631,
 							itemName = "Hollow Sentinel's Breastplate",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4761,6 +5004,7 @@ local bisData = {
 						{
 							itemID = 222431,
 							itemName = "Everforged Greatbelt",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4782,6 +5026,7 @@ local bisData = {
 						{
 							itemID = 237627,
 							itemName = "Hollow Sentinel's Stonekilt",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4795,6 +5040,7 @@ local bisData = {
 						{
 							itemID = 222434,
 							itemName = "Everforged Legplates",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4825,6 +5071,7 @@ local bisData = {
 						{
 							itemID = 222435,
 							itemName = "Everforged Vambraces",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4846,12 +5093,14 @@ local bisData = {
 						{
 							itemID = 237629,
 							itemName = "Hollow Sentinel's Gauntlets",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222437,
 							itemName = "Everforged Gauntlets",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -4874,6 +5123,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -4920,6 +5170,7 @@ local bisData = {
 						{
 							itemID = 222447,
 							itemName = "Charged Claymore",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4942,6 +5193,7 @@ local bisData = {
 						{
 							itemID = 222440,
 							itemName = "Everforged Longsword",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4968,12 +5220,14 @@ local bisData = {
 						{
 							itemID = 237628,
 							itemName = "Hollow Sentinel's Stonemask",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222433,
 							itemName = "Everforged Helm",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -4989,6 +5243,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5011,12 +5266,14 @@ local bisData = {
 						{
 							itemID = 237626,
 							itemName = "Hollow Sentinel's Perches",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222436,
 							itemName = "Everforged Pauldrons",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -5032,6 +5289,7 @@ local bisData = {
 						{
 							itemID = 237631,
 							itemName = "Hollow Sentinel's Breastplate",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5054,6 +5312,7 @@ local bisData = {
 						{
 							itemID = 222431,
 							itemName = "Everforged Greatbelt",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5075,12 +5334,14 @@ local bisData = {
 						{
 							itemID = 237627,
 							itemName = "Hollow Sentinel's Stonekilt",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222434,
 							itemName = "Everforged Legplates",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -5118,6 +5379,7 @@ local bisData = {
 						{
 							itemID = 222435,
 							itemName = "Everforged Vambraces",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5139,12 +5401,14 @@ local bisData = {
 						{
 							itemID = 237629,
 							itemName = "Hollow Sentinel's Gauntlets",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222437,
 							itemName = "Everforged Gauntlets",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -5167,6 +5431,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -5220,6 +5485,7 @@ local bisData = {
 						{
 							itemID = 222447,
 							itemName = "Charged Claymore",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -5243,12 +5509,14 @@ local bisData = {
 						{
 							itemID = 237637,
 							itemName = "Aspect of Channeled Fury",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219337,
 							itemName = "Glyph-Etched Guise",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -5271,6 +5539,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -5286,12 +5555,14 @@ local bisData = {
 						{
 							itemID = 237635,
 							itemName = "Fangs of Channeled Fury",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219338,
 							itemName = "Glyph-Etched Epaulets",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -5307,6 +5578,7 @@ local bisData = {
 						{
 							itemID = 237640,
 							itemName = "Furs of Channeled Fury",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5320,6 +5592,7 @@ local bisData = {
 						{
 							itemID = 219336,
 							itemName = "Glyph-Etched Breastplate",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5328,6 +5601,7 @@ local bisData = {
 						{
 							itemID = 219339,
 							itemName = "Glyph-Etched Binding",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5350,6 +5624,7 @@ local bisData = {
 						{
 							itemID = 237636,
 							itemName = "Tassets of Channeled Fury",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5363,6 +5638,7 @@ local bisData = {
 						{
 							itemID = 219340,
 							itemName = "Glyph-Etched Cuisses",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5393,6 +5669,7 @@ local bisData = {
 						{
 							itemID = 219342,
 							itemName = "Glyph-Etched Vambraces",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5414,12 +5691,14 @@ local bisData = {
 						{
 							itemID = 237638,
 							itemName = "Claws of Channeled Fury",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219341,
 							itemName = "Glyph-Etched Gauntlets",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -5435,6 +5714,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5502,6 +5782,7 @@ local bisData = {
 						{
 							itemID = 222568,
 							itemName = "Vagabond's Bounding Baton",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5510,6 +5791,7 @@ local bisData = {
 						{
 							itemID = 222566,
 							itemName = "Vagabond's Torch",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5536,6 +5818,7 @@ local bisData = {
 						{
 							itemID = 237637,
 							itemName = "Aspect of Channeled Fury",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5549,6 +5832,7 @@ local bisData = {
 						{
 							itemID = 219337,
 							itemName = "Glyph-Etched Guise",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5557,6 +5841,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5579,12 +5864,14 @@ local bisData = {
 						{
 							itemID = 237635,
 							itemName = "Fangs of Channeled Fury",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219338,
 							itemName = "Glyph-Etched Epaulets",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -5600,6 +5887,7 @@ local bisData = {
 						{
 							itemID = 237640,
 							itemName = "Furs of Channeled Fury",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5622,6 +5910,7 @@ local bisData = {
 						{
 							itemID = 219339,
 							itemName = "Glyph-Etched Binding",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5644,6 +5933,7 @@ local bisData = {
 						{
 							itemID = 237636,
 							itemName = "Tassets of Channeled Fury",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5688,6 +5978,7 @@ local bisData = {
 						{
 							itemID = 219342,
 							itemName = "Glyph-Etched Vambraces",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5709,12 +6000,14 @@ local bisData = {
 						{
 							itemID = 237638,
 							itemName = "Claws of Channeled Fury",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219341,
 							itemName = "Glyph-Etched Gauntlets",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -5730,6 +6023,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5790,6 +6084,7 @@ local bisData = {
 						{
 							itemID = 222451,
 							itemName = "Charged Slicer",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -5805,18 +6100,21 @@ local bisData = {
 						{
 							itemID = 222451,
 							itemName = "Charged Slicer",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222446,
 							itemName = "Charged Facesmasher",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 222442,
 							itemName = "Everforged Mace",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5829,12 +6127,14 @@ local bisData = {
 						{
 							itemID = 237637,
 							itemName = "Aspect of Channeled Fury",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219337,
 							itemName = "Glyph-Etched Guise",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -5850,6 +6150,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5872,12 +6173,14 @@ local bisData = {
 						{
 							itemID = 237635,
 							itemName = "Fangs of Channeled Fury",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219338,
 							itemName = "Glyph-Etched Epaulets",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -5893,6 +6196,7 @@ local bisData = {
 						{
 							itemID = 237640,
 							itemName = "Furs of Channeled Fury",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5922,6 +6226,7 @@ local bisData = {
 						{
 							itemID = 219339,
 							itemName = "Glyph-Etched Binding",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -5936,6 +6241,7 @@ local bisData = {
 						{
 							itemID = 237636,
 							itemName = "Tassets of Channeled Fury",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5981,6 +6287,7 @@ local bisData = {
 						{
 							itemID = 219342,
 							itemName = "Glyph-Etched Vambraces",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6003,12 +6310,14 @@ local bisData = {
 						{
 							itemID = 237638,
 							itemName = "Claws of Channeled Fury",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219341,
 							itemName = "Glyph-Etched Gauntlets",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -6024,6 +6333,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6091,6 +6401,7 @@ local bisData = {
 						{
 							itemID = 222439,
 							itemName = "Everforged Dagger",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6106,12 +6417,14 @@ local bisData = {
 						{
 							itemID = 222432,
 							itemName = "Everforged Defender",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 222566,
 							itemName = "Vagabond's Torch",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6128,12 +6441,14 @@ local bisData = {
 						{
 							itemID = 237718,
 							itemName = "Augur's Ephemeral Wide-Brim",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222818,
 							itemName = "Consecrated Hood",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -6156,6 +6471,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -6171,6 +6487,7 @@ local bisData = {
 						{
 							itemID = 237716,
 							itemName = "Augur's Ephemeral Orbs of Power",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6184,6 +6501,7 @@ local bisData = {
 						{
 							itemID = 222821,
 							itemName = "Consecrated Mantle",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6192,6 +6510,7 @@ local bisData = {
 						{
 							itemID = 237721,
 							itemName = "Augur's Ephemeral Habiliments",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6214,6 +6533,7 @@ local bisData = {
 						{
 							itemID = 222816,
 							itemName = "Consecrated Cord",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6235,12 +6555,14 @@ local bisData = {
 						{
 							itemID = 237717,
 							itemName = "Augur's Ephemeral Trousers",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222820,
 							itemName = "Consecrated Leggings",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -6278,6 +6600,7 @@ local bisData = {
 						{
 							itemID = 222815,
 							itemName = "Consecrated Cuffs",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6299,6 +6622,7 @@ local bisData = {
 						{
 							itemID = 237719,
 							itemName = "Augur's Ephemeral Mitts",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6312,6 +6636,7 @@ local bisData = {
 						{
 							itemID = 222822,
 							itemName = "Consecrated Gloves",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6320,6 +6645,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6396,6 +6722,7 @@ local bisData = {
 						{
 							itemID = 222566,
 							itemName = "Vagabond's Torch",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6422,18 +6749,21 @@ local bisData = {
 						{
 							itemID = 237718,
 							itemName = "Augur's Ephemeral Wide-Brim",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222818,
 							itemName = "Consecrated Hood",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 238033,
 							itemName = "Zadus's Liturgical Hat",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6449,6 +6779,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -6464,6 +6795,7 @@ local bisData = {
 						{
 							itemID = 237716,
 							itemName = "Augur's Ephemeral Orbs of Power",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6477,6 +6809,7 @@ local bisData = {
 						{
 							itemID = 222821,
 							itemName = "Consecrated Mantle",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6485,6 +6818,7 @@ local bisData = {
 						{
 							itemID = 237721,
 							itemName = "Augur's Ephemeral Habiliments",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6498,6 +6832,7 @@ local bisData = {
 						{
 							itemID = 222819,
 							itemName = "Consecrated Robe",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6506,6 +6841,7 @@ local bisData = {
 						{
 							itemID = 222816,
 							itemName = "Consecrated Cord",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6527,12 +6863,14 @@ local bisData = {
 						{
 							itemID = 237717,
 							itemName = "Augur's Ephemeral Trousers",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222820,
 							itemName = "Consecrated Leggings",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -6570,6 +6908,7 @@ local bisData = {
 						{
 							itemID = 222815,
 							itemName = "Consecrated Cuffs",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6592,6 +6931,7 @@ local bisData = {
 						{
 							itemID = 237719,
 							itemName = "Augur's Ephemeral Mitts",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6614,6 +6954,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6690,6 +7031,7 @@ local bisData = {
 						{
 							itemID = 222566,
 							itemName = "Vagabond's Torch",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6716,18 +7058,21 @@ local bisData = {
 						{
 							itemID = 237718,
 							itemName = "Augur's Ephemeral Wide-Brim",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 238033,
 							itemName = "Zadus's Liturgical Hat",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 222818,
 							itemName = "Consecrated Hood",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6750,6 +7095,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6758,6 +7104,7 @@ local bisData = {
 						{
 							itemID = 237716,
 							itemName = "Augur's Ephemeral Orbs of Power",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6771,6 +7118,7 @@ local bisData = {
 						{
 							itemID = 222821,
 							itemName = "Consecrated Mantle",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6779,6 +7127,7 @@ local bisData = {
 						{
 							itemID = 237721,
 							itemName = "Augur's Ephemeral Habiliments",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6807,6 +7156,7 @@ local bisData = {
 						{
 							itemID = 222816,
 							itemName = "Consecrated Cord",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -6821,12 +7171,14 @@ local bisData = {
 						{
 							itemID = 237717,
 							itemName = "Augur's Ephemeral Trousers",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222820,
 							itemName = "Consecrated Leggings",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -6855,6 +7207,7 @@ local bisData = {
 						{
 							itemID = 243048,
 							itemName = "Technomancer's Service Sandals",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6863,6 +7216,7 @@ local bisData = {
 						{
 							itemID = 222815,
 							itemName = "Consecrated Cuffs",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6884,6 +7238,7 @@ local bisData = {
 						{
 							itemID = 237719,
 							itemName = "Augur's Ephemeral Mitts",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6905,6 +7260,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6994,6 +7350,7 @@ local bisData = {
 						{
 							itemID = 222566,
 							itemName = "Vagabond's Torch",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7024,18 +7381,21 @@ local bisData = {
 						{
 							itemID = 237700,
 							itemName = "Inquisitor's Portal to Madness",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222818,
 							itemName = "Consecrated Hood",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 238033,
 							itemName = "Zadus's Liturgical Hat",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7044,6 +7404,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7066,6 +7427,7 @@ local bisData = {
 						{
 							itemID = 237698,
 							itemName = "Inquisitor's Gaze of Madness",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7079,6 +7441,7 @@ local bisData = {
 						{
 							itemID = 222821,
 							itemName = "Consecrated Mantle",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7087,6 +7450,7 @@ local bisData = {
 						{
 							itemID = 237703,
 							itemName = "Inquisitor's Robes of Madness",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7100,6 +7464,7 @@ local bisData = {
 						{
 							itemID = 222819,
 							itemName = "Consecrated Robe",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7108,6 +7473,7 @@ local bisData = {
 						{
 							itemID = 222816,
 							itemName = "Consecrated Cord",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7130,12 +7496,14 @@ local bisData = {
 						{
 							itemID = 237699,
 							itemName = "Inquisitor's Leggings of Madness",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222820,
 							itemName = "Consecrated Leggings",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7165,6 +7533,7 @@ local bisData = {
 						{
 							itemID = 243048,
 							itemName = "Technomancer's Service Sandals",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7173,6 +7542,7 @@ local bisData = {
 						{
 							itemID = 222815,
 							itemName = "Consecrated Cuffs",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7194,6 +7564,7 @@ local bisData = {
 						{
 							itemID = 237701,
 							itemName = "Inquisitor's Clutches of Madness",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7207,6 +7578,7 @@ local bisData = {
 						{
 							itemID = 222822,
 							itemName = "Consecrated Gloves",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7222,6 +7594,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7291,6 +7664,7 @@ local bisData = {
 						{
 							itemID = 222566,
 							itemName = "Vagabond's Torch",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7317,6 +7691,7 @@ local bisData = {
 						{
 							itemID = 237700,
 							itemName = "Inquisitor's Portal to Madness",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7339,6 +7714,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7361,6 +7737,7 @@ local bisData = {
 						{
 							itemID = 237698,
 							itemName = "Inquisitor's Gaze of Madness",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7374,6 +7751,7 @@ local bisData = {
 						{
 							itemID = 229323,
 							itemName = "Spliced Fiendtrader's Loyal Servants",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7382,6 +7760,7 @@ local bisData = {
 						{
 							itemID = 237703,
 							itemName = "Inquisitor's Robes of Madness",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7404,6 +7783,7 @@ local bisData = {
 						{
 							itemID = 222816,
 							itemName = "Consecrated Cord",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7425,12 +7805,14 @@ local bisData = {
 						{
 							itemID = 237699,
 							itemName = "Inquisitor's Leggings of Madness",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222820,
 							itemName = "Consecrated Leggings",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7468,6 +7850,7 @@ local bisData = {
 						{
 							itemID = 222815,
 							itemName = "Consecrated Cuffs",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7489,6 +7872,7 @@ local bisData = {
 						{
 							itemID = 237701,
 							itemName = "Inquisitor's Clutches of Madness",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7518,6 +7902,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7568,6 +7953,7 @@ local bisData = {
 						{
 							itemID = 222817,
 							itemName = "Consecrated Cloak",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7599,6 +7985,7 @@ local bisData = {
 						{
 							itemID = 222566,
 							itemName = "Vagabond's Torch",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7625,12 +8012,14 @@ local bisData = {
 						{
 							itemID = 237700,
 							itemName = "Inquisitor's Portal to Madness",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222818,
 							itemName = "Consecrated Hood",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7646,6 +8035,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7668,6 +8058,7 @@ local bisData = {
 						{
 							itemID = 237698,
 							itemName = "Inquisitor's Gaze of Madness",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7681,6 +8072,7 @@ local bisData = {
 						{
 							itemID = 222821,
 							itemName = "Consecrated Mantle",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7689,6 +8081,7 @@ local bisData = {
 						{
 							itemID = 237703,
 							itemName = "Inquisitor's Robes of Madness",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7711,6 +8104,7 @@ local bisData = {
 						{
 							itemID = 222816,
 							itemName = "Consecrated Cord",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7732,12 +8126,14 @@ local bisData = {
 						{
 							itemID = 237699,
 							itemName = "Inquisitor's Leggings of Madness",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222820,
 							itemName = "Consecrated Leggings",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7775,6 +8171,7 @@ local bisData = {
 						{
 							itemID = 222815,
 							itemName = "Consecrated Cuffs",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7796,6 +8193,7 @@ local bisData = {
 						{
 							itemID = 237701,
 							itemName = "Inquisitor's Clutches of Madness",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7809,6 +8207,7 @@ local bisData = {
 						{
 							itemID = 222822,
 							itemName = "Consecrated Gloves",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7824,6 +8223,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7899,6 +8299,7 @@ local bisData = {
 						{
 							itemID = 222566,
 							itemName = "Vagabond's Torch",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7929,6 +8330,7 @@ local bisData = {
 						{
 							itemID = 237673,
 							itemName = "Half-Mask of Fallen Storms",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7942,6 +8344,7 @@ local bisData = {
 						{
 							itemID = 219329,
 							itemName = "Rune-Branded Hood",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7950,6 +8353,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7972,6 +8376,7 @@ local bisData = {
 						{
 							itemID = 237671,
 							itemName = "Glyphs of Fallen Storms",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7985,6 +8390,7 @@ local bisData = {
 						{
 							itemID = 219330,
 							itemName = "Rune-Branded Mantle",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7993,6 +8399,7 @@ local bisData = {
 						{
 							itemID = 237676,
 							itemName = "Gi of Fallen Storms",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8006,6 +8413,7 @@ local bisData = {
 						{
 							itemID = 238031,
 							itemName = "Veiled Manta Vest",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8020,6 +8428,7 @@ local bisData = {
 						{
 							itemID = 219331,
 							itemName = "Rune-Branded Waistband",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8035,6 +8444,7 @@ local bisData = {
 						{
 							itemID = 237672,
 							itemName = "Legwraps of Fallen Storms",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8048,6 +8458,7 @@ local bisData = {
 						{
 							itemID = 219332,
 							itemName = "Rune-Branded Legwraps",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8079,6 +8490,7 @@ local bisData = {
 						{
 							itemID = 219334,
 							itemName = "Rune-Branded Armbands",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8100,12 +8512,14 @@ local bisData = {
 						{
 							itemID = 237674,
 							itemName = "Grasp of Fallen Storms",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219333,
 							itemName = "Rune-Branded Grasps",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8121,6 +8535,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8224,6 +8639,7 @@ local bisData = {
 						{
 							itemID = 237673,
 							itemName = "Half-Mask of Fallen Storms",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8237,6 +8653,7 @@ local bisData = {
 						{
 							itemID = 219329,
 							itemName = "Rune-Branded Hood",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8245,6 +8662,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8267,6 +8685,7 @@ local bisData = {
 						{
 							itemID = 237671,
 							itemName = "Glyphs of Fallen Storms",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8280,6 +8699,7 @@ local bisData = {
 						{
 							itemID = 219330,
 							itemName = "Rune-Branded Mantle",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8288,6 +8708,7 @@ local bisData = {
 						{
 							itemID = 237676,
 							itemName = "Gi of Fallen Storms",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8301,6 +8722,7 @@ local bisData = {
 						{
 							itemID = 219328,
 							itemName = "Rune-Branded Tunic",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8309,6 +8731,7 @@ local bisData = {
 						{
 							itemID = 219331,
 							itemName = "Rune-Branded Waistband",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8330,12 +8753,14 @@ local bisData = {
 						{
 							itemID = 237672,
 							itemName = "Legwraps of Fallen Storms",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219332,
 							itemName = "Rune-Branded Legwraps",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8358,6 +8783,7 @@ local bisData = {
 						{
 							itemID = 219327,
 							itemName = "Rune-Branded Kickers",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8373,6 +8799,7 @@ local bisData = {
 						{
 							itemID = 219334,
 							itemName = "Rune-Branded Armbands",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8394,12 +8821,14 @@ local bisData = {
 						{
 							itemID = 237674,
 							itemName = "Grasp of Fallen Storms",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219333,
 							itemName = "Rune-Branded Grasps",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8415,6 +8844,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8498,12 +8928,14 @@ local bisData = {
 						{
 							itemID = 222440,
 							itemName = "Everforged Longsword",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 222446,
 							itemName = "Charged Facesmasher",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8516,6 +8948,7 @@ local bisData = {
 						{
 							itemID = 237673,
 							itemName = "Half-Mask of Fallen Storms",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8529,6 +8962,7 @@ local bisData = {
 						{
 							itemID = 219329,
 							itemName = "Rune-Branded Hood",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8537,6 +8971,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8559,6 +8994,7 @@ local bisData = {
 						{
 							itemID = 237671,
 							itemName = "Glyphs of Fallen Storms",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8581,6 +9017,7 @@ local bisData = {
 						{
 							itemID = 237676,
 							itemName = "Gi of Fallen Storms",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8594,6 +9031,7 @@ local bisData = {
 						{
 							itemID = 219328,
 							itemName = "Rune-Branded Tunic",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8602,6 +9040,7 @@ local bisData = {
 						{
 							itemID = 219331,
 							itemName = "Rune-Branded Waistband",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8623,6 +9062,7 @@ local bisData = {
 						{
 							itemID = 237672,
 							itemName = "Legwraps of Fallen Storms",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8636,6 +9076,7 @@ local bisData = {
 						{
 							itemID = 219332,
 							itemName = "Rune-Branded Legwraps",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8666,6 +9107,7 @@ local bisData = {
 						{
 							itemID = 219334,
 							itemName = "Rune-Branded Armbands",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8688,12 +9130,14 @@ local bisData = {
 						{
 							itemID = 237674,
 							itemName = "Grasp of Fallen Storms",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219333,
 							itemName = "Rune-Branded Grasps",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8709,6 +9153,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8776,6 +9221,7 @@ local bisData = {
 						{
 							itemID = 222568,
 							itemName = "Vagabond's Bounding Baton",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8784,6 +9230,7 @@ local bisData = {
 						{
 							itemID = 222566,
 							itemName = "Vagabond's Torch",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8814,12 +9261,14 @@ local bisData = {
 						{
 							itemID = 237682,
 							itemName = "Skymane of the Mother Eagle",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219329,
 							itemName = "Rune-Branded Hood",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8835,6 +9284,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8857,6 +9307,7 @@ local bisData = {
 						{
 							itemID = 237680,
 							itemName = "Ritual Pauldrons of the Mother Eagle",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8870,6 +9321,7 @@ local bisData = {
 						{
 							itemID = 219330,
 							itemName = "Rune-Branded Mantle",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8878,12 +9330,14 @@ local bisData = {
 						{
 							itemID = 237685,
 							itemName = "Vest of the Mother Eagle",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219328,
 							itemName = "Rune-Branded Tunic",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8906,6 +9360,7 @@ local bisData = {
 						{
 							itemID = 219331,
 							itemName = "Rune-Branded Waistband",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8920,12 +9375,14 @@ local bisData = {
 						{
 							itemID = 237681,
 							itemName = "Breeches of the Mother Eagle",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219332,
 							itemName = "Rune-Branded Legwraps",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8948,6 +9405,7 @@ local bisData = {
 						{
 							itemID = 219327,
 							itemName = "Rune-Branded Kickers",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8962,6 +9420,7 @@ local bisData = {
 						{
 							itemID = 219334,
 							itemName = "Rune-Branded Armbands",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8984,12 +9443,14 @@ local bisData = {
 						{
 							itemID = 237683,
 							itemName = "Wings of the Mother Eagle",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219333,
 							itemName = "Rune-Branded Grasps",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9005,6 +9466,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9072,6 +9534,7 @@ local bisData = {
 						{
 							itemID = 222568,
 							itemName = "Vagabond's Bounding Baton",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9080,6 +9543,7 @@ local bisData = {
 						{
 							itemID = 222566,
 							itemName = "Vagabond's Torch",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9106,6 +9570,7 @@ local bisData = {
 						{
 							itemID = 237682,
 							itemName = "Skymane of the Mother Eagle",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9119,6 +9584,7 @@ local bisData = {
 						{
 							itemID = 219329,
 							itemName = "Rune-Branded Hood",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9127,6 +9593,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9149,6 +9616,7 @@ local bisData = {
 						{
 							itemID = 237680,
 							itemName = "Ritual Pauldrons of the Mother Eagle",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9162,6 +9630,7 @@ local bisData = {
 						{
 							itemID = 219330,
 							itemName = "Rune-Branded Mantle",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9170,6 +9639,7 @@ local bisData = {
 						{
 							itemID = 237685,
 							itemName = "Vest of the Mother Eagle",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9192,6 +9662,7 @@ local bisData = {
 						{
 							itemID = 219331,
 							itemName = "Rune-Branded Waistband",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9213,12 +9684,14 @@ local bisData = {
 						{
 							itemID = 237681,
 							itemName = "Breeches of the Mother Eagle",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219332,
 							itemName = "Rune-Branded Legwraps",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9256,6 +9729,7 @@ local bisData = {
 						{
 							itemID = 219334,
 							itemName = "Rune-Branded Armbands",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9277,12 +9751,14 @@ local bisData = {
 						{
 							itemID = 237683,
 							itemName = "Wings of the Mother Eagle",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219333,
 							itemName = "Rune-Branded Grasps",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9298,6 +9774,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9365,6 +9842,7 @@ local bisData = {
 						{
 							itemID = 222448,
 							itemName = "Charged Halberd",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9377,6 +9855,7 @@ local bisData = {
 						{
 							itemID = 237682,
 							itemName = "Skymane of the Mother Eagle",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9390,6 +9869,7 @@ local bisData = {
 						{
 							itemID = 219329,
 							itemName = "Rune-Branded Hood",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9412,6 +9892,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9420,6 +9901,7 @@ local bisData = {
 						{
 							itemID = 237680,
 							itemName = "Ritual Pauldrons of the Mother Eagle",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9442,6 +9924,7 @@ local bisData = {
 						{
 							itemID = 237685,
 							itemName = "Vest of the Mother Eagle",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9470,6 +9953,7 @@ local bisData = {
 						{
 							itemID = 219331,
 							itemName = "Rune-Branded Waistband",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9484,12 +9968,14 @@ local bisData = {
 						{
 							itemID = 237681,
 							itemName = "Breeches of the Mother Eagle",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219332,
 							itemName = "Rune-Branded Legwraps",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9519,6 +10005,7 @@ local bisData = {
 						{
 							itemID = 219327,
 							itemName = "Rune-Branded Kickers",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9527,6 +10014,7 @@ local bisData = {
 						{
 							itemID = 219334,
 							itemName = "Rune-Branded Armbands",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9548,12 +10036,14 @@ local bisData = {
 						{
 							itemID = 237683,
 							itemName = "Wings of the Mother Eagle",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219333,
 							itemName = "Rune-Branded Grasps",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9569,6 +10059,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9649,12 +10140,14 @@ local bisData = {
 						{
 							itemID = 237682,
 							itemName = "Skymane of the Mother Eagle",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219329,
 							itemName = "Rune-Branded Hood",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9677,6 +10170,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9692,6 +10186,7 @@ local bisData = {
 						{
 							itemID = 237680,
 							itemName = "Ritual Pauldrons of the Mother Eagle",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9705,6 +10200,7 @@ local bisData = {
 						{
 							itemID = 219330,
 							itemName = "Rune-Branded Mantle",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9713,6 +10209,7 @@ local bisData = {
 						{
 							itemID = 237685,
 							itemName = "Vest of the Mother Eagle",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9726,6 +10223,7 @@ local bisData = {
 						{
 							itemID = 219328,
 							itemName = "Rune-Branded Tunic",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9734,6 +10232,7 @@ local bisData = {
 						{
 							itemID = 219331,
 							itemName = "Rune-Branded Waistband",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9755,12 +10254,14 @@ local bisData = {
 						{
 							itemID = 237681,
 							itemName = "Breeches of the Mother Eagle",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219332,
 							itemName = "Rune-Branded Legwraps",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9799,6 +10300,7 @@ local bisData = {
 						{
 							itemID = 219334,
 							itemName = "Rune-Branded Armbands",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9820,12 +10322,14 @@ local bisData = {
 						{
 							itemID = 237683,
 							itemName = "Wings of the Mother Eagle",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219333,
 							itemName = "Rune-Branded Grasps",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9841,6 +10345,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9908,6 +10413,7 @@ local bisData = {
 						{
 							itemID = 222568,
 							itemName = "Vagabond's Bounding Baton",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9916,6 +10422,7 @@ local bisData = {
 						{
 							itemID = 222566,
 							itemName = "Vagabond's Torch",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9946,6 +10453,7 @@ local bisData = {
 						{
 							itemID = 237691,
 							itemName = "Charhound's Vicious Scalp",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9968,6 +10476,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9990,6 +10499,7 @@ local bisData = {
 						{
 							itemID = 237689,
 							itemName = "Charhound's Vicious Hornguards",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10003,6 +10513,7 @@ local bisData = {
 						{
 							itemID = 219330,
 							itemName = "Rune-Branded Mantle",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10011,6 +10522,7 @@ local bisData = {
 						{
 							itemID = 237694,
 							itemName = "Charhound's Vicious Bindings",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10040,6 +10552,7 @@ local bisData = {
 						{
 							itemID = 219331,
 							itemName = "Rune-Branded Waistband",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -10055,12 +10568,14 @@ local bisData = {
 						{
 							itemID = 237690,
 							itemName = "Charhound's Vicious Hidecoat",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219332,
 							itemName = "Rune-Branded Legwraps",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -10090,6 +10605,7 @@ local bisData = {
 						{
 							itemID = 219327,
 							itemName = "Rune-Branded Kickers",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10098,6 +10614,7 @@ local bisData = {
 						{
 							itemID = 219334,
 							itemName = "Rune-Branded Armbands",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10120,12 +10637,14 @@ local bisData = {
 						{
 							itemID = 237692,
 							itemName = "Charhound's Vicious Felclaws",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219333,
 							itemName = "Rune-Branded Grasps",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -10148,6 +10667,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -10217,6 +10737,7 @@ local bisData = {
 						{
 							itemID = 222441,
 							itemName = "Everforged Warglaive",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10230,6 +10751,7 @@ local bisData = {
 						{
 							itemID = 222440,
 							itemName = "Everforged Longsword",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10242,6 +10764,7 @@ local bisData = {
 						{
 							itemID = 237691,
 							itemName = "Charhound's Vicious Scalp",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10264,6 +10787,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10286,6 +10810,7 @@ local bisData = {
 						{
 							itemID = 237689,
 							itemName = "Charhound's Vicious Hornguards",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10308,6 +10833,7 @@ local bisData = {
 						{
 							itemID = 237694,
 							itemName = "Charhound's Vicious Bindings",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10321,6 +10847,7 @@ local bisData = {
 						{
 							itemID = 219328,
 							itemName = "Rune-Branded Tunic",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10329,6 +10856,7 @@ local bisData = {
 						{
 							itemID = 219331,
 							itemName = "Rune-Branded Waistband",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10351,12 +10879,14 @@ local bisData = {
 						{
 							itemID = 237690,
 							itemName = "Charhound's Vicious Hidecoat",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219332,
 							itemName = "Rune-Branded Legwraps",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -10394,6 +10924,7 @@ local bisData = {
 						{
 							itemID = 219334,
 							itemName = "Rune-Branded Armbands",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10415,12 +10946,14 @@ local bisData = {
 						{
 							itemID = 237692,
 							itemName = "Charhound's Vicious Felclaws",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219333,
 							itemName = "Rune-Branded Grasps",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -10436,6 +10969,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10503,6 +11037,7 @@ local bisData = {
 						{
 							itemID = 222441,
 							itemName = "Everforged Warglaive",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10511,12 +11046,14 @@ local bisData = {
 						{
 							itemID = 222441,
 							itemName = "Everforged Warglaive",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 222440,
 							itemName = "Everforged Longsword",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -10540,6 +11077,7 @@ local bisData = {
 						{
 							itemID = 237655,
 							itemName = "Spellweaver's Immaculate Focus",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10553,6 +11091,7 @@ local bisData = {
 						{
 							itemID = 219337,
 							itemName = "Glyph-Etched Guise",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10561,6 +11100,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10583,6 +11123,7 @@ local bisData = {
 						{
 							itemID = 237653,
 							itemName = "Spellweaver's Immaculate Pauldrons",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10596,6 +11137,7 @@ local bisData = {
 						{
 							itemID = 219338,
 							itemName = "Glyph-Etched Epaulets",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10604,6 +11146,7 @@ local bisData = {
 						{
 							itemID = 237658,
 							itemName = "Spellweaver's Immaculate Crestward",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10617,6 +11160,7 @@ local bisData = {
 						{
 							itemID = 219336,
 							itemName = "Glyph-Etched Breastplate",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10625,6 +11169,7 @@ local bisData = {
 						{
 							itemID = 219339,
 							itemName = "Glyph-Etched Binding",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10647,6 +11192,7 @@ local bisData = {
 						{
 							itemID = 237654,
 							itemName = "Spellweaver's Immaculate Runeslacks",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10660,6 +11206,7 @@ local bisData = {
 						{
 							itemID = 229279,
 							itemName = "Opulent Treasurescale's Petticoat",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10691,6 +11238,7 @@ local bisData = {
 						{
 							itemID = 219342,
 							itemName = "Glyph-Etched Vambraces",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10713,12 +11261,14 @@ local bisData = {
 						{
 							itemID = 237656,
 							itemName = "Spellweaver's Immaculate Scaleguards",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219341,
 							itemName = "Glyph-Etched Gauntlets",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -10734,6 +11284,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10823,6 +11374,7 @@ local bisData = {
 						{
 							itemID = 222566,
 							itemName = "Vagabond's Torch",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10849,6 +11401,7 @@ local bisData = {
 						{
 							itemID = 237655,
 							itemName = "Spellweaver's Immaculate Focus",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10862,6 +11415,7 @@ local bisData = {
 						{
 							itemID = 219337,
 							itemName = "Glyph-Etched Guise",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10870,6 +11424,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10892,12 +11447,14 @@ local bisData = {
 						{
 							itemID = 237653,
 							itemName = "Spellweaver's Immaculate Pauldrons",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219338,
 							itemName = "Glyph-Etched Epaulets",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -10913,6 +11470,7 @@ local bisData = {
 						{
 							itemID = 237658,
 							itemName = "Spellweaver's Immaculate Crestward",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10926,6 +11484,7 @@ local bisData = {
 						{
 							itemID = 219336,
 							itemName = "Glyph-Etched Breastplate",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10934,6 +11493,7 @@ local bisData = {
 						{
 							itemID = 219339,
 							itemName = "Glyph-Etched Binding",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10956,6 +11516,7 @@ local bisData = {
 						{
 							itemID = 237654,
 							itemName = "Spellweaver's Immaculate Runeslacks",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10969,6 +11530,7 @@ local bisData = {
 						{
 							itemID = 219340,
 							itemName = "Glyph-Etched Cuisses",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10991,6 +11553,7 @@ local bisData = {
 						{
 							itemID = 238030,
 							itemName = "Voidhound Trainer's Boots",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10999,6 +11562,7 @@ local bisData = {
 						{
 							itemID = 219342,
 							itemName = "Glyph-Etched Vambraces",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -11021,12 +11585,14 @@ local bisData = {
 						{
 							itemID = 237656,
 							itemName = "Spellweaver's Immaculate Scaleguards",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219341,
 							itemName = "Glyph-Etched Gauntlets",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -11042,6 +11608,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -11118,6 +11685,7 @@ local bisData = {
 						{
 							itemID = 222566,
 							itemName = "Vagabond's Torch",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -11144,6 +11712,7 @@ local bisData = {
 						{
 							itemID = 237655,
 							itemName = "Spellweaver's Immaculate Focus",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -11157,6 +11726,7 @@ local bisData = {
 						{
 							itemID = 219337,
 							itemName = "Glyph-Etched Guise",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -11165,6 +11735,7 @@ local bisData = {
 						{
 							itemID = 215136,
 							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -11187,12 +11758,14 @@ local bisData = {
 						{
 							itemID = 237653,
 							itemName = "Spellweaver's Immaculate Pauldrons",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219338,
 							itemName = "Glyph-Etched Epaulets",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -11208,6 +11781,7 @@ local bisData = {
 						{
 							itemID = 237658,
 							itemName = "Spellweaver's Immaculate Crestward",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -11230,6 +11804,7 @@ local bisData = {
 						{
 							itemID = 219339,
 							itemName = "Glyph-Etched Binding",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -11252,6 +11827,7 @@ local bisData = {
 						{
 							itemID = 237654,
 							itemName = "Spellweaver's Immaculate Runeslacks",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -11265,6 +11841,7 @@ local bisData = {
 						{
 							itemID = 219340,
 							itemName = "Glyph-Etched Cuisses",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -11296,6 +11873,7 @@ local bisData = {
 						{
 							itemID = 219342,
 							itemName = "Glyph-Etched Vambraces",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -11318,12 +11896,14 @@ local bisData = {
 						{
 							itemID = 237656,
 							itemName = "Spellweaver's Immaculate Scaleguards",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219341,
 							itemName = "Glyph-Etched Gauntlets",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -11339,6 +11919,7 @@ local bisData = {
 						{
 							itemID = 215135,
 							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -11413,6 +11994,7 @@ local bisData = {
 						{
 							itemID = 222568,
 							itemName = "Vagabond's Bounding Baton",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -11421,6 +12003,7 @@ local bisData = {
 						{
 							itemID = 222566,
 							itemName = "Vagabond's Torch",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
