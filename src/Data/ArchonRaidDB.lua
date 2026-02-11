@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ArchonRaidDB = addonTable.ArchonRaidDB or {}
 
 local bisData = {
-	updated = "2026-02-11 03:02:57",
+	updated = "2026-02-11 14:52:25",
 
 	[1] = {
 		specs = {
@@ -12,7 +12,7 @@ local bisData = {
 						{
 							itemID = 237610,
 							itemName = "Living Weapon's Faceshield",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -24,25 +24,25 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 178812,
-							itemName = "Wing Commander's Helmet",
-							dropSource = "Halls of Atonement",
+							itemID = 222433,
+							itemName = "Everforged Helm",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
 					},
 					[2] = {
 						{
-							itemID = 185842,
-							itemName = "Ornately Engraved Amplifier",
-							dropSource = "Tazavesh, the Veiled Market",
+							itemID = 237568,
+							itemName = "Chrysalis of Sundered Souls",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
-							itemID = 237568,
-							itemName = "Chrysalis of Sundered Souls",
-							dropSource = "Manaforge Omega",
+							itemID = 185842,
+							itemName = "Ornately Engraved Amplifier",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -58,7 +58,7 @@ local bisData = {
 						{
 							itemID = 237608,
 							itemName = "Living Weapon's Ramparts",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -70,9 +70,9 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 222436,
-							itemName = "Everforged Pauldrons",
-							dropSource = "Crafted",
+							itemID = 185803,
+							itemName = "Stoneflesh Spaulders",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -81,7 +81,7 @@ local bisData = {
 						{
 							itemID = 237613,
 							itemName = "Living Weapon's Bulwark",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -126,7 +126,7 @@ local bisData = {
 						{
 							itemID = 237609,
 							itemName = "Living Weapon's Legguards",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -193,7 +193,7 @@ local bisData = {
 						{
 							itemID = 237611,
 							itemName = "Living Weapon's Crushers",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -310,7 +310,7 @@ local bisData = {
 						{
 							itemID = 237610,
 							itemName = "Living Weapon's Faceshield",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -356,7 +356,7 @@ local bisData = {
 						{
 							itemID = 237608,
 							itemName = "Living Weapon's Ramparts",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -379,7 +379,7 @@ local bisData = {
 						{
 							itemID = 237613,
 							itemName = "Living Weapon's Bulwark",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -424,7 +424,7 @@ local bisData = {
 						{
 							itemID = 237609,
 							itemName = "Living Weapon's Legguards",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -481,9 +481,8 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 237545,
-							itemName = "Discarded Nutrient Shackles",
-							dropSource = "Manaforge Omega",
+							itemID = 237606,
+							itemName = "Living Weapon's Manacles",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -492,7 +491,7 @@ local bisData = {
 						{
 							itemID = 237611,
 							itemName = "Living Weapon's Crushers",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -619,7 +618,7 @@ local bisData = {
 						{
 							itemID = 237610,
 							itemName = "Living Weapon's Faceshield",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -665,7 +664,7 @@ local bisData = {
 						{
 							itemID = 237608,
 							itemName = "Living Weapon's Ramparts",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -688,7 +687,7 @@ local bisData = {
 						{
 							itemID = 237613,
 							itemName = "Living Weapon's Bulwark",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -734,7 +733,7 @@ local bisData = {
 						{
 							itemID = 237609,
 							itemName = "Living Weapon's Legguards",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -802,7 +801,7 @@ local bisData = {
 						{
 							itemID = 237611,
 							itemName = "Living Weapon's Crushers",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -891,9 +890,9 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 185824,
-							itemName = "Blade of Grievous Harm",
-							dropSource = "Tazavesh, the Veiled Market",
+							itemID = 222440,
+							itemName = "Everforged Longsword",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -933,7 +932,7 @@ local bisData = {
 						{
 							itemID = 237619,
 							itemName = "Lightmane of the Lucent Battalion",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -979,7 +978,7 @@ local bisData = {
 						{
 							itemID = 237617,
 							itemName = "Chargers of the Lucent Battalion",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1002,7 +1001,7 @@ local bisData = {
 						{
 							itemID = 237622,
 							itemName = "Cuirass of the Lucent Battalion",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1047,7 +1046,7 @@ local bisData = {
 						{
 							itemID = 237618,
 							itemName = "Cuisses of the Lucent Battalion",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1115,7 +1114,7 @@ local bisData = {
 						{
 							itemID = 237620,
 							itemName = "Protectors of the Lucent Battalion",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1127,9 +1126,9 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 234504,
-							itemName = "Jumpstarter's Scaffold-Scrapers",
-							dropSource = "Operation: Floodgate",
+							itemID = 222437,
+							itemName = "Everforged Gauntlets",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1242,7 +1241,7 @@ local bisData = {
 						{
 							itemID = 237619,
 							itemName = "Lightmane of the Lucent Battalion",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1288,7 +1287,7 @@ local bisData = {
 						{
 							itemID = 237617,
 							itemName = "Chargers of the Lucent Battalion",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1311,7 +1310,7 @@ local bisData = {
 						{
 							itemID = 237622,
 							itemName = "Cuirass of the Lucent Battalion",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1323,9 +1322,9 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 234506,
-							itemName = "Muckdiver's Wading Plate",
-							dropSource = "Operation: Floodgate",
+							itemID = 178814,
+							itemName = "Breastplate of Otherworldly Influence",
+							dropSource = "Halls of Atonement",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1356,7 +1355,7 @@ local bisData = {
 						{
 							itemID = 237618,
 							itemName = "Cuisses of the Lucent Battalion",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1425,7 +1424,7 @@ local bisData = {
 						{
 							itemID = 237620,
 							itemName = "Protectors of the Lucent Battalion",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1537,9 +1536,9 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 242493,
-							itemName = "Starlit Safeguard",
-							dropSource = "Eco-Dome Al'dani",
+							itemID = 185811,
+							itemName = "Package Protector",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1552,7 +1551,7 @@ local bisData = {
 						{
 							itemID = 237619,
 							itemName = "Lightmane of the Lucent Battalion",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1598,7 +1597,7 @@ local bisData = {
 						{
 							itemID = 237617,
 							itemName = "Chargers of the Lucent Battalion",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1621,7 +1620,7 @@ local bisData = {
 						{
 							itemID = 237622,
 							itemName = "Cuirass of the Lucent Battalion",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1666,7 +1665,7 @@ local bisData = {
 						{
 							itemID = 237618,
 							itemName = "Cuisses of the Lucent Battalion",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1735,7 +1734,7 @@ local bisData = {
 						{
 							itemID = 237620,
 							itemName = "Protectors of the Lucent Battalion",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1843,7 +1842,7 @@ local bisData = {
 						{
 							itemID = 237646,
 							itemName = "Midnight Herald's Cowl",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1889,7 +1888,7 @@ local bisData = {
 						{
 							itemID = 237644,
 							itemName = "Midnight Herald's Shadowguards",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1912,21 +1911,21 @@ local bisData = {
 						{
 							itemID = 237649,
 							itemName = "Midnight Herald's Hauberk",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
-						},
-						{
-							itemID = 219336,
-							itemName = "Glyph-Etched Breastplate",
-							dropSource = "Crafted",
-							sourceType = "raid",
-							priority = 2,
 						},
 						{
 							itemID = 237529,
 							itemName = "Harvested Attendant's Uniform",
 							dropSource = "Manaforge Omega",
+							sourceType = "raid",
+							priority = 2,
+						},
+						{
+							itemID = 221147,
+							itemName = "Goliath's Chitinous Chainmail",
+							dropSource = "The Dawnbreaker",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1958,7 +1957,7 @@ local bisData = {
 						{
 							itemID = 237645,
 							itemName = "Midnight Herald's Petticoat",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2025,7 +2024,7 @@ local bisData = {
 						{
 							itemID = 237647,
 							itemName = "Midnight Herald's Gloves",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2129,7 +2128,7 @@ local bisData = {
 						{
 							itemID = 237646,
 							itemName = "Midnight Herald's Cowl",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2175,7 +2174,7 @@ local bisData = {
 						{
 							itemID = 237644,
 							itemName = "Midnight Herald's Shadowguards",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2197,7 +2196,7 @@ local bisData = {
 						{
 							itemID = 237649,
 							itemName = "Midnight Herald's Hauberk",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2211,7 +2210,7 @@ local bisData = {
 						{
 							itemID = 229274,
 							itemName = "Tireless Collector's Battlegear",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2242,7 +2241,7 @@ local bisData = {
 						{
 							itemID = 237645,
 							itemName = "Midnight Herald's Petticoat",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2316,7 +2315,7 @@ local bisData = {
 						{
 							itemID = 237647,
 							itemName = "Midnight Herald's Gloves",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2388,13 +2387,6 @@ local bisData = {
 							sourceType = "raid",
 							priority = 2,
 						},
-						{
-							itemID = 179948,
-							itemName = "Selfless Forgelite's Drape",
-							dropSource = "The Dreamrift",
-							sourceType = "raid",
-							priority = 3,
-						},
 					},
 					[16] = {
 						{
@@ -2427,7 +2419,7 @@ local bisData = {
 						{
 							itemID = 237646,
 							itemName = "Midnight Herald's Cowl",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2473,7 +2465,7 @@ local bisData = {
 						{
 							itemID = 237644,
 							itemName = "Midnight Herald's Shadowguards",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2496,7 +2488,7 @@ local bisData = {
 						{
 							itemID = 237649,
 							itemName = "Midnight Herald's Hauberk",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2542,7 +2534,7 @@ local bisData = {
 						{
 							itemID = 237645,
 							itemName = "Midnight Herald's Petticoat",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2616,7 +2608,7 @@ local bisData = {
 						{
 							itemID = 237647,
 							itemName = "Midnight Herald's Gloves",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2707,22 +2699,22 @@ local bisData = {
 					},
 					[17] = {
 						{
-							itemID = 222438,
-							itemName = "Everforged Stabber",
-							dropSource = "Crafted",
-							sourceType = "raid",
-							priority = 1,
-						},
-						{
 							itemID = 237729,
 							itemName = "Prodigious Gene Splicer",
 							dropSource = "Manaforge Omega",
 							sourceType = "raid",
-							priority = 2,
+							priority = 1,
 						},
 						{
 							itemID = 222440,
 							itemName = "Everforged Longsword",
+							dropSource = "Crafted",
+							sourceType = "raid",
+							priority = 2,
+						},
+						{
+							itemID = 222438,
+							itemName = "Everforged Stabber",
 							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
@@ -2740,7 +2732,7 @@ local bisData = {
 						{
 							itemID = 237664,
 							itemName = "Hood of the Sudden Eclipse",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2786,7 +2778,7 @@ local bisData = {
 						{
 							itemID = 237662,
 							itemName = "Smokemantle of the Sudden Eclipse",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2809,7 +2801,7 @@ local bisData = {
 						{
 							itemID = 237667,
 							itemName = "Tactical Vest of the Sudden Eclipse",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2855,7 +2847,7 @@ local bisData = {
 						{
 							itemID = 237663,
 							itemName = "Pants of the Sudden Eclipse",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2883,15 +2875,15 @@ local bisData = {
 							priority = 1,
 						},
 						{
-							itemID = 246280,
-							itemName = "Boots of Titanic Deconversion",
-							dropSource = "Tazavesh, the Veiled Market",
+							itemID = 237666,
+							itemName = "Bladed Boots of the Sudden Eclipse",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
-							itemID = 237666,
-							itemName = "Bladed Boots of the Sudden Eclipse",
+							itemID = 246280,
+							itemName = "Boots of Titanic Deconversion",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2922,7 +2914,7 @@ local bisData = {
 						{
 							itemID = 237665,
 							itemName = "Deathgrips of the Sudden Eclipse",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2995,15 +2987,15 @@ local bisData = {
 							priority = 1,
 						},
 						{
-							itemID = 153945,
-							itemName = "Lightdrinker Cloak of Rage",
+							itemID = 222817,
+							itemName = "Consecrated Cloak",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
-							itemID = 222817,
-							itemName = "Consecrated Cloak",
-							dropSource = "Crafted",
+							itemID = 235974,
+							itemName = "Mysterious Cloak",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3062,7 +3054,7 @@ local bisData = {
 						{
 							itemID = 237664,
 							itemName = "Hood of the Sudden Eclipse",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3076,7 +3068,7 @@ local bisData = {
 						{
 							itemID = 229289,
 							itemName = "Spectral Gambler's Damned Visage",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3108,7 +3100,7 @@ local bisData = {
 						{
 							itemID = 237662,
 							itemName = "Smokemantle of the Sudden Eclipse",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3122,7 +3114,7 @@ local bisData = {
 						{
 							itemID = 229287,
 							itemName = "Spectral Gambler's Bladed Mantle",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3131,7 +3123,7 @@ local bisData = {
 						{
 							itemID = 237667,
 							itemName = "Tactical Vest of the Sudden Eclipse",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3143,9 +3135,9 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 229292,
-							itemName = "Spectral Gambler's Vest",
-							dropSource = "The Dreamrift",
+							itemID = 238031,
+							itemName = "Veiled Manta Vest",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3177,7 +3169,7 @@ local bisData = {
 						{
 							itemID = 237663,
 							itemName = "Pants of the Sudden Eclipse",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3245,7 +3237,7 @@ local bisData = {
 						{
 							itemID = 237665,
 							itemName = "Deathgrips of the Sudden Eclipse",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3384,7 +3376,7 @@ local bisData = {
 						{
 							itemID = 237664,
 							itemName = "Hood of the Sudden Eclipse",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3430,7 +3422,7 @@ local bisData = {
 						{
 							itemID = 237662,
 							itemName = "Smokemantle of the Sudden Eclipse",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3453,7 +3445,7 @@ local bisData = {
 						{
 							itemID = 237667,
 							itemName = "Tactical Vest of the Sudden Eclipse",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3498,7 +3490,7 @@ local bisData = {
 						{
 							itemID = 237663,
 							itemName = "Pants of the Sudden Eclipse",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3532,9 +3524,9 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 237565,
-							itemName = "Kinetic Dunerunners",
-							dropSource = "Manaforge Omega",
+							itemID = 246280,
+							itemName = "Boots of Titanic Deconversion",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3565,7 +3557,7 @@ local bisData = {
 						{
 							itemID = 237665,
 							itemName = "Deathgrips of the Sudden Eclipse",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3696,7 +3688,7 @@ local bisData = {
 						{
 							itemID = 237709,
 							itemName = "Dying Star's Veil",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3742,7 +3734,7 @@ local bisData = {
 						{
 							itemID = 237707,
 							itemName = "Dying Star's Pyrelights",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3765,7 +3757,7 @@ local bisData = {
 						{
 							itemID = 237712,
 							itemName = "Dying Star's Cassock",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3810,7 +3802,7 @@ local bisData = {
 						{
 							itemID = 237708,
 							itemName = "Dying Star's Leggings",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3878,7 +3870,7 @@ local bisData = {
 						{
 							itemID = 237710,
 							itemName = "Dying Star's Caress",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4005,7 +3997,7 @@ local bisData = {
 						{
 							itemID = 237709,
 							itemName = "Dying Star's Veil",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4051,7 +4043,7 @@ local bisData = {
 						{
 							itemID = 237707,
 							itemName = "Dying Star's Pyrelights",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4074,7 +4066,7 @@ local bisData = {
 						{
 							itemID = 237712,
 							itemName = "Dying Star's Cassock",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4119,7 +4111,7 @@ local bisData = {
 						{
 							itemID = 237708,
 							itemName = "Dying Star's Leggings",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4186,7 +4178,7 @@ local bisData = {
 						{
 							itemID = 237710,
 							itemName = "Dying Star's Caress",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4313,21 +4305,21 @@ local bisData = {
 						{
 							itemID = 237709,
 							itemName = "Dying Star's Veil",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
-						},
-						{
-							itemID = 237548,
-							itemName = "Twilight Tyrant's Veil",
-							dropSource = "Manaforge Omega",
-							sourceType = "raid",
-							priority = 2,
 						},
 						{
 							itemID = 222818,
 							itemName = "Consecrated Hood",
 							dropSource = "Crafted",
+							sourceType = "raid",
+							priority = 2,
+						},
+						{
+							itemID = 237548,
+							itemName = "Twilight Tyrant's Veil",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4359,7 +4351,7 @@ local bisData = {
 						{
 							itemID = 237707,
 							itemName = "Dying Star's Pyrelights",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4382,7 +4374,7 @@ local bisData = {
 						{
 							itemID = 237712,
 							itemName = "Dying Star's Cassock",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4427,7 +4419,7 @@ local bisData = {
 						{
 							itemID = 237708,
 							itemName = "Dying Star's Leggings",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4495,7 +4487,7 @@ local bisData = {
 						{
 							itemID = 237710,
 							itemName = "Dying Star's Caress",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4626,7 +4618,7 @@ local bisData = {
 						{
 							itemID = 237628,
 							itemName = "Hollow Sentinel's Stonemask",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4638,9 +4630,9 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 237535,
-							itemName = "Artoshion's Abyssal Stare",
-							dropSource = "Manaforge Omega",
+							itemID = 238028,
+							itemName = "Bone-Melted Faceplate",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4672,21 +4664,21 @@ local bisData = {
 						{
 							itemID = 237626,
 							itemName = "Hollow Sentinel's Perches",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
-						},
-						{
-							itemID = 237532,
-							itemName = "Beacons of False Righteousness",
-							dropSource = "Manaforge Omega",
-							sourceType = "raid",
-							priority = 2,
 						},
 						{
 							itemID = 222436,
 							itemName = "Everforged Pauldrons",
 							dropSource = "Crafted",
+							sourceType = "raid",
+							priority = 2,
+						},
+						{
+							itemID = 237532,
+							itemName = "Beacons of False Righteousness",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4695,7 +4687,7 @@ local bisData = {
 						{
 							itemID = 237631,
 							itemName = "Hollow Sentinel's Breastplate",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4707,9 +4699,9 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 222430,
-							itemName = "Everforged Breastplate",
-							dropSource = "Crafted",
+							itemID = 221139,
+							itemName = "Dark Priest's Carapace",
+							dropSource = "The Dawnbreaker",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4741,7 +4733,7 @@ local bisData = {
 						{
 							itemID = 237627,
 							itemName = "Hollow Sentinel's Stonekilt",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4808,7 +4800,7 @@ local bisData = {
 						{
 							itemID = 237629,
 							itemName = "Hollow Sentinel's Gauntlets",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4912,7 +4904,7 @@ local bisData = {
 						{
 							itemID = 237628,
 							itemName = "Hollow Sentinel's Stonemask",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4958,7 +4950,7 @@ local bisData = {
 						{
 							itemID = 237626,
 							itemName = "Hollow Sentinel's Perches",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4981,7 +4973,7 @@ local bisData = {
 						{
 							itemID = 237631,
 							itemName = "Hollow Sentinel's Breastplate",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5026,7 +5018,7 @@ local bisData = {
 						{
 							itemID = 237627,
 							itemName = "Hollow Sentinel's Stonekilt",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5093,7 +5085,7 @@ local bisData = {
 						{
 							itemID = 237629,
 							itemName = "Hollow Sentinel's Gauntlets",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5182,8 +5174,8 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 237734,
-							itemName = "Oath-Breaker's Recompense",
+							itemID = 243365,
+							itemName = "Maw of the Void",
 							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
@@ -5220,7 +5212,7 @@ local bisData = {
 						{
 							itemID = 237628,
 							itemName = "Hollow Sentinel's Stonemask",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5266,7 +5258,7 @@ local bisData = {
 						{
 							itemID = 237626,
 							itemName = "Hollow Sentinel's Perches",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5289,7 +5281,7 @@ local bisData = {
 						{
 							itemID = 237631,
 							itemName = "Hollow Sentinel's Breastplate",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5334,7 +5326,7 @@ local bisData = {
 						{
 							itemID = 237627,
 							itemName = "Hollow Sentinel's Stonekilt",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5401,7 +5393,7 @@ local bisData = {
 						{
 							itemID = 237629,
 							itemName = "Hollow Sentinel's Gauntlets",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5509,7 +5501,7 @@ local bisData = {
 						{
 							itemID = 237637,
 							itemName = "Aspect of Channeled Fury",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5555,7 +5547,7 @@ local bisData = {
 						{
 							itemID = 237635,
 							itemName = "Fangs of Channeled Fury",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5578,7 +5570,7 @@ local bisData = {
 						{
 							itemID = 237640,
 							itemName = "Furs of Channeled Fury",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5624,7 +5616,7 @@ local bisData = {
 						{
 							itemID = 237636,
 							itemName = "Tassets of Channeled Fury",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5691,7 +5683,7 @@ local bisData = {
 						{
 							itemID = 237638,
 							itemName = "Claws of Channeled Fury",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5735,15 +5727,15 @@ local bisData = {
 					},
 					[13] = {
 						{
-							itemID = 242402,
-							itemName = "Araz's Ritual Forge",
+							itemID = 242392,
+							itemName = "Diamantine Voidcore",
 							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
-							itemID = 242392,
-							itemName = "Diamantine Voidcore",
+							itemID = 242402,
+							itemName = "Araz's Ritual Forge",
 							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
@@ -5818,7 +5810,7 @@ local bisData = {
 						{
 							itemID = 237637,
 							itemName = "Aspect of Channeled Fury",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5830,9 +5822,9 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 219337,
-							itemName = "Glyph-Etched Guise",
-							dropSource = "Crafted",
+							itemID = 237536,
+							itemName = "Bite of the Astral Wastes",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5864,7 +5856,7 @@ local bisData = {
 						{
 							itemID = 237635,
 							itemName = "Fangs of Channeled Fury",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5887,7 +5879,7 @@ local bisData = {
 						{
 							itemID = 237640,
 							itemName = "Furs of Channeled Fury",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5933,7 +5925,7 @@ local bisData = {
 						{
 							itemID = 237636,
 							itemName = "Tassets of Channeled Fury",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6000,7 +5992,7 @@ local bisData = {
 						{
 							itemID = 237638,
 							itemName = "Claws of Channeled Fury",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6112,9 +6104,9 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 222442,
-							itemName = "Everforged Mace",
-							dropSource = "Crafted",
+							itemID = 237738,
+							itemName = "Unbound Training Claws",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6127,7 +6119,7 @@ local bisData = {
 						{
 							itemID = 237637,
 							itemName = "Aspect of Channeled Fury",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6173,7 +6165,7 @@ local bisData = {
 						{
 							itemID = 237635,
 							itemName = "Fangs of Channeled Fury",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6196,7 +6188,7 @@ local bisData = {
 						{
 							itemID = 237640,
 							itemName = "Furs of Channeled Fury",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6208,9 +6200,9 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 237529,
-							itemName = "Harvested Attendant's Uniform",
-							dropSource = "Manaforge Omega",
+							itemID = 219336,
+							itemName = "Glyph-Etched Breastplate",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6241,7 +6233,7 @@ local bisData = {
 						{
 							itemID = 237636,
 							itemName = "Tassets of Channeled Fury",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6310,7 +6302,7 @@ local bisData = {
 						{
 							itemID = 237638,
 							itemName = "Claws of Channeled Fury",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6441,7 +6433,7 @@ local bisData = {
 						{
 							itemID = 237718,
 							itemName = "Augur's Ephemeral Wide-Brim",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6487,7 +6479,7 @@ local bisData = {
 						{
 							itemID = 237716,
 							itemName = "Augur's Ephemeral Orbs of Power",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6510,7 +6502,7 @@ local bisData = {
 						{
 							itemID = 237721,
 							itemName = "Augur's Ephemeral Habiliments",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6555,7 +6547,7 @@ local bisData = {
 						{
 							itemID = 237717,
 							itemName = "Augur's Ephemeral Trousers",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6567,9 +6559,9 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 185799,
-							itemName = "Hyperlight Leggings",
-							dropSource = "Tazavesh, the Veiled Market",
+							itemID = 234495,
+							itemName = "Razorchoke Slacks",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6622,7 +6614,7 @@ local bisData = {
 						{
 							itemID = 237719,
 							itemName = "Augur's Ephemeral Mitts",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6749,7 +6741,7 @@ local bisData = {
 						{
 							itemID = 237718,
 							itemName = "Augur's Ephemeral Wide-Brim",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6795,7 +6787,7 @@ local bisData = {
 						{
 							itemID = 237716,
 							itemName = "Augur's Ephemeral Orbs of Power",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6818,7 +6810,7 @@ local bisData = {
 						{
 							itemID = 237721,
 							itemName = "Augur's Ephemeral Habiliments",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6863,7 +6855,7 @@ local bisData = {
 						{
 							itemID = 237717,
 							itemName = "Augur's Ephemeral Trousers",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6931,7 +6923,7 @@ local bisData = {
 						{
 							itemID = 237719,
 							itemName = "Augur's Ephemeral Mitts",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6943,9 +6935,9 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 246275,
-							itemName = "Codebreaker's Cunning Handwraps",
-							dropSource = "Tazavesh, the Veiled Market",
+							itemID = 222822,
+							itemName = "Consecrated Gloves",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7058,7 +7050,7 @@ local bisData = {
 						{
 							itemID = 237718,
 							itemName = "Augur's Ephemeral Wide-Brim",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7104,7 +7096,7 @@ local bisData = {
 						{
 							itemID = 237716,
 							itemName = "Augur's Ephemeral Orbs of Power",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7127,7 +7119,7 @@ local bisData = {
 						{
 							itemID = 237721,
 							itemName = "Augur's Ephemeral Habiliments",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7171,21 +7163,21 @@ local bisData = {
 						{
 							itemID = 237717,
 							itemName = "Augur's Ephemeral Trousers",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
-						},
-						{
-							itemID = 222820,
-							itemName = "Consecrated Leggings",
-							dropSource = "Crafted",
-							sourceType = "raid",
-							priority = 2,
 						},
 						{
 							itemID = 237542,
 							itemName = "Stellar Navigation Slacks",
 							dropSource = "Manaforge Omega",
+							sourceType = "raid",
+							priority = 2,
+						},
+						{
+							itemID = 222820,
+							itemName = "Consecrated Leggings",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7228,8 +7220,9 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 237714,
-							itemName = "Augur's Ephemeral Bindings",
+							itemID = 237534,
+							itemName = "Singed Sievecuffs",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7238,7 +7231,7 @@ local bisData = {
 						{
 							itemID = 237719,
 							itemName = "Augur's Ephemeral Mitts",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7249,9 +7242,8 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 237549,
-							itemName = "Bloodwrath's Gnarled Claws",
-							dropSource = "Manaforge Omega",
+							itemID = 246631,
+							itemName = "Ascension Arrestor's Mitts",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7355,15 +7347,15 @@ local bisData = {
 							priority = 1,
 						},
 						{
-							itemID = 237742,
-							itemName = "Fractillus' Last Breath",
+							itemID = 237724,
+							itemName = "Iris of the Dark Beyond",
 							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
-							itemID = 237724,
-							itemName = "Iris of the Dark Beyond",
+							itemID = 237742,
+							itemName = "Fractillus' Last Breath",
 							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
@@ -7381,7 +7373,7 @@ local bisData = {
 						{
 							itemID = 237700,
 							itemName = "Inquisitor's Portal to Madness",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7427,7 +7419,7 @@ local bisData = {
 						{
 							itemID = 237698,
 							itemName = "Inquisitor's Gaze of Madness",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7450,7 +7442,7 @@ local bisData = {
 						{
 							itemID = 237703,
 							itemName = "Inquisitor's Robes of Madness",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7496,7 +7488,7 @@ local bisData = {
 						{
 							itemID = 237699,
 							itemName = "Inquisitor's Leggings of Madness",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7531,9 +7523,8 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 243048,
-							itemName = "Technomancer's Service Sandals",
-							dropSource = "Crafted",
+							itemID = 237702,
+							itemName = "Inquisitor's Treads of Madness",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7564,7 +7555,7 @@ local bisData = {
 						{
 							itemID = 237701,
 							itemName = "Inquisitor's Clutches of Madness",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7691,7 +7682,7 @@ local bisData = {
 						{
 							itemID = 237700,
 							itemName = "Inquisitor's Portal to Madness",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7737,7 +7728,7 @@ local bisData = {
 						{
 							itemID = 237698,
 							itemName = "Inquisitor's Gaze of Madness",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7751,7 +7742,7 @@ local bisData = {
 						{
 							itemID = 229323,
 							itemName = "Spliced Fiendtrader's Loyal Servants",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7760,7 +7751,7 @@ local bisData = {
 						{
 							itemID = 237703,
 							itemName = "Inquisitor's Robes of Madness",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7805,7 +7796,7 @@ local bisData = {
 						{
 							itemID = 237699,
 							itemName = "Inquisitor's Leggings of Madness",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7872,7 +7863,7 @@ local bisData = {
 						{
 							itemID = 237701,
 							itemName = "Inquisitor's Clutches of Madness",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8012,21 +8003,21 @@ local bisData = {
 						{
 							itemID = 237700,
 							itemName = "Inquisitor's Portal to Madness",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
-						},
-						{
-							itemID = 222818,
-							itemName = "Consecrated Hood",
-							dropSource = "Crafted",
-							sourceType = "raid",
-							priority = 2,
 						},
 						{
 							itemID = 237548,
 							itemName = "Twilight Tyrant's Veil",
 							dropSource = "Manaforge Omega",
+							sourceType = "raid",
+							priority = 2,
+						},
+						{
+							itemID = 222818,
+							itemName = "Consecrated Hood",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8058,7 +8049,7 @@ local bisData = {
 						{
 							itemID = 237698,
 							itemName = "Inquisitor's Gaze of Madness",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8081,7 +8072,7 @@ local bisData = {
 						{
 							itemID = 237703,
 							itemName = "Inquisitor's Robes of Madness",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8126,7 +8117,7 @@ local bisData = {
 						{
 							itemID = 237699,
 							itemName = "Inquisitor's Leggings of Madness",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8193,7 +8184,7 @@ local bisData = {
 						{
 							itemID = 237701,
 							itemName = "Inquisitor's Clutches of Madness",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8265,12 +8256,6 @@ local bisData = {
 							sourceType = "raid",
 							priority = 1,
 						},
-						{
-							itemID = 154023,
-							itemName = "Felsoul Cloak of Destruction",
-							sourceType = "raid",
-							priority = 2,
-						},
 					},
 					[16] = {
 						{
@@ -8330,7 +8315,7 @@ local bisData = {
 						{
 							itemID = 237673,
 							itemName = "Half-Mask of Fallen Storms",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8376,7 +8361,7 @@ local bisData = {
 						{
 							itemID = 237671,
 							itemName = "Glyphs of Fallen Storms",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8399,7 +8384,7 @@ local bisData = {
 						{
 							itemID = 237676,
 							itemName = "Gi of Fallen Storms",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8444,7 +8429,7 @@ local bisData = {
 						{
 							itemID = 237672,
 							itemName = "Legwraps of Fallen Storms",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8512,7 +8497,7 @@ local bisData = {
 						{
 							itemID = 237674,
 							itemName = "Grasp of Fallen Storms",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8639,7 +8624,7 @@ local bisData = {
 						{
 							itemID = 237673,
 							itemName = "Half-Mask of Fallen Storms",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8685,7 +8670,7 @@ local bisData = {
 						{
 							itemID = 237671,
 							itemName = "Glyphs of Fallen Storms",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8708,7 +8693,7 @@ local bisData = {
 						{
 							itemID = 237676,
 							itemName = "Gi of Fallen Storms",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8743,8 +8728,8 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 237670,
-							itemName = "Thunderbund of Fallen Storms",
+							itemID = 219502,
+							itemName = "Adrenal Surge Clasp",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8753,7 +8738,7 @@ local bisData = {
 						{
 							itemID = 237672,
 							itemName = "Legwraps of Fallen Storms",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8821,7 +8806,7 @@ local bisData = {
 						{
 							itemID = 237674,
 							itemName = "Grasp of Fallen Storms",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8948,7 +8933,7 @@ local bisData = {
 						{
 							itemID = 237673,
 							itemName = "Half-Mask of Fallen Storms",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8960,9 +8945,9 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 219329,
-							itemName = "Rune-Branded Hood",
-							dropSource = "Crafted",
+							itemID = 234498,
+							itemName = "Waterworks Filtration Mask",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8994,7 +8979,7 @@ local bisData = {
 						{
 							itemID = 237671,
 							itemName = "Glyphs of Fallen Storms",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9017,7 +9002,7 @@ local bisData = {
 						{
 							itemID = 237676,
 							itemName = "Gi of Fallen Storms",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9062,7 +9047,7 @@ local bisData = {
 						{
 							itemID = 237672,
 							itemName = "Legwraps of Fallen Storms",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9074,9 +9059,9 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 219332,
-							itemName = "Rune-Branded Legwraps",
-							dropSource = "Crafted",
+							itemID = 237531,
+							itemName = "Elite Shadowguard Legwraps",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9130,7 +9115,7 @@ local bisData = {
 						{
 							itemID = 237674,
 							itemName = "Grasp of Fallen Storms",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9261,21 +9246,21 @@ local bisData = {
 						{
 							itemID = 237682,
 							itemName = "Skymane of the Mother Eagle",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
-						},
-						{
-							itemID = 219329,
-							itemName = "Rune-Branded Hood",
-							dropSource = "Crafted",
-							sourceType = "raid",
-							priority = 2,
 						},
 						{
 							itemID = 237525,
 							itemName = "Irradiated Impurity Filter",
 							dropSource = "Manaforge Omega",
+							sourceType = "raid",
+							priority = 2,
+						},
+						{
+							itemID = 219329,
+							itemName = "Rune-Branded Hood",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9307,7 +9292,7 @@ local bisData = {
 						{
 							itemID = 237680,
 							itemName = "Ritual Pauldrons of the Mother Eagle",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9330,7 +9315,7 @@ local bisData = {
 						{
 							itemID = 237685,
 							itemName = "Vest of the Mother Eagle",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9375,21 +9360,21 @@ local bisData = {
 						{
 							itemID = 237681,
 							itemName = "Breeches of the Mother Eagle",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
-						},
-						{
-							itemID = 219332,
-							itemName = "Rune-Branded Legwraps",
-							dropSource = "Crafted",
-							sourceType = "raid",
-							priority = 2,
 						},
 						{
 							itemID = 242473,
 							itemName = "Spittle-Stained Trousers",
 							dropSource = "Eco-Dome Al'dani",
+							sourceType = "raid",
+							priority = 2,
+						},
+						{
+							itemID = 219332,
+							itemName = "Rune-Branded Legwraps",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9443,7 +9428,7 @@ local bisData = {
 						{
 							itemID = 237683,
 							itemName = "Wings of the Mother Eagle",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9455,9 +9440,9 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 185791,
-							itemName = "Knuckle-Dusting Handwraps",
-							dropSource = "Tazavesh, the Veiled Market",
+							itemID = 178832,
+							itemName = "Gloves of Haunting Fixation",
+							dropSource = "Halls of Atonement",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9570,7 +9555,7 @@ local bisData = {
 						{
 							itemID = 237682,
 							itemName = "Skymane of the Mother Eagle",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9616,7 +9601,7 @@ local bisData = {
 						{
 							itemID = 237680,
 							itemName = "Ritual Pauldrons of the Mother Eagle",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9639,7 +9624,7 @@ local bisData = {
 						{
 							itemID = 237685,
 							itemName = "Vest of the Mother Eagle",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9684,7 +9669,7 @@ local bisData = {
 						{
 							itemID = 237681,
 							itemName = "Breeches of the Mother Eagle",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9718,9 +9703,9 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 246280,
-							itemName = "Boots of Titanic Deconversion",
-							dropSource = "Tazavesh, the Veiled Market",
+							itemID = 237553,
+							itemName = "Laboratory Test Slippers",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9751,7 +9736,7 @@ local bisData = {
 						{
 							itemID = 237683,
 							itemName = "Wings of the Mother Eagle",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9855,7 +9840,7 @@ local bisData = {
 						{
 							itemID = 237682,
 							itemName = "Skymane of the Mother Eagle",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9901,7 +9886,7 @@ local bisData = {
 						{
 							itemID = 237680,
 							itemName = "Ritual Pauldrons of the Mother Eagle",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9924,7 +9909,7 @@ local bisData = {
 						{
 							itemID = 237685,
 							itemName = "Vest of the Mother Eagle",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9968,21 +9953,21 @@ local bisData = {
 						{
 							itemID = 237681,
 							itemName = "Breeches of the Mother Eagle",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
-						},
-						{
-							itemID = 219332,
-							itemName = "Rune-Branded Legwraps",
-							dropSource = "Crafted",
-							sourceType = "raid",
-							priority = 2,
 						},
 						{
 							itemID = 237531,
 							itemName = "Elite Shadowguard Legwraps",
 							dropSource = "Manaforge Omega",
+							sourceType = "raid",
+							priority = 2,
+						},
+						{
+							itemID = 219332,
+							itemName = "Rune-Branded Legwraps",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10036,7 +10021,7 @@ local bisData = {
 						{
 							itemID = 237683,
 							itemName = "Wings of the Mother Eagle",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10132,6 +10117,14 @@ local bisData = {
 							priority = 3,
 						},
 					},
+					[17] = {
+						{
+							itemID = 238006,
+							itemName = "Soulbearer's Censer",
+							sourceType = "raid",
+							priority = 1,
+						},
+					},
 				},
 			},
 			[105] = {
@@ -10140,7 +10133,7 @@ local bisData = {
 						{
 							itemID = 237682,
 							itemName = "Skymane of the Mother Eagle",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10161,16 +10154,16 @@ local bisData = {
 					},
 					[2] = {
 						{
-							itemID = 237569,
-							itemName = "Duskblaze's Desperation",
-							dropSource = "Manaforge Omega",
+							itemID = 215136,
+							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
-							itemID = 215136,
-							itemName = "Amulet of Earthen Craftsmanship",
-							dropSource = "Crafted",
+							itemID = 237569,
+							itemName = "Duskblaze's Desperation",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -10186,7 +10179,7 @@ local bisData = {
 						{
 							itemID = 237680,
 							itemName = "Ritual Pauldrons of the Mother Eagle",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10209,7 +10202,7 @@ local bisData = {
 						{
 							itemID = 237685,
 							itemName = "Vest of the Mother Eagle",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10254,7 +10247,7 @@ local bisData = {
 						{
 							itemID = 237681,
 							itemName = "Breeches of the Mother Eagle",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10322,7 +10315,7 @@ local bisData = {
 						{
 							itemID = 237683,
 							itemName = "Wings of the Mother Eagle",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10453,7 +10446,7 @@ local bisData = {
 						{
 							itemID = 237691,
 							itemName = "Charhound's Vicious Scalp",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10499,7 +10492,7 @@ local bisData = {
 						{
 							itemID = 237689,
 							itemName = "Charhound's Vicious Hornguards",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10522,7 +10515,7 @@ local bisData = {
 						{
 							itemID = 237694,
 							itemName = "Charhound's Vicious Bindings",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10568,7 +10561,7 @@ local bisData = {
 						{
 							itemID = 237690,
 							itemName = "Charhound's Vicious Hidecoat",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10637,7 +10630,7 @@ local bisData = {
 						{
 							itemID = 237692,
 							itemName = "Charhound's Vicious Felclaws",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10764,7 +10757,7 @@ local bisData = {
 						{
 							itemID = 237691,
 							itemName = "Charhound's Vicious Scalp",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10810,7 +10803,7 @@ local bisData = {
 						{
 							itemID = 237689,
 							itemName = "Charhound's Vicious Hornguards",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10833,7 +10826,7 @@ local bisData = {
 						{
 							itemID = 237694,
 							itemName = "Charhound's Vicious Bindings",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10845,9 +10838,9 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 219328,
-							itemName = "Rune-Branded Tunic",
-							dropSource = "Crafted",
+							itemID = 221130,
+							itemName = "Seraphic Wraps of the Ordained",
+							dropSource = "Priory of the Sacred Flame",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10879,7 +10872,7 @@ local bisData = {
 						{
 							itemID = 237690,
 							itemName = "Charhound's Vicious Hidecoat",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10946,7 +10939,7 @@ local bisData = {
 						{
 							itemID = 237692,
 							itemName = "Charhound's Vicious Felclaws",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -10981,9 +10974,9 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 246281,
-							itemName = "Ring of the Panoply",
-							dropSource = "Tazavesh, the Veiled Market",
+							itemID = 221136,
+							itemName = "Devout Zealot's Ring",
+							dropSource = "The Dawnbreaker",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -11077,7 +11070,7 @@ local bisData = {
 						{
 							itemID = 237655,
 							itemName = "Spellweaver's Immaculate Focus",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -11123,7 +11116,7 @@ local bisData = {
 						{
 							itemID = 237653,
 							itemName = "Spellweaver's Immaculate Pauldrons",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -11146,7 +11139,7 @@ local bisData = {
 						{
 							itemID = 237658,
 							itemName = "Spellweaver's Immaculate Crestward",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -11192,7 +11185,7 @@ local bisData = {
 						{
 							itemID = 237654,
 							itemName = "Spellweaver's Immaculate Runeslacks",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -11206,7 +11199,7 @@ local bisData = {
 						{
 							itemID = 229279,
 							itemName = "Opulent Treasurescale's Petticoat",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -11261,7 +11254,7 @@ local bisData = {
 						{
 							itemID = 237656,
 							itemName = "Spellweaver's Immaculate Scaleguards",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -11401,7 +11394,7 @@ local bisData = {
 						{
 							itemID = 237655,
 							itemName = "Spellweaver's Immaculate Focus",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -11447,7 +11440,7 @@ local bisData = {
 						{
 							itemID = 237653,
 							itemName = "Spellweaver's Immaculate Pauldrons",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -11470,7 +11463,7 @@ local bisData = {
 						{
 							itemID = 237658,
 							itemName = "Spellweaver's Immaculate Crestward",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -11516,7 +11509,7 @@ local bisData = {
 						{
 							itemID = 237654,
 							itemName = "Spellweaver's Immaculate Runeslacks",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -11551,9 +11544,9 @@ local bisData = {
 							priority = 2,
 						},
 						{
-							itemID = 238030,
-							itemName = "Voidhound Trainer's Boots",
-							dropSource = "Crafted",
+							itemID = 242483,
+							itemName = "Greaves of the Wild Pair",
+							dropSource = "Eco-Dome Al'dani",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -11585,7 +11578,7 @@ local bisData = {
 						{
 							itemID = 237656,
 							itemName = "Spellweaver's Immaculate Scaleguards",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -11712,7 +11705,7 @@ local bisData = {
 						{
 							itemID = 237655,
 							itemName = "Spellweaver's Immaculate Focus",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -11758,7 +11751,7 @@ local bisData = {
 						{
 							itemID = 237653,
 							itemName = "Spellweaver's Immaculate Pauldrons",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -11781,7 +11774,7 @@ local bisData = {
 						{
 							itemID = 237658,
 							itemName = "Spellweaver's Immaculate Crestward",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -11809,15 +11802,15 @@ local bisData = {
 							priority = 1,
 						},
 						{
-							itemID = 237522,
-							itemName = "Colossal Lifetether",
+							itemID = 237554,
+							itemName = "Clasp of Furious Freedom",
 							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
-							itemID = 237554,
-							itemName = "Clasp of Furious Freedom",
+							itemID = 237522,
+							itemName = "Colossal Lifetether",
 							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
@@ -11827,7 +11820,7 @@ local bisData = {
 						{
 							itemID = 237654,
 							itemName = "Spellweaver's Immaculate Runeslacks",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -11896,7 +11889,7 @@ local bisData = {
 						{
 							itemID = 237656,
 							itemName = "Spellweaver's Immaculate Scaleguards",
-							dropSource = "The Dreamrift",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -11967,13 +11960,6 @@ local bisData = {
 							itemName = "Reshii Wraps",
 							sourceType = "raid",
 							priority = 1,
-						},
-						{
-							itemID = 221088,
-							itemName = "Anvilhide Cape",
-							dropSource = "The Stonevault",
-							sourceType = "raid",
-							priority = 2,
 						},
 					},
 					[16] = {
