@@ -120,7 +120,7 @@ function API.GetBiSForSlot(classID, specID, slotID, contentType, source)
 
         local slotItems = db[classID].specs[specID][contentType][slotID]
         for _, item in ipairs(slotItems) do
-            -- Enrich drop source from encounter journal if not in scraped data
+            -- Prefer dropSource baked into DB, fall back to runtime lookup
             local dropSource = item.dropSource
             if (not dropSource or dropSource == "") and addon.DropSourceProvider then
                 dropSource = addon.DropSourceProvider:GetDropSource(item.itemID)
@@ -181,6 +181,7 @@ function API.IsItemBiS(itemID, contentType, source)
                                     for slotID, slotItems in pairs(specData[cType]) do
                                         for _, item in ipairs(slotItems) do
                                             if item.itemID == itemID then
+                                                -- Prefer dropSource baked into DB, fall back to runtime lookup
                                                 local dropSource = item.dropSource
                                                 if (not dropSource or dropSource == "") and addon.DropSourceProvider then
                                                     dropSource = addon.DropSourceProvider:GetDropSource(item.itemID)
@@ -192,6 +193,7 @@ function API.IsItemBiS(itemID, contentType, source)
                                                     classID = classID,
                                                     specID = specID,
                                                     slotID = slotID,
+                                                    itemID = item.itemID,
                                                     priority = item.priority or 1,
                                                     dropSource = dropSource,
                                                 })
