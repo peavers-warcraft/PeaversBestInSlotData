@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ArchonRaidDB = addonTable.ArchonRaidDB or {}
 
 local bisData = {
-	updated = "2026-02-11 00:45:07",
+	updated = "2026-02-11 01:09:44",
 
 	[1] = {
 		specs = {
@@ -24,6 +24,7 @@ local bisData = {
 						{
 							itemID = 178812,
 							itemName = "Wing Commander's Helmet",
+							dropSource = "Halls of Atonement",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -32,12 +33,14 @@ local bisData = {
 						{
 							itemID = 185842,
 							itemName = "Ornately Engraved Amplifier",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237568,
 							itemName = "Chrysalis of Sundered Souls",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -58,6 +61,7 @@ local bisData = {
 						{
 							itemID = 246286,
 							itemName = "Spaulders of Unleashed Pride",
+							dropSource = "Halls of Atonement",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -78,12 +82,14 @@ local bisData = {
 						{
 							itemID = 237528,
 							itemName = "Manaforged Displacement Chassis",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 178814,
 							itemName = "Breastplate of Otherworldly Influence",
+							dropSource = "Halls of Atonement",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -98,6 +104,7 @@ local bisData = {
 						{
 							itemID = 237550,
 							itemName = "Fresh Ethereal Fetters",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -118,6 +125,7 @@ local bisData = {
 						{
 							itemID = 237530,
 							itemName = "Shrapnel-Fused Legguards",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -132,6 +140,7 @@ local bisData = {
 						{
 							itemID = 243307,
 							itemName = "Interloper's Plated Sabatons",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -144,6 +153,7 @@ local bisData = {
 						{
 							itemID = 237551,
 							itemName = "Sterilized Expulsion Boots",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -158,6 +168,7 @@ local bisData = {
 						{
 							itemID = 237545,
 							itemName = "Discarded Nutrient Shackles",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -178,6 +189,7 @@ local bisData = {
 						{
 							itemID = 237526,
 							itemName = "Breached Containment Guards",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -198,12 +210,14 @@ local bisData = {
 						{
 							itemID = 237567,
 							itemName = "Logic Gate: Alpha",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242405,
 							itemName = "Band of the Shattered Soul",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -212,18 +226,21 @@ local bisData = {
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242394,
 							itemName = "Eradicating Arcanocore",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242399,
 							itemName = "Screams of a Forgotten Sky",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -244,6 +261,7 @@ local bisData = {
 						{
 							itemID = 133363,
 							itemName = "Troggstitched Drape",
+							dropSource = "Grim Batol",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -252,12 +270,14 @@ local bisData = {
 						{
 							itemID = 242487,
 							itemName = "Fatebound Crusader",
+							dropSource = "Eco-Dome Al'dani",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 243365,
 							itemName = "Maw of the Void",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -282,6 +302,7 @@ local bisData = {
 						{
 							itemID = 178812,
 							itemName = "Wing Commander's Helmet",
+							dropSource = "Halls of Atonement",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -296,6 +317,7 @@ local bisData = {
 						{
 							itemID = 237568,
 							itemName = "Chrysalis of Sundered Souls",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -308,6 +330,7 @@ local bisData = {
 						{
 							itemID = 185820,
 							itemName = "Cabochon of the Infinite Flight",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -322,6 +345,7 @@ local bisData = {
 						{
 							itemID = 237532,
 							itemName = "Beacons of False Righteousness",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -342,12 +366,14 @@ local bisData = {
 						{
 							itemID = 237528,
 							itemName = "Manaforged Displacement Chassis",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 221161,
 							itemName = "Experimental Goresilk Chestguard",
+							dropSource = "Ara-Kara, City of Echoes",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -356,6 +382,7 @@ local bisData = {
 						{
 							itemID = 237550,
 							itemName = "Fresh Ethereal Fetters",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -382,6 +409,7 @@ local bisData = {
 						{
 							itemID = 237530,
 							itemName = "Shrapnel-Fused Legguards",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -396,12 +424,14 @@ local bisData = {
 						{
 							itemID = 243307,
 							itemName = "Interloper's Plated Sabatons",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237551,
 							itemName = "Sterilized Expulsion Boots",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -422,12 +452,14 @@ local bisData = {
 						{
 							itemID = 237561,
 							itemName = "Yoke of Enveloping Hatred",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237545,
 							itemName = "Discarded Nutrient Shackles",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -448,6 +480,7 @@ local bisData = {
 						{
 							itemID = 185792,
 							itemName = "Achillite's Unbreakable Grip",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -462,12 +495,14 @@ local bisData = {
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 178824,
 							itemName = "Signet of the False Accuser",
+							dropSource = "Halls of Atonement",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -476,18 +511,21 @@ local bisData = {
 						{
 							itemID = 242394,
 							itemName = "Eradicating Arcanocore",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242399,
 							itemName = "Screams of a Forgotten Sky",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -504,18 +542,21 @@ local bisData = {
 						{
 							itemID = 237737,
 							itemName = "Photon Sabre Prime",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 234490,
 							itemName = "Circuit Breaker",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 221127,
 							itemName = "Emberbrand Zweihander",
+							dropSource = "Priory of the Sacred Flame",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -536,6 +577,7 @@ local bisData = {
 						{
 							itemID = 237737,
 							itemName = "Photon Sabre Prime",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -560,6 +602,7 @@ local bisData = {
 						{
 							itemID = 246283,
 							itemName = "Crown of Absolute Command",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -568,6 +611,7 @@ local bisData = {
 						{
 							itemID = 237568,
 							itemName = "Chrysalis of Sundered Souls",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -580,6 +624,7 @@ local bisData = {
 						{
 							itemID = 185820,
 							itemName = "Cabochon of the Infinite Flight",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -600,6 +645,7 @@ local bisData = {
 						{
 							itemID = 185803,
 							itemName = "Stoneflesh Spaulders",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -614,12 +660,14 @@ local bisData = {
 						{
 							itemID = 237528,
 							itemName = "Manaforged Displacement Chassis",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 221161,
 							itemName = "Experimental Goresilk Chestguard",
+							dropSource = "Ara-Kara, City of Echoes",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -634,12 +682,14 @@ local bisData = {
 						{
 							itemID = 237550,
 							itemName = "Fresh Ethereal Fetters",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 234505,
 							itemName = "Venture Contractor's Floodlight",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -654,6 +704,7 @@ local bisData = {
 						{
 							itemID = 237530,
 							itemName = "Shrapnel-Fused Legguards",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -668,6 +719,7 @@ local bisData = {
 						{
 							itemID = 243307,
 							itemName = "Interloper's Plated Sabatons",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -680,6 +732,7 @@ local bisData = {
 						{
 							itemID = 237551,
 							itemName = "Sterilized Expulsion Boots",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -694,12 +747,14 @@ local bisData = {
 						{
 							itemID = 237545,
 							itemName = "Discarded Nutrient Shackles",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237561,
 							itemName = "Yoke of Enveloping Hatred",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -714,6 +769,7 @@ local bisData = {
 						{
 							itemID = 237526,
 							itemName = "Breached Containment Guards",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -734,12 +790,14 @@ local bisData = {
 						{
 							itemID = 242405,
 							itemName = "Band of the Shattered Soul",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185813,
 							itemName = "Signet of Collapsing Stars",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -748,18 +806,21 @@ local bisData = {
 						{
 							itemID = 242401,
 							itemName = "Brand of Ceaseless Ire",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 219309,
 							itemName = "Tome of Light's Devotion",
+							dropSource = "Priory of the Sacred Flame",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -776,18 +837,21 @@ local bisData = {
 						{
 							itemID = 237813,
 							itemName = "Factory-Issue Plexhammer",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237734,
 							itemName = "Oath-Breaker's Recompense",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185824,
 							itemName = "Blade of Grievous Harm",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -796,6 +860,7 @@ local bisData = {
 						{
 							itemID = 237723,
 							itemName = "Ward of the Weaving-Beast",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -808,6 +873,7 @@ local bisData = {
 						{
 							itemID = 237741,
 							itemName = "Event Horizon",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -830,6 +896,7 @@ local bisData = {
 						{
 							itemID = 246283,
 							itemName = "Crown of Absolute Command",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -850,12 +917,14 @@ local bisData = {
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185842,
 							itemName = "Ornately Engraved Amplifier",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -876,6 +945,7 @@ local bisData = {
 						{
 							itemID = 237532,
 							itemName = "Beacons of False Righteousness",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -890,6 +960,7 @@ local bisData = {
 						{
 							itemID = 237528,
 							itemName = "Manaforged Displacement Chassis",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -910,6 +981,7 @@ local bisData = {
 						{
 							itemID = 237550,
 							itemName = "Fresh Ethereal Fetters",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -936,6 +1008,7 @@ local bisData = {
 						{
 							itemID = 237530,
 							itemName = "Shrapnel-Fused Legguards",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -944,12 +1017,14 @@ local bisData = {
 						{
 							itemID = 243307,
 							itemName = "Interloper's Plated Sabatons",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237551,
 							itemName = "Sterilized Expulsion Boots",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -970,12 +1045,14 @@ local bisData = {
 						{
 							itemID = 237545,
 							itemName = "Discarded Nutrient Shackles",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237561,
 							itemName = "Yoke of Enveloping Hatred",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -990,12 +1067,14 @@ local bisData = {
 						{
 							itemID = 237526,
 							itemName = "Breached Containment Guards",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 234504,
 							itemName = "Jumpstarter's Scaffold-Scrapers",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1010,12 +1089,14 @@ local bisData = {
 						{
 							itemID = 237567,
 							itemName = "Logic Gate: Alpha",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242405,
 							itemName = "Band of the Shattered Soul",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1024,18 +1105,21 @@ local bisData = {
 						{
 							itemID = 242392,
 							itemName = "Diamantine Voidcore",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242400,
 							itemName = "Nexus-King's Command",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1052,6 +1136,7 @@ local bisData = {
 						{
 							itemID = 237735,
 							itemName = "Voidglass Sovereign's Blade",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1064,6 +1149,7 @@ local bisData = {
 						{
 							itemID = 237736,
 							itemName = "Overclocked Plexhammer",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1072,6 +1158,7 @@ local bisData = {
 						{
 							itemID = 237723,
 							itemName = "Ward of the Weaving-Beast",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1084,6 +1171,7 @@ local bisData = {
 						{
 							itemID = 237741,
 							itemName = "Event Horizon",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1102,6 +1190,7 @@ local bisData = {
 						{
 							itemID = 246283,
 							itemName = "Crown of Absolute Command",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1122,12 +1211,14 @@ local bisData = {
 						{
 							itemID = 185842,
 							itemName = "Ornately Engraved Amplifier",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185820,
 							itemName = "Cabochon of the Infinite Flight",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1142,6 +1233,7 @@ local bisData = {
 						{
 							itemID = 185803,
 							itemName = "Stoneflesh Spaulders",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1162,12 +1254,14 @@ local bisData = {
 						{
 							itemID = 237528,
 							itemName = "Manaforged Displacement Chassis",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 234506,
 							itemName = "Muckdiver's Wading Plate",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1188,6 +1282,7 @@ local bisData = {
 						{
 							itemID = 237550,
 							itemName = "Fresh Ethereal Fetters",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1202,6 +1297,7 @@ local bisData = {
 						{
 							itemID = 237530,
 							itemName = "Shrapnel-Fused Legguards",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1216,18 +1312,21 @@ local bisData = {
 						{
 							itemID = 243307,
 							itemName = "Interloper's Plated Sabatons",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237551,
 							itemName = "Sterilized Expulsion Boots",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185787,
 							itemName = "Implacable Weatherproof Treads",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1242,12 +1341,14 @@ local bisData = {
 						{
 							itemID = 237545,
 							itemName = "Discarded Nutrient Shackles",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 221118,
 							itemName = "Flameforged Armguard",
+							dropSource = "Priory of the Sacred Flame",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1262,6 +1363,7 @@ local bisData = {
 						{
 							itemID = 237526,
 							itemName = "Breached Containment Guards",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1282,12 +1384,14 @@ local bisData = {
 						{
 							itemID = 237567,
 							itemName = "Logic Gate: Alpha",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 221136,
 							itemName = "Devout Zealot's Ring",
+							dropSource = "The Dawnbreaker",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1296,18 +1400,21 @@ local bisData = {
 						{
 							itemID = 242401,
 							itemName = "Brand of Ceaseless Ire",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 219309,
 							itemName = "Tome of Light's Devotion",
+							dropSource = "Priory of the Sacred Flame",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1324,6 +1431,7 @@ local bisData = {
 						{
 							itemID = 237813,
 							itemName = "Factory-Issue Plexhammer",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1336,6 +1444,7 @@ local bisData = {
 						{
 							itemID = 185824,
 							itemName = "Blade of Grievous Harm",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1344,6 +1453,7 @@ local bisData = {
 						{
 							itemID = 237723,
 							itemName = "Ward of the Weaving-Beast",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1356,6 +1466,7 @@ local bisData = {
 						{
 							itemID = 242493,
 							itemName = "Starlit Safeguard",
+							dropSource = "Eco-Dome Al'dani",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1380,6 +1491,7 @@ local bisData = {
 						{
 							itemID = 246283,
 							itemName = "Crown of Absolute Command",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1394,12 +1506,14 @@ local bisData = {
 						{
 							itemID = 185842,
 							itemName = "Ornately Engraved Amplifier",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242406,
 							itemName = "Salhadaar's Folly",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1420,6 +1534,7 @@ local bisData = {
 						{
 							itemID = 185803,
 							itemName = "Stoneflesh Spaulders",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1434,12 +1549,14 @@ local bisData = {
 						{
 							itemID = 237528,
 							itemName = "Manaforged Displacement Chassis",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 234506,
 							itemName = "Muckdiver's Wading Plate",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1454,6 +1571,7 @@ local bisData = {
 						{
 							itemID = 237550,
 							itemName = "Fresh Ethereal Fetters",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1480,6 +1598,7 @@ local bisData = {
 						{
 							itemID = 237530,
 							itemName = "Shrapnel-Fused Legguards",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1488,18 +1607,21 @@ local bisData = {
 						{
 							itemID = 243307,
 							itemName = "Interloper's Plated Sabatons",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237551,
 							itemName = "Sterilized Expulsion Boots",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185787,
 							itemName = "Implacable Weatherproof Treads",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1514,12 +1636,14 @@ local bisData = {
 						{
 							itemID = 237545,
 							itemName = "Discarded Nutrient Shackles",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237561,
 							itemName = "Yoke of Enveloping Hatred",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1540,6 +1664,7 @@ local bisData = {
 						{
 							itemID = 237526,
 							itemName = "Breached Containment Guards",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1548,6 +1673,7 @@ local bisData = {
 						{
 							itemID = 237567,
 							itemName = "Logic Gate: Alpha",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1560,6 +1686,7 @@ local bisData = {
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1568,18 +1695,21 @@ local bisData = {
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 232541,
 							itemName = "Improvised Seaforium Pacemaker",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1596,12 +1726,14 @@ local bisData = {
 						{
 							itemID = 237737,
 							itemName = "Photon Sabre Prime",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242487,
 							itemName = "Fatebound Crusader",
+							dropSource = "Eco-Dome Al'dani",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1636,6 +1768,7 @@ local bisData = {
 						{
 							itemID = 237536,
 							itemName = "Bite of the Astral Wastes",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1644,6 +1777,7 @@ local bisData = {
 						{
 							itemID = 237568,
 							itemName = "Chrysalis of Sundered Souls",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1656,6 +1790,7 @@ local bisData = {
 						{
 							itemID = 185842,
 							itemName = "Ornately Engraved Amplifier",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1676,6 +1811,7 @@ local bisData = {
 						{
 							itemID = 237537,
 							itemName = "Claws of Failed Resistance",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1696,6 +1832,7 @@ local bisData = {
 						{
 							itemID = 237529,
 							itemName = "Harvested Attendant's Uniform",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1710,12 +1847,14 @@ local bisData = {
 						{
 							itemID = 237522,
 							itemName = "Colossal Lifetether",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 234501,
 							itemName = "Portable Power Generator",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1736,6 +1875,7 @@ local bisData = {
 						{
 							itemID = 237543,
 							itemName = "Chambersieve Waistcoat",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1744,6 +1884,7 @@ local bisData = {
 						{
 							itemID = 243308,
 							itemName = "Interloper's Chain Boots",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1756,6 +1897,7 @@ local bisData = {
 						{
 							itemID = 242483,
 							itemName = "Greaves of the Wild Pair",
+							dropSource = "Eco-Dome Al'dani",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1776,6 +1918,7 @@ local bisData = {
 						{
 							itemID = 237523,
 							itemName = "Arcanotech Wrist-Matrix",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1796,6 +1939,7 @@ local bisData = {
 						{
 							itemID = 246282,
 							itemName = "Order Bashers",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1810,12 +1954,14 @@ local bisData = {
 						{
 							itemID = 242405,
 							itemName = "Band of the Shattered Soul",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 246281,
 							itemName = "Ring of the Panoply",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1824,18 +1970,21 @@ local bisData = {
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 232541,
 							itemName = "Improvised Seaforium Pacemaker",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1852,18 +2001,21 @@ local bisData = {
 						{
 							itemID = 185783,
 							itemName = "Yasahm the Riftbreaker",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237732,
 							itemName = "Piercing Strandbow",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237733,
 							itemName = "Lacerated Current Caster",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1882,6 +2034,7 @@ local bisData = {
 						{
 							itemID = 237536,
 							itemName = "Bite of the Astral Wastes",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1902,12 +2055,14 @@ local bisData = {
 						{
 							itemID = 185842,
 							itemName = "Ornately Engraved Amplifier",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237568,
 							itemName = "Chrysalis of Sundered Souls",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -1942,6 +2097,7 @@ local bisData = {
 						{
 							itemID = 237529,
 							itemName = "Harvested Attendant's Uniform",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1956,6 +2112,7 @@ local bisData = {
 						{
 							itemID = 237522,
 							itemName = "Colossal Lifetether",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -1982,6 +2139,7 @@ local bisData = {
 						{
 							itemID = 237543,
 							itemName = "Chambersieve Waistcoat",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -1996,12 +2154,14 @@ local bisData = {
 						{
 							itemID = 243308,
 							itemName = "Interloper's Chain Boots",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237539,
 							itemName = "Deathspindle Talons",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2022,6 +2182,7 @@ local bisData = {
 						{
 							itemID = 237523,
 							itemName = "Arcanotech Wrist-Matrix",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2048,6 +2209,7 @@ local bisData = {
 						{
 							itemID = 246282,
 							itemName = "Order Bashers",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2056,6 +2218,7 @@ local bisData = {
 						{
 							itemID = 237567,
 							itemName = "Logic Gate: Alpha",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2068,6 +2231,7 @@ local bisData = {
 						{
 							itemID = 221136,
 							itemName = "Devout Zealot's Ring",
+							dropSource = "The Dawnbreaker",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2076,18 +2240,21 @@ local bisData = {
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242396,
 							itemName = "Unyielding Netherprism",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2102,6 +2269,7 @@ local bisData = {
 						{
 							itemID = 133292,
 							itemName = "Azureborne Cloak",
+							dropSource = "Grim Batol",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2116,12 +2284,14 @@ local bisData = {
 						{
 							itemID = 185783,
 							itemName = "Yasahm the Riftbreaker",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237732,
 							itemName = "Piercing Strandbow",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2146,6 +2316,7 @@ local bisData = {
 						{
 							itemID = 237536,
 							itemName = "Bite of the Astral Wastes",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2166,12 +2337,14 @@ local bisData = {
 						{
 							itemID = 242406,
 							itemName = "Salhadaar's Folly",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2192,6 +2365,7 @@ local bisData = {
 						{
 							itemID = 242472,
 							itemName = "Consumed Wastelander's Epaulets",
+							dropSource = "Eco-Dome Al'dani",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2206,6 +2380,7 @@ local bisData = {
 						{
 							itemID = 237529,
 							itemName = "Harvested Attendant's Uniform",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2226,12 +2401,14 @@ local bisData = {
 						{
 							itemID = 237522,
 							itemName = "Colossal Lifetether",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237554,
 							itemName = "Clasp of Furious Freedom",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2252,6 +2429,7 @@ local bisData = {
 						{
 							itemID = 237543,
 							itemName = "Chambersieve Waistcoat",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2260,6 +2438,7 @@ local bisData = {
 						{
 							itemID = 243308,
 							itemName = "Interloper's Chain Boots",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2272,6 +2451,7 @@ local bisData = {
 						{
 							itemID = 237539,
 							itemName = "Deathspindle Talons",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2286,6 +2466,7 @@ local bisData = {
 						{
 							itemID = 237523,
 							itemName = "Arcanotech Wrist-Matrix",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2312,6 +2493,7 @@ local bisData = {
 						{
 							itemID = 246282,
 							itemName = "Order Bashers",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2326,12 +2508,14 @@ local bisData = {
 						{
 							itemID = 237567,
 							itemName = "Logic Gate: Alpha",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2340,18 +2524,21 @@ local bisData = {
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 232541,
 							itemName = "Improvised Seaforium Pacemaker",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2368,12 +2555,14 @@ local bisData = {
 						{
 							itemID = 237739,
 							itemName = "Obliteration Beamglaive",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242481,
 							itemName = "Spellstrike Warplance",
+							dropSource = "Eco-Dome Al'dani",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2394,6 +2583,7 @@ local bisData = {
 						{
 							itemID = 237729,
 							itemName = "Prodigious Gene Splicer",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2422,6 +2612,7 @@ local bisData = {
 						{
 							itemID = 237525,
 							itemName = "Irradiated Impurity Filter",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2442,12 +2633,14 @@ local bisData = {
 						{
 							itemID = 185842,
 							itemName = "Ornately Engraved Amplifier",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242406,
 							itemName = "Salhadaar's Folly",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2462,12 +2655,14 @@ local bisData = {
 						{
 							itemID = 237552,
 							itemName = "Deathbound Shoulderpads",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185802,
 							itemName = "Breakbeat Shoulderguards",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2482,12 +2677,14 @@ local bisData = {
 						{
 							itemID = 237541,
 							itemName = "Darksorrow's Corrupted Carapace",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 246273,
 							itemName = "Vest of Refracted Shadows",
+							dropSource = "Halls of Atonement",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2496,6 +2693,7 @@ local bisData = {
 						{
 							itemID = 237533,
 							itemName = "Atomic Phasebelt",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2508,6 +2706,7 @@ local bisData = {
 						{
 							itemID = 237557,
 							itemName = "Reaper's Dreadbelt",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2522,12 +2721,14 @@ local bisData = {
 						{
 							itemID = 221153,
 							itemName = "Gauzewoven Legguards",
+							dropSource = "Ara-Kara, City of Echoes",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237531,
 							itemName = "Elite Shadowguard Legwraps",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2536,12 +2737,14 @@ local bisData = {
 						{
 							itemID = 243306,
 							itemName = "Interloper's Reinforced Sandals",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 246280,
 							itemName = "Boots of Titanic Deconversion",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2562,6 +2765,7 @@ local bisData = {
 						{
 							itemID = 237546,
 							itemName = "Bindings of Lost Essence",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2588,6 +2792,7 @@ local bisData = {
 						{
 							itemID = 237540,
 							itemName = "Winged Gamma Handlers",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2596,6 +2801,7 @@ local bisData = {
 						{
 							itemID = 237567,
 							itemName = "Logic Gate: Alpha",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2608,6 +2814,7 @@ local bisData = {
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2616,18 +2823,21 @@ local bisData = {
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242396,
 							itemName = "Unyielding Netherprism",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2656,6 +2866,7 @@ local bisData = {
 						{
 							itemID = 237729,
 							itemName = "Prodigious Gene Splicer",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2668,6 +2879,7 @@ local bisData = {
 						{
 							itemID = 237740,
 							itemName = "Vengeful Netherspike",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2682,12 +2894,14 @@ local bisData = {
 						{
 							itemID = 237729,
 							itemName = "Prodigious Gene Splicer",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237740,
 							itemName = "Vengeful Netherspike",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2706,6 +2920,7 @@ local bisData = {
 						{
 							itemID = 237525,
 							itemName = "Irradiated Impurity Filter",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2720,6 +2935,7 @@ local bisData = {
 						{
 							itemID = 237568,
 							itemName = "Chrysalis of Sundered Souls",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -2732,6 +2948,7 @@ local bisData = {
 						{
 							itemID = 252009,
 							itemName = "Bloodstained Memento",
+							dropSource = "Priory of the Sacred Flame",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2746,6 +2963,7 @@ local bisData = {
 						{
 							itemID = 237552,
 							itemName = "Deathbound Shoulderpads",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2766,6 +2984,7 @@ local bisData = {
 						{
 							itemID = 237541,
 							itemName = "Darksorrow's Corrupted Carapace",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2786,6 +3005,7 @@ local bisData = {
 						{
 							itemID = 237533,
 							itemName = "Atomic Phasebelt",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -2806,12 +3026,14 @@ local bisData = {
 						{
 							itemID = 237531,
 							itemName = "Elite Shadowguard Legwraps",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185801,
 							itemName = "Anomalous Starlit Breeches",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2820,18 +3042,21 @@ local bisData = {
 						{
 							itemID = 243306,
 							itemName = "Interloper's Reinforced Sandals",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237565,
 							itemName = "Kinetic Dunerunners",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 246274,
 							itemName = "Geezle's Zapstep Boots",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2852,6 +3077,7 @@ local bisData = {
 						{
 							itemID = 237546,
 							itemName = "Bindings of Lost Essence",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2872,6 +3098,7 @@ local bisData = {
 						{
 							itemID = 178832,
 							itemName = "Gloves of Haunting Fixation",
+							dropSource = "Halls of Atonement",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2886,12 +3113,14 @@ local bisData = {
 						{
 							itemID = 185813,
 							itemName = "Signet of Collapsing Stars",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237567,
 							itemName = "Logic Gate: Alpha",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2900,18 +3129,21 @@ local bisData = {
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242397,
 							itemName = "Sigil of the Cosmic Hunt",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 232541,
 							itemName = "Improvised Seaforium Pacemaker",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2946,12 +3178,14 @@ local bisData = {
 						{
 							itemID = 237738,
 							itemName = "Unbound Training Claws",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237731,
 							itemName = "Ergospheric Cudgel",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2972,6 +3206,7 @@ local bisData = {
 						{
 							itemID = 234493,
 							itemName = "Geezle's Coercive Volt-Ohmmeter",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -2990,6 +3225,7 @@ local bisData = {
 						{
 							itemID = 237525,
 							itemName = "Irradiated Impurity Filter",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -3010,12 +3246,14 @@ local bisData = {
 						{
 							itemID = 237568,
 							itemName = "Chrysalis of Sundered Souls",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3030,6 +3268,7 @@ local bisData = {
 						{
 							itemID = 237552,
 							itemName = "Deathbound Shoulderpads",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -3050,6 +3289,7 @@ local bisData = {
 						{
 							itemID = 237541,
 							itemName = "Darksorrow's Corrupted Carapace",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -3064,6 +3304,7 @@ local bisData = {
 						{
 							itemID = 237533,
 							itemName = "Atomic Phasebelt",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3090,12 +3331,14 @@ local bisData = {
 						{
 							itemID = 237531,
 							itemName = "Elite Shadowguard Legwraps",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185801,
 							itemName = "Anomalous Starlit Breeches",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3104,6 +3347,7 @@ local bisData = {
 						{
 							itemID = 243306,
 							itemName = "Interloper's Reinforced Sandals",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3116,6 +3360,7 @@ local bisData = {
 						{
 							itemID = 237565,
 							itemName = "Kinetic Dunerunners",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3136,6 +3381,7 @@ local bisData = {
 						{
 							itemID = 237546,
 							itemName = "Bindings of Lost Essence",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3150,6 +3396,7 @@ local bisData = {
 						{
 							itemID = 237540,
 							itemName = "Winged Gamma Handlers",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -3170,12 +3417,14 @@ local bisData = {
 						{
 							itemID = 237567,
 							itemName = "Logic Gate: Alpha",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242405,
 							itemName = "Band of the Shattered Soul",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3184,18 +3433,21 @@ local bisData = {
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242403,
 							itemName = "Perfidious Projector",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3212,18 +3464,21 @@ local bisData = {
 						{
 							itemID = 237729,
 							itemName = "Prodigious Gene Splicer",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237740,
 							itemName = "Vengeful Netherspike",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 221138,
 							itemName = "Parson's Ornamented Blade",
+							dropSource = "The Dawnbreaker",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3238,12 +3493,14 @@ local bisData = {
 						{
 							itemID = 237729,
 							itemName = "Prodigious Gene Splicer",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237740,
 							itemName = "Vengeful Netherspike",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3266,6 +3523,7 @@ local bisData = {
 						{
 							itemID = 237548,
 							itemName = "Twilight Tyrant's Veil",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -3286,12 +3544,14 @@ local bisData = {
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237568,
 							itemName = "Chrysalis of Sundered Souls",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3306,6 +3566,7 @@ local bisData = {
 						{
 							itemID = 237547,
 							itemName = "Mounted Manacannons",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -3326,6 +3587,7 @@ local bisData = {
 						{
 							itemID = 237527,
 							itemName = "Frock of Spirit's Reunion",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -3352,6 +3614,7 @@ local bisData = {
 						{
 							itemID = 237538,
 							itemName = "Forgeweaver's Journal Holster",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3372,6 +3635,7 @@ local bisData = {
 						{
 							itemID = 221164,
 							itemName = "Archaic Venomancer's Legwraps",
+							dropSource = "Ara-Kara, City of Echoes",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3380,12 +3644,14 @@ local bisData = {
 						{
 							itemID = 243305,
 							itemName = "Interloper's Silken Striders",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237524,
 							itemName = "Laced Lair-Steppers",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -3406,12 +3672,14 @@ local bisData = {
 						{
 							itemID = 237534,
 							itemName = "Singed Sievecuffs",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237558,
 							itemName = "Conjoined Glass Bracers",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3426,6 +3694,7 @@ local bisData = {
 						{
 							itemID = 237549,
 							itemName = "Bloodwrath's Gnarled Claws",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -3440,6 +3709,7 @@ local bisData = {
 						{
 							itemID = 237567,
 							itemName = "Logic Gate: Alpha",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3452,6 +3722,7 @@ local bisData = {
 						{
 							itemID = 242405,
 							itemName = "Band of the Shattered Soul",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3460,18 +3731,21 @@ local bisData = {
 						{
 							itemID = 242392,
 							itemName = "Diamantine Voidcore",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242393,
 							itemName = "Loom'ithar's Living Silk",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3488,12 +3762,14 @@ local bisData = {
 						{
 							itemID = 237728,
 							itemName = "Voidglass Kris",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237730,
 							itemName = "Voidglass Spire",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -3514,12 +3790,14 @@ local bisData = {
 						{
 							itemID = 237724,
 							itemName = "Iris of the Dark Beyond",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237742,
 							itemName = "Fractillus' Last Breath",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3544,6 +3822,7 @@ local bisData = {
 						{
 							itemID = 185795,
 							itemName = "Cowl of Branching Fate",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3558,12 +3837,14 @@ local bisData = {
 						{
 							itemID = 242406,
 							itemName = "Salhadaar's Folly",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237568,
 							itemName = "Chrysalis of Sundered Souls",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3578,6 +3859,7 @@ local bisData = {
 						{
 							itemID = 237547,
 							itemName = "Mounted Manacannons",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -3598,12 +3880,14 @@ local bisData = {
 						{
 							itemID = 237527,
 							itemName = "Frock of Spirit's Reunion",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 221126,
 							itemName = "Zealous Warden's Raiment",
+							dropSource = "Priory of the Sacred Flame",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3624,6 +3908,7 @@ local bisData = {
 						{
 							itemID = 221121,
 							itemName = "Honorbound Retainer's Sash",
+							dropSource = "Priory of the Sacred Flame",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3644,6 +3929,7 @@ local bisData = {
 						{
 							itemID = 185799,
 							itemName = "Hyperlight Leggings",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3652,12 +3938,14 @@ local bisData = {
 						{
 							itemID = 243305,
 							itemName = "Interloper's Silken Striders",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237524,
 							itemName = "Laced Lair-Steppers",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -3678,6 +3966,7 @@ local bisData = {
 						{
 							itemID = 237534,
 							itemName = "Singed Sievecuffs",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -3698,6 +3987,7 @@ local bisData = {
 						{
 							itemID = 237549,
 							itemName = "Bloodwrath's Gnarled Claws",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -3712,6 +4002,7 @@ local bisData = {
 						{
 							itemID = 237567,
 							itemName = "Logic Gate: Alpha",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3724,6 +4015,7 @@ local bisData = {
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3732,18 +4024,21 @@ local bisData = {
 						{
 							itemID = 242392,
 							itemName = "Diamantine Voidcore",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242393,
 							itemName = "Loom'ithar's Living Silk",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3760,12 +4055,14 @@ local bisData = {
 						{
 							itemID = 237728,
 							itemName = "Voidglass Kris",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237730,
 							itemName = "Voidglass Spire",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -3786,12 +4083,14 @@ local bisData = {
 						{
 							itemID = 237742,
 							itemName = "Fractillus' Last Breath",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237724,
 							itemName = "Iris of the Dark Beyond",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3810,6 +4109,7 @@ local bisData = {
 						{
 							itemID = 237548,
 							itemName = "Twilight Tyrant's Veil",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -3830,12 +4130,14 @@ local bisData = {
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 178827,
 							itemName = "Sin Stained Pendant",
+							dropSource = "Halls of Atonement",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3850,12 +4152,14 @@ local bisData = {
 						{
 							itemID = 237547,
 							itemName = "Mounted Manacannons",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 246276,
 							itemName = "Sinlight Shoulderpads",
+							dropSource = "Halls of Atonement",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3870,6 +4174,7 @@ local bisData = {
 						{
 							itemID = 237527,
 							itemName = "Frock of Spirit's Reunion",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -3896,6 +4201,7 @@ local bisData = {
 						{
 							itemID = 237538,
 							itemName = "Forgeweaver's Journal Holster",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3916,6 +4222,7 @@ local bisData = {
 						{
 							itemID = 237542,
 							itemName = "Stellar Navigation Slacks",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3924,6 +4231,7 @@ local bisData = {
 						{
 							itemID = 243305,
 							itemName = "Interloper's Silken Striders",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -3936,6 +4244,7 @@ local bisData = {
 						{
 							itemID = 237524,
 							itemName = "Laced Lair-Steppers",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3950,12 +4259,14 @@ local bisData = {
 						{
 							itemID = 237558,
 							itemName = "Conjoined Glass Bracers",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237534,
 							itemName = "Singed Sievecuffs",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3970,12 +4281,14 @@ local bisData = {
 						{
 							itemID = 237549,
 							itemName = "Bloodwrath's Gnarled Claws",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185793,
 							itemName = "Cyphered Gloves",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -3990,12 +4303,14 @@ local bisData = {
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237567,
 							itemName = "Logic Gate: Alpha",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4004,18 +4319,21 @@ local bisData = {
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242392,
 							itemName = "Diamantine Voidcore",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4032,12 +4350,14 @@ local bisData = {
 						{
 							itemID = 237728,
 							itemName = "Voidglass Kris",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237730,
 							itemName = "Voidglass Spire",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -4058,12 +4378,14 @@ local bisData = {
 						{
 							itemID = 237742,
 							itemName = "Fractillus' Last Breath",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237724,
 							itemName = "Iris of the Dark Beyond",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4086,12 +4408,14 @@ local bisData = {
 						{
 							itemID = 246283,
 							itemName = "Crown of Absolute Command",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237535,
 							itemName = "Artoshion's Abyssal Stare",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4106,12 +4430,14 @@ local bisData = {
 						{
 							itemID = 237568,
 							itemName = "Chrysalis of Sundered Souls",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 252009,
 							itemName = "Bloodstained Memento",
+							dropSource = "Priory of the Sacred Flame",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4126,6 +4452,7 @@ local bisData = {
 						{
 							itemID = 237532,
 							itemName = "Beacons of False Righteousness",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -4146,6 +4473,7 @@ local bisData = {
 						{
 							itemID = 237528,
 							itemName = "Manaforged Displacement Chassis",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -4166,12 +4494,14 @@ local bisData = {
 						{
 							itemID = 237550,
 							itemName = "Fresh Ethereal Fetters",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237563,
 							itemName = "Ultradense Fission Girdle",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4186,12 +4516,14 @@ local bisData = {
 						{
 							itemID = 237530,
 							itemName = "Shrapnel-Fused Legguards",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 178818,
 							itemName = "Halkias's Towering Pillars",
+							dropSource = "Halls of Atonement",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4200,12 +4532,14 @@ local bisData = {
 						{
 							itemID = 243307,
 							itemName = "Interloper's Plated Sabatons",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237551,
 							itemName = "Sterilized Expulsion Boots",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -4226,6 +4560,7 @@ local bisData = {
 						{
 							itemID = 237545,
 							itemName = "Discarded Nutrient Shackles",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -4246,6 +4581,7 @@ local bisData = {
 						{
 							itemID = 237526,
 							itemName = "Breached Containment Guards",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -4266,12 +4602,14 @@ local bisData = {
 						{
 							itemID = 237567,
 							itemName = "Logic Gate: Alpha",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242405,
 							itemName = "Band of the Shattered Soul",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4280,18 +4618,21 @@ local bisData = {
 						{
 							itemID = 242401,
 							itemName = "Brand of Ceaseless Ire",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219309,
 							itemName = "Tome of Light's Devotion",
+							dropSource = "Priory of the Sacred Flame",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4308,12 +4649,14 @@ local bisData = {
 						{
 							itemID = 185810,
 							itemName = "Skyreaver, Greataxe of the Keepers",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 243365,
 							itemName = "Maw of the Void",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -4344,6 +4687,7 @@ local bisData = {
 						{
 							itemID = 237535,
 							itemName = "Artoshion's Abyssal Stare",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4358,12 +4702,14 @@ local bisData = {
 						{
 							itemID = 242406,
 							itemName = "Salhadaar's Folly",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 251880,
 							itemName = "Momma's Mega Medallion",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4384,6 +4730,7 @@ local bisData = {
 						{
 							itemID = 185803,
 							itemName = "Stoneflesh Spaulders",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4398,12 +4745,14 @@ local bisData = {
 						{
 							itemID = 237528,
 							itemName = "Manaforged Displacement Chassis",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 234506,
 							itemName = "Muckdiver's Wading Plate",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4418,6 +4767,7 @@ local bisData = {
 						{
 							itemID = 237550,
 							itemName = "Fresh Ethereal Fetters",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -4438,6 +4788,7 @@ local bisData = {
 						{
 							itemID = 246278,
 							itemName = "Overpressure Platelegs",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -4452,12 +4803,14 @@ local bisData = {
 						{
 							itemID = 243307,
 							itemName = "Interloper's Plated Sabatons",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237551,
 							itemName = "Sterilized Expulsion Boots",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -4484,6 +4837,7 @@ local bisData = {
 						{
 							itemID = 237545,
 							itemName = "Discarded Nutrient Shackles",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4504,6 +4858,7 @@ local bisData = {
 						{
 							itemID = 237526,
 							itemName = "Breached Containment Guards",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4512,6 +4867,7 @@ local bisData = {
 						{
 							itemID = 237567,
 							itemName = "Logic Gate: Alpha",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4524,6 +4880,7 @@ local bisData = {
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4532,18 +4889,21 @@ local bisData = {
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242396,
 							itemName = "Unyielding Netherprism",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4566,12 +4926,14 @@ local bisData = {
 						{
 							itemID = 237737,
 							itemName = "Photon Sabre Prime",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237734,
 							itemName = "Oath-Breaker's Recompense",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4586,12 +4948,14 @@ local bisData = {
 						{
 							itemID = 237813,
 							itemName = "Factory-Issue Plexhammer",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237734,
 							itemName = "Oath-Breaker's Recompense",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4616,6 +4980,7 @@ local bisData = {
 						{
 							itemID = 237535,
 							itemName = "Artoshion's Abyssal Stare",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4630,12 +4995,14 @@ local bisData = {
 						{
 							itemID = 242406,
 							itemName = "Salhadaar's Folly",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 251880,
 							itemName = "Momma's Mega Medallion",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4656,6 +5023,7 @@ local bisData = {
 						{
 							itemID = 237532,
 							itemName = "Beacons of False Righteousness",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4670,12 +5038,14 @@ local bisData = {
 						{
 							itemID = 237528,
 							itemName = "Manaforged Displacement Chassis",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 234506,
 							itemName = "Muckdiver's Wading Plate",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4690,6 +5060,7 @@ local bisData = {
 						{
 							itemID = 237550,
 							itemName = "Fresh Ethereal Fetters",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -4716,6 +5087,7 @@ local bisData = {
 						{
 							itemID = 246278,
 							itemName = "Overpressure Platelegs",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4724,12 +5096,14 @@ local bisData = {
 						{
 							itemID = 243307,
 							itemName = "Interloper's Plated Sabatons",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237551,
 							itemName = "Sterilized Expulsion Boots",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -4756,6 +5130,7 @@ local bisData = {
 						{
 							itemID = 237545,
 							itemName = "Discarded Nutrient Shackles",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4776,6 +5151,7 @@ local bisData = {
 						{
 							itemID = 237526,
 							itemName = "Breached Containment Guards",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4784,6 +5160,7 @@ local bisData = {
 						{
 							itemID = 237567,
 							itemName = "Logic Gate: Alpha",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4796,6 +5173,7 @@ local bisData = {
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4804,18 +5182,21 @@ local bisData = {
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 246344,
 							itemName = "Cursed Stone Idol",
+							dropSource = "Halls of Atonement",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4832,6 +5213,7 @@ local bisData = {
 						{
 							itemID = 237737,
 							itemName = "Photon Sabre Prime",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4844,6 +5226,7 @@ local bisData = {
 						{
 							itemID = 243365,
 							itemName = "Maw of the Void",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4872,6 +5255,7 @@ local bisData = {
 						{
 							itemID = 237536,
 							itemName = "Bite of the Astral Wastes",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4880,6 +5264,7 @@ local bisData = {
 						{
 							itemID = 237568,
 							itemName = "Chrysalis of Sundered Souls",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4892,6 +5277,7 @@ local bisData = {
 						{
 							itemID = 251880,
 							itemName = "Momma's Mega Medallion",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4912,6 +5298,7 @@ local bisData = {
 						{
 							itemID = 237537,
 							itemName = "Claws of Failed Resistance",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4926,6 +5313,7 @@ local bisData = {
 						{
 							itemID = 237529,
 							itemName = "Harvested Attendant's Uniform",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -4946,12 +5334,14 @@ local bisData = {
 						{
 							itemID = 237554,
 							itemName = "Clasp of Furious Freedom",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237522,
 							itemName = "Colossal Lifetether",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -4966,6 +5356,7 @@ local bisData = {
 						{
 							itemID = 237543,
 							itemName = "Chambersieve Waistcoat",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -4980,6 +5371,7 @@ local bisData = {
 						{
 							itemID = 243308,
 							itemName = "Interloper's Chain Boots",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -4992,6 +5384,7 @@ local bisData = {
 						{
 							itemID = 237539,
 							itemName = "Deathspindle Talons",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5006,6 +5399,7 @@ local bisData = {
 						{
 							itemID = 237523,
 							itemName = "Arcanotech Wrist-Matrix",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -5032,6 +5426,7 @@ local bisData = {
 						{
 							itemID = 237544,
 							itemName = "Royal Voidscale Gauntlets",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5046,12 +5441,14 @@ local bisData = {
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 178824,
 							itemName = "Signet of the False Accuser",
+							dropSource = "Halls of Atonement",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5060,18 +5457,21 @@ local bisData = {
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242392,
 							itemName = "Diamantine Voidcore",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5088,12 +5488,14 @@ local bisData = {
 						{
 							itemID = 237728,
 							itemName = "Voidglass Kris",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237730,
 							itemName = "Voidglass Spire",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -5114,12 +5516,14 @@ local bisData = {
 						{
 							itemID = 237723,
 							itemName = "Ward of the Weaving-Beast",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237741,
 							itemName = "Event Horizon",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5138,6 +5542,7 @@ local bisData = {
 						{
 							itemID = 221156,
 							itemName = "Cryptbound Headpiece",
+							dropSource = "Ara-Kara, City of Echoes",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -5158,12 +5563,14 @@ local bisData = {
 						{
 							itemID = 178827,
 							itemName = "Sin Stained Pendant",
+							dropSource = "Halls of Atonement",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5184,6 +5591,7 @@ local bisData = {
 						{
 							itemID = 237537,
 							itemName = "Claws of Failed Resistance",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5198,12 +5606,14 @@ local bisData = {
 						{
 							itemID = 237529,
 							itemName = "Harvested Attendant's Uniform",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 234502,
 							itemName = "Bront's Singed Blastcoat",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5218,12 +5628,14 @@ local bisData = {
 						{
 							itemID = 237554,
 							itemName = "Clasp of Furious Freedom",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237522,
 							itemName = "Colossal Lifetether",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5238,12 +5650,14 @@ local bisData = {
 						{
 							itemID = 237543,
 							itemName = "Chambersieve Waistcoat",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 246277,
 							itemName = "Swampface's Oozewalkers",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5252,6 +5666,7 @@ local bisData = {
 						{
 							itemID = 243308,
 							itemName = "Interloper's Chain Boots",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5264,6 +5679,7 @@ local bisData = {
 						{
 							itemID = 221152,
 							itemName = "Silksteel Striders",
+							dropSource = "Ara-Kara, City of Echoes",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5278,6 +5694,7 @@ local bisData = {
 						{
 							itemID = 237523,
 							itemName = "Arcanotech Wrist-Matrix",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -5304,6 +5721,7 @@ local bisData = {
 						{
 							itemID = 237544,
 							itemName = "Royal Voidscale Gauntlets",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5318,12 +5736,14 @@ local bisData = {
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242491,
 							itemName = "Whispers of K'aresh",
+							dropSource = "Eco-Dome Al'dani",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5332,18 +5752,21 @@ local bisData = {
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 232541,
 							itemName = "Improvised Seaforium Pacemaker",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5360,6 +5783,7 @@ local bisData = {
 						{
 							itemID = 237738,
 							itemName = "Unbound Training Claws",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5372,6 +5796,7 @@ local bisData = {
 						{
 							itemID = 185823,
 							itemName = "Fatebreaker, Destroyer of Futures",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5416,6 +5841,7 @@ local bisData = {
 						{
 							itemID = 185796,
 							itemName = "Dragonbane Diadem",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5430,12 +5856,14 @@ local bisData = {
 						{
 							itemID = 185842,
 							itemName = "Ornately Engraved Amplifier",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237568,
 							itemName = "Chrysalis of Sundered Souls",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5456,6 +5884,7 @@ local bisData = {
 						{
 							itemID = 237537,
 							itemName = "Claws of Failed Resistance",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5470,12 +5899,14 @@ local bisData = {
 						{
 							itemID = 221147,
 							itemName = "Goliath's Chitinous Chainmail",
+							dropSource = "The Dawnbreaker",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237529,
 							itemName = "Harvested Attendant's Uniform",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5484,6 +5915,7 @@ local bisData = {
 						{
 							itemID = 237522,
 							itemName = "Colossal Lifetether",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5510,12 +5942,14 @@ local bisData = {
 						{
 							itemID = 237543,
 							itemName = "Chambersieve Waistcoat",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 221129,
 							itemName = "Divine Pyrewalkers",
+							dropSource = "Priory of the Sacred Flame",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5524,18 +5958,21 @@ local bisData = {
 						{
 							itemID = 243308,
 							itemName = "Interloper's Chain Boots",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237539,
 							itemName = "Deathspindle Talons",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242483,
 							itemName = "Greaves of the Wild Pair",
+							dropSource = "Eco-Dome Al'dani",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5550,12 +5987,14 @@ local bisData = {
 						{
 							itemID = 237523,
 							itemName = "Arcanotech Wrist-Matrix",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237555,
 							itemName = "Pactbound Vambraces",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5576,6 +6015,7 @@ local bisData = {
 						{
 							itemID = 237544,
 							itemName = "Royal Voidscale Gauntlets",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5590,12 +6030,14 @@ local bisData = {
 						{
 							itemID = 242405,
 							itemName = "Band of the Shattered Soul",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 221136,
 							itemName = "Devout Zealot's Ring",
+							dropSource = "The Dawnbreaker",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5604,18 +6046,21 @@ local bisData = {
 						{
 							itemID = 242392,
 							itemName = "Diamantine Voidcore",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242393,
 							itemName = "Loom'ithar's Living Silk",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5632,12 +6077,14 @@ local bisData = {
 						{
 							itemID = 237728,
 							itemName = "Voidglass Kris",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237730,
 							itemName = "Voidglass Spire",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -5652,6 +6099,7 @@ local bisData = {
 						{
 							itemID = 237723,
 							itemName = "Ward of the Weaving-Beast",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5692,6 +6140,7 @@ local bisData = {
 						{
 							itemID = 185795,
 							itemName = "Cowl of Branching Fate",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5700,6 +6149,7 @@ local bisData = {
 						{
 							itemID = 237568,
 							itemName = "Chrysalis of Sundered Souls",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5712,6 +6162,7 @@ local bisData = {
 						{
 							itemID = 252009,
 							itemName = "Bloodstained Memento",
+							dropSource = "Priory of the Sacred Flame",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5726,6 +6177,7 @@ local bisData = {
 						{
 							itemID = 237547,
 							itemName = "Mounted Manacannons",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -5746,12 +6198,14 @@ local bisData = {
 						{
 							itemID = 237527,
 							itemName = "Frock of Spirit's Reunion",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 221126,
 							itemName = "Zealous Warden's Raiment",
+							dropSource = "Priory of the Sacred Flame",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5772,6 +6226,7 @@ local bisData = {
 						{
 							itemID = 237538,
 							itemName = "Forgeweaver's Journal Holster",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5792,6 +6247,7 @@ local bisData = {
 						{
 							itemID = 185799,
 							itemName = "Hyperlight Leggings",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5800,12 +6256,14 @@ local bisData = {
 						{
 							itemID = 243305,
 							itemName = "Interloper's Silken Striders",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237524,
 							itemName = "Laced Lair-Steppers",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -5826,6 +6284,7 @@ local bisData = {
 						{
 							itemID = 237534,
 							itemName = "Singed Sievecuffs",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -5846,6 +6305,7 @@ local bisData = {
 						{
 							itemID = 237549,
 							itemName = "Bloodwrath's Gnarled Claws",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -5866,12 +6326,14 @@ local bisData = {
 						{
 							itemID = 237567,
 							itemName = "Logic Gate: Alpha",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185813,
 							itemName = "Signet of Collapsing Stars",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5880,18 +6342,21 @@ local bisData = {
 						{
 							itemID = 242392,
 							itemName = "Diamantine Voidcore",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242497,
 							itemName = "Azhiccaran Parapodia",
+							dropSource = "Eco-Dome Al'dani",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5908,18 +6373,21 @@ local bisData = {
 						{
 							itemID = 237728,
 							itemName = "Voidglass Kris",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237730,
 							itemName = "Voidglass Spire",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237735,
 							itemName = "Voidglass Sovereign's Blade",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5934,12 +6402,14 @@ local bisData = {
 						{
 							itemID = 237742,
 							itemName = "Fractillus' Last Breath",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237724,
 							itemName = "Iris of the Dark Beyond",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5972,6 +6442,7 @@ local bisData = {
 						{
 							itemID = 237568,
 							itemName = "Chrysalis of Sundered Souls",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -5984,6 +6455,7 @@ local bisData = {
 						{
 							itemID = 185820,
 							itemName = "Cabochon of the Infinite Flight",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -5998,6 +6470,7 @@ local bisData = {
 						{
 							itemID = 237547,
 							itemName = "Mounted Manacannons",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -6018,6 +6491,7 @@ local bisData = {
 						{
 							itemID = 237527,
 							itemName = "Frock of Spirit's Reunion",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -6038,6 +6512,7 @@ local bisData = {
 						{
 							itemID = 237538,
 							itemName = "Forgeweaver's Journal Holster",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -6064,6 +6539,7 @@ local bisData = {
 						{
 							itemID = 221164,
 							itemName = "Archaic Venomancer's Legwraps",
+							dropSource = "Ara-Kara, City of Echoes",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6072,12 +6548,14 @@ local bisData = {
 						{
 							itemID = 243305,
 							itemName = "Interloper's Silken Striders",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237524,
 							itemName = "Laced Lair-Steppers",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -6098,12 +6576,14 @@ local bisData = {
 						{
 							itemID = 237534,
 							itemName = "Singed Sievecuffs",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237558,
 							itemName = "Conjoined Glass Bracers",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6118,12 +6598,14 @@ local bisData = {
 						{
 							itemID = 237549,
 							itemName = "Bloodwrath's Gnarled Claws",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 246275,
 							itemName = "Codebreaker's Cunning Handwraps",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6138,12 +6620,14 @@ local bisData = {
 						{
 							itemID = 242405,
 							itemName = "Band of the Shattered Soul",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185813,
 							itemName = "Signet of Collapsing Stars",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6152,18 +6636,21 @@ local bisData = {
 						{
 							itemID = 242392,
 							itemName = "Diamantine Voidcore",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242497,
 							itemName = "Azhiccaran Parapodia",
+							dropSource = "Eco-Dome Al'dani",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6180,18 +6667,21 @@ local bisData = {
 						{
 							itemID = 237728,
 							itemName = "Voidglass Kris",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237730,
 							itemName = "Voidglass Spire",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237735,
 							itemName = "Voidglass Sovereign's Blade",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6206,12 +6696,14 @@ local bisData = {
 						{
 							itemID = 237724,
 							itemName = "Iris of the Dark Beyond",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237742,
 							itemName = "Fractillus' Last Breath",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6244,12 +6736,14 @@ local bisData = {
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237568,
 							itemName = "Chrysalis of Sundered Souls",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -6270,6 +6764,7 @@ local bisData = {
 						{
 							itemID = 237547,
 							itemName = "Mounted Manacannons",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -6290,6 +6785,7 @@ local bisData = {
 						{
 							itemID = 237527,
 							itemName = "Frock of Spirit's Reunion",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -6304,6 +6800,7 @@ local bisData = {
 						{
 							itemID = 237538,
 							itemName = "Forgeweaver's Journal Holster",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6336,6 +6833,7 @@ local bisData = {
 						{
 							itemID = 237542,
 							itemName = "Stellar Navigation Slacks",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6344,6 +6842,7 @@ local bisData = {
 						{
 							itemID = 243305,
 							itemName = "Interloper's Silken Striders",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6370,6 +6869,7 @@ local bisData = {
 						{
 							itemID = 237558,
 							itemName = "Conjoined Glass Bracers",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -6396,6 +6896,7 @@ local bisData = {
 						{
 							itemID = 237549,
 							itemName = "Bloodwrath's Gnarled Claws",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6410,12 +6911,14 @@ local bisData = {
 						{
 							itemID = 242405,
 							itemName = "Band of the Shattered Soul",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185813,
 							itemName = "Signet of Collapsing Stars",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6424,18 +6927,21 @@ local bisData = {
 						{
 							itemID = 242392,
 							itemName = "Diamantine Voidcore",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242497,
 							itemName = "Azhiccaran Parapodia",
+							dropSource = "Eco-Dome Al'dani",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6456,6 +6962,7 @@ local bisData = {
 						{
 							itemID = 221054,
 							itemName = "Chef Chewie's Towel",
+							dropSource = "Cinderbrew Meadery",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6464,18 +6971,21 @@ local bisData = {
 						{
 							itemID = 237735,
 							itemName = "Voidglass Sovereign's Blade",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237730,
 							itemName = "Voidglass Spire",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237728,
 							itemName = "Voidglass Kris",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6490,12 +7000,14 @@ local bisData = {
 						{
 							itemID = 237742,
 							itemName = "Fractillus' Last Breath",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237724,
 							itemName = "Iris of the Dark Beyond",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6538,12 +7050,14 @@ local bisData = {
 						{
 							itemID = 242406,
 							itemName = "Salhadaar's Folly",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6558,6 +7072,7 @@ local bisData = {
 						{
 							itemID = 237547,
 							itemName = "Mounted Manacannons",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -6578,6 +7093,7 @@ local bisData = {
 						{
 							itemID = 237527,
 							itemName = "Frock of Spirit's Reunion",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -6598,12 +7114,14 @@ local bisData = {
 						{
 							itemID = 237538,
 							itemName = "Forgeweaver's Journal Holster",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237559,
 							itemName = "Singularity Cincture",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6624,6 +7142,7 @@ local bisData = {
 						{
 							itemID = 237542,
 							itemName = "Stellar Navigation Slacks",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6632,12 +7151,14 @@ local bisData = {
 						{
 							itemID = 243305,
 							itemName = "Interloper's Silken Striders",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237524,
 							itemName = "Laced Lair-Steppers",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -6658,6 +7179,7 @@ local bisData = {
 						{
 							itemID = 237558,
 							itemName = "Conjoined Glass Bracers",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -6678,6 +7200,7 @@ local bisData = {
 						{
 							itemID = 237549,
 							itemName = "Bloodwrath's Gnarled Claws",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -6692,6 +7215,7 @@ local bisData = {
 						{
 							itemID = 237567,
 							itemName = "Logic Gate: Alpha",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6704,6 +7228,7 @@ local bisData = {
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6712,18 +7237,21 @@ local bisData = {
 						{
 							itemID = 242392,
 							itemName = "Diamantine Voidcore",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242497,
 							itemName = "Azhiccaran Parapodia",
+							dropSource = "Eco-Dome Al'dani",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6740,18 +7268,21 @@ local bisData = {
 						{
 							itemID = 237728,
 							itemName = "Voidglass Kris",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237730,
 							itemName = "Voidglass Spire",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237735,
 							itemName = "Voidglass Sovereign's Blade",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6766,12 +7297,14 @@ local bisData = {
 						{
 							itemID = 237724,
 							itemName = "Iris of the Dark Beyond",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237742,
 							itemName = "Fractillus' Last Breath",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6790,12 +7323,14 @@ local bisData = {
 						{
 							itemID = 237548,
 							itemName = "Twilight Tyrant's Veil",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185795,
 							itemName = "Cowl of Branching Fate",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6810,12 +7345,14 @@ local bisData = {
 						{
 							itemID = 237568,
 							itemName = "Chrysalis of Sundered Souls",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185842,
 							itemName = "Ornately Engraved Amplifier",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6830,6 +7367,7 @@ local bisData = {
 						{
 							itemID = 237547,
 							itemName = "Mounted Manacannons",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -6850,12 +7388,14 @@ local bisData = {
 						{
 							itemID = 237527,
 							itemName = "Frock of Spirit's Reunion",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 234496,
 							itemName = "Saboteur's Rubber Jacket",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6870,6 +7410,7 @@ local bisData = {
 						{
 							itemID = 237538,
 							itemName = "Forgeweaver's Journal Holster",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -6896,6 +7437,7 @@ local bisData = {
 						{
 							itemID = 221164,
 							itemName = "Archaic Venomancer's Legwraps",
+							dropSource = "Ara-Kara, City of Echoes",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6904,6 +7446,7 @@ local bisData = {
 						{
 							itemID = 243305,
 							itemName = "Interloper's Silken Striders",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6916,6 +7459,7 @@ local bisData = {
 						{
 							itemID = 237524,
 							itemName = "Laced Lair-Steppers",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6930,6 +7474,7 @@ local bisData = {
 						{
 							itemID = 237534,
 							itemName = "Singed Sievecuffs",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -6950,12 +7495,14 @@ local bisData = {
 						{
 							itemID = 237549,
 							itemName = "Bloodwrath's Gnarled Claws",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 178833,
 							itemName = "Stonefiend Shaper's Mitts",
+							dropSource = "Halls of Atonement",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6964,6 +7511,7 @@ local bisData = {
 						{
 							itemID = 237567,
 							itemName = "Logic Gate: Alpha",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -6976,6 +7524,7 @@ local bisData = {
 						{
 							itemID = 242405,
 							itemName = "Band of the Shattered Soul",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -6984,18 +7533,21 @@ local bisData = {
 						{
 							itemID = 242497,
 							itemName = "Azhiccaran Parapodia",
+							dropSource = "Eco-Dome Al'dani",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242392,
 							itemName = "Diamantine Voidcore",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7024,18 +7576,21 @@ local bisData = {
 						{
 							itemID = 237728,
 							itemName = "Voidglass Kris",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237730,
 							itemName = "Voidglass Spire",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237735,
 							itemName = "Voidglass Sovereign's Blade",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7050,12 +7605,14 @@ local bisData = {
 						{
 							itemID = 237724,
 							itemName = "Iris of the Dark Beyond",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237742,
 							itemName = "Fractillus' Last Breath",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7080,6 +7637,7 @@ local bisData = {
 						{
 							itemID = 237548,
 							itemName = "Twilight Tyrant's Veil",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7094,12 +7652,14 @@ local bisData = {
 						{
 							itemID = 185842,
 							itemName = "Ornately Engraved Amplifier",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237568,
 							itemName = "Chrysalis of Sundered Souls",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7114,6 +7674,7 @@ local bisData = {
 						{
 							itemID = 237547,
 							itemName = "Mounted Manacannons",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7134,12 +7695,14 @@ local bisData = {
 						{
 							itemID = 237527,
 							itemName = "Frock of Spirit's Reunion",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 234496,
 							itemName = "Saboteur's Rubber Jacket",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7154,6 +7717,7 @@ local bisData = {
 						{
 							itemID = 237538,
 							itemName = "Forgeweaver's Journal Holster",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7180,6 +7744,7 @@ local bisData = {
 						{
 							itemID = 237542,
 							itemName = "Stellar Navigation Slacks",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7188,6 +7753,7 @@ local bisData = {
 						{
 							itemID = 243305,
 							itemName = "Interloper's Silken Striders",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7200,6 +7766,7 @@ local bisData = {
 						{
 							itemID = 237524,
 							itemName = "Laced Lair-Steppers",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7214,6 +7781,7 @@ local bisData = {
 						{
 							itemID = 237534,
 							itemName = "Singed Sievecuffs",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7234,6 +7802,7 @@ local bisData = {
 						{
 							itemID = 237549,
 							itemName = "Bloodwrath's Gnarled Claws",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7248,6 +7817,7 @@ local bisData = {
 						{
 							itemID = 237567,
 							itemName = "Logic Gate: Alpha",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7260,6 +7830,7 @@ local bisData = {
 						{
 							itemID = 242405,
 							itemName = "Band of the Shattered Soul",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7268,18 +7839,21 @@ local bisData = {
 						{
 							itemID = 242392,
 							itemName = "Diamantine Voidcore",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242497,
 							itemName = "Azhiccaran Parapodia",
+							dropSource = "Eco-Dome Al'dani",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7302,18 +7876,21 @@ local bisData = {
 						{
 							itemID = 237728,
 							itemName = "Voidglass Kris",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237730,
 							itemName = "Voidglass Spire",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237735,
 							itemName = "Voidglass Sovereign's Blade",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7328,12 +7905,14 @@ local bisData = {
 						{
 							itemID = 237724,
 							itemName = "Iris of the Dark Beyond",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237742,
 							itemName = "Fractillus' Last Breath",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7356,6 +7935,7 @@ local bisData = {
 						{
 							itemID = 237525,
 							itemName = "Irradiated Impurity Filter",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7376,12 +7956,14 @@ local bisData = {
 						{
 							itemID = 252009,
 							itemName = "Bloodstained Memento",
+							dropSource = "Priory of the Sacred Flame",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237568,
 							itemName = "Chrysalis of Sundered Souls",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7396,6 +7978,7 @@ local bisData = {
 						{
 							itemID = 237552,
 							itemName = "Deathbound Shoulderpads",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7416,6 +7999,7 @@ local bisData = {
 						{
 							itemID = 237541,
 							itemName = "Darksorrow's Corrupted Carapace",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7442,6 +8026,7 @@ local bisData = {
 						{
 							itemID = 237533,
 							itemName = "Atomic Phasebelt",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7456,6 +8041,7 @@ local bisData = {
 						{
 							itemID = 185801,
 							itemName = "Anomalous Starlit Breeches",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7470,18 +8056,21 @@ local bisData = {
 						{
 							itemID = 243306,
 							itemName = "Interloper's Reinforced Sandals",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237565,
 							itemName = "Kinetic Dunerunners",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 246274,
 							itemName = "Geezle's Zapstep Boots",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7496,6 +8085,7 @@ local bisData = {
 						{
 							itemID = 237546,
 							itemName = "Bindings of Lost Essence",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7522,6 +8112,7 @@ local bisData = {
 						{
 							itemID = 185791,
 							itemName = "Knuckle-Dusting Handwraps",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7536,12 +8127,14 @@ local bisData = {
 						{
 							itemID = 237567,
 							itemName = "Logic Gate: Alpha",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 221141,
 							itemName = "High Nerubian Signet",
+							dropSource = "The Dawnbreaker",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7550,18 +8143,21 @@ local bisData = {
 						{
 							itemID = 242401,
 							itemName = "Brand of Ceaseless Ire",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219309,
 							itemName = "Tome of Light's Devotion",
+							dropSource = "Priory of the Sacred Flame",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7578,18 +8174,21 @@ local bisData = {
 						{
 							itemID = 221159,
 							itemName = "Harvester's Interdiction",
+							dropSource = "Ara-Kara, City of Echoes",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237739,
 							itemName = "Obliteration Beamglaive",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237726,
 							itemName = "Marvel of Technomancy",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7598,18 +8197,21 @@ local bisData = {
 						{
 							itemID = 237738,
 							itemName = "Unbound Training Claws",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237731,
 							itemName = "Ergospheric Cudgel",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 221144,
 							itemName = "Zephyrous Sail Carver",
+							dropSource = "The Dawnbreaker",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7628,6 +8230,7 @@ local bisData = {
 						{
 							itemID = 237525,
 							itemName = "Irradiated Impurity Filter",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7648,12 +8251,14 @@ local bisData = {
 						{
 							itemID = 237568,
 							itemName = "Chrysalis of Sundered Souls",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 178827,
 							itemName = "Sin Stained Pendant",
+							dropSource = "Halls of Atonement",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7668,6 +8273,7 @@ local bisData = {
 						{
 							itemID = 237552,
 							itemName = "Deathbound Shoulderpads",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7688,6 +8294,7 @@ local bisData = {
 						{
 							itemID = 237541,
 							itemName = "Darksorrow's Corrupted Carapace",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7708,6 +8315,7 @@ local bisData = {
 						{
 							itemID = 237533,
 							itemName = "Atomic Phasebelt",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7734,6 +8342,7 @@ local bisData = {
 						{
 							itemID = 178819,
 							itemName = "Skyterror's Stonehide Leggings",
+							dropSource = "Halls of Atonement",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7742,6 +8351,7 @@ local bisData = {
 						{
 							itemID = 243306,
 							itemName = "Interloper's Reinforced Sandals",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7754,6 +8364,7 @@ local bisData = {
 						{
 							itemID = 237565,
 							itemName = "Kinetic Dunerunners",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7768,6 +8379,7 @@ local bisData = {
 						{
 							itemID = 237546,
 							itemName = "Bindings of Lost Essence",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7794,6 +8406,7 @@ local bisData = {
 						{
 							itemID = 237540,
 							itemName = "Winged Gamma Handlers",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7808,12 +8421,14 @@ local bisData = {
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237567,
 							itemName = "Logic Gate: Alpha",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7822,18 +8437,21 @@ local bisData = {
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242396,
 							itemName = "Unyielding Netherprism",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7850,18 +8468,21 @@ local bisData = {
 						{
 							itemID = 221159,
 							itemName = "Harvester's Interdiction",
+							dropSource = "Ara-Kara, City of Echoes",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237739,
 							itemName = "Obliteration Beamglaive",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237726,
 							itemName = "Marvel of Technomancy",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7870,6 +8491,7 @@ local bisData = {
 						{
 							itemID = 237738,
 							itemName = "Unbound Training Claws",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -7900,6 +8522,7 @@ local bisData = {
 						{
 							itemID = 237525,
 							itemName = "Irradiated Impurity Filter",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7920,12 +8543,14 @@ local bisData = {
 						{
 							itemID = 237568,
 							itemName = "Chrysalis of Sundered Souls",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185842,
 							itemName = "Ornately Engraved Amplifier",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7940,12 +8565,14 @@ local bisData = {
 						{
 							itemID = 242486,
 							itemName = "Mantle of Wounded Fate",
+							dropSource = "Eco-Dome Al'dani",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 234500,
 							itemName = "Mechanized Junkpads",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -7960,6 +8587,7 @@ local bisData = {
 						{
 							itemID = 237541,
 							itemName = "Darksorrow's Corrupted Carapace",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -7986,6 +8614,7 @@ local bisData = {
 						{
 							itemID = 185809,
 							itemName = "Venza's Powderbelt",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8000,6 +8629,7 @@ local bisData = {
 						{
 							itemID = 185801,
 							itemName = "Anomalous Starlit Breeches",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8014,12 +8644,14 @@ local bisData = {
 						{
 							itemID = 243306,
 							itemName = "Interloper's Reinforced Sandals",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237553,
 							itemName = "Laboratory Test Slippers",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8040,12 +8672,14 @@ local bisData = {
 						{
 							itemID = 237546,
 							itemName = "Bindings of Lost Essence",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 221142,
 							itemName = "Scheming Assailer's Bands",
+							dropSource = "The Dawnbreaker",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8066,6 +8700,7 @@ local bisData = {
 						{
 							itemID = 237540,
 							itemName = "Winged Gamma Handlers",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8080,12 +8715,14 @@ local bisData = {
 						{
 							itemID = 242405,
 							itemName = "Band of the Shattered Soul",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 246281,
 							itemName = "Ring of the Panoply",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8094,18 +8731,21 @@ local bisData = {
 						{
 							itemID = 242392,
 							itemName = "Diamantine Voidcore",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242393,
 							itemName = "Loom'ithar's Living Silk",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8122,12 +8762,14 @@ local bisData = {
 						{
 							itemID = 237735,
 							itemName = "Voidglass Sovereign's Blade",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237730,
 							itemName = "Voidglass Spire",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8148,12 +8790,14 @@ local bisData = {
 						{
 							itemID = 237724,
 							itemName = "Iris of the Dark Beyond",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185812,
 							itemName = "Acoustically Alluring Censer",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8182,6 +8826,7 @@ local bisData = {
 						{
 							itemID = 237525,
 							itemName = "Irradiated Impurity Filter",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8196,12 +8841,14 @@ local bisData = {
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242406,
 							itemName = "Salhadaar's Folly",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8216,6 +8863,7 @@ local bisData = {
 						{
 							itemID = 237552,
 							itemName = "Deathbound Shoulderpads",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8242,6 +8890,7 @@ local bisData = {
 						{
 							itemID = 185786,
 							itemName = "So'azmi's Fractal Vest",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8250,6 +8899,7 @@ local bisData = {
 						{
 							itemID = 237533,
 							itemName = "Atomic Phasebelt",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8282,6 +8932,7 @@ local bisData = {
 						{
 							itemID = 242473,
 							itemName = "Spittle-Stained Trousers",
+							dropSource = "Eco-Dome Al'dani",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8290,6 +8941,7 @@ local bisData = {
 						{
 							itemID = 243306,
 							itemName = "Interloper's Reinforced Sandals",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8316,12 +8968,14 @@ local bisData = {
 						{
 							itemID = 237546,
 							itemName = "Bindings of Lost Essence",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237562,
 							itemName = "Time-Compressed Wristguards",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8342,6 +8996,7 @@ local bisData = {
 						{
 							itemID = 185791,
 							itemName = "Knuckle-Dusting Handwraps",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8356,12 +9011,14 @@ local bisData = {
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237567,
 							itemName = "Logic Gate: Alpha",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8370,18 +9027,21 @@ local bisData = {
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242392,
 							itemName = "Diamantine Voidcore",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8398,12 +9058,14 @@ local bisData = {
 						{
 							itemID = 237728,
 							itemName = "Voidglass Kris",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237730,
 							itemName = "Voidglass Spire",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8424,12 +9086,14 @@ local bisData = {
 						{
 							itemID = 237742,
 							itemName = "Fractillus' Last Breath",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237724,
 							itemName = "Iris of the Dark Beyond",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8448,6 +9112,7 @@ local bisData = {
 						{
 							itemID = 237525,
 							itemName = "Irradiated Impurity Filter",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8468,12 +9133,14 @@ local bisData = {
 						{
 							itemID = 178827,
 							itemName = "Sin Stained Pendant",
+							dropSource = "Halls of Atonement",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8488,6 +9155,7 @@ local bisData = {
 						{
 							itemID = 237552,
 							itemName = "Deathbound Shoulderpads",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8508,12 +9176,14 @@ local bisData = {
 						{
 							itemID = 185786,
 							itemName = "So'azmi's Fractal Vest",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237541,
 							itemName = "Darksorrow's Corrupted Carapace",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8528,6 +9198,7 @@ local bisData = {
 						{
 							itemID = 237533,
 							itemName = "Atomic Phasebelt",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8554,6 +9225,7 @@ local bisData = {
 						{
 							itemID = 242473,
 							itemName = "Spittle-Stained Trousers",
+							dropSource = "Eco-Dome Al'dani",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8562,6 +9234,7 @@ local bisData = {
 						{
 							itemID = 243306,
 							itemName = "Interloper's Reinforced Sandals",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8574,6 +9247,7 @@ local bisData = {
 						{
 							itemID = 246280,
 							itemName = "Boots of Titanic Deconversion",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8588,6 +9262,7 @@ local bisData = {
 						{
 							itemID = 237546,
 							itemName = "Bindings of Lost Essence",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8614,6 +9289,7 @@ local bisData = {
 						{
 							itemID = 185791,
 							itemName = "Knuckle-Dusting Handwraps",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8628,12 +9304,14 @@ local bisData = {
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 178824,
 							itemName = "Signet of the False Accuser",
+							dropSource = "Halls of Atonement",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8642,18 +9320,21 @@ local bisData = {
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 232541,
 							itemName = "Improvised Seaforium Pacemaker",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8670,12 +9351,14 @@ local bisData = {
 						{
 							itemID = 221159,
 							itemName = "Harvester's Interdiction",
+							dropSource = "Ara-Kara, City of Echoes",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237739,
 							itemName = "Obliteration Beamglaive",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8700,6 +9383,7 @@ local bisData = {
 						{
 							itemID = 237525,
 							itemName = "Irradiated Impurity Filter",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8714,12 +9398,14 @@ local bisData = {
 						{
 							itemID = 237568,
 							itemName = "Chrysalis of Sundered Souls",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 185820,
 							itemName = "Cabochon of the Infinite Flight",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8740,12 +9426,14 @@ local bisData = {
 						{
 							itemID = 237552,
 							itemName = "Deathbound Shoulderpads",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 221148,
 							itemName = "Epaulets of the Clipped Wings",
+							dropSource = "The Dawnbreaker",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8760,12 +9448,14 @@ local bisData = {
 						{
 							itemID = 221130,
 							itemName = "Seraphic Wraps of the Ordained",
+							dropSource = "Priory of the Sacred Flame",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237541,
 							itemName = "Darksorrow's Corrupted Carapace",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8806,6 +9496,7 @@ local bisData = {
 						{
 							itemID = 237531,
 							itemName = "Elite Shadowguard Legwraps",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8814,12 +9505,14 @@ local bisData = {
 						{
 							itemID = 243306,
 							itemName = "Interloper's Reinforced Sandals",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237553,
 							itemName = "Laboratory Test Slippers",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8840,6 +9533,7 @@ local bisData = {
 						{
 							itemID = 237546,
 							itemName = "Bindings of Lost Essence",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -8866,6 +9560,7 @@ local bisData = {
 						{
 							itemID = 178832,
 							itemName = "Gloves of Haunting Fixation",
+							dropSource = "Halls of Atonement",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8880,12 +9575,14 @@ local bisData = {
 						{
 							itemID = 185813,
 							itemName = "Signet of Collapsing Stars",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242405,
 							itemName = "Band of the Shattered Soul",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8894,18 +9591,21 @@ local bisData = {
 						{
 							itemID = 242401,
 							itemName = "Brand of Ceaseless Ire",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 219309,
 							itemName = "Tome of Light's Devotion",
+							dropSource = "Priory of the Sacred Flame",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8922,18 +9622,21 @@ local bisData = {
 						{
 							itemID = 221159,
 							itemName = "Harvester's Interdiction",
+							dropSource = "Ara-Kara, City of Echoes",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237726,
 							itemName = "Marvel of Technomancy",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237739,
 							itemName = "Obliteration Beamglaive",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8958,6 +9661,7 @@ local bisData = {
 						{
 							itemID = 237525,
 							itemName = "Irradiated Impurity Filter",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8966,6 +9670,7 @@ local bisData = {
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -8978,6 +9683,7 @@ local bisData = {
 						{
 							itemID = 178827,
 							itemName = "Sin Stained Pendant",
+							dropSource = "Halls of Atonement",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -8992,6 +9698,7 @@ local bisData = {
 						{
 							itemID = 237552,
 							itemName = "Deathbound Shoulderpads",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9012,6 +9719,7 @@ local bisData = {
 						{
 							itemID = 185786,
 							itemName = "So'azmi's Fractal Vest",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9038,6 +9746,7 @@ local bisData = {
 						{
 							itemID = 237533,
 							itemName = "Atomic Phasebelt",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9058,6 +9767,7 @@ local bisData = {
 						{
 							itemID = 242473,
 							itemName = "Spittle-Stained Trousers",
+							dropSource = "Eco-Dome Al'dani",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9066,18 +9776,21 @@ local bisData = {
 						{
 							itemID = 243306,
 							itemName = "Interloper's Reinforced Sandals",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 221120,
 							itemName = "Stalwart Guardian's Boots",
+							dropSource = "Priory of the Sacred Flame",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237553,
 							itemName = "Laboratory Test Slippers",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9092,6 +9805,7 @@ local bisData = {
 						{
 							itemID = 234499,
 							itemName = "Disturbed Kelp Wraps",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9118,6 +9832,7 @@ local bisData = {
 						{
 							itemID = 178832,
 							itemName = "Gloves of Haunting Fixation",
+							dropSource = "Halls of Atonement",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9132,12 +9847,14 @@ local bisData = {
 						{
 							itemID = 242491,
 							itemName = "Whispers of K'aresh",
+							dropSource = "Eco-Dome Al'dani",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9146,18 +9863,21 @@ local bisData = {
 						{
 							itemID = 242392,
 							itemName = "Diamantine Voidcore",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242393,
 							itemName = "Loom'ithar's Living Silk",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242400,
 							itemName = "Nexus-King's Command",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9174,12 +9894,14 @@ local bisData = {
 						{
 							itemID = 237730,
 							itemName = "Voidglass Spire",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237728,
 							itemName = "Voidglass Kris",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9200,12 +9922,14 @@ local bisData = {
 						{
 							itemID = 237742,
 							itemName = "Fractillus' Last Breath",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237724,
 							itemName = "Iris of the Dark Beyond",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9228,12 +9952,14 @@ local bisData = {
 						{
 							itemID = 237525,
 							itemName = "Irradiated Impurity Filter",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 221125,
 							itemName = "Helm of the Righteous Crusade",
+							dropSource = "Priory of the Sacred Flame",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9248,12 +9974,14 @@ local bisData = {
 						{
 							itemID = 242406,
 							itemName = "Salhadaar's Folly",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185842,
 							itemName = "Ornately Engraved Amplifier",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9268,6 +9996,7 @@ local bisData = {
 						{
 							itemID = 237552,
 							itemName = "Deathbound Shoulderpads",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9288,12 +10017,14 @@ local bisData = {
 						{
 							itemID = 237541,
 							itemName = "Darksorrow's Corrupted Carapace",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 246273,
 							itemName = "Vest of Refracted Shadows",
+							dropSource = "Halls of Atonement",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9302,6 +10033,7 @@ local bisData = {
 						{
 							itemID = 237533,
 							itemName = "Atomic Phasebelt",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9314,6 +10046,7 @@ local bisData = {
 						{
 							itemID = 221134,
 							itemName = "Shadow Congregant's Belt",
+							dropSource = "The Dawnbreaker",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9334,6 +10067,7 @@ local bisData = {
 						{
 							itemID = 221153,
 							itemName = "Gauzewoven Legguards",
+							dropSource = "Ara-Kara, City of Echoes",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9342,12 +10076,14 @@ local bisData = {
 						{
 							itemID = 243306,
 							itemName = "Interloper's Reinforced Sandals",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 246280,
 							itemName = "Boots of Titanic Deconversion",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9368,12 +10104,14 @@ local bisData = {
 						{
 							itemID = 237546,
 							itemName = "Bindings of Lost Essence",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185817,
 							itemName = "Bracers of Autonomous Classification",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9394,6 +10132,7 @@ local bisData = {
 						{
 							itemID = 178832,
 							itemName = "Gloves of Haunting Fixation",
+							dropSource = "Halls of Atonement",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9402,6 +10141,7 @@ local bisData = {
 						{
 							itemID = 237567,
 							itemName = "Logic Gate: Alpha",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
@@ -9414,6 +10154,7 @@ local bisData = {
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9422,18 +10163,21 @@ local bisData = {
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242397,
 							itemName = "Sigil of the Cosmic Hunt",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9450,18 +10194,21 @@ local bisData = {
 						{
 							itemID = 237727,
 							itemName = "Collapsing Phaseblades",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237738,
 							itemName = "Unbound Training Claws",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185780,
 							itemName = "Interrogator's Flensing Blade",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9476,6 +10223,7 @@ local bisData = {
 						{
 							itemID = 237727,
 							itemName = "Collapsing Phaseblades",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9500,12 +10248,14 @@ local bisData = {
 						{
 							itemID = 237525,
 							itemName = "Irradiated Impurity Filter",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 234498,
 							itemName = "Waterworks Filtration Mask",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9520,12 +10270,14 @@ local bisData = {
 						{
 							itemID = 185842,
 							itemName = "Ornately Engraved Amplifier",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237568,
 							itemName = "Chrysalis of Sundered Souls",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9540,12 +10292,14 @@ local bisData = {
 						{
 							itemID = 242486,
 							itemName = "Mantle of Wounded Fate",
+							dropSource = "Eco-Dome Al'dani",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237552,
 							itemName = "Deathbound Shoulderpads",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9560,6 +10314,7 @@ local bisData = {
 						{
 							itemID = 237541,
 							itemName = "Darksorrow's Corrupted Carapace",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9580,12 +10335,14 @@ local bisData = {
 						{
 							itemID = 237533,
 							itemName = "Atomic Phasebelt",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185809,
 							itemName = "Venza's Powderbelt",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9606,6 +10363,7 @@ local bisData = {
 						{
 							itemID = 185801,
 							itemName = "Anomalous Starlit Breeches",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9614,12 +10372,14 @@ local bisData = {
 						{
 							itemID = 243306,
 							itemName = "Interloper's Reinforced Sandals",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237553,
 							itemName = "Laboratory Test Slippers",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9640,6 +10400,7 @@ local bisData = {
 						{
 							itemID = 237546,
 							itemName = "Bindings of Lost Essence",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9666,6 +10427,7 @@ local bisData = {
 						{
 							itemID = 178832,
 							itemName = "Gloves of Haunting Fixation",
+							dropSource = "Halls of Atonement",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9680,12 +10442,14 @@ local bisData = {
 						{
 							itemID = 242405,
 							itemName = "Band of the Shattered Soul",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 246281,
 							itemName = "Ring of the Panoply",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9694,18 +10458,21 @@ local bisData = {
 						{
 							itemID = 242401,
 							itemName = "Brand of Ceaseless Ire",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 219309,
 							itemName = "Tome of Light's Devotion",
+							dropSource = "Priory of the Sacred Flame",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9722,12 +10489,14 @@ local bisData = {
 						{
 							itemID = 237738,
 							itemName = "Unbound Training Claws",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 234491,
 							itemName = "Sonic Ka-BOOM!-erang",
+							dropSource = "Operation: Floodgate",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9754,6 +10523,7 @@ local bisData = {
 						{
 							itemID = 237738,
 							itemName = "Unbound Training Claws",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9776,6 +10546,7 @@ local bisData = {
 						{
 							itemID = 237536,
 							itemName = "Bite of the Astral Wastes",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9796,12 +10567,14 @@ local bisData = {
 						{
 							itemID = 185842,
 							itemName = "Ornately Engraved Amplifier",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9816,6 +10589,7 @@ local bisData = {
 						{
 							itemID = 237537,
 							itemName = "Claws of Failed Resistance",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9836,6 +10610,7 @@ local bisData = {
 						{
 							itemID = 237529,
 							itemName = "Harvested Attendant's Uniform",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9856,12 +10631,14 @@ local bisData = {
 						{
 							itemID = 237522,
 							itemName = "Colossal Lifetether",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237554,
 							itemName = "Clasp of Furious Freedom",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9876,6 +10653,7 @@ local bisData = {
 						{
 							itemID = 237543,
 							itemName = "Chambersieve Waistcoat",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -9890,18 +10668,21 @@ local bisData = {
 						{
 							itemID = 243308,
 							itemName = "Interloper's Chain Boots",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237539,
 							itemName = "Deathspindle Talons",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237560,
 							itemName = "Greaves of Shattered Space",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9916,12 +10697,14 @@ local bisData = {
 						{
 							itemID = 237523,
 							itemName = "Arcanotech Wrist-Matrix",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237555,
 							itemName = "Pactbound Vambraces",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9942,6 +10725,7 @@ local bisData = {
 						{
 							itemID = 237544,
 							itemName = "Royal Voidscale Gauntlets",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9956,12 +10740,14 @@ local bisData = {
 						{
 							itemID = 237567,
 							itemName = "Logic Gate: Alpha",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242405,
 							itemName = "Band of the Shattered Soul",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9970,18 +10756,21 @@ local bisData = {
 						{
 							itemID = 242392,
 							itemName = "Diamantine Voidcore",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -9996,6 +10785,7 @@ local bisData = {
 						{
 							itemID = 212446,
 							itemName = "Royal Emblem of Nerub-ar",
+							dropSource = "Nerub-ar Palace",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -10010,18 +10800,21 @@ local bisData = {
 						{
 							itemID = 237730,
 							itemName = "Voidglass Spire",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237728,
 							itemName = "Voidglass Kris",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237735,
 							itemName = "Voidglass Sovereign's Blade",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10036,12 +10829,14 @@ local bisData = {
 						{
 							itemID = 237724,
 							itemName = "Iris of the Dark Beyond",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237742,
 							itemName = "Fractillus' Last Breath",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10060,6 +10855,7 @@ local bisData = {
 						{
 							itemID = 237536,
 							itemName = "Bite of the Astral Wastes",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -10080,12 +10876,14 @@ local bisData = {
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 185842,
 							itemName = "Ornately Engraved Amplifier",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10106,6 +10904,7 @@ local bisData = {
 						{
 							itemID = 237537,
 							itemName = "Claws of Failed Resistance",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10120,6 +10919,7 @@ local bisData = {
 						{
 							itemID = 237529,
 							itemName = "Harvested Attendant's Uniform",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -10140,12 +10940,14 @@ local bisData = {
 						{
 							itemID = 237522,
 							itemName = "Colossal Lifetether",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237554,
 							itemName = "Clasp of Furious Freedom",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10160,6 +10962,7 @@ local bisData = {
 						{
 							itemID = 237543,
 							itemName = "Chambersieve Waistcoat",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -10174,12 +10977,14 @@ local bisData = {
 						{
 							itemID = 243308,
 							itemName = "Interloper's Chain Boots",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237539,
 							itemName = "Deathspindle Talons",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -10200,12 +11005,14 @@ local bisData = {
 						{
 							itemID = 237523,
 							itemName = "Arcanotech Wrist-Matrix",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237555,
 							itemName = "Pactbound Vambraces",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10226,6 +11033,7 @@ local bisData = {
 						{
 							itemID = 237544,
 							itemName = "Royal Voidscale Gauntlets",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10240,12 +11048,14 @@ local bisData = {
 						{
 							itemID = 237567,
 							itemName = "Logic Gate: Alpha",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242405,
 							itemName = "Band of the Shattered Soul",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10254,18 +11064,21 @@ local bisData = {
 						{
 							itemID = 242402,
 							itemName = "Araz's Ritual Forge",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242392,
 							itemName = "Diamantine Voidcore",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10282,18 +11095,21 @@ local bisData = {
 						{
 							itemID = 237728,
 							itemName = "Voidglass Kris",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237730,
 							itemName = "Voidglass Spire",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237735,
 							itemName = "Voidglass Sovereign's Blade",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10308,12 +11124,14 @@ local bisData = {
 						{
 							itemID = 237724,
 							itemName = "Iris of the Dark Beyond",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237742,
 							itemName = "Fractillus' Last Breath",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10332,6 +11150,7 @@ local bisData = {
 						{
 							itemID = 237536,
 							itemName = "Bite of the Astral Wastes",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -10352,12 +11171,14 @@ local bisData = {
 						{
 							itemID = 242406,
 							itemName = "Salhadaar's Folly",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237569,
 							itemName = "Duskblaze's Desperation",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10378,6 +11199,7 @@ local bisData = {
 						{
 							itemID = 237537,
 							itemName = "Claws of Failed Resistance",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10392,12 +11214,14 @@ local bisData = {
 						{
 							itemID = 237529,
 							itemName = "Harvested Attendant's Uniform",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 178815,
 							itemName = "Soaring Decimator's Hauberk",
+							dropSource = "Halls of Atonement",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10412,12 +11236,14 @@ local bisData = {
 						{
 							itemID = 237522,
 							itemName = "Colossal Lifetether",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237554,
 							itemName = "Clasp of Furious Freedom",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10432,6 +11258,7 @@ local bisData = {
 						{
 							itemID = 237543,
 							itemName = "Chambersieve Waistcoat",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -10446,18 +11273,21 @@ local bisData = {
 						{
 							itemID = 243308,
 							itemName = "Interloper's Chain Boots",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237539,
 							itemName = "Deathspindle Talons",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242483,
 							itemName = "Greaves of the Wild Pair",
+							dropSource = "Eco-Dome Al'dani",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10472,12 +11302,14 @@ local bisData = {
 						{
 							itemID = 237523,
 							itemName = "Arcanotech Wrist-Matrix",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 221124,
 							itemName = "Consecrated Baron's Bindings",
+							dropSource = "Priory of the Sacred Flame",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10498,6 +11330,7 @@ local bisData = {
 						{
 							itemID = 237544,
 							itemName = "Royal Voidscale Gauntlets",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10512,12 +11345,14 @@ local bisData = {
 						{
 							itemID = 237567,
 							itemName = "Logic Gate: Alpha",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237570,
 							itemName = "Logic Gate: Omega",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10526,18 +11361,21 @@ local bisData = {
 						{
 							itemID = 242392,
 							itemName = "Diamantine Voidcore",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 242400,
 							itemName = "Nexus-King's Command",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 242395,
 							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
@@ -10552,6 +11390,7 @@ local bisData = {
 						{
 							itemID = 221088,
 							itemName = "Anvilhide Cape",
+							dropSource = "The Stonevault",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -10560,12 +11399,14 @@ local bisData = {
 						{
 							itemID = 237730,
 							itemName = "Voidglass Spire",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 1,
 						},
 						{
 							itemID = 237728,
 							itemName = "Voidglass Kris",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
@@ -10586,12 +11427,14 @@ local bisData = {
 						{
 							itemID = 237742,
 							itemName = "Fractillus' Last Breath",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 2,
 						},
 						{
 							itemID = 237724,
 							itemName = "Iris of the Dark Beyond",
+							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
 						},
