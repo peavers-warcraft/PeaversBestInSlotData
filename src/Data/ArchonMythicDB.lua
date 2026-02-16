@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ArchonMythicDB = addonTable.ArchonMythicDB or {}
 
 local bisData = {
-	updated = "2026-02-16 03:03:02",
+	updated = "2026-02-16 16:17:34",
 
 	[1] = {
 		specs = {
@@ -11025,6 +11025,308 @@ local bisData = {
 							itemID = 234491,
 							itemName = "Sonic Ka-BOOM!-erang",
 							dropSource = "Operation: Floodgate",
+							sourceType = "dungeon",
+							priority = 3,
+						},
+					},
+				},
+			},
+			[1480] = {
+				["dungeon"] = {
+					[1] = {
+						{
+							itemID = 237691,
+							itemName = "Charhound's Vicious Scalp",
+							dropSource = "Tier / Catalyst",
+							sourceType = "dungeon",
+							priority = 1,
+						},
+						{
+							itemID = 237525,
+							itemName = "Irradiated Impurity Filter",
+							dropSource = "Manaforge Omega",
+							sourceType = "dungeon",
+							priority = 2,
+						},
+						{
+							itemID = 219329,
+							itemName = "Rune-Branded Hood",
+							dropSource = "Crafted",
+							sourceType = "dungeon",
+							priority = 3,
+						},
+					},
+					[2] = {
+						{
+							itemID = 215136,
+							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
+							sourceType = "dungeon",
+							priority = 1,
+						},
+						{
+							itemID = 237569,
+							itemName = "Duskblaze's Desperation",
+							dropSource = "Manaforge Omega",
+							sourceType = "dungeon",
+							priority = 2,
+						},
+						{
+							itemID = 178827,
+							itemName = "Sin Stained Pendant",
+							dropSource = "Halls of Atonement",
+							sourceType = "dungeon",
+							priority = 3,
+						},
+					},
+					[3] = {
+						{
+							itemID = 237689,
+							itemName = "Charhound's Vicious Hornguards",
+							dropSource = "Tier / Catalyst",
+							sourceType = "dungeon",
+							priority = 1,
+						},
+						{
+							itemID = 219330,
+							itemName = "Rune-Branded Mantle",
+							dropSource = "Crafted",
+							sourceType = "dungeon",
+							priority = 2,
+						},
+						{
+							itemID = 185802,
+							itemName = "Breakbeat Shoulderguards",
+							dropSource = "Tazavesh, the Veiled Market",
+							sourceType = "dungeon",
+							priority = 3,
+						},
+					},
+					[5] = {
+						{
+							itemID = 237694,
+							itemName = "Charhound's Vicious Bindings",
+							dropSource = "Tier / Catalyst",
+							sourceType = "dungeon",
+							priority = 1,
+						},
+						{
+							itemID = 185786,
+							itemName = "So'azmi's Fractal Vest",
+							dropSource = "Tazavesh, the Veiled Market",
+							sourceType = "dungeon",
+							priority = 2,
+						},
+						{
+							itemID = 237541,
+							itemName = "Darksorrow's Corrupted Carapace",
+							dropSource = "Manaforge Omega",
+							sourceType = "dungeon",
+							priority = 3,
+						},
+					},
+					[6] = {
+						{
+							itemID = 219331,
+							itemName = "Rune-Branded Waistband",
+							dropSource = "Crafted",
+							sourceType = "dungeon",
+							priority = 1,
+						},
+						{
+							itemID = 237533,
+							itemName = "Atomic Phasebelt",
+							dropSource = "Manaforge Omega",
+							sourceType = "dungeon",
+							priority = 2,
+						},
+						{
+							itemID = 237688,
+							itemName = "Charhound's Vicious Huntbelt",
+							sourceType = "dungeon",
+							priority = 3,
+						},
+					},
+					[7] = {
+						{
+							itemID = 237690,
+							itemName = "Charhound's Vicious Hidecoat",
+							dropSource = "Tier / Catalyst",
+							sourceType = "dungeon",
+							priority = 1,
+						},
+						{
+							itemID = 219332,
+							itemName = "Rune-Branded Legwraps",
+							dropSource = "Crafted",
+							sourceType = "dungeon",
+							priority = 2,
+						},
+						{
+							itemID = 242473,
+							itemName = "Spittle-Stained Trousers",
+							dropSource = "Eco-Dome Al'dani",
+							sourceType = "dungeon",
+							priority = 3,
+						},
+					},
+					[8] = {
+						{
+							itemID = 243306,
+							itemName = "Interloper's Reinforced Sandals",
+							dropSource = "Manaforge Omega",
+							sourceType = "dungeon",
+							priority = 1,
+						},
+						{
+							itemID = 219327,
+							itemName = "Rune-Branded Kickers",
+							dropSource = "Crafted",
+							sourceType = "dungeon",
+							priority = 2,
+						},
+						{
+							itemID = 237553,
+							itemName = "Laboratory Test Slippers",
+							dropSource = "Manaforge Omega",
+							sourceType = "dungeon",
+							priority = 3,
+						},
+					},
+					[9] = {
+						{
+							itemID = 219334,
+							itemName = "Rune-Branded Armbands",
+							dropSource = "Crafted",
+							sourceType = "dungeon",
+							priority = 1,
+						},
+						{
+							itemID = 237546,
+							itemName = "Bindings of Lost Essence",
+							dropSource = "Manaforge Omega",
+							sourceType = "dungeon",
+							priority = 2,
+						},
+						{
+							itemID = 237687,
+							itemName = "Charhound's Vicious Restraints",
+							sourceType = "dungeon",
+							priority = 3,
+						},
+					},
+					[10] = {
+						{
+							itemID = 237692,
+							itemName = "Charhound's Vicious Felclaws",
+							dropSource = "Tier / Catalyst",
+							sourceType = "dungeon",
+							priority = 1,
+						},
+						{
+							itemID = 219333,
+							itemName = "Rune-Branded Grasps",
+							dropSource = "Crafted",
+							sourceType = "dungeon",
+							priority = 2,
+						},
+					},
+					[11] = {
+						{
+							itemID = 215135,
+							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
+							sourceType = "dungeon",
+							priority = 1,
+						},
+						{
+							itemID = 237570,
+							itemName = "Logic Gate: Omega",
+							dropSource = "Manaforge Omega",
+							sourceType = "dungeon",
+							priority = 2,
+						},
+						{
+							itemID = 178824,
+							itemName = "Signet of the False Accuser",
+							dropSource = "Halls of Atonement",
+							sourceType = "dungeon",
+							priority = 3,
+						},
+					},
+					[13] = {
+						{
+							itemID = 242395,
+							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
+							sourceType = "dungeon",
+							priority = 1,
+						},
+						{
+							itemID = 242494,
+							itemName = "Lily of the Eternal Weave",
+							dropSource = "Eco-Dome Al'dani",
+							sourceType = "dungeon",
+							priority = 2,
+						},
+						{
+							itemID = 242392,
+							itemName = "Diamantine Voidcore",
+							dropSource = "Manaforge Omega",
+							sourceType = "dungeon",
+							priority = 3,
+						},
+					},
+					[15] = {
+						{
+							itemID = 235499,
+							itemName = "Reshii Wraps",
+							sourceType = "dungeon",
+							priority = 1,
+						},
+					},
+					[16] = {
+						{
+							itemID = 237735,
+							itemName = "Voidglass Sovereign's Blade",
+							dropSource = "Manaforge Omega",
+							sourceType = "dungeon",
+							priority = 1,
+						},
+						{
+							itemID = 237727,
+							itemName = "Collapsing Phaseblades",
+							dropSource = "Manaforge Omega",
+							sourceType = "dungeon",
+							priority = 2,
+						},
+						{
+							itemID = 185819,
+							itemName = "Event Horizon's Edge",
+							dropSource = "Tazavesh, the Veiled Market",
+							sourceType = "dungeon",
+							priority = 3,
+						},
+					},
+					[17] = {
+						{
+							itemID = 222441,
+							itemName = "Everforged Warglaive",
+							dropSource = "Crafted",
+							sourceType = "dungeon",
+							priority = 1,
+						},
+						{
+							itemID = 237727,
+							itemName = "Collapsing Phaseblades",
+							dropSource = "Manaforge Omega",
+							sourceType = "dungeon",
+							priority = 2,
+						},
+						{
+							itemID = 185819,
+							itemName = "Event Horizon's Edge",
+							dropSource = "Tazavesh, the Veiled Market",
 							sourceType = "dungeon",
 							priority = 3,
 						},
