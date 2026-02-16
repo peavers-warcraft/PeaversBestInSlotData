@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.WowCompareRaidDB = addonTable.WowCompareRaidDB or {}
 
 local bisData = {
-	updated = "2026-02-16 03:03:02",
+	updated = "2026-02-16 16:17:34",
 
 	[1] = {
 		specs = {
@@ -11028,6 +11028,316 @@ local bisData = {
 						{
 							itemID = 237738,
 							itemName = "Unbound Training Claws",
+							dropSource = "Manaforge Omega",
+							sourceType = "raid",
+							priority = 3,
+						},
+					},
+				},
+			},
+			[1480] = {
+				["raid"] = {
+					[1] = {
+						{
+							itemID = 237691,
+							itemName = "Charhound's Vicious Scalp",
+							dropSource = "Tier / Catalyst",
+							sourceType = "raid",
+							priority = 1,
+						},
+						{
+							itemID = 237525,
+							itemName = "Irradiated Impurity Filter",
+							dropSource = "Manaforge Omega",
+							sourceType = "raid",
+							priority = 2,
+						},
+						{
+							itemID = 219329,
+							itemName = "Rune-Branded Hood",
+							dropSource = "Crafted",
+							sourceType = "raid",
+							priority = 3,
+						},
+					},
+					[2] = {
+						{
+							itemID = 215136,
+							itemName = "Amulet of Earthen Craftsmanship",
+							dropSource = "Crafted",
+							sourceType = "raid",
+							priority = 1,
+						},
+						{
+							itemID = 237569,
+							itemName = "Duskblaze's Desperation",
+							dropSource = "Manaforge Omega",
+							sourceType = "raid",
+							priority = 2,
+						},
+						{
+							itemID = 242406,
+							itemName = "Salhadaar's Folly",
+							dropSource = "Manaforge Omega",
+							sourceType = "raid",
+							priority = 3,
+						},
+					},
+					[3] = {
+						{
+							itemID = 237689,
+							itemName = "Charhound's Vicious Hornguards",
+							dropSource = "Tier / Catalyst",
+							sourceType = "raid",
+							priority = 1,
+						},
+						{
+							itemID = 219330,
+							itemName = "Rune-Branded Mantle",
+							dropSource = "Crafted",
+							sourceType = "raid",
+							priority = 2,
+						},
+						{
+							itemID = 237552,
+							itemName = "Deathbound Shoulderpads",
+							dropSource = "Manaforge Omega",
+							sourceType = "raid",
+							priority = 3,
+						},
+					},
+					[5] = {
+						{
+							itemID = 237694,
+							itemName = "Charhound's Vicious Bindings",
+							dropSource = "Tier / Catalyst",
+							sourceType = "raid",
+							priority = 1,
+						},
+						{
+							itemID = 237541,
+							itemName = "Darksorrow's Corrupted Carapace",
+							dropSource = "Manaforge Omega",
+							sourceType = "raid",
+							priority = 2,
+						},
+						{
+							itemID = 185786,
+							itemName = "So'azmi's Fractal Vest",
+							dropSource = "Tazavesh, the Veiled Market",
+							sourceType = "raid",
+							priority = 3,
+						},
+					},
+					[6] = {
+						{
+							itemID = 237533,
+							itemName = "Atomic Phasebelt",
+							dropSource = "Manaforge Omega",
+							sourceType = "raid",
+							priority = 1,
+						},
+						{
+							itemID = 219331,
+							itemName = "Rune-Branded Waistband",
+							dropSource = "Crafted",
+							sourceType = "raid",
+							priority = 2,
+						},
+						{
+							itemID = 237688,
+							itemName = "Charhound's Vicious Huntbelt",
+							sourceType = "raid",
+							priority = 3,
+						},
+					},
+					[7] = {
+						{
+							itemID = 237690,
+							itemName = "Charhound's Vicious Hidecoat",
+							dropSource = "Tier / Catalyst",
+							sourceType = "raid",
+							priority = 1,
+						},
+						{
+							itemID = 219332,
+							itemName = "Rune-Branded Legwraps",
+							dropSource = "Crafted",
+							sourceType = "raid",
+							priority = 2,
+						},
+						{
+							itemID = 221153,
+							itemName = "Gauzewoven Legguards",
+							dropSource = "Ara-Kara, City of Echoes",
+							sourceType = "raid",
+							priority = 3,
+						},
+					},
+					[8] = {
+						{
+							itemID = 243306,
+							itemName = "Interloper's Reinforced Sandals",
+							dropSource = "Manaforge Omega",
+							sourceType = "raid",
+							priority = 1,
+						},
+						{
+							itemID = 237553,
+							itemName = "Laboratory Test Slippers",
+							dropSource = "Manaforge Omega",
+							sourceType = "raid",
+							priority = 2,
+						},
+						{
+							itemID = 219327,
+							itemName = "Rune-Branded Kickers",
+							dropSource = "Crafted",
+							sourceType = "raid",
+							priority = 3,
+						},
+					},
+					[9] = {
+						{
+							itemID = 219334,
+							itemName = "Rune-Branded Armbands",
+							dropSource = "Crafted",
+							sourceType = "raid",
+							priority = 1,
+						},
+						{
+							itemID = 237546,
+							itemName = "Bindings of Lost Essence",
+							dropSource = "Manaforge Omega",
+							sourceType = "raid",
+							priority = 2,
+						},
+						{
+							itemID = 237562,
+							itemName = "Time-Compressed Wristguards",
+							dropSource = "Manaforge Omega",
+							sourceType = "raid",
+							priority = 3,
+						},
+					},
+					[10] = {
+						{
+							itemID = 237692,
+							itemName = "Charhound's Vicious Felclaws",
+							dropSource = "Tier / Catalyst",
+							sourceType = "raid",
+							priority = 1,
+						},
+						{
+							itemID = 219333,
+							itemName = "Rune-Branded Grasps",
+							dropSource = "Crafted",
+							sourceType = "raid",
+							priority = 2,
+						},
+						{
+							itemID = 237540,
+							itemName = "Winged Gamma Handlers",
+							dropSource = "Manaforge Omega",
+							sourceType = "raid",
+							priority = 3,
+						},
+					},
+					[11] = {
+						{
+							itemID = 215135,
+							itemName = "Ring of Earthen Craftsmanship",
+							dropSource = "Crafted",
+							sourceType = "raid",
+							priority = 1,
+						},
+						{
+							itemID = 237570,
+							itemName = "Logic Gate: Omega",
+							dropSource = "Manaforge Omega",
+							sourceType = "raid",
+							priority = 2,
+						},
+						{
+							itemID = 242405,
+							itemName = "Band of the Shattered Soul",
+							dropSource = "Manaforge Omega",
+							sourceType = "raid",
+							priority = 3,
+						},
+					},
+					[13] = {
+						{
+							itemID = 242494,
+							itemName = "Lily of the Eternal Weave",
+							dropSource = "Eco-Dome Al'dani",
+							sourceType = "raid",
+							priority = 1,
+						},
+						{
+							itemID = 242392,
+							itemName = "Diamantine Voidcore",
+							dropSource = "Manaforge Omega",
+							sourceType = "raid",
+							priority = 2,
+						},
+						{
+							itemID = 242395,
+							itemName = "Astral Antenna",
+							dropSource = "Manaforge Omega",
+							sourceType = "raid",
+							priority = 3,
+						},
+					},
+					[15] = {
+						{
+							itemID = 235499,
+							itemName = "Reshii Wraps",
+							sourceType = "raid",
+							priority = 1,
+						},
+					},
+					[16] = {
+						{
+							itemID = 237735,
+							itemName = "Voidglass Sovereign's Blade",
+							dropSource = "Manaforge Omega",
+							sourceType = "raid",
+							priority = 1,
+						},
+						{
+							itemID = 222441,
+							itemName = "Everforged Warglaive",
+							dropSource = "Crafted",
+							sourceType = "raid",
+							priority = 2,
+						},
+						{
+							itemID = 237727,
+							itemName = "Collapsing Phaseblades",
+							dropSource = "Manaforge Omega",
+							sourceType = "raid",
+							priority = 3,
+						},
+					},
+					[17] = {
+						{
+							itemID = 222441,
+							itemName = "Everforged Warglaive",
+							dropSource = "Crafted",
+							sourceType = "raid",
+							priority = 1,
+						},
+						{
+							itemID = 237727,
+							itemName = "Collapsing Phaseblades",
+							dropSource = "Manaforge Omega",
+							sourceType = "raid",
+							priority = 2,
+						},
+						{
+							itemID = 237735,
+							itemName = "Voidglass Sovereign's Blade",
 							dropSource = "Manaforge Omega",
 							sourceType = "raid",
 							priority = 3,
