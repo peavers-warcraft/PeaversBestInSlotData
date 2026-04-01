@@ -133,6 +133,7 @@ function API.GetBiSForSlot(classID, specID, slotID, contentType, source)
                 dropSource = dropSource,
                 sourceType = item.sourceType,
                 priority = item.priority or 1,
+                popularity = item.popularity or 0,
                 updated = db.updated,
             })
         end
@@ -195,6 +196,7 @@ function API.IsItemBiS(itemID, contentType, source)
                                                     slotID = slotID,
                                                     itemID = item.itemID,
                                                     priority = item.priority or 1,
+                                                    popularity = item.popularity or 0,
                                                     dropSource = dropSource,
                                                 })
                                             end
