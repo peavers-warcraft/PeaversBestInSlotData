@@ -12,6 +12,8 @@
 ## X-Website: https://peavers.io
 ## X-Source-Code: https://github.com/peavers-warcraft/PeaversBestInSlotData
 
+Changelog.lua
+
 src\Data\ArchonRaidDB.lua
 src\Data\ArchonMythicDB.lua
 
