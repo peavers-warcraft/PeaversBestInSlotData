@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.WowCompareRaidDB = addonTable.WowCompareRaidDB or {}
 
 local bisData = {
-	updated = "2026-05-19 03:03:14",
+	updated = "2026-05-20 03:02:55",
 
 	[1] = {
 		specs = {
@@ -14,7 +14,7 @@ local bisData = {
 							itemName = "Night Ender's Tusks",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 93.6,
+							popularity = 93.5,
 							priority = 1,
 						},
 						{
@@ -22,7 +22,7 @@ local bisData = {
 							itemName = "Skeleton Lord's Cranium",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 5.2,
+							popularity = 5.3,
 							priority = 2,
 						},
 						{
@@ -56,7 +56,7 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 57.1,
+							popularity = 57.3,
 							priority = 1,
 						},
 						{
@@ -64,7 +64,7 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 26.3,
+							popularity = 26.2,
 							priority = 2,
 						},
 						{
@@ -79,7 +79,7 @@ local bisData = {
 							itemID = 249626,
 							itemName = "Nocturnal Thorncharm",
 							sourceType = "raid",
-							popularity = 3.9,
+							popularity = 3.8,
 							priority = 4,
 						},
 						{
@@ -87,7 +87,7 @@ local bisData = {
 							itemName = "Eternal Voidsong Chain",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 2.2,
+							popularity = 2.1,
 							priority = 5,
 						},
 					},
@@ -97,7 +97,7 @@ local bisData = {
 							itemName = "Night Ender's Pauldrons",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 93.7,
+							popularity = 93.8,
 							priority = 1,
 						},
 						{
@@ -105,7 +105,7 @@ local bisData = {
 							itemName = "Light-Judged Spaulders",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 3.9,
+							popularity = 3.8,
 							priority = 2,
 						},
 						{
@@ -121,7 +121,7 @@ local bisData = {
 							itemName = "Shoulderplates of Frozen Blood",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 0.3,
+							popularity = 0.2,
 							priority = 4,
 						},
 						{
@@ -170,7 +170,7 @@ local bisData = {
 							itemID = 249949,
 							itemName = "Night Ender's Girdle",
 							sourceType = "raid",
-							popularity = 42.0,
+							popularity = 41.8,
 							priority = 1,
 						},
 						{
@@ -178,7 +178,7 @@ local bisData = {
 							itemName = "Bent Gold Belt",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 28.2,
+							popularity = 28.5,
 							priority = 2,
 						},
 						{
@@ -186,14 +186,14 @@ local bisData = {
 							itemName = "Spellbreaker's Girdle",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 9.1,
+							popularity = 9.0,
 							priority = 3,
 						},
 						{
 							itemID = 249659,
 							itemName = "Rampant Thornstrap",
 							sourceType = "raid",
-							popularity = 6.7,
+							popularity = 6.6,
 							priority = 4,
 						},
 						{
@@ -201,7 +201,7 @@ local bisData = {
 							itemName = "Riphook Defender",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 6.3,
+							popularity = 6.2,
 							priority = 5,
 						},
 					},
@@ -219,7 +219,7 @@ local bisData = {
 							itemName = "Spellbreaker's Legguards",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 0.5,
+							popularity = 0.4,
 							priority = 2,
 						},
 						{
@@ -243,7 +243,7 @@ local bisData = {
 							itemID = 249954,
 							itemName = "Night Ender's Greatboots",
 							sourceType = "raid",
-							popularity = 66.4,
+							popularity = 66.3,
 							priority = 1,
 						},
 						{
@@ -251,7 +251,7 @@ local bisData = {
 							itemName = "Greaves of the Unformed",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 15.2,
+							popularity = 15.0,
 							priority = 2,
 						},
 						{
@@ -259,7 +259,7 @@ local bisData = {
 							itemName = "Spellbreaker's March",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 4.7,
+							popularity = 4.8,
 							priority = 3,
 						},
 						{
@@ -285,14 +285,14 @@ local bisData = {
 							itemName = "Spellbreaker's Bracers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 73.9,
+							popularity = 73.8,
 							priority = 1,
 						},
 						{
 							itemID = 249948,
 							itemName = "Night Ender's Warbands",
 							sourceType = "raid",
-							popularity = 12.9,
+							popularity = 13.0,
 							priority = 2,
 						},
 						{
@@ -333,7 +333,7 @@ local bisData = {
 							itemName = "Embergrove Grasps",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 25.8,
+							popularity = 25.9,
 							priority = 2,
 						},
 						{
@@ -341,7 +341,7 @@ local bisData = {
 							itemName = "Voidclaw Gauntlets",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 20.6,
+							popularity = 20.4,
 							priority = 3,
 						},
 						{
@@ -349,7 +349,7 @@ local bisData = {
 							itemName = "Spellbreaker's Resolve",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 10.2,
+							popularity = 10.4,
 							priority = 4,
 						},
 						{
@@ -357,7 +357,7 @@ local bisData = {
 							itemName = "Incarnadine Gauntlets",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 9.6,
+							popularity = 9.5,
 							priority = 5,
 						},
 					},
@@ -367,7 +367,7 @@ local bisData = {
 							itemName = "Occlusion of Void",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 62.5,
+							popularity = 62.3,
 							priority = 1,
 						},
 						{
@@ -375,7 +375,7 @@ local bisData = {
 							itemName = "Purloined Wedding Ring",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 51.8,
+							popularity = 52.2,
 							priority = 2,
 						},
 						{
@@ -383,7 +383,7 @@ local bisData = {
 							itemName = "Omission of Light",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 29.0,
+							popularity = 28.7,
 							priority = 3,
 						},
 						{
@@ -409,7 +409,7 @@ local bisData = {
 							itemName = "Heart of Ancient Hunger",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 77.8,
+							popularity = 78.0,
 							priority = 1,
 						},
 						{
@@ -417,7 +417,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 75.2,
+							popularity = 75.4,
 							priority = 2,
 						},
 						{
@@ -425,7 +425,7 @@ local bisData = {
 							itemName = "Solarflare Prism",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 15.0,
+							popularity = 14.9,
 							priority = 3,
 						},
 						{
@@ -441,7 +441,7 @@ local bisData = {
 							itemName = "Umbral Plume",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 5.9,
+							popularity = 5.8,
 							priority = 5,
 						},
 					},
@@ -451,7 +451,7 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 60.8,
+							popularity = 61.0,
 							priority = 1,
 						},
 						{
@@ -459,7 +459,7 @@ local bisData = {
 							itemName = "Defiant Defender's Drape",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 12.4,
+							popularity = 12.3,
 							priority = 2,
 						},
 						{
@@ -467,23 +467,23 @@ local bisData = {
 							itemName = "Draconic Nullcape",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 5.9,
+							popularity = 6.0,
 							priority = 3,
-						},
-						{
-							itemID = 258575,
-							itemName = "Rigid Scale Greatcloak",
-							dropSource = "Skyreach",
-							sourceType = "raid",
-							popularity = 4.7,
-							priority = 4,
 						},
 						{
 							itemID = 49823,
 							itemName = "Cloak of the Fallen Cardinal",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 4.7,
+							popularity = 4.8,
+							priority = 4,
+						},
+						{
+							itemID = 258575,
+							itemName = "Rigid Scale Greatcloak",
+							dropSource = "Skyreach",
+							sourceType = "raid",
+							popularity = 4.5,
 							priority = 5,
 						},
 					},
@@ -493,7 +493,7 @@ local bisData = {
 							itemName = "Garfrost's Two-Ton Hammer",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 47.8,
+							popularity = 48.6,
 							priority = 1,
 						},
 						{
@@ -501,7 +501,7 @@ local bisData = {
 							itemName = "Blood Knight's Warblade",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 31.6,
+							popularity = 30.8,
 							priority = 2,
 						},
 						{
@@ -509,7 +509,7 @@ local bisData = {
 							itemName = "Whirling Voidcleaver",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 4.2,
+							popularity = 4.1,
 							priority = 3,
 						},
 						{
@@ -517,7 +517,7 @@ local bisData = {
 							itemName = "Blood Knight's Mercy",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 3.9,
+							popularity = 3.8,
 							priority = 4,
 						},
 						{
@@ -525,7 +525,7 @@ local bisData = {
 							itemName = "Bellamy's Final Judgement",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 3.7,
+							popularity = 3.8,
 							priority = 5,
 						},
 					},
@@ -539,7 +539,7 @@ local bisData = {
 							itemName = "Night Ender's Tusks",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.3,
+							popularity = 97.3,
 							priority = 1,
 						},
 						{
@@ -547,7 +547,7 @@ local bisData = {
 							itemName = "Skeleton Lord's Cranium",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 0.7,
+							popularity = 0.6,
 							priority = 2,
 						},
 						{
@@ -579,7 +579,7 @@ local bisData = {
 							itemID = 266314,
 							itemName = "Novice Combatant's Necklace",
 							sourceType = "raid",
-							popularity = 26.2,
+							popularity = 25.9,
 							priority = 1,
 						},
 						{
@@ -587,7 +587,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 20.2,
+							popularity = 20.0,
 							priority = 2,
 						},
 						{
@@ -595,7 +595,7 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 14.7,
+							popularity = 14.5,
 							priority = 3,
 						},
 						{
@@ -603,7 +603,7 @@ local bisData = {
 							itemName = "Amulet of the Abyssal Hymn",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 8.6,
+							popularity = 8.5,
 							priority = 4,
 						},
 						{
@@ -611,7 +611,7 @@ local bisData = {
 							itemName = "Eternal Voidsong Chain",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 8.5,
+							popularity = 8.4,
 							priority = 5,
 						},
 					},
@@ -621,7 +621,7 @@ local bisData = {
 							itemName = "Night Ender's Pauldrons",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 97.3,
+							popularity = 96.4,
 							priority = 1,
 						},
 						{
@@ -629,7 +629,7 @@ local bisData = {
 							itemName = "Light-Judged Spaulders",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 0.8,
+							popularity = 0.7,
 							priority = 2,
 						},
 						{
@@ -663,7 +663,7 @@ local bisData = {
 							itemName = "Night Ender's Breastplate",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 95.2,
+							popularity = 94.2,
 							priority = 1,
 						},
 						{
@@ -671,7 +671,7 @@ local bisData = {
 							itemName = "Breastplate of the Dark Touch",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 2.2,
+							popularity = 2.1,
 							priority = 2,
 						},
 						{
@@ -703,7 +703,7 @@ local bisData = {
 							itemID = 249949,
 							itemName = "Night Ender's Girdle",
 							sourceType = "raid",
-							popularity = 23.2,
+							popularity = 22.9,
 							priority = 1,
 						},
 						{
@@ -711,7 +711,7 @@ local bisData = {
 							itemName = "Ezzorak's Gloombind",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 21.7,
+							popularity = 21.5,
 							priority = 2,
 						},
 						{
@@ -719,7 +719,7 @@ local bisData = {
 							itemName = "Girdle of the Shadowguard",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 16.3,
+							popularity = 16.1,
 							priority = 3,
 						},
 						{
@@ -727,7 +727,7 @@ local bisData = {
 							itemName = "Spellbreaker's Girdle",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 12.5,
+							popularity = 12.4,
 							priority = 4,
 						},
 						{
@@ -735,7 +735,7 @@ local bisData = {
 							itemName = "Bent Gold Belt",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 9.8,
+							popularity = 9.7,
 							priority = 5,
 						},
 					},
@@ -745,7 +745,7 @@ local bisData = {
 							itemName = "Night Ender's Chausses",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 92.0,
+							popularity = 91.0,
 							priority = 1,
 						},
 						{
@@ -753,7 +753,7 @@ local bisData = {
 							itemName = "Lightblood Greaves",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 3.3,
+							popularity = 3.2,
 							priority = 2,
 						},
 						{
@@ -786,14 +786,14 @@ local bisData = {
 							itemName = "Parasite Stompers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 29.4,
+							popularity = 29.1,
 							priority = 1,
 						},
 						{
 							itemID = 249954,
 							itemName = "Night Ender's Greatboots",
 							sourceType = "raid",
-							popularity = 26.4,
+							popularity = 26.1,
 							priority = 2,
 						},
 						{
@@ -801,7 +801,7 @@ local bisData = {
 							itemName = "Oathsworn Stompers",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 16.2,
+							popularity = 16.0,
 							priority = 3,
 						},
 						{
@@ -809,7 +809,7 @@ local bisData = {
 							itemName = "Greaves of the Unformed",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 13.5,
+							popularity = 13.3,
 							priority = 4,
 						},
 						{
@@ -817,7 +817,7 @@ local bisData = {
 							itemName = "Footwraps of Ill-Fate",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 6.7,
+							popularity = 6.6,
 							priority = 5,
 						},
 					},
@@ -827,7 +827,7 @@ local bisData = {
 							itemName = "Spellbreaker's Bracers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 68.6,
+							popularity = 67.9,
 							priority = 1,
 						},
 						{
@@ -835,14 +835,14 @@ local bisData = {
 							itemName = "Light's March Bracers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 16.3,
+							popularity = 16.1,
 							priority = 2,
 						},
 						{
 							itemID = 249948,
 							itemName = "Night Ender's Warbands",
 							sourceType = "raid",
-							popularity = 5.4,
+							popularity = 5.3,
 							priority = 3,
 						},
 						{
@@ -850,7 +850,7 @@ local bisData = {
 							itemName = "Trollhunter's Bands",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 4.5,
+							popularity = 4.4,
 							priority = 4,
 						},
 						{
@@ -868,7 +868,7 @@ local bisData = {
 							itemName = "Night Ender's Fists",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 41.1,
+							popularity = 40.7,
 							priority = 1,
 						},
 						{
@@ -876,7 +876,7 @@ local bisData = {
 							itemName = "Voidclaw Gauntlets",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 39.3,
+							popularity = 38.9,
 							priority = 2,
 						},
 						{
@@ -884,7 +884,7 @@ local bisData = {
 							itemName = "Incarnadine Gauntlets",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 6.6,
+							popularity = 6.5,
 							priority = 3,
 						},
 						{
@@ -892,7 +892,7 @@ local bisData = {
 							itemName = "Embergrove Grasps",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 6.6,
+							popularity = 6.5,
 							priority = 4,
 						},
 						{
@@ -900,7 +900,7 @@ local bisData = {
 							itemName = "Spellbreaker's Resolve",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 3.5,
+							popularity = 3.4,
 							priority = 5,
 						},
 					},
@@ -910,7 +910,7 @@ local bisData = {
 							itemName = "Omission of Light",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 63.1,
+							popularity = 62.5,
 							priority = 1,
 						},
 						{
@@ -918,7 +918,7 @@ local bisData = {
 							itemName = "Occlusion of Void",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 43.4,
+							popularity = 43.0,
 							priority = 2,
 						},
 						{
@@ -926,7 +926,7 @@ local bisData = {
 							itemName = "Bifurcation Band",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 32.0,
+							popularity = 31.6,
 							priority = 3,
 						},
 						{
@@ -934,7 +934,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 15.7,
+							popularity = 15.5,
 							priority = 4,
 						},
 						{
@@ -942,7 +942,7 @@ local bisData = {
 							itemName = "Bond of Light",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 12.5,
+							popularity = 12.4,
 							priority = 5,
 						},
 					},
@@ -952,7 +952,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 86.4,
+							popularity = 85.6,
 							priority = 1,
 						},
 						{
@@ -960,7 +960,7 @@ local bisData = {
 							itemName = "Heart of Ancient Hunger",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 81.6,
+							popularity = 80.8,
 							priority = 2,
 						},
 						{
@@ -968,7 +968,7 @@ local bisData = {
 							itemName = "Solarflare Prism",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 6.9,
+							popularity = 6.8,
 							priority = 3,
 						},
 						{
@@ -994,7 +994,7 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 36.5,
+							popularity = 36.2,
 							priority = 1,
 						},
 						{
@@ -1002,7 +1002,7 @@ local bisData = {
 							itemName = "Defiant Defender's Drape",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 15.4,
+							popularity = 15.2,
 							priority = 2,
 						},
 						{
@@ -1010,7 +1010,7 @@ local bisData = {
 							itemName = "Draconic Nullcape",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 13.3,
+							popularity = 13.2,
 							priority = 3,
 						},
 						{
@@ -1018,7 +1018,7 @@ local bisData = {
 							itemName = "Rigid Scale Greatcloak",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 12.3,
+							popularity = 12.1,
 							priority = 4,
 						},
 						{
@@ -1026,7 +1026,7 @@ local bisData = {
 							itemName = "Fluxweave Cloak",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 5.8,
+							popularity = 5.7,
 							priority = 5,
 						},
 					},
@@ -1036,7 +1036,7 @@ local bisData = {
 							itemName = "Whirling Voidcleaver",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 27.3,
+							popularity = 27.0,
 							priority = 1,
 						},
 						{
@@ -1044,7 +1044,7 @@ local bisData = {
 							itemName = "Blood Knight's Warblade",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 20.1,
+							popularity = 19.9,
 							priority = 2,
 						},
 						{
@@ -1052,7 +1052,7 @@ local bisData = {
 							itemName = "Garfrost's Two-Ton Hammer",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 15.8,
+							popularity = 15.7,
 							priority = 3,
 						},
 						{
@@ -1060,7 +1060,7 @@ local bisData = {
 							itemName = "Liferipper's Cutlass",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 8.5,
+							popularity = 8.4,
 							priority = 4,
 						},
 						{
@@ -1078,7 +1078,7 @@ local bisData = {
 							itemName = "Blood Knight's Warblade",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 56.8,
+							popularity = 56.2,
 							priority = 1,
 						},
 						{
@@ -1094,7 +1094,7 @@ local bisData = {
 							itemName = "Bellamy's Final Judgement",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 7.5,
+							popularity = 7.4,
 							priority = 3,
 						},
 						{
@@ -1102,7 +1102,7 @@ local bisData = {
 							itemName = "Blood Knight's Mercy",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 5.0,
+							popularity = 4.9,
 							priority = 4,
 						},
 						{
@@ -1123,7 +1123,7 @@ local bisData = {
 							itemName = "Night Ender's Tusks",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 91.5,
+							popularity = 90.9,
 							priority = 1,
 						},
 						{
@@ -1131,7 +1131,7 @@ local bisData = {
 							itemName = "Crown of the Fractured Tyrant",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 4.1,
+							popularity = 4.0,
 							priority = 2,
 						},
 						{
@@ -1165,7 +1165,7 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 22.1,
+							popularity = 21.9,
 							priority = 1,
 						},
 						{
@@ -1173,7 +1173,7 @@ local bisData = {
 							itemName = "Necklace of the Twisting Void",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 15.6,
+							popularity = 15.5,
 							priority = 2,
 						},
 						{
@@ -1181,7 +1181,7 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 15.0,
+							popularity = 14.9,
 							priority = 3,
 						},
 						{
@@ -1189,7 +1189,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 13.5,
+							popularity = 13.4,
 							priority = 4,
 						},
 						{
@@ -1207,7 +1207,7 @@ local bisData = {
 							itemName = "Night Ender's Pauldrons",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 95.2,
+							popularity = 94.6,
 							priority = 1,
 						},
 						{
@@ -1249,7 +1249,7 @@ local bisData = {
 							itemName = "Night Ender's Breastplate",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 96.7,
+							popularity = 96.1,
 							priority = 1,
 						},
 						{
@@ -1272,7 +1272,7 @@ local bisData = {
 							itemID = 249653,
 							itemName = "Rampant Brambleplate",
 							sourceType = "raid",
-							popularity = 0.5,
+							popularity = 0.4,
 							priority = 4,
 						},
 						{
@@ -1289,7 +1289,7 @@ local bisData = {
 							itemID = 249949,
 							itemName = "Night Ender's Girdle",
 							sourceType = "raid",
-							popularity = 20.5,
+							popularity = 20.3,
 							priority = 1,
 						},
 						{
@@ -1297,7 +1297,7 @@ local bisData = {
 							itemName = "Ezzorak's Gloombind",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 17.0,
+							popularity = 16.9,
 							priority = 2,
 						},
 						{
@@ -1305,7 +1305,7 @@ local bisData = {
 							itemName = "Spellbreaker's Girdle",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 15.7,
+							popularity = 15.6,
 							priority = 3,
 						},
 						{
@@ -1313,7 +1313,7 @@ local bisData = {
 							itemName = "Bent Gold Belt",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 13.6,
+							popularity = 13.5,
 							priority = 4,
 						},
 						{
@@ -1321,7 +1321,7 @@ local bisData = {
 							itemName = "Riphook Defender",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 11.3,
+							popularity = 11.2,
 							priority = 5,
 						},
 					},
@@ -1331,7 +1331,7 @@ local bisData = {
 							itemName = "Night Ender's Chausses",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 96.7,
+							popularity = 96.0,
 							priority = 1,
 						},
 						{
@@ -1371,7 +1371,7 @@ local bisData = {
 							itemID = 249954,
 							itemName = "Night Ender's Greatboots",
 							sourceType = "raid",
-							popularity = 46.5,
+							popularity = 46.2,
 							priority = 1,
 						},
 						{
@@ -1379,7 +1379,7 @@ local bisData = {
 							itemName = "Spellbreaker's March",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 12.5,
+							popularity = 12.4,
 							priority = 2,
 						},
 						{
@@ -1387,7 +1387,7 @@ local bisData = {
 							itemName = "Parasite Stompers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 11.8,
+							popularity = 11.7,
 							priority = 3,
 						},
 						{
@@ -1395,7 +1395,7 @@ local bisData = {
 							itemName = "Greaves of the Unformed",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 11.5,
+							popularity = 11.4,
 							priority = 4,
 						},
 						{
@@ -1413,7 +1413,7 @@ local bisData = {
 							itemName = "Spellbreaker's Bracers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 41.0,
+							popularity = 40.7,
 							priority = 1,
 						},
 						{
@@ -1421,14 +1421,14 @@ local bisData = {
 							itemName = "Light's March Bracers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 22.1,
+							popularity = 21.9,
 							priority = 2,
 						},
 						{
 							itemID = 249948,
 							itemName = "Night Ender's Warbands",
 							sourceType = "raid",
-							popularity = 16.3,
+							popularity = 16.2,
 							priority = 3,
 						},
 						{
@@ -1436,7 +1436,7 @@ local bisData = {
 							itemName = "Vambraces of Lost Hope",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 8.4,
+							popularity = 8.3,
 							priority = 4,
 						},
 						{
@@ -1453,7 +1453,7 @@ local bisData = {
 							itemName = "Night Ender's Fists",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 36.4,
+							popularity = 36.2,
 							priority = 1,
 						},
 						{
@@ -1461,7 +1461,7 @@ local bisData = {
 							itemName = "Voidclaw Gauntlets",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 34.5,
+							popularity = 34.3,
 							priority = 2,
 						},
 						{
@@ -1484,7 +1484,7 @@ local bisData = {
 							itemID = 249655,
 							itemName = "Rampant Creepers",
 							sourceType = "raid",
-							popularity = 4.2,
+							popularity = 4.1,
 							priority = 5,
 						},
 					},
@@ -1494,7 +1494,7 @@ local bisData = {
 							itemName = "Omission of Light",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 42.9,
+							popularity = 42.6,
 							priority = 1,
 						},
 						{
@@ -1502,7 +1502,7 @@ local bisData = {
 							itemName = "Occlusion of Void",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 42.8,
+							popularity = 42.5,
 							priority = 2,
 						},
 						{
@@ -1510,7 +1510,7 @@ local bisData = {
 							itemName = "Purloined Wedding Ring",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 20.9,
+							popularity = 20.8,
 							priority = 3,
 						},
 						{
@@ -1518,7 +1518,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 19.4,
+							popularity = 19.3,
 							priority = 4,
 						},
 						{
@@ -1526,7 +1526,7 @@ local bisData = {
 							itemName = "Band of the Triumvirate",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 17.4,
+							popularity = 17.3,
 							priority = 5,
 						},
 					},
@@ -1536,7 +1536,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 79.1,
+							popularity = 78.6,
 							priority = 1,
 						},
 						{
@@ -1544,7 +1544,7 @@ local bisData = {
 							itemName = "Heart of Ancient Hunger",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 68.9,
+							popularity = 68.5,
 							priority = 2,
 						},
 						{
@@ -1552,7 +1552,7 @@ local bisData = {
 							itemName = "Heart of Wind",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 11.6,
+							popularity = 11.5,
 							priority = 3,
 						},
 						{
@@ -1578,14 +1578,14 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 31.5,
+							popularity = 31.3,
 							priority = 1,
 						},
 						{
 							itemID = 249947,
 							itemName = "Night Ender's Greatmantle",
 							sourceType = "raid",
-							popularity = 16.6,
+							popularity = 16.4,
 							priority = 2,
 						},
 						{
@@ -1593,7 +1593,7 @@ local bisData = {
 							itemName = "Defiant Defender's Drape",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 11.9,
+							popularity = 11.8,
 							priority = 3,
 						},
 						{
@@ -1619,7 +1619,7 @@ local bisData = {
 							itemName = "Spellbreaker's Blade",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 37.7,
+							popularity = 37.4,
 							priority = 1,
 						},
 						{
@@ -1627,7 +1627,7 @@ local bisData = {
 							itemName = "Blade of the Final Twilight",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 21.7,
+							popularity = 21.5,
 							priority = 2,
 						},
 						{
@@ -1635,7 +1635,7 @@ local bisData = {
 							itemName = "Turalyon's False Echo",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 11.4,
+							popularity = 11.3,
 							priority = 3,
 						},
 						{
@@ -1643,7 +1643,7 @@ local bisData = {
 							itemName = "Scepter of the Endless Night",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 7.3,
+							popularity = 7.2,
 							priority = 4,
 						},
 						{
@@ -1651,7 +1651,7 @@ local bisData = {
 							itemName = "Malfeasance Mallet",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 4.3,
+							popularity = 4.2,
 							priority = 5,
 						},
 					},
@@ -1661,7 +1661,7 @@ local bisData = {
 							itemName = "Spellbreaker's Rebuke",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 39.9,
+							popularity = 39.6,
 							priority = 1,
 						},
 						{
@@ -1669,7 +1669,7 @@ local bisData = {
 							itemName = "Bulwark of Noble Resolve",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 35.9,
+							popularity = 35.7,
 							priority = 2,
 						},
 						{
@@ -1685,7 +1685,7 @@ local bisData = {
 							itemName = "Ward of the Spellbreaker",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 4.3,
+							popularity = 4.2,
 							priority = 4,
 						},
 						{
@@ -1710,7 +1710,7 @@ local bisData = {
 							itemName = "Luminant Verdict's Unwavering Gaze",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 96.6,
+							popularity = 96.8,
 							priority = 1,
 						},
 						{
@@ -1718,7 +1718,7 @@ local bisData = {
 							itemName = "Crown of the Dark Envoy",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 0.8,
+							popularity = 0.7,
 							priority = 2,
 						},
 						{
@@ -1742,7 +1742,7 @@ local bisData = {
 							itemName = "Fletcher's Faded Faceplate",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 0.4,
+							popularity = 0.3,
 							priority = 5,
 						},
 					},
@@ -1752,7 +1752,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 19.9,
+							popularity = 20.1,
 							priority = 1,
 						},
 						{
@@ -1760,7 +1760,7 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 19.3,
+							popularity = 19.4,
 							priority = 2,
 						},
 						{
@@ -1775,7 +1775,7 @@ local bisData = {
 							itemID = 266314,
 							itemName = "Novice Combatant's Necklace",
 							sourceType = "raid",
-							popularity = 12.7,
+							popularity = 12.6,
 							priority = 4,
 						},
 						{
@@ -1817,7 +1817,7 @@ local bisData = {
 							itemName = "Spaulders of Scorching Ray",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 2.0,
+							popularity = 2.1,
 							priority = 4,
 						},
 						{
@@ -1875,7 +1875,7 @@ local bisData = {
 							itemID = 249958,
 							itemName = "Luminant Verdict's Undaunted Emblem",
 							sourceType = "raid",
-							popularity = 26.0,
+							popularity = 26.2,
 							priority = 1,
 						},
 						{
@@ -1883,7 +1883,7 @@ local bisData = {
 							itemName = "Ezzorak's Gloombind",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 16.6,
+							popularity = 16.7,
 							priority = 2,
 						},
 						{
@@ -1917,7 +1917,7 @@ local bisData = {
 							itemName = "Luminant Verdict's Greaves",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 74.2,
+							popularity = 74.4,
 							priority = 1,
 						},
 						{
@@ -1925,7 +1925,7 @@ local bisData = {
 							itemName = "Lightblood Greaves",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 9.6,
+							popularity = 9.7,
 							priority = 2,
 						},
 						{
@@ -1933,7 +1933,7 @@ local bisData = {
 							itemName = "Legplates of Lingering Dusk",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 5.5,
+							popularity = 5.4,
 							priority = 3,
 						},
 						{
@@ -1941,7 +1941,7 @@ local bisData = {
 							itemName = "Extinction Guards",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 5.2,
+							popularity = 5.1,
 							priority = 4,
 						},
 						{
@@ -1959,7 +1959,7 @@ local bisData = {
 							itemName = "Parasite Stompers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 27.6,
+							popularity = 27.7,
 							priority = 1,
 						},
 						{
@@ -1967,14 +1967,14 @@ local bisData = {
 							itemName = "Greaves of the Unformed",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 24.6,
+							popularity = 24.7,
 							priority = 2,
 						},
 						{
 							itemID = 249963,
 							itemName = "Luminant Verdict's Sabatons",
 							sourceType = "raid",
-							popularity = 18.6,
+							popularity = 18.7,
 							priority = 3,
 						},
 						{
@@ -1990,7 +1990,7 @@ local bisData = {
 							itemName = "Footwraps of Ill-Fate",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 7.2,
+							popularity = 7.1,
 							priority = 5,
 						},
 					},
@@ -2008,7 +2008,7 @@ local bisData = {
 							itemName = "Light's March Bracers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 27.3,
+							popularity = 27.5,
 							priority = 2,
 						},
 						{
@@ -2016,14 +2016,14 @@ local bisData = {
 							itemName = "Trollhunter's Bands",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 10.9,
+							popularity = 10.8,
 							priority = 3,
 						},
 						{
 							itemID = 249957,
 							itemName = "Luminant Verdict's Cuffs",
 							sourceType = "raid",
-							popularity = 6.0,
+							popularity = 6.2,
 							priority = 4,
 						},
 						{
@@ -2049,7 +2049,7 @@ local bisData = {
 							itemName = "Incarnadine Gauntlets",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 12.3,
+							popularity = 12.4,
 							priority = 2,
 						},
 						{
@@ -2057,7 +2057,7 @@ local bisData = {
 							itemName = "Embergrove Grasps",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 6.7,
+							popularity = 6.5,
 							priority = 3,
 						},
 						{
@@ -2065,7 +2065,7 @@ local bisData = {
 							itemName = "Voidclaw Gauntlets",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 4.5,
+							popularity = 4.6,
 							priority = 4,
 						},
 						{
@@ -2073,7 +2073,7 @@ local bisData = {
 							itemName = "Spellbreaker's Resolve",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 3.6,
+							popularity = 3.7,
 							priority = 5,
 						},
 					},
@@ -2091,7 +2091,7 @@ local bisData = {
 							itemName = "Omission of Light",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 33.3,
+							popularity = 33.4,
 							priority = 2,
 						},
 						{
@@ -2099,7 +2099,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 24.6,
+							popularity = 24.5,
 							priority = 3,
 						},
 						{
@@ -2107,7 +2107,7 @@ local bisData = {
 							itemName = "Platinum Star Band",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 21.3,
+							popularity = 21.4,
 							priority = 4,
 						},
 						{
@@ -2115,7 +2115,7 @@ local bisData = {
 							itemName = "Bond of Light",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 17.8,
+							popularity = 17.9,
 							priority = 5,
 						},
 					},
@@ -2125,7 +2125,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 80.6,
+							popularity = 81.2,
 							priority = 1,
 						},
 						{
@@ -2133,7 +2133,7 @@ local bisData = {
 							itemName = "Locus-Walker's Ribbon",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 25.9,
+							popularity = 26.1,
 							priority = 2,
 						},
 						{
@@ -2141,7 +2141,7 @@ local bisData = {
 							itemName = "Heart of Wind",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 17.2,
+							popularity = 17.3,
 							priority = 3,
 						},
 						{
@@ -2156,7 +2156,7 @@ local bisData = {
 							itemID = 264507,
 							itemName = "Crucible of Erratic Energies",
 							sourceType = "raid",
-							popularity = 14.1,
+							popularity = 13.7,
 							priority = 5,
 						},
 					},
@@ -2166,7 +2166,7 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 32.4,
+							popularity = 32.6,
 							priority = 1,
 						},
 						{
@@ -2174,7 +2174,7 @@ local bisData = {
 							itemName = "Rigid Scale Greatcloak",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 15.4,
+							popularity = 15.5,
 							priority = 2,
 						},
 						{
@@ -2182,7 +2182,7 @@ local bisData = {
 							itemName = "Draconic Nullcape",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 10.3,
+							popularity = 10.4,
 							priority = 3,
 						},
 						{
@@ -2208,7 +2208,7 @@ local bisData = {
 							itemName = "Magister's Mana Sword",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 51.3,
+							popularity = 50.9,
 							priority = 1,
 						},
 						{
@@ -2216,7 +2216,7 @@ local bisData = {
 							itemName = "Spellboon Saber",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 13.3,
+							popularity = 13.7,
 							priority = 2,
 						},
 						{
@@ -2224,7 +2224,7 @@ local bisData = {
 							itemName = "Weight of Command",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 11.1,
+							popularity = 11.2,
 							priority = 3,
 						},
 						{
@@ -2232,7 +2232,7 @@ local bisData = {
 							itemName = "Skybreaker's Blade",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 6.2,
+							popularity = 6.3,
 							priority = 4,
 						},
 						{
@@ -2250,7 +2250,7 @@ local bisData = {
 							itemName = "Spellbreaker's Rebuke",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 40.5,
+							popularity = 40.4,
 							priority = 1,
 						},
 						{
@@ -2266,7 +2266,7 @@ local bisData = {
 							itemName = "Viryx's Indomitable Bulwark",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 10.7,
+							popularity = 10.9,
 							priority = 3,
 						},
 						{
@@ -2274,7 +2274,7 @@ local bisData = {
 							itemName = "Ward of the Spellbreaker",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 8.1,
+							popularity = 8.2,
 							priority = 4,
 						},
 						{
@@ -2282,7 +2282,7 @@ local bisData = {
 							itemName = "Crawth's Scaleguard",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 5.7,
+							popularity = 5.8,
 							priority = 5,
 						},
 					},
@@ -2296,7 +2296,7 @@ local bisData = {
 							itemName = "Luminant Verdict's Unwavering Gaze",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 92.5,
+							popularity = 91.8,
 							priority = 1,
 						},
 						{
@@ -2338,7 +2338,7 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 30.1,
+							popularity = 29.8,
 							priority = 1,
 						},
 						{
@@ -2346,7 +2346,7 @@ local bisData = {
 							itemName = "Necklace of the Twisting Void",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 15.2,
+							popularity = 15.1,
 							priority = 2,
 						},
 						{
@@ -2354,7 +2354,7 @@ local bisData = {
 							itemName = "Pendant of Aching Grief",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 14.4,
+							popularity = 14.3,
 							priority = 3,
 						},
 						{
@@ -2362,7 +2362,7 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 12.5,
+							popularity = 12.4,
 							priority = 4,
 						},
 						{
@@ -2380,7 +2380,7 @@ local bisData = {
 							itemName = "Luminant Verdict's Providence Watch",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 83.8,
+							popularity = 83.2,
 							priority = 1,
 						},
 						{
@@ -2422,7 +2422,7 @@ local bisData = {
 							itemName = "Luminant Verdict's Divine Warplate",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 90.2,
+							popularity = 89.6,
 							priority = 1,
 						},
 						{
@@ -2446,7 +2446,7 @@ local bisData = {
 							itemName = "Spellbreaker's Shelter",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 1.0,
+							popularity = 0.9,
 							priority = 4,
 						},
 						{
@@ -2464,7 +2464,7 @@ local bisData = {
 							itemName = "Spellbreaker's Girdle",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 26.1,
+							popularity = 25.9,
 							priority = 1,
 						},
 						{
@@ -2472,7 +2472,7 @@ local bisData = {
 							itemName = "Bent Gold Belt",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 18.2,
+							popularity = 18.1,
 							priority = 2,
 						},
 						{
@@ -2480,7 +2480,7 @@ local bisData = {
 							itemName = "Riphook Defender",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 14.3,
+							popularity = 14.2,
 							priority = 3,
 						},
 						{
@@ -2488,7 +2488,7 @@ local bisData = {
 							itemName = "Ezzorak's Gloombind",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 10.1,
+							popularity = 10.0,
 							priority = 4,
 						},
 						{
@@ -2496,7 +2496,7 @@ local bisData = {
 							itemName = "Shadowsplit Girdle",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 8.6,
+							popularity = 8.5,
 							priority = 5,
 						},
 					},
@@ -2506,7 +2506,7 @@ local bisData = {
 							itemName = "Luminant Verdict's Greaves",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 96.7,
+							popularity = 96.1,
 							priority = 1,
 						},
 						{
@@ -2547,14 +2547,14 @@ local bisData = {
 							itemName = "Spellbreaker's March",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 21.5,
+							popularity = 21.3,
 							priority = 1,
 						},
 						{
 							itemID = 249963,
 							itemName = "Luminant Verdict's Sabatons",
 							sourceType = "raid",
-							popularity = 20.7,
+							popularity = 20.5,
 							priority = 2,
 						},
 						{
@@ -2562,7 +2562,7 @@ local bisData = {
 							itemName = "Greaves of the Unformed",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 20.0,
+							popularity = 19.8,
 							priority = 3,
 						},
 						{
@@ -2578,7 +2578,7 @@ local bisData = {
 							itemName = "Footwraps of Ill-Fate",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 6.6,
+							popularity = 6.5,
 							priority = 5,
 						},
 					},
@@ -2588,14 +2588,14 @@ local bisData = {
 							itemName = "Spellbreaker's Bracers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 39.2,
+							popularity = 38.9,
 							priority = 1,
 						},
 						{
 							itemID = 249957,
 							itemName = "Luminant Verdict's Cuffs",
 							sourceType = "raid",
-							popularity = 18.3,
+							popularity = 18.1,
 							priority = 2,
 						},
 						{
@@ -2603,7 +2603,7 @@ local bisData = {
 							itemName = "Light's March Bracers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 17.9,
+							popularity = 17.8,
 							priority = 3,
 						},
 						{
@@ -2611,7 +2611,7 @@ local bisData = {
 							itemName = "Vambraces of Lost Hope",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 9.7,
+							popularity = 9.6,
 							priority = 4,
 						},
 						{
@@ -2629,7 +2629,7 @@ local bisData = {
 							itemName = "Luminant Verdict's Gauntlets",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 55.6,
+							popularity = 55.2,
 							priority = 1,
 						},
 						{
@@ -2637,7 +2637,7 @@ local bisData = {
 							itemName = "Voidclaw Gauntlets",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 29.9,
+							popularity = 29.7,
 							priority = 2,
 						},
 						{
@@ -2645,7 +2645,7 @@ local bisData = {
 							itemName = "Embergrove Grasps",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 5.4,
+							popularity = 5.3,
 							priority = 3,
 						},
 						{
@@ -2653,7 +2653,7 @@ local bisData = {
 							itemName = "Incarnadine Gauntlets",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 4.0,
+							popularity = 3.9,
 							priority = 4,
 						},
 						{
@@ -2671,7 +2671,7 @@ local bisData = {
 							itemName = "Occlusion of Void",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 51.5,
+							popularity = 51.1,
 							priority = 1,
 						},
 						{
@@ -2679,7 +2679,7 @@ local bisData = {
 							itemName = "Omission of Light",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 41.9,
+							popularity = 41.6,
 							priority = 2,
 						},
 						{
@@ -2687,7 +2687,7 @@ local bisData = {
 							itemName = "Purloined Wedding Ring",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 23.6,
+							popularity = 23.5,
 							priority = 3,
 						},
 						{
@@ -2695,7 +2695,7 @@ local bisData = {
 							itemName = "Band of the Triumvirate",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 20.3,
+							popularity = 20.1,
 							priority = 4,
 						},
 						{
@@ -2713,7 +2713,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 66.5,
+							popularity = 66.0,
 							priority = 1,
 						},
 						{
@@ -2721,7 +2721,7 @@ local bisData = {
 							itemName = "Heart of Ancient Hunger",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 56.5,
+							popularity = 56.1,
 							priority = 2,
 						},
 						{
@@ -2729,7 +2729,7 @@ local bisData = {
 							itemName = "Algeth'ar Puzzle Box",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 21.8,
+							popularity = 21.7,
 							priority = 3,
 						},
 						{
@@ -2737,7 +2737,7 @@ local bisData = {
 							itemName = "Heart of Wind",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 11.3,
+							popularity = 11.2,
 							priority = 4,
 						},
 						{
@@ -2745,7 +2745,7 @@ local bisData = {
 							itemName = "Solarflare Prism",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 9.0,
+							popularity = 8.9,
 							priority = 5,
 						},
 					},
@@ -2755,14 +2755,14 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 18.3,
+							popularity = 18.2,
 							priority = 1,
 						},
 						{
 							itemID = 249956,
 							itemName = "Luminant Verdict's Greatmantle",
 							sourceType = "raid",
-							popularity = 18.0,
+							popularity = 17.8,
 							priority = 2,
 						},
 						{
@@ -2770,7 +2770,7 @@ local bisData = {
 							itemName = "Defiant Defender's Drape",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 14.0,
+							popularity = 13.9,
 							priority = 3,
 						},
 						{
@@ -2778,7 +2778,7 @@ local bisData = {
 							itemName = "Potion-Stained Cloak",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 13.0,
+							popularity = 12.9,
 							priority = 4,
 						},
 						{
@@ -2786,7 +2786,7 @@ local bisData = {
 							itemName = "Imperator's Banner",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 8.2,
+							popularity = 8.1,
 							priority = 5,
 						},
 					},
@@ -2796,7 +2796,7 @@ local bisData = {
 							itemName = "Spellbreaker's Blade",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 48.6,
+							popularity = 48.2,
 							priority = 1,
 						},
 						{
@@ -2804,7 +2804,7 @@ local bisData = {
 							itemName = "Blade of the Final Twilight",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 17.0,
+							popularity = 16.9,
 							priority = 2,
 						},
 						{
@@ -2812,7 +2812,7 @@ local bisData = {
 							itemName = "Spellbane Cutlass",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 7.4,
+							popularity = 7.3,
 							priority = 3,
 						},
 						{
@@ -2838,7 +2838,7 @@ local bisData = {
 							itemName = "Spellbreaker's Rebuke",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 45.1,
+							popularity = 44.8,
 							priority = 1,
 						},
 						{
@@ -2846,7 +2846,7 @@ local bisData = {
 							itemName = "Bulwark of Noble Resolve",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 32.8,
+							popularity = 32.6,
 							priority = 2,
 						},
 						{
@@ -2854,7 +2854,7 @@ local bisData = {
 							itemName = "Reflux Reflector",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 6.5,
+							popularity = 6.4,
 							priority = 3,
 						},
 						{
@@ -2862,7 +2862,7 @@ local bisData = {
 							itemName = "Crawth's Scaleguard",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 4.7,
+							popularity = 4.6,
 							priority = 4,
 						},
 						{
@@ -2870,7 +2870,7 @@ local bisData = {
 							itemName = "Viryx's Indomitable Bulwark",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 3.7,
+							popularity = 3.6,
 							priority = 5,
 						},
 					},
@@ -2926,7 +2926,7 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 31.6,
+							popularity = 31.7,
 							priority = 1,
 						},
 						{
@@ -2934,7 +2934,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 21.7,
+							popularity = 21.9,
 							priority = 2,
 						},
 						{
@@ -2942,14 +2942,14 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 17.7,
+							popularity = 17.9,
 							priority = 3,
 						},
 						{
 							itemID = 266314,
 							itemName = "Novice Combatant's Necklace",
 							sourceType = "raid",
-							popularity = 10.5,
+							popularity = 10.2,
 							priority = 4,
 						},
 						{
@@ -2957,7 +2957,7 @@ local bisData = {
 							itemName = "Amulet of the Abyssal Hymn",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 7.0,
+							popularity = 6.9,
 							priority = 5,
 						},
 					},
@@ -2967,7 +2967,7 @@ local bisData = {
 							itemName = "Luminant Verdict's Providence Watch",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.1,
+							popularity = 98.0,
 							priority = 1,
 						},
 						{
@@ -2987,16 +2987,16 @@ local bisData = {
 							priority = 3,
 						},
 						{
-							itemID = 249658,
-							itemName = "Rampant Thornmantles",
+							itemID = 258587,
+							itemName = "Spaulders of Scorching Ray",
+							dropSource = "Skyreach",
 							sourceType = "raid",
 							popularity = 0.2,
 							priority = 4,
 						},
 						{
-							itemID = 258587,
-							itemName = "Spaulders of Scorching Ray",
-							dropSource = "Skyreach",
+							itemID = 249658,
+							itemName = "Rampant Thornmantles",
 							sourceType = "raid",
 							popularity = 0.2,
 							priority = 5,
@@ -3008,7 +3008,7 @@ local bisData = {
 							itemName = "Luminant Verdict's Divine Warplate",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 99.0,
+							popularity = 98.9,
 							priority = 1,
 						},
 						{
@@ -3033,7 +3033,7 @@ local bisData = {
 							itemID = 249958,
 							itemName = "Luminant Verdict's Undaunted Emblem",
 							sourceType = "raid",
-							popularity = 29.2,
+							popularity = 29.5,
 							priority = 1,
 						},
 						{
@@ -3049,7 +3049,7 @@ local bisData = {
 							itemName = "Hate-Tied Waistchain",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 10.9,
+							popularity = 10.8,
 							priority = 3,
 						},
 						{
@@ -3057,7 +3057,7 @@ local bisData = {
 							itemName = "Bent Gold Belt",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 10.2,
+							popularity = 10.3,
 							priority = 4,
 						},
 						{
@@ -3065,7 +3065,7 @@ local bisData = {
 							itemName = "Girdle of the Shadowguard",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 9.1,
+							popularity = 9.0,
 							priority = 5,
 						},
 					},
@@ -3075,7 +3075,7 @@ local bisData = {
 							itemName = "Luminant Verdict's Greaves",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 96.0,
+							popularity = 95.9,
 							priority = 1,
 						},
 						{
@@ -3117,7 +3117,7 @@ local bisData = {
 							itemName = "Greaves of the Unformed",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 48.9,
+							popularity = 49.2,
 							priority = 1,
 						},
 						{
@@ -3125,7 +3125,7 @@ local bisData = {
 							itemName = "Parasite Stompers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 13.6,
+							popularity = 13.5,
 							priority = 2,
 						},
 						{
@@ -3181,7 +3181,7 @@ local bisData = {
 							itemName = "Trollhunter's Bands",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 6.5,
+							popularity = 6.6,
 							priority = 4,
 						},
 						{
@@ -3189,7 +3189,7 @@ local bisData = {
 							itemName = "Vambraces of Lost Hope",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 3.1,
+							popularity = 3.0,
 							priority = 5,
 						},
 					},
@@ -3199,7 +3199,7 @@ local bisData = {
 							itemName = "Incarnadine Gauntlets",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 36.6,
+							popularity = 36.7,
 							priority = 1,
 						},
 						{
@@ -3215,7 +3215,7 @@ local bisData = {
 							itemName = "Luminant Verdict's Gauntlets",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 19.4,
+							popularity = 19.3,
 							priority = 3,
 						},
 						{
@@ -3223,7 +3223,7 @@ local bisData = {
 							itemName = "Embergrove Grasps",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 8.8,
+							popularity = 8.7,
 							priority = 4,
 						},
 						{
@@ -3231,7 +3231,7 @@ local bisData = {
 							itemName = "Spellbreaker's Resolve",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 5.6,
+							popularity = 5.7,
 							priority = 5,
 						},
 					},
@@ -3241,7 +3241,7 @@ local bisData = {
 							itemName = "Platinum Star Band",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 46.1,
+							popularity = 46.2,
 							priority = 1,
 						},
 						{
@@ -3264,7 +3264,7 @@ local bisData = {
 							itemID = 251513,
 							itemName = "Loa Worshiper's Band",
 							sourceType = "raid",
-							popularity = 23.0,
+							popularity = 22.9,
 							priority = 4,
 						},
 						{
@@ -3272,7 +3272,7 @@ local bisData = {
 							itemName = "Bifurcation Band",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 11.8,
+							popularity = 11.6,
 							priority = 5,
 						},
 					},
@@ -3282,7 +3282,7 @@ local bisData = {
 							itemName = "Algeth'ar Puzzle Box",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 85.4,
+							popularity = 85.5,
 							priority = 1,
 						},
 						{
@@ -3290,7 +3290,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 60.6,
+							popularity = 61.1,
 							priority = 2,
 						},
 						{
@@ -3298,7 +3298,7 @@ local bisData = {
 							itemName = "Heart of Ancient Hunger",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 26.0,
+							popularity = 25.7,
 							priority = 3,
 						},
 						{
@@ -3324,7 +3324,7 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 50.2,
+							popularity = 50.3,
 							priority = 1,
 						},
 						{
@@ -3332,7 +3332,7 @@ local bisData = {
 							itemName = "Rigid Scale Greatcloak",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 25.4,
+							popularity = 25.3,
 							priority = 2,
 						},
 						{
@@ -3340,20 +3340,20 @@ local bisData = {
 							itemName = "Defiant Defender's Drape",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 5.9,
+							popularity = 5.8,
 							priority = 3,
 						},
 						{
-							itemID = 249370,
-							itemName = "Draconic Nullcape",
+							itemID = 249335,
+							itemName = "Imperator's Banner",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
 							popularity = 3.0,
 							priority = 4,
 						},
 						{
-							itemID = 249335,
-							itemName = "Imperator's Banner",
+							itemID = 249370,
+							itemName = "Draconic Nullcape",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
 							popularity = 3.0,
@@ -3366,7 +3366,7 @@ local bisData = {
 							itemName = "Blood Knight's Warblade",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 33.0,
+							popularity = 32.1,
 							priority = 1,
 						},
 						{
@@ -3374,7 +3374,7 @@ local bisData = {
 							itemName = "Liferipper's Cutlass",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 19.7,
+							popularity = 20.2,
 							priority = 2,
 						},
 						{
@@ -3382,7 +3382,7 @@ local bisData = {
 							itemName = "Algeth'ar Hedgecleaver",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 13.5,
+							popularity = 13.7,
 							priority = 3,
 						},
 						{
@@ -3390,7 +3390,7 @@ local bisData = {
 							itemName = "Garfrost's Two-Ton Hammer",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 8.2,
+							popularity = 8.3,
 							priority = 4,
 						},
 						{
@@ -3398,7 +3398,7 @@ local bisData = {
 							itemName = "Bellamy's Final Judgement",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 7.6,
+							popularity = 7.8,
 							priority = 5,
 						},
 					},
@@ -3416,7 +3416,7 @@ local bisData = {
 							itemName = "Primal Sentry's Maw",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 97.6,
+							popularity = 96.4,
 							priority = 1,
 						},
 						{
@@ -3424,7 +3424,7 @@ local bisData = {
 							itemName = "Sharpeye Gleam",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 0.8,
+							popularity = 0.7,
 							priority = 2,
 						},
 						{
@@ -3450,7 +3450,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 34.2,
+							popularity = 33.8,
 							priority = 1,
 						},
 						{
@@ -3458,14 +3458,14 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 17.4,
+							popularity = 17.2,
 							priority = 2,
 						},
 						{
 							itemID = 266314,
 							itemName = "Novice Combatant's Necklace",
 							sourceType = "raid",
-							popularity = 13.7,
+							popularity = 13.5,
 							priority = 3,
 						},
 						{
@@ -3473,7 +3473,7 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 13.6,
+							popularity = 13.5,
 							priority = 4,
 						},
 						{
@@ -3481,7 +3481,7 @@ local bisData = {
 							itemName = "Amulet of the Abyssal Hymn",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 7.8,
+							popularity = 7.7,
 							priority = 5,
 						},
 					},
@@ -3491,7 +3491,7 @@ local bisData = {
 							itemName = "Scaled Commencement Spaulders",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 36.7,
+							popularity = 36.2,
 							priority = 1,
 						},
 						{
@@ -3499,7 +3499,7 @@ local bisData = {
 							itemName = "Nullwalker's Dread Epaulettes",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 15.7,
+							popularity = 15.5,
 							priority = 2,
 						},
 						{
@@ -3507,7 +3507,7 @@ local bisData = {
 							itemName = "Pauldrons of the Void Hunter",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 13.3,
+							popularity = 13.2,
 							priority = 3,
 						},
 						{
@@ -3515,7 +3515,7 @@ local bisData = {
 							itemName = "Primal Sentry's Trophies",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 10.7,
+							popularity = 10.6,
 							priority = 4,
 						},
 						{
@@ -3523,7 +3523,7 @@ local bisData = {
 							itemName = "Spaulders of Arrow's Flight",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 10.6,
+							popularity = 10.4,
 							priority = 5,
 						},
 					},
@@ -3533,7 +3533,7 @@ local bisData = {
 							itemName = "Primal Sentry's Scaleplate",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 97.9,
+							popularity = 96.8,
 							priority = 1,
 						},
 						{
@@ -3541,7 +3541,7 @@ local bisData = {
 							itemName = "Decaying Cuirass",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 0.8,
+							popularity = 0.7,
 							priority = 2,
 						},
 						{
@@ -3575,7 +3575,7 @@ local bisData = {
 							itemName = "World Tender's Barkclasp",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 50.0,
+							popularity = 49.4,
 							priority = 1,
 						},
 						{
@@ -3583,14 +3583,14 @@ local bisData = {
 							itemName = "Farstrider's Trophy Belt",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 15.8,
+							popularity = 15.7,
 							priority = 2,
 						},
 						{
 							itemID = 249985,
 							itemName = "Primal Sentry's Cinch",
 							sourceType = "raid",
-							popularity = 14.3,
+							popularity = 14.1,
 							priority = 3,
 						},
 						{
@@ -3598,7 +3598,7 @@ local bisData = {
 							itemName = "Scornbane Waistguard",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 9.2,
+							popularity = 9.1,
 							priority = 4,
 						},
 						{
@@ -3615,7 +3615,7 @@ local bisData = {
 							itemName = "Primal Sentry's Legguards",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.4,
+							popularity = 97.3,
 							priority = 1,
 						},
 						{
@@ -3657,14 +3657,14 @@ local bisData = {
 							itemName = "World Tender's Rootslippers",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 49.6,
+							popularity = 49.1,
 							priority = 1,
 						},
 						{
 							itemID = 249990,
 							itemName = "Primal Sentry's Swiftsteps",
 							sourceType = "raid",
-							popularity = 27.7,
+							popularity = 27.4,
 							priority = 2,
 						},
 						{
@@ -3672,7 +3672,7 @@ local bisData = {
 							itemName = "Farstrider's Razor Talons",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 7.6,
+							popularity = 7.5,
 							priority = 3,
 						},
 						{
@@ -3680,7 +3680,7 @@ local bisData = {
 							itemName = "Whipcoil Sabatons",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 5.8,
+							popularity = 5.7,
 							priority = 4,
 						},
 						{
@@ -3688,7 +3688,7 @@ local bisData = {
 							itemName = "Boots of Explosive Growth",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 3.8,
+							popularity = 3.7,
 							priority = 5,
 						},
 					},
@@ -3698,7 +3698,7 @@ local bisData = {
 							itemName = "Fallen King's Cuffs",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 31.8,
+							popularity = 31.4,
 							priority = 1,
 						},
 						{
@@ -3706,7 +3706,7 @@ local bisData = {
 							itemName = "Farstrider's Plated Bracers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 27.5,
+							popularity = 27.1,
 							priority = 2,
 						},
 						{
@@ -3714,7 +3714,7 @@ local bisData = {
 							itemName = "Amberfrond Bracers",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 15.6,
+							popularity = 15.4,
 							priority = 3,
 						},
 						{
@@ -3722,7 +3722,7 @@ local bisData = {
 							itemName = "Darkfang Scale Wristguards",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 11.7,
+							popularity = 11.5,
 							priority = 4,
 						},
 						{
@@ -3740,7 +3740,7 @@ local bisData = {
 							itemName = "Primal Sentry's Talonguards",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.5,
+							popularity = 97.4,
 							priority = 1,
 						},
 						{
@@ -3781,7 +3781,7 @@ local bisData = {
 							itemName = "Platinum Star Band",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 56.6,
+							popularity = 55.9,
 							priority = 1,
 						},
 						{
@@ -3789,7 +3789,7 @@ local bisData = {
 							itemName = "Omission of Light",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 25.6,
+							popularity = 25.3,
 							priority = 2,
 						},
 						{
@@ -3797,7 +3797,7 @@ local bisData = {
 							itemName = "Occlusion of Void",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 23.1,
+							popularity = 22.8,
 							priority = 3,
 						},
 						{
@@ -3805,7 +3805,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 21.5,
+							popularity = 21.3,
 							priority = 4,
 						},
 						{
@@ -3813,7 +3813,7 @@ local bisData = {
 							itemName = "Bifurcation Band",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 17.6,
+							popularity = 17.4,
 							priority = 5,
 						},
 					},
@@ -3823,7 +3823,7 @@ local bisData = {
 							itemName = "Algeth'ar Puzzle Box",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 86.0,
+							popularity = 85.1,
 							priority = 1,
 						},
 						{
@@ -3831,7 +3831,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 64.9,
+							popularity = 64.1,
 							priority = 2,
 						},
 						{
@@ -3839,7 +3839,7 @@ local bisData = {
 							itemName = "Solarflare Prism",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 16.1,
+							popularity = 15.9,
 							priority = 3,
 						},
 						{
@@ -3847,7 +3847,7 @@ local bisData = {
 							itemName = "Radiant Plume",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 13.9,
+							popularity = 13.7,
 							priority = 4,
 						},
 						{
@@ -3864,7 +3864,7 @@ local bisData = {
 							itemName = "Rigid Scale Greatcloak",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 38.1,
+							popularity = 37.7,
 							priority = 1,
 						},
 						{
@@ -3872,7 +3872,7 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 20.2,
+							popularity = 19.9,
 							priority = 2,
 						},
 						{
@@ -3880,7 +3880,7 @@ local bisData = {
 							itemName = "Imperator's Banner",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 8.4,
+							popularity = 8.3,
 							priority = 3,
 						},
 						{
@@ -3888,7 +3888,7 @@ local bisData = {
 							itemName = "Defiant Defender's Drape",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 6.4,
+							popularity = 6.3,
 							priority = 4,
 						},
 						{
@@ -3896,7 +3896,7 @@ local bisData = {
 							itemName = "Draconic Nullcape",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 6.3,
+							popularity = 6.2,
 							priority = 5,
 						},
 					},
@@ -3906,7 +3906,7 @@ local bisData = {
 							itemName = "Sunstrike Rifle",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 40.7,
+							popularity = 40.2,
 							priority = 1,
 						},
 						{
@@ -3914,7 +3914,7 @@ local bisData = {
 							itemName = "Deceiver's Rotbow",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 14.0,
+							popularity = 13.8,
 							priority = 2,
 						},
 						{
@@ -3922,7 +3922,7 @@ local bisData = {
 							itemName = "Aln'hara Sprigshot",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 13.9,
+							popularity = 13.7,
 							priority = 3,
 						},
 						{
@@ -3930,7 +3930,7 @@ local bisData = {
 							itemName = "P.O.W. x3",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 8.5,
+							popularity = 8.4,
 							priority = 4,
 						},
 						{
@@ -3938,7 +3938,7 @@ local bisData = {
 							itemName = "Hurricane's Heart",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 8.0,
+							popularity = 7.9,
 							priority = 5,
 						},
 					},
@@ -3952,7 +3952,7 @@ local bisData = {
 							itemName = "Primal Sentry's Maw",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.3,
+							popularity = 97.7,
 							priority = 1,
 						},
 						{
@@ -3986,7 +3986,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 31.5,
+							popularity = 31.3,
 							priority = 1,
 						},
 						{
@@ -3994,7 +3994,7 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 29.9,
+							popularity = 29.7,
 							priority = 2,
 						},
 						{
@@ -4002,7 +4002,7 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 14.9,
+							popularity = 14.8,
 							priority = 3,
 						},
 						{
@@ -4010,7 +4010,7 @@ local bisData = {
 							itemName = "Amulet of the Abyssal Hymn",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 6.4,
+							popularity = 6.3,
 							priority = 4,
 						},
 						{
@@ -4027,7 +4027,7 @@ local bisData = {
 							itemName = "Nullwalker's Dread Epaulettes",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 36.7,
+							popularity = 36.4,
 							priority = 1,
 						},
 						{
@@ -4035,7 +4035,7 @@ local bisData = {
 							itemName = "Scaled Commencement Spaulders",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 25.8,
+							popularity = 25.6,
 							priority = 2,
 						},
 						{
@@ -4043,7 +4043,7 @@ local bisData = {
 							itemName = "Primal Sentry's Trophies",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 10.3,
+							popularity = 10.2,
 							priority = 3,
 						},
 						{
@@ -4051,7 +4051,7 @@ local bisData = {
 							itemName = "Pauldrons of the Void Hunter",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 7.7,
+							popularity = 7.6,
 							priority = 4,
 						},
 						{
@@ -4069,7 +4069,7 @@ local bisData = {
 							itemName = "Primal Sentry's Scaleplate",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.1,
+							popularity = 97.5,
 							priority = 1,
 						},
 						{
@@ -4111,14 +4111,14 @@ local bisData = {
 							itemName = "World Tender's Barkclasp",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 48.9,
+							popularity = 48.6,
 							priority = 1,
 						},
 						{
 							itemID = 249985,
 							itemName = "Primal Sentry's Cinch",
 							sourceType = "raid",
-							popularity = 16.1,
+							popularity = 16.0,
 							priority = 2,
 						},
 						{
@@ -4134,7 +4134,7 @@ local bisData = {
 							itemName = "Farstrider's Trophy Belt",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 9.9,
+							popularity = 9.8,
 							priority = 4,
 						},
 						{
@@ -4151,7 +4151,7 @@ local bisData = {
 							itemName = "Primal Sentry's Legguards",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 99.2,
+							popularity = 98.6,
 							priority = 1,
 						},
 						{
@@ -4177,14 +4177,14 @@ local bisData = {
 							itemName = "World Tender's Rootslippers",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 48.7,
+							popularity = 48.4,
 							priority = 1,
 						},
 						{
 							itemID = 249990,
 							itemName = "Primal Sentry's Swiftsteps",
 							sourceType = "raid",
-							popularity = 23.9,
+							popularity = 23.8,
 							priority = 2,
 						},
 						{
@@ -4218,7 +4218,7 @@ local bisData = {
 							itemName = "Fallen King's Cuffs",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 45.9,
+							popularity = 45.6,
 							priority = 1,
 						},
 						{
@@ -4226,7 +4226,7 @@ local bisData = {
 							itemName = "Farstrider's Plated Bracers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 24.9,
+							popularity = 24.7,
 							priority = 2,
 						},
 						{
@@ -4234,7 +4234,7 @@ local bisData = {
 							itemName = "Amberfrond Bracers",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 9.5,
+							popularity = 9.4,
 							priority = 3,
 						},
 						{
@@ -4242,7 +4242,7 @@ local bisData = {
 							itemName = "Darkfang Scale Wristguards",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 8.7,
+							popularity = 8.6,
 							priority = 4,
 						},
 						{
@@ -4260,7 +4260,7 @@ local bisData = {
 							itemName = "Primal Sentry's Talonguards",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.3,
+							popularity = 97.7,
 							priority = 1,
 						},
 						{
@@ -4293,7 +4293,7 @@ local bisData = {
 							itemName = "Platinum Star Band",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 55.0,
+							popularity = 54.7,
 							priority = 1,
 						},
 						{
@@ -4301,7 +4301,7 @@ local bisData = {
 							itemName = "Signet of the Starved Beast",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 39.1,
+							popularity = 38.9,
 							priority = 2,
 						},
 						{
@@ -4309,7 +4309,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 26.6,
+							popularity = 26.4,
 							priority = 3,
 						},
 						{
@@ -4317,7 +4317,7 @@ local bisData = {
 							itemName = "Occlusion of Void",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 13.9,
+							popularity = 13.8,
 							priority = 4,
 						},
 						{
@@ -4325,7 +4325,7 @@ local bisData = {
 							itemName = "Bond of Light",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 13.1,
+							popularity = 13.0,
 							priority = 5,
 						},
 					},
@@ -4335,7 +4335,7 @@ local bisData = {
 							itemName = "Algeth'ar Puzzle Box",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 80.9,
+							popularity = 80.4,
 							priority = 1,
 						},
 						{
@@ -4343,7 +4343,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 49.4,
+							popularity = 49.1,
 							priority = 2,
 						},
 						{
@@ -4351,7 +4351,7 @@ local bisData = {
 							itemName = "Umbral Plume",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 20.2,
+							popularity = 20.1,
 							priority = 3,
 						},
 						{
@@ -4359,7 +4359,7 @@ local bisData = {
 							itemName = "Solarflare Prism",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 11.1,
+							popularity = 11.0,
 							priority = 4,
 						},
 						{
@@ -4367,7 +4367,7 @@ local bisData = {
 							itemName = "Radiant Plume",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 9.8,
+							popularity = 9.7,
 							priority = 5,
 						},
 					},
@@ -4377,7 +4377,7 @@ local bisData = {
 							itemName = "Rigid Scale Greatcloak",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 24.8,
+							popularity = 24.6,
 							priority = 1,
 						},
 						{
@@ -4385,7 +4385,7 @@ local bisData = {
 							itemName = "Imperator's Banner",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 22.1,
+							popularity = 21.9,
 							priority = 2,
 						},
 						{
@@ -4393,7 +4393,7 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 18.7,
+							popularity = 18.6,
 							priority = 3,
 						},
 						{
@@ -4401,7 +4401,7 @@ local bisData = {
 							itemName = "Draconic Nullcape",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 9.6,
+							popularity = 9.5,
 							priority = 4,
 						},
 						{
@@ -4419,7 +4419,7 @@ local bisData = {
 							itemName = "Sunstrike Rifle",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 43.6,
+							popularity = 43.3,
 							priority = 1,
 						},
 						{
@@ -4443,7 +4443,7 @@ local bisData = {
 							itemName = "P.O.W. x3",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 8.1,
+							popularity = 8.0,
 							priority = 4,
 						},
 						{
@@ -4451,7 +4451,7 @@ local bisData = {
 							itemName = "Stormshaper's Crossbow",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 7.1,
+							popularity = 7.0,
 							priority = 5,
 						},
 					},
@@ -4465,7 +4465,7 @@ local bisData = {
 							itemName = "Primal Sentry's Maw",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 97.3,
+							popularity = 97.0,
 							priority = 1,
 						},
 						{
@@ -4499,14 +4499,14 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 34.5,
+							popularity = 34.4,
 							priority = 1,
 						},
 						{
 							itemID = 266314,
 							itemName = "Novice Combatant's Necklace",
 							sourceType = "raid",
-							popularity = 28.5,
+							popularity = 28.4,
 							priority = 2,
 						},
 						{
@@ -4540,7 +4540,7 @@ local bisData = {
 							itemName = "Scaled Commencement Spaulders",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 31.7,
+							popularity = 31.6,
 							priority = 1,
 						},
 						{
@@ -4582,7 +4582,7 @@ local bisData = {
 							itemName = "Primal Sentry's Scaleplate",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.2,
+							popularity = 97.9,
 							priority = 1,
 						},
 						{
@@ -4624,7 +4624,7 @@ local bisData = {
 							itemName = "World Tender's Barkclasp",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 54.9,
+							popularity = 54.7,
 							priority = 1,
 						},
 						{
@@ -4632,7 +4632,7 @@ local bisData = {
 							itemName = "Scornbane Waistguard",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 18.5,
+							popularity = 18.4,
 							priority = 2,
 						},
 						{
@@ -4665,7 +4665,7 @@ local bisData = {
 							itemName = "Primal Sentry's Legguards",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.6,
+							popularity = 98.3,
 							priority = 1,
 						},
 						{
@@ -4699,7 +4699,7 @@ local bisData = {
 							itemName = "World Tender's Rootslippers",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 54.6,
+							popularity = 54.4,
 							priority = 1,
 						},
 						{
@@ -4707,14 +4707,14 @@ local bisData = {
 							itemName = "Farstrider's Razor Talons",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 18.9,
+							popularity = 18.8,
 							priority = 2,
 						},
 						{
 							itemID = 249990,
 							itemName = "Primal Sentry's Swiftsteps",
 							sourceType = "raid",
-							popularity = 16.2,
+							popularity = 16.1,
 							priority = 3,
 						},
 						{
@@ -4730,7 +4730,7 @@ local bisData = {
 							itemName = "Void-Coated Stompers",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 2.9,
+							popularity = 2.8,
 							priority = 5,
 						},
 					},
@@ -4740,7 +4740,7 @@ local bisData = {
 							itemName = "Fallen King's Cuffs",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 37.4,
+							popularity = 37.3,
 							priority = 1,
 						},
 						{
@@ -4756,7 +4756,7 @@ local bisData = {
 							itemName = "Amberfrond Bracers",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 14.2,
+							popularity = 14.1,
 							priority = 3,
 						},
 						{
@@ -4764,7 +4764,7 @@ local bisData = {
 							itemName = "Darkfang Scale Wristguards",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 11.9,
+							popularity = 11.8,
 							priority = 4,
 						},
 						{
@@ -4782,7 +4782,7 @@ local bisData = {
 							itemName = "Primal Sentry's Talonguards",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.8,
+							popularity = 98.5,
 							priority = 1,
 						},
 						{
@@ -4816,7 +4816,7 @@ local bisData = {
 							itemName = "Omission of Light",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 54.3,
+							popularity = 54.1,
 							priority = 1,
 						},
 						{
@@ -4824,7 +4824,7 @@ local bisData = {
 							itemName = "Occlusion of Void",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 33.4,
+							popularity = 33.3,
 							priority = 2,
 						},
 						{
@@ -4840,7 +4840,7 @@ local bisData = {
 							itemName = "Bifurcation Band",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 28.4,
+							popularity = 28.3,
 							priority = 4,
 						},
 						{
@@ -4858,7 +4858,7 @@ local bisData = {
 							itemName = "Algeth'ar Puzzle Box",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 91.7,
+							popularity = 91.5,
 							priority = 1,
 						},
 						{
@@ -4866,7 +4866,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 64.8,
+							popularity = 64.6,
 							priority = 2,
 						},
 						{
@@ -4900,7 +4900,7 @@ local bisData = {
 							itemName = "Rigid Scale Greatcloak",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 40.7,
+							popularity = 40.6,
 							priority = 1,
 						},
 						{
@@ -4942,7 +4942,7 @@ local bisData = {
 							itemName = "Hungering Victory",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 44.2,
+							popularity = 44.1,
 							priority = 1,
 						},
 						{
@@ -4950,7 +4950,7 @@ local bisData = {
 							itemName = "Edge of the Burning Sun",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 18.4,
+							popularity = 18.3,
 							priority = 2,
 						},
 						{
@@ -4958,7 +4958,7 @@ local bisData = {
 							itemName = "Farstrider's Mercy",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 13.8,
+							popularity = 13.7,
 							priority = 3,
 						},
 						{
@@ -4984,7 +4984,7 @@ local bisData = {
 							itemName = "Farstrider's Mercy",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 40.1,
+							popularity = 40.0,
 							priority = 1,
 						},
 						{
@@ -4992,7 +4992,7 @@ local bisData = {
 							itemName = "Hungering Victory",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 25.1,
+							popularity = 25.0,
 							priority = 2,
 						},
 						{
@@ -5042,7 +5042,7 @@ local bisData = {
 							itemName = "Voidlashed Hood",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 6.6,
+							popularity = 6.5,
 							priority = 2,
 						},
 						{
@@ -5076,7 +5076,7 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 44.1,
+							popularity = 44.8,
 							priority = 1,
 						},
 						{
@@ -5084,7 +5084,7 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 33.1,
+							popularity = 32.7,
 							priority = 2,
 						},
 						{
@@ -5092,14 +5092,14 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 11.7,
+							popularity = 11.5,
 							priority = 3,
 						},
 						{
 							itemID = 249626,
 							itemName = "Nocturnal Thorncharm",
 							sourceType = "raid",
-							popularity = 3.8,
+							popularity = 3.7,
 							priority = 4,
 						},
 						{
@@ -5107,7 +5107,7 @@ local bisData = {
 							itemName = "Eternal Voidsong Chain",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 2.2,
+							popularity = 2.4,
 							priority = 5,
 						},
 					},
@@ -5117,7 +5117,7 @@ local bisData = {
 							itemName = "Venom Casks of the Grim Jest",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 97.4,
+							popularity = 97.2,
 							priority = 1,
 						},
 						{
@@ -5132,7 +5132,7 @@ local bisData = {
 							itemID = 249642,
 							itemName = "Osseoclad Razorspaulders",
 							sourceType = "raid",
-							popularity = 0.6,
+							popularity = 0.5,
 							priority = 3,
 						},
 						{
@@ -5144,11 +5144,11 @@ local bisData = {
 							priority = 4,
 						},
 						{
-							itemID = 244572,
-							itemName = "Silvermoon Agent's Mantle",
-							dropSource = "Crafted",
+							itemID = 251171,
+							itemName = "Enthralled Bonespines",
+							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 0.2,
+							popularity = 0.3,
 							priority = 5,
 						},
 					},
@@ -5158,7 +5158,7 @@ local bisData = {
 							itemName = "Fantastic Finery of the Grim Jest",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 99.3,
+							popularity = 99.2,
 							priority = 1,
 						},
 						{
@@ -5176,7 +5176,7 @@ local bisData = {
 							itemName = "Scorn-Scarred Shul'ka's Belt",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 40.0,
+							popularity = 39.9,
 							priority = 1,
 						},
 						{
@@ -5184,7 +5184,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Utility Belt",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 26.6,
+							popularity = 26.0,
 							priority = 2,
 						},
 						{
@@ -5192,7 +5192,7 @@ local bisData = {
 							itemName = "Flayer's Black Belt",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 22.5,
+							popularity = 22.9,
 							priority = 3,
 						},
 						{
@@ -5208,7 +5208,7 @@ local bisData = {
 							itemName = "Twisted Twilight Sash",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 2.9,
+							popularity = 3.0,
 							priority = 5,
 						},
 					},
@@ -5218,7 +5218,7 @@ local bisData = {
 							itemName = "Blade Holsters of the Grim Jest",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 29.0,
+							popularity = 29.3,
 							priority = 1,
 						},
 						{
@@ -5226,7 +5226,7 @@ local bisData = {
 							itemName = "Legwraps of Lingering Legacies",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 24.2,
+							popularity = 24.3,
 							priority = 2,
 						},
 						{
@@ -5234,7 +5234,7 @@ local bisData = {
 							itemName = "Shaggy Wyrmleather Leggings",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 15.9,
+							popularity = 16.0,
 							priority = 3,
 						},
 						{
@@ -5242,14 +5242,14 @@ local bisData = {
 							itemName = "Silvermoon Agent's Leggings",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 11.6,
+							popularity = 11.4,
 							priority = 4,
 						},
 						{
 							itemID = 249641,
 							itemName = "Osseoclad Bonesteppers",
 							sourceType = "raid",
-							popularity = 7.4,
+							popularity = 7.1,
 							priority = 5,
 						},
 					},
@@ -5258,7 +5258,7 @@ local bisData = {
 							itemID = 250008,
 							itemName = "Balancing Boots of the Grim Jest",
 							sourceType = "raid",
-							popularity = 53.7,
+							popularity = 54.2,
 							priority = 1,
 						},
 						{
@@ -5266,7 +5266,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Sneakers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 13.1,
+							popularity = 12.8,
 							priority = 2,
 						},
 						{
@@ -5278,19 +5278,19 @@ local bisData = {
 							priority = 3,
 						},
 						{
-							itemID = 249382,
-							itemName = "Canopy Walker's Footwraps",
-							dropSource = "The Voidspire",
-							sourceType = "raid",
-							popularity = 5.0,
-							priority = 4,
-						},
-						{
 							itemID = 260372,
 							itemName = "Nullstrider's Boots",
 							dropSource = "Crafted",
 							sourceType = "raid",
 							popularity = 5.0,
+							priority = 4,
+						},
+						{
+							itemID = 249382,
+							itemName = "Canopy Walker's Footwraps",
+							dropSource = "The Voidspire",
+							sourceType = "raid",
+							popularity = 4.8,
 							priority = 5,
 						},
 					},
@@ -5300,7 +5300,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Deflectors",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 57.4,
+							popularity = 57.2,
 							priority = 1,
 						},
 						{
@@ -5308,7 +5308,7 @@ local bisData = {
 							itemName = "Chewed Leather Wristguards",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 14.4,
+							popularity = 14.5,
 							priority = 2,
 						},
 						{
@@ -5316,14 +5316,14 @@ local bisData = {
 							itemName = "Void-Skinned Bracers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 14.4,
+							popularity = 14.5,
 							priority = 3,
 						},
 						{
 							itemID = 250002,
 							itemName = "Trick Bracers of the Grim Jest",
 							sourceType = "raid",
-							popularity = 8.1,
+							popularity = 8.2,
 							priority = 4,
 						},
 						{
@@ -5331,7 +5331,7 @@ local bisData = {
 							itemName = "Frenzyroot Cuffs",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 3.4,
+							popularity = 3.2,
 							priority = 5,
 						},
 					},
@@ -5341,7 +5341,7 @@ local bisData = {
 							itemName = "Sleight of Hand of the Grim Jest",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 99.0,
+							popularity = 98.9,
 							priority = 1,
 						},
 						{
@@ -5383,7 +5383,7 @@ local bisData = {
 							itemName = "Occlusion of Void",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 54.6,
+							popularity = 54.8,
 							priority = 1,
 						},
 						{
@@ -5391,7 +5391,7 @@ local bisData = {
 							itemName = "Purloined Wedding Ring",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 45.6,
+							popularity = 46.1,
 							priority = 2,
 						},
 						{
@@ -5399,7 +5399,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 26.4,
+							popularity = 25.8,
 							priority = 3,
 						},
 						{
@@ -5407,7 +5407,7 @@ local bisData = {
 							itemName = "Platinum Star Band",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 24.9,
+							popularity = 24.8,
 							priority = 4,
 						},
 						{
@@ -5415,7 +5415,7 @@ local bisData = {
 							itemName = "Omission of Light",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 17.8,
+							popularity = 17.7,
 							priority = 5,
 						},
 					},
@@ -5425,7 +5425,7 @@ local bisData = {
 							itemName = "Algeth'ar Puzzle Box",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 90.4,
+							popularity = 90.2,
 							priority = 1,
 						},
 						{
@@ -5433,7 +5433,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 83.2,
+							popularity = 83.7,
 							priority = 2,
 						},
 						{
@@ -5441,7 +5441,7 @@ local bisData = {
 							itemName = "Solarflare Prism",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 7.6,
+							popularity = 7.2,
 							priority = 3,
 						},
 						{
@@ -5457,7 +5457,7 @@ local bisData = {
 							itemName = "Umbral Plume",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 3.6,
+							popularity = 3.8,
 							priority = 5,
 						},
 					},
@@ -5467,7 +5467,7 @@ local bisData = {
 							itemName = "Defiant Defender's Drape",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 28.9,
+							popularity = 28.6,
 							priority = 1,
 						},
 						{
@@ -5475,7 +5475,7 @@ local bisData = {
 							itemName = "Rigid Scale Greatcloak",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 19.0,
+							popularity = 18.7,
 							priority = 2,
 						},
 						{
@@ -5483,7 +5483,7 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 13.9,
+							popularity = 14.1,
 							priority = 3,
 						},
 						{
@@ -5491,7 +5491,7 @@ local bisData = {
 							itemName = "Imperator's Banner",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 10.9,
+							popularity = 11.0,
 							priority = 4,
 						},
 						{
@@ -5499,7 +5499,7 @@ local bisData = {
 							itemName = "Cloak of the Fallen Cardinal",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 8.6,
+							popularity = 8.9,
 							priority = 5,
 						},
 					},
@@ -5509,7 +5509,7 @@ local bisData = {
 							itemName = "Hungering Victory",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 43.4,
+							popularity = 43.1,
 							priority = 1,
 						},
 						{
@@ -5517,7 +5517,7 @@ local bisData = {
 							itemName = "Krick's Beetle Stabber",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 27.4,
+							popularity = 28.2,
 							priority = 2,
 						},
 						{
@@ -5525,7 +5525,7 @@ local bisData = {
 							itemName = "Farstrider's Mercy",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 18.9,
+							popularity = 18.2,
 							priority = 3,
 						},
 						{
@@ -5533,7 +5533,7 @@ local bisData = {
 							itemName = "Edge of the Burning Sun",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 5.4,
+							popularity = 5.5,
 							priority = 4,
 						},
 						{
@@ -5541,7 +5541,7 @@ local bisData = {
 							itemName = "Radiant Slicer",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 3.4,
+							popularity = 3.6,
 							priority = 5,
 						},
 					},
@@ -5551,7 +5551,7 @@ local bisData = {
 							itemName = "Farstrider's Mercy",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 79.5,
+							popularity = 79.9,
 							priority = 1,
 						},
 						{
@@ -5559,7 +5559,7 @@ local bisData = {
 							itemName = "Hungering Victory",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 6.6,
+							popularity = 6.4,
 							priority = 2,
 						},
 						{
@@ -5567,7 +5567,7 @@ local bisData = {
 							itemName = "Krick's Beetle Stabber",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 5.1,
+							popularity = 5.0,
 							priority = 3,
 						},
 						{
@@ -5575,7 +5575,7 @@ local bisData = {
 							itemName = "Edge of the Burning Sun",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 3.1,
+							popularity = 2.9,
 							priority = 4,
 						},
 						{
@@ -5583,7 +5583,7 @@ local bisData = {
 							itemName = "Belo'ren's Swift Talon",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 2.1,
+							popularity = 2.2,
 							priority = 5,
 						},
 					},
@@ -5597,7 +5597,7 @@ local bisData = {
 							itemName = "Voidlashed Hood",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 34.8,
+							popularity = 34.3,
 							priority = 1,
 						},
 						{
@@ -5605,7 +5605,7 @@ local bisData = {
 							itemName = "Masquerade of the Grim Jest",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 31.1,
+							popularity = 30.6,
 							priority = 2,
 						},
 						{
@@ -5613,7 +5613,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Cover",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 10.6,
+							popularity = 10.4,
 							priority = 3,
 						},
 						{
@@ -5621,7 +5621,7 @@ local bisData = {
 							itemName = "Fetid Vilecrown",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 9.2,
+							popularity = 9.1,
 							priority = 4,
 						},
 						{
@@ -5639,7 +5639,7 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 66.1,
+							popularity = 65.1,
 							priority = 1,
 						},
 						{
@@ -5647,7 +5647,7 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 17.6,
+							popularity = 17.3,
 							priority = 2,
 						},
 						{
@@ -5655,7 +5655,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 8.7,
+							popularity = 8.5,
 							priority = 3,
 						},
 						{
@@ -5680,7 +5680,7 @@ local bisData = {
 							itemName = "Venom Casks of the Grim Jest",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 94.8,
+							popularity = 93.4,
 							priority = 1,
 						},
 						{
@@ -5721,7 +5721,7 @@ local bisData = {
 							itemName = "Fantastic Finery of the Grim Jest",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 97.3,
+							popularity = 95.8,
 							priority = 1,
 						},
 						{
@@ -5729,7 +5729,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Coat",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 0.6,
+							popularity = 0.5,
 							priority = 2,
 						},
 						{
@@ -5753,7 +5753,7 @@ local bisData = {
 							itemName = "Bloodfeather Chestguard",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 0.3,
+							popularity = 0.2,
 							priority = 5,
 						},
 					},
@@ -5763,7 +5763,7 @@ local bisData = {
 							itemName = "Scorn-Scarred Shul'ka's Belt",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 43.3,
+							popularity = 42.6,
 							priority = 1,
 						},
 						{
@@ -5771,7 +5771,7 @@ local bisData = {
 							itemName = "Flayer's Black Belt",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 34.0,
+							popularity = 33.5,
 							priority = 2,
 						},
 						{
@@ -5779,7 +5779,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Utility Belt",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 15.8,
+							popularity = 15.5,
 							priority = 3,
 						},
 						{
@@ -5804,7 +5804,7 @@ local bisData = {
 							itemName = "Blade Holsters of the Grim Jest",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 82.7,
+							popularity = 81.4,
 							priority = 1,
 						},
 						{
@@ -5812,7 +5812,7 @@ local bisData = {
 							itemName = "Legwraps of Lingering Legacies",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 6.0,
+							popularity = 5.9,
 							priority = 2,
 						},
 						{
@@ -5846,14 +5846,14 @@ local bisData = {
 							itemName = "Silvermoon Agent's Sneakers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 46.1,
+							popularity = 45.4,
 							priority = 1,
 						},
 						{
 							itemID = 250008,
 							itemName = "Balancing Boots of the Grim Jest",
 							sourceType = "raid",
-							popularity = 17.3,
+							popularity = 17.0,
 							priority = 2,
 						},
 						{
@@ -5861,7 +5861,7 @@ local bisData = {
 							itemName = "Nullstrider's Boots",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 11.1,
+							popularity = 11.0,
 							priority = 3,
 						},
 						{
@@ -5869,7 +5869,7 @@ local bisData = {
 							itemName = "Void-Claimed Shinkickers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 10.4,
+							popularity = 10.2,
 							priority = 4,
 						},
 						{
@@ -5877,7 +5877,7 @@ local bisData = {
 							itemName = "Eclipse Espadrilles",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 8.2,
+							popularity = 8.1,
 							priority = 5,
 						},
 					},
@@ -5887,7 +5887,7 @@ local bisData = {
 							itemName = "Chewed Leather Wristguards",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 38.8,
+							popularity = 38.2,
 							priority = 1,
 						},
 						{
@@ -5895,7 +5895,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Deflectors",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 25.6,
+							popularity = 25.2,
 							priority = 2,
 						},
 						{
@@ -5903,14 +5903,14 @@ local bisData = {
 							itemName = "Void-Skinned Bracers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 18.8,
+							popularity = 18.5,
 							priority = 3,
 						},
 						{
 							itemID = 250002,
 							itemName = "Trick Bracers of the Grim Jest",
 							sourceType = "raid",
-							popularity = 13.6,
+							popularity = 13.4,
 							priority = 4,
 						},
 						{
@@ -5918,7 +5918,7 @@ local bisData = {
 							itemName = "Frenzyroot Cuffs",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 0.8,
+							popularity = 0.7,
 							priority = 5,
 						},
 					},
@@ -5928,7 +5928,7 @@ local bisData = {
 							itemName = "Sleight of Hand of the Grim Jest",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.5,
+							popularity = 97.0,
 							priority = 1,
 						},
 						{
@@ -5955,14 +5955,6 @@ local bisData = {
 							popularity = 0.1,
 							priority = 4,
 						},
-						{
-							itemID = 249321,
-							itemName = "Vaelgor's Fearsome Grasp",
-							dropSource = "The Voidspire",
-							sourceType = "raid",
-							popularity = 0.1,
-							priority = 5,
-						},
 					},
 					[11] = {
 						{
@@ -5970,7 +5962,7 @@ local bisData = {
 							itemName = "Purloined Wedding Ring",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 74.1,
+							popularity = 72.9,
 							priority = 1,
 						},
 						{
@@ -5978,7 +5970,7 @@ local bisData = {
 							itemName = "Occlusion of Void",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 46.9,
+							popularity = 46.2,
 							priority = 2,
 						},
 						{
@@ -5986,7 +5978,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 42.7,
+							popularity = 42.0,
 							priority = 3,
 						},
 						{
@@ -5994,7 +5986,7 @@ local bisData = {
 							itemName = "Signet of the Starved Beast",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 16.2,
+							popularity = 15.9,
 							priority = 4,
 						},
 						{
@@ -6002,7 +5994,7 @@ local bisData = {
 							itemName = "Omission of Light",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 4.6,
+							popularity = 4.5,
 							priority = 5,
 						},
 					},
@@ -6012,7 +6004,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 77.3,
+							popularity = 76.2,
 							priority = 1,
 						},
 						{
@@ -6020,7 +6012,7 @@ local bisData = {
 							itemName = "Solarflare Prism",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 61.9,
+							popularity = 60.9,
 							priority = 2,
 						},
 						{
@@ -6028,14 +6020,14 @@ local bisData = {
 							itemName = "Umbral Plume",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 21.6,
+							popularity = 21.3,
 							priority = 3,
 						},
 						{
 							itemID = 264507,
 							itemName = "Crucible of Erratic Energies",
 							sourceType = "raid",
-							popularity = 7.4,
+							popularity = 7.3,
 							priority = 4,
 						},
 						{
@@ -6043,7 +6035,7 @@ local bisData = {
 							itemName = "Ranger-Captain's Iridescent Insignia",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 6.5,
+							popularity = 6.4,
 							priority = 5,
 						},
 					},
@@ -6053,7 +6045,7 @@ local bisData = {
 							itemName = "Defiant Defender's Drape",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 29.0,
+							popularity = 28.6,
 							priority = 1,
 						},
 						{
@@ -6061,7 +6053,7 @@ local bisData = {
 							itemName = "Cloak of the Fallen Cardinal",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 19.0,
+							popularity = 18.7,
 							priority = 2,
 						},
 						{
@@ -6069,7 +6061,7 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 17.9,
+							popularity = 17.6,
 							priority = 3,
 						},
 						{
@@ -6077,7 +6069,7 @@ local bisData = {
 							itemName = "Imperator's Banner",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 16.0,
+							popularity = 15.7,
 							priority = 4,
 						},
 						{
@@ -6085,7 +6077,7 @@ local bisData = {
 							itemName = "Rigid Scale Greatcloak",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 4.8,
+							popularity = 4.7,
 							priority = 5,
 						},
 					},
@@ -6095,7 +6087,7 @@ local bisData = {
 							itemName = "Spellbreaker's Blade",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 43.6,
+							popularity = 43.0,
 							priority = 1,
 						},
 						{
@@ -6103,7 +6095,7 @@ local bisData = {
 							itemName = "Tormentor's Bladed Fists",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 27.1,
+							popularity = 26.7,
 							priority = 2,
 						},
 						{
@@ -6111,7 +6103,7 @@ local bisData = {
 							itemName = "Dreadflail Bludgeon",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 6.6,
+							popularity = 6.5,
 							priority = 3,
 						},
 						{
@@ -6119,7 +6111,7 @@ local bisData = {
 							itemName = "Blazing Sunclaws",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 5.8,
+							popularity = 5.7,
 							priority = 4,
 						},
 						{
@@ -6127,7 +6119,7 @@ local bisData = {
 							itemName = "Clutchmates' Caress",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 4.4,
+							popularity = 4.3,
 							priority = 5,
 						},
 					},
@@ -6137,7 +6129,7 @@ local bisData = {
 							itemName = "Farstrider's Mercy",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 51.5,
+							popularity = 50.7,
 							priority = 1,
 						},
 						{
@@ -6145,7 +6137,7 @@ local bisData = {
 							itemName = "Krick's Beetle Stabber",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 31.4,
+							popularity = 30.9,
 							priority = 2,
 						},
 						{
@@ -6153,7 +6145,7 @@ local bisData = {
 							itemName = "Hungering Victory",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 6.7,
+							popularity = 6.6,
 							priority = 3,
 						},
 						{
@@ -6161,7 +6153,7 @@ local bisData = {
 							itemName = "Edge of the Burning Sun",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 2.3,
+							popularity = 2.2,
 							priority = 4,
 						},
 						{
@@ -6183,7 +6175,7 @@ local bisData = {
 							itemName = "Masquerade of the Grim Jest",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 92.1,
+							popularity = 91.2,
 							priority = 1,
 						},
 						{
@@ -6191,7 +6183,7 @@ local bisData = {
 							itemName = "Devouring Night's Visage",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 4.6,
+							popularity = 4.5,
 							priority = 2,
 						},
 						{
@@ -6207,7 +6199,7 @@ local bisData = {
 							itemName = "Voidlashed Hood",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 0.9,
+							popularity = 0.8,
 							priority = 4,
 						},
 						{
@@ -6225,7 +6217,7 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 21.3,
+							popularity = 21.1,
 							priority = 1,
 						},
 						{
@@ -6233,7 +6225,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 20.1,
+							popularity = 19.9,
 							priority = 2,
 						},
 						{
@@ -6241,7 +6233,7 @@ local bisData = {
 							itemName = "Eternal Voidsong Chain",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 18.6,
+							popularity = 18.4,
 							priority = 3,
 						},
 						{
@@ -6249,14 +6241,14 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 17.4,
+							popularity = 17.2,
 							priority = 4,
 						},
 						{
 							itemID = 266314,
 							itemName = "Novice Combatant's Necklace",
 							sourceType = "raid",
-							popularity = 9.8,
+							popularity = 9.7,
 							priority = 5,
 						},
 					},
@@ -6266,7 +6258,7 @@ local bisData = {
 							itemName = "Venom Casks of the Grim Jest",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.7,
+							popularity = 97.7,
 							priority = 1,
 						},
 						{
@@ -6307,7 +6299,7 @@ local bisData = {
 							itemName = "Fantastic Finery of the Grim Jest",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.8,
+							popularity = 97.9,
 							priority = 1,
 						},
 						{
@@ -6349,7 +6341,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Utility Belt",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 46.1,
+							popularity = 45.6,
 							priority = 1,
 						},
 						{
@@ -6357,7 +6349,7 @@ local bisData = {
 							itemName = "Scorn-Scarred Shul'ka's Belt",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 28.3,
+							popularity = 28.1,
 							priority = 2,
 						},
 						{
@@ -6365,7 +6357,7 @@ local bisData = {
 							itemName = "Flayer's Black Belt",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 9.7,
+							popularity = 9.6,
 							priority = 3,
 						},
 						{
@@ -6381,7 +6373,7 @@ local bisData = {
 							itemName = "Snapvine Cinch",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 5.4,
+							popularity = 5.3,
 							priority = 5,
 						},
 					},
@@ -6391,7 +6383,7 @@ local bisData = {
 							itemName = "Shaggy Wyrmleather Leggings",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 32.4,
+							popularity = 32.1,
 							priority = 1,
 						},
 						{
@@ -6399,7 +6391,7 @@ local bisData = {
 							itemName = "Blade Holsters of the Grim Jest",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 17.5,
+							popularity = 17.3,
 							priority = 2,
 						},
 						{
@@ -6407,7 +6399,7 @@ local bisData = {
 							itemName = "Legwraps of Lingering Legacies",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 11.7,
+							popularity = 11.6,
 							priority = 3,
 						},
 						{
@@ -6415,7 +6407,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Leggings",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 9.7,
+							popularity = 9.6,
 							priority = 4,
 						},
 						{
@@ -6423,7 +6415,7 @@ local bisData = {
 							itemName = "Nightblade's Pantaloons",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 9.7,
+							popularity = 9.6,
 							priority = 5,
 						},
 					},
@@ -6432,7 +6424,7 @@ local bisData = {
 							itemID = 250008,
 							itemName = "Balancing Boots of the Grim Jest",
 							sourceType = "raid",
-							popularity = 50.5,
+							popularity = 50.0,
 							priority = 1,
 						},
 						{
@@ -6440,7 +6432,7 @@ local bisData = {
 							itemName = "Boots of Burning Focus",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 17.0,
+							popularity = 16.9,
 							priority = 2,
 						},
 						{
@@ -6448,7 +6440,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Sneakers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 8.4,
+							popularity = 8.3,
 							priority = 3,
 						},
 						{
@@ -6456,14 +6448,14 @@ local bisData = {
 							itemName = "Canopy Walker's Footwraps",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 7.5,
+							popularity = 7.4,
 							priority = 4,
 						},
 						{
 							itemID = 249638,
 							itemName = "Osseoclad Bonecrushers",
 							sourceType = "raid",
-							popularity = 5.9,
+							popularity = 5.8,
 							priority = 5,
 						},
 					},
@@ -6473,7 +6465,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Deflectors",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 46.1,
+							popularity = 45.6,
 							priority = 1,
 						},
 						{
@@ -6481,7 +6473,7 @@ local bisData = {
 							itemName = "Void-Skinned Bracers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 21.2,
+							popularity = 21.0,
 							priority = 2,
 						},
 						{
@@ -6489,7 +6481,7 @@ local bisData = {
 							itemName = "Frenzyroot Cuffs",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 9.6,
+							popularity = 9.5,
 							priority = 3,
 						},
 						{
@@ -6497,7 +6489,7 @@ local bisData = {
 							itemName = "Chewed Leather Wristguards",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 9.5,
+							popularity = 9.4,
 							priority = 4,
 						},
 						{
@@ -6514,7 +6506,7 @@ local bisData = {
 							itemName = "Sleight of Hand of the Grim Jest",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.5,
+							popularity = 97.5,
 							priority = 1,
 						},
 						{
@@ -6556,7 +6548,7 @@ local bisData = {
 							itemName = "Omission of Light",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 42.2,
+							popularity = 41.8,
 							priority = 1,
 						},
 						{
@@ -6564,7 +6556,7 @@ local bisData = {
 							itemName = "Occlusion of Void",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 33.2,
+							popularity = 32.9,
 							priority = 2,
 						},
 						{
@@ -6572,7 +6564,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 29.3,
+							popularity = 29.0,
 							priority = 3,
 						},
 						{
@@ -6580,7 +6572,7 @@ local bisData = {
 							itemName = "Bifurcation Band",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 21.1,
+							popularity = 20.9,
 							priority = 4,
 						},
 						{
@@ -6588,7 +6580,7 @@ local bisData = {
 							itemName = "Platinum Star Band",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 20.4,
+							popularity = 20.2,
 							priority = 5,
 						},
 					},
@@ -6598,7 +6590,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 87.6,
+							popularity = 86.8,
 							priority = 1,
 						},
 						{
@@ -6606,7 +6598,7 @@ local bisData = {
 							itemName = "Light Company Guidon",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 85.8,
+							popularity = 85.0,
 							priority = 2,
 						},
 						{
@@ -6614,7 +6606,7 @@ local bisData = {
 							itemName = "Algeth'ar Puzzle Box",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 9.7,
+							popularity = 9.6,
 							priority = 3,
 						},
 						{
@@ -6622,7 +6614,7 @@ local bisData = {
 							itemName = "Solarflare Prism",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 5.1,
+							popularity = 5.0,
 							priority = 4,
 						},
 						{
@@ -6640,7 +6632,7 @@ local bisData = {
 							itemName = "Rigid Scale Greatcloak",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 32.2,
+							popularity = 31.9,
 							priority = 1,
 						},
 						{
@@ -6648,7 +6640,7 @@ local bisData = {
 							itemName = "Defiant Defender's Drape",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 13.3,
+							popularity = 13.2,
 							priority = 2,
 						},
 						{
@@ -6656,7 +6648,7 @@ local bisData = {
 							itemName = "Draconic Nullcape",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 13.0,
+							popularity = 12.9,
 							priority = 3,
 						},
 						{
@@ -6664,14 +6656,14 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 10.6,
+							popularity = 10.5,
 							priority = 4,
 						},
 						{
 							itemID = 250001,
 							itemName = "Disappearing Cloth of the Grim Jest",
 							sourceType = "raid",
-							popularity = 10.4,
+							popularity = 10.3,
 							priority = 5,
 						},
 					},
@@ -6681,7 +6673,7 @@ local bisData = {
 							itemName = "Hungering Victory",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 50.2,
+							popularity = 49.7,
 							priority = 1,
 						},
 						{
@@ -6689,7 +6681,7 @@ local bisData = {
 							itemName = "Farstrider's Mercy",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 20.1,
+							popularity = 19.9,
 							priority = 2,
 						},
 						{
@@ -6697,7 +6689,7 @@ local bisData = {
 							itemName = "Krick's Beetle Stabber",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 12.2,
+							popularity = 12.1,
 							priority = 3,
 						},
 						{
@@ -6705,7 +6697,7 @@ local bisData = {
 							itemName = "Edge of the Burning Sun",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 10.8,
+							popularity = 10.7,
 							priority = 4,
 						},
 						{
@@ -6723,7 +6715,7 @@ local bisData = {
 							itemName = "Farstrider's Mercy",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 77.8,
+							popularity = 77.0,
 							priority = 1,
 						},
 						{
@@ -6731,7 +6723,7 @@ local bisData = {
 							itemName = "Hungering Victory",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 9.5,
+							popularity = 9.4,
 							priority = 2,
 						},
 						{
@@ -6747,7 +6739,7 @@ local bisData = {
 							itemName = "Belo'ren's Swift Talon",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 2.8,
+							popularity = 2.7,
 							priority = 4,
 						},
 						{
@@ -6773,7 +6765,7 @@ local bisData = {
 							itemName = "Blind Oath's Winged Crest",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 94.9,
+							popularity = 93.9,
 							priority = 1,
 						},
 						{
@@ -6814,7 +6806,7 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 27.8,
+							popularity = 27.5,
 							priority = 1,
 						},
 						{
@@ -6822,7 +6814,7 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 25.6,
+							popularity = 25.3,
 							priority = 2,
 						},
 						{
@@ -6830,7 +6822,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 14.4,
+							popularity = 14.2,
 							priority = 3,
 						},
 						{
@@ -6838,7 +6830,7 @@ local bisData = {
 							itemName = "Eternal Voidsong Chain",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 9.8,
+							popularity = 9.7,
 							priority = 4,
 						},
 						{
@@ -6855,7 +6847,7 @@ local bisData = {
 							itemName = "Blind Oath's Seraphguards",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 85.2,
+							popularity = 84.3,
 							priority = 1,
 						},
 						{
@@ -6863,7 +6855,7 @@ local bisData = {
 							itemName = "Nysarra's Mantle",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 5.2,
+							popularity = 5.1,
 							priority = 2,
 						},
 						{
@@ -6879,7 +6871,7 @@ local bisData = {
 							itemName = "Viceroy's Umbral Mantle",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 1.7,
+							popularity = 1.6,
 							priority = 4,
 						},
 						{
@@ -6896,7 +6888,7 @@ local bisData = {
 							itemName = "Blind Oath's Raiment",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 82.2,
+							popularity = 81.4,
 							priority = 1,
 						},
 						{
@@ -6904,7 +6896,7 @@ local bisData = {
 							itemName = "Palebone Robes",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 5.7,
+							popularity = 5.6,
 							priority = 2,
 						},
 						{
@@ -6912,7 +6904,7 @@ local bisData = {
 							itemName = "Robes of Endless Oblivion",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 3.9,
+							popularity = 3.8,
 							priority = 3,
 						},
 						{
@@ -6937,7 +6929,7 @@ local bisData = {
 							itemID = 239664,
 							itemName = "Arcanoweave Cord",
 							sourceType = "raid",
-							popularity = 43.2,
+							popularity = 42.7,
 							priority = 1,
 						},
 						{
@@ -6945,7 +6937,7 @@ local bisData = {
 							itemName = "Endless March Waistwrap",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 24.2,
+							popularity = 23.9,
 							priority = 2,
 						},
 						{
@@ -6953,7 +6945,7 @@ local bisData = {
 							itemName = "Martyr's Waistwrap",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 9.6,
+							popularity = 9.5,
 							priority = 3,
 						},
 						{
@@ -6967,7 +6959,7 @@ local bisData = {
 							itemID = 249635,
 							itemName = "Sprawling Rhizomecord",
 							sourceType = "raid",
-							popularity = 3.8,
+							popularity = 3.7,
 							priority = 5,
 						},
 					},
@@ -6977,7 +6969,7 @@ local bisData = {
 							itemName = "Blind Oath's Leggings",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 95.7,
+							popularity = 94.7,
 							priority = 1,
 						},
 						{
@@ -6985,7 +6977,7 @@ local bisData = {
 							itemName = "Leggings of the Devouring Advance",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 1.9,
+							popularity = 1.8,
 							priority = 2,
 						},
 						{
@@ -7018,7 +7010,7 @@ local bisData = {
 							itemName = "Slippers of the Midnight Flame",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 27.2,
+							popularity = 27.0,
 							priority = 1,
 						},
 						{
@@ -7026,7 +7018,7 @@ local bisData = {
 							itemName = "Dream-Scorched Striders",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 25.8,
+							popularity = 25.5,
 							priority = 2,
 						},
 						{
@@ -7034,14 +7026,14 @@ local bisData = {
 							itemName = "Ice-Steeped Sandals",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 14.2,
+							popularity = 14.0,
 							priority = 3,
 						},
 						{
 							itemID = 250053,
 							itemName = "Blind Oath's Slippers",
 							sourceType = "raid",
-							popularity = 11.3,
+							popularity = 11.2,
 							priority = 4,
 						},
 						{
@@ -7049,7 +7041,7 @@ local bisData = {
 							itemName = "Martyr's Slippers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 6.9,
+							popularity = 6.8,
 							priority = 5,
 						},
 					},
@@ -7059,7 +7051,7 @@ local bisData = {
 							itemName = "Martyr's Bindings",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 36.8,
+							popularity = 36.4,
 							priority = 1,
 						},
 						{
@@ -7067,14 +7059,14 @@ local bisData = {
 							itemName = "Voracious Wristwraps",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 32.5,
+							popularity = 32.1,
 							priority = 2,
 						},
 						{
 							itemID = 250047,
 							itemName = "Blind Oath's Wraps",
 							sourceType = "raid",
-							popularity = 12.0,
+							popularity = 11.8,
 							priority = 3,
 						},
 						{
@@ -7082,7 +7074,7 @@ local bisData = {
 							itemName = "Wristguards of Subterranean Moss",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 5.4,
+							popularity = 5.3,
 							priority = 4,
 						},
 						{
@@ -7099,7 +7091,7 @@ local bisData = {
 							itemName = "Blind Oath's Touch",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 69.1,
+							popularity = 68.4,
 							priority = 1,
 						},
 						{
@@ -7107,7 +7099,7 @@ local bisData = {
 							itemName = "Vilehex Bonds",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 7.5,
+							popularity = 7.4,
 							priority = 2,
 						},
 						{
@@ -7115,7 +7107,7 @@ local bisData = {
 							itemName = "War Chaplain's Grips",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 6.1,
+							popularity = 6.0,
 							priority = 3,
 						},
 						{
@@ -7130,7 +7122,7 @@ local bisData = {
 							itemName = "Handwraps of the Ascended",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 3.7,
+							popularity = 3.6,
 							priority = 5,
 						},
 					},
@@ -7140,7 +7132,7 @@ local bisData = {
 							itemName = "Occlusion of Void",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 43.4,
+							popularity = 42.9,
 							priority = 1,
 						},
 						{
@@ -7148,7 +7140,7 @@ local bisData = {
 							itemName = "Omission of Light",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 34.1,
+							popularity = 33.8,
 							priority = 2,
 						},
 						{
@@ -7156,7 +7148,7 @@ local bisData = {
 							itemName = "Purloined Wedding Ring",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 28.8,
+							popularity = 28.5,
 							priority = 3,
 						},
 						{
@@ -7164,7 +7156,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 26.8,
+							popularity = 26.5,
 							priority = 4,
 						},
 						{
@@ -7172,7 +7164,7 @@ local bisData = {
 							itemName = "Signet of the Starved Beast",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 14.1,
+							popularity = 14.0,
 							priority = 5,
 						},
 					},
@@ -7182,7 +7174,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 72.6,
+							popularity = 71.9,
 							priority = 1,
 						},
 						{
@@ -7190,7 +7182,7 @@ local bisData = {
 							itemName = "Vaelgor's Final Stare",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 53.4,
+							popularity = 52.8,
 							priority = 2,
 						},
 						{
@@ -7198,7 +7190,7 @@ local bisData = {
 							itemName = "Litany of Lightblind Wrath",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 15.8,
+							popularity = 15.6,
 							priority = 3,
 						},
 						{
@@ -7206,7 +7198,7 @@ local bisData = {
 							itemName = "Volatile Void Suffuser",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 13.5,
+							popularity = 13.3,
 							priority = 4,
 						},
 						{
@@ -7214,7 +7206,7 @@ local bisData = {
 							itemName = "Heart of Wind",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 13.2,
+							popularity = 13.1,
 							priority = 5,
 						},
 					},
@@ -7224,7 +7216,7 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 21.7,
+							popularity = 21.5,
 							priority = 1,
 						},
 						{
@@ -7232,7 +7224,7 @@ local bisData = {
 							itemName = "Draconic Nullcape",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 18.3,
+							popularity = 18.1,
 							priority = 2,
 						},
 						{
@@ -7240,14 +7232,14 @@ local bisData = {
 							itemName = "Defiant Defender's Drape",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 14.5,
+							popularity = 14.3,
 							priority = 3,
 						},
 						{
 							itemID = 250046,
 							itemName = "Blind Oath's Shroud",
 							sourceType = "raid",
-							popularity = 10.4,
+							popularity = 10.3,
 							priority = 4,
 						},
 						{
@@ -7255,7 +7247,7 @@ local bisData = {
 							itemName = "Imperator's Banner",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 8.1,
+							popularity = 8.0,
 							priority = 5,
 						},
 					},
@@ -7265,7 +7257,7 @@ local bisData = {
 							itemName = "Aln'hara Cane",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 66.9,
+							popularity = 66.2,
 							priority = 1,
 						},
 						{
@@ -7273,7 +7265,7 @@ local bisData = {
 							itemName = "Corespark Multitool",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 10.6,
+							popularity = 10.5,
 							priority = 2,
 						},
 						{
@@ -7307,7 +7299,7 @@ local bisData = {
 							itemName = "Aln'hara Lantern",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 5.1,
+							popularity = 5.0,
 							priority = 1,
 						},
 						{
@@ -7323,7 +7315,7 @@ local bisData = {
 							itemName = "Grimoire of the Eternal Light",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 2.7,
+							popularity = 2.6,
 							priority = 3,
 						},
 						{
@@ -7353,7 +7345,7 @@ local bisData = {
 							itemName = "Blind Oath's Winged Crest",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 88.5,
+							popularity = 88.1,
 							priority = 1,
 						},
 						{
@@ -7369,7 +7361,7 @@ local bisData = {
 							itemName = "Shadow-Weaver's Crown",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 2.4,
+							popularity = 2.3,
 							priority = 3,
 						},
 						{
@@ -7395,7 +7387,7 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 25.3,
+							popularity = 25.2,
 							priority = 1,
 						},
 						{
@@ -7403,7 +7395,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 21.3,
+							popularity = 21.2,
 							priority = 2,
 						},
 						{
@@ -7411,7 +7403,7 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 21.3,
+							popularity = 21.2,
 							priority = 3,
 						},
 						{
@@ -7436,7 +7428,7 @@ local bisData = {
 							itemName = "Blind Oath's Seraphguards",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 95.7,
+							popularity = 95.2,
 							priority = 1,
 						},
 						{
@@ -7460,7 +7452,7 @@ local bisData = {
 							itemName = "Mantle of Dark Devotion",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 0.7,
+							popularity = 0.6,
 							priority = 4,
 						},
 						{
@@ -7477,7 +7469,7 @@ local bisData = {
 							itemName = "Blind Oath's Raiment",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 84.1,
+							popularity = 83.6,
 							priority = 1,
 						},
 						{
@@ -7518,7 +7510,7 @@ local bisData = {
 							itemID = 239664,
 							itemName = "Arcanoweave Cord",
 							sourceType = "raid",
-							popularity = 47.3,
+							popularity = 47.0,
 							priority = 1,
 						},
 						{
@@ -7526,7 +7518,7 @@ local bisData = {
 							itemName = "Endless March Waistwrap",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 14.6,
+							popularity = 14.5,
 							priority = 2,
 						},
 						{
@@ -7534,7 +7526,7 @@ local bisData = {
 							itemName = "Martyr's Waistwrap",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 14.2,
+							popularity = 14.1,
 							priority = 3,
 						},
 						{
@@ -7559,7 +7551,7 @@ local bisData = {
 							itemName = "Blind Oath's Leggings",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 76.0,
+							popularity = 75.6,
 							priority = 1,
 						},
 						{
@@ -7567,7 +7559,7 @@ local bisData = {
 							itemName = "Leggings of the Devouring Advance",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 16.6,
+							popularity = 16.5,
 							priority = 2,
 						},
 						{
@@ -7601,7 +7593,7 @@ local bisData = {
 							itemName = "Dream-Scorched Striders",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 53.3,
+							popularity = 53.0,
 							priority = 1,
 						},
 						{
@@ -7617,7 +7609,7 @@ local bisData = {
 							itemName = "Slippers of the Midnight Flame",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 8.2,
+							popularity = 8.1,
 							priority = 3,
 						},
 						{
@@ -7641,7 +7633,7 @@ local bisData = {
 							itemID = 250047,
 							itemName = "Blind Oath's Wraps",
 							sourceType = "raid",
-							popularity = 35.7,
+							popularity = 35.5,
 							priority = 1,
 						},
 						{
@@ -7649,7 +7641,7 @@ local bisData = {
 							itemName = "Martyr's Bindings",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 31.8,
+							popularity = 31.6,
 							priority = 2,
 						},
 						{
@@ -7682,7 +7674,7 @@ local bisData = {
 							itemName = "Blind Oath's Touch",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 71.6,
+							popularity = 71.2,
 							priority = 1,
 						},
 						{
@@ -7724,7 +7716,7 @@ local bisData = {
 							itemName = "Platinum Star Band",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 41.8,
+							popularity = 41.6,
 							priority = 1,
 						},
 						{
@@ -7732,7 +7724,7 @@ local bisData = {
 							itemName = "Signet of the Starved Beast",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 39.1,
+							popularity = 38.9,
 							priority = 2,
 						},
 						{
@@ -7740,7 +7732,7 @@ local bisData = {
 							itemName = "Occlusion of Void",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 23.7,
+							popularity = 23.6,
 							priority = 3,
 						},
 						{
@@ -7748,7 +7740,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 19.2,
+							popularity = 19.1,
 							priority = 4,
 						},
 						{
@@ -7756,7 +7748,7 @@ local bisData = {
 							itemName = "Purloined Wedding Ring",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 11.9,
+							popularity = 11.8,
 							priority = 5,
 						},
 					},
@@ -7766,7 +7758,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 62.0,
+							popularity = 61.7,
 							priority = 1,
 						},
 						{
@@ -7774,7 +7766,7 @@ local bisData = {
 							itemName = "Litany of Lightblind Wrath",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 35.6,
+							popularity = 35.4,
 							priority = 2,
 						},
 						{
@@ -7782,7 +7774,7 @@ local bisData = {
 							itemName = "Locus-Walker's Ribbon",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 24.3,
+							popularity = 24.1,
 							priority = 3,
 						},
 						{
@@ -7797,7 +7789,7 @@ local bisData = {
 							itemName = "Emerald Coach's Whistle",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 11.2,
+							popularity = 11.1,
 							priority = 5,
 						},
 					},
@@ -7806,7 +7798,7 @@ local bisData = {
 							itemID = 250046,
 							itemName = "Blind Oath's Shroud",
 							sourceType = "raid",
-							popularity = 19.8,
+							popularity = 19.6,
 							priority = 1,
 						},
 						{
@@ -7814,7 +7806,7 @@ local bisData = {
 							itemName = "Imperator's Banner",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 19.5,
+							popularity = 19.4,
 							priority = 2,
 						},
 						{
@@ -7822,7 +7814,7 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 14.4,
+							popularity = 14.3,
 							priority = 3,
 						},
 						{
@@ -7848,7 +7840,7 @@ local bisData = {
 							itemName = "Aln'hara Cane",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 59.0,
+							popularity = 58.7,
 							priority = 1,
 						},
 						{
@@ -7856,7 +7848,7 @@ local bisData = {
 							itemName = "Weight of Command",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 12.7,
+							popularity = 12.6,
 							priority = 2,
 						},
 						{
@@ -7872,7 +7864,7 @@ local bisData = {
 							itemName = "Umbral Spire of Zuraal",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 5.2,
+							popularity = 5.1,
 							priority = 4,
 						},
 						{
@@ -7936,7 +7928,7 @@ local bisData = {
 							itemName = "Blind Oath's Winged Crest",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 89.9,
+							popularity = 89.7,
 							priority = 1,
 						},
 						{
@@ -7978,14 +7970,14 @@ local bisData = {
 							itemName = "Eternal Voidsong Chain",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 23.9,
+							popularity = 23.8,
 							priority = 1,
 						},
 						{
 							itemID = 266314,
 							itemName = "Novice Combatant's Necklace",
 							sourceType = "raid",
-							popularity = 21.0,
+							popularity = 20.9,
 							priority = 2,
 						},
 						{
@@ -7993,7 +7985,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 14.6,
+							popularity = 14.5,
 							priority = 3,
 						},
 						{
@@ -8001,7 +7993,7 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 12.3,
+							popularity = 12.2,
 							priority = 4,
 						},
 						{
@@ -8019,7 +8011,7 @@ local bisData = {
 							itemName = "Blind Oath's Seraphguards",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 86.2,
+							popularity = 85.9,
 							priority = 1,
 						},
 						{
@@ -8027,7 +8019,7 @@ local bisData = {
 							itemName = "Nysarra's Mantle",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 6.8,
+							popularity = 6.7,
 							priority = 2,
 						},
 						{
@@ -8061,7 +8053,7 @@ local bisData = {
 							itemName = "Blind Oath's Raiment",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 96.2,
+							popularity = 95.9,
 							priority = 1,
 						},
 						{
@@ -8102,14 +8094,14 @@ local bisData = {
 							itemID = 239664,
 							itemName = "Arcanoweave Cord",
 							sourceType = "raid",
-							popularity = 57.4,
+							popularity = 57.2,
 							priority = 1,
 						},
 						{
 							itemID = 250048,
 							itemName = "Blind Oath's Jeweled Sash",
 							sourceType = "raid",
-							popularity = 16.9,
+							popularity = 16.8,
 							priority = 2,
 						},
 						{
@@ -8143,7 +8135,7 @@ local bisData = {
 							itemName = "Blind Oath's Leggings",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.6,
+							popularity = 98.2,
 							priority = 1,
 						},
 						{
@@ -8183,7 +8175,7 @@ local bisData = {
 							itemID = 250053,
 							itemName = "Blind Oath's Slippers",
 							sourceType = "raid",
-							popularity = 36.4,
+							popularity = 36.2,
 							priority = 1,
 						},
 						{
@@ -8191,7 +8183,7 @@ local bisData = {
 							itemName = "Dream-Scorched Striders",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 30.8,
+							popularity = 30.7,
 							priority = 2,
 						},
 						{
@@ -8207,7 +8199,7 @@ local bisData = {
 							itemName = "Slippers of the Midnight Flame",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 9.4,
+							popularity = 9.3,
 							priority = 4,
 						},
 						{
@@ -8215,7 +8207,7 @@ local bisData = {
 							itemName = "Martyr's Slippers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 6.3,
+							popularity = 6.2,
 							priority = 5,
 						},
 					},
@@ -8225,7 +8217,7 @@ local bisData = {
 							itemName = "Martyr's Bindings",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 42.3,
+							popularity = 42.1,
 							priority = 1,
 						},
 						{
@@ -8233,7 +8225,7 @@ local bisData = {
 							itemName = "Voracious Wristwraps",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 30.8,
+							popularity = 30.7,
 							priority = 2,
 						},
 						{
@@ -8266,7 +8258,7 @@ local bisData = {
 							itemName = "Blind Oath's Touch",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 56.5,
+							popularity = 56.3,
 							priority = 1,
 						},
 						{
@@ -8308,7 +8300,7 @@ local bisData = {
 							itemName = "Omission of Light",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 72.2,
+							popularity = 72.0,
 							priority = 1,
 						},
 						{
@@ -8316,7 +8308,7 @@ local bisData = {
 							itemName = "Occlusion of Void",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 64.9,
+							popularity = 64.7,
 							priority = 2,
 						},
 						{
@@ -8324,7 +8316,7 @@ local bisData = {
 							itemName = "Bifurcation Band",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 15.4,
+							popularity = 15.3,
 							priority = 3,
 						},
 						{
@@ -8332,7 +8324,7 @@ local bisData = {
 							itemName = "Bond of Light",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 12.8,
+							popularity = 12.7,
 							priority = 4,
 						},
 						{
@@ -8350,7 +8342,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 88.4,
+							popularity = 88.2,
 							priority = 1,
 						},
 						{
@@ -8358,7 +8350,7 @@ local bisData = {
 							itemName = "Vaelgor's Final Stare",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 70.2,
+							popularity = 70.0,
 							priority = 2,
 						},
 						{
@@ -8392,7 +8384,7 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 35.2,
+							popularity = 35.1,
 							priority = 1,
 						},
 						{
@@ -8400,7 +8392,7 @@ local bisData = {
 							itemName = "Draconic Nullcape",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 20.3,
+							popularity = 20.2,
 							priority = 2,
 						},
 						{
@@ -8408,7 +8400,7 @@ local bisData = {
 							itemName = "Rigid Scale Greatcloak",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 10.7,
+							popularity = 10.6,
 							priority = 3,
 						},
 						{
@@ -8434,7 +8426,7 @@ local bisData = {
 							itemName = "Aln'hara Cane",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 41.9,
+							popularity = 41.7,
 							priority = 1,
 						},
 						{
@@ -8442,7 +8434,7 @@ local bisData = {
 							itemName = "Corespark Multitool",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 33.7,
+							popularity = 33.6,
 							priority = 2,
 						},
 						{
@@ -8526,7 +8518,7 @@ local bisData = {
 							itemName = "Relentless Rider's Crown",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 91.3,
+							popularity = 91.2,
 							priority = 1,
 						},
 						{
@@ -8534,7 +8526,7 @@ local bisData = {
 							itemName = "Crown of the Fractured Tyrant",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 4.0,
+							popularity = 4.2,
 							priority = 2,
 						},
 						{
@@ -8568,7 +8560,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 19.6,
+							popularity = 19.8,
 							priority = 1,
 						},
 						{
@@ -8576,7 +8568,7 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 18.6,
+							popularity = 18.7,
 							priority = 2,
 						},
 						{
@@ -8584,7 +8576,7 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 16.6,
+							popularity = 16.7,
 							priority = 3,
 						},
 						{
@@ -8592,7 +8584,7 @@ local bisData = {
 							itemName = "Eternal Voidsong Chain",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 12.5,
+							popularity = 12.6,
 							priority = 4,
 						},
 						{
@@ -8600,7 +8592,7 @@ local bisData = {
 							itemName = "Pendant of Aching Grief",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 7.9,
+							popularity = 7.8,
 							priority = 5,
 						},
 					},
@@ -8610,7 +8602,7 @@ local bisData = {
 							itemName = "Relentless Rider's Dreadthorns",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 71.5,
+							popularity = 71.3,
 							priority = 1,
 						},
 						{
@@ -8618,7 +8610,7 @@ local bisData = {
 							itemName = "Shoulderplates of Frozen Blood",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 10.0,
+							popularity = 10.1,
 							priority = 2,
 						},
 						{
@@ -8626,14 +8618,14 @@ local bisData = {
 							itemName = "Light-Judged Spaulders",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 9.6,
+							popularity = 9.7,
 							priority = 3,
 						},
 						{
 							itemID = 249658,
 							itemName = "Rampant Thornmantles",
 							sourceType = "raid",
-							popularity = 2.1,
+							popularity = 2.2,
 							priority = 4,
 						},
 						{
@@ -8651,7 +8643,7 @@ local bisData = {
 							itemName = "Relentless Rider's Cuirass",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 94.9,
+							popularity = 95.1,
 							priority = 1,
 						},
 						{
@@ -8691,7 +8683,7 @@ local bisData = {
 							itemID = 249967,
 							itemName = "Relentless Rider's Chain",
 							sourceType = "raid",
-							popularity = 25.0,
+							popularity = 25.7,
 							priority = 1,
 						},
 						{
@@ -8699,7 +8691,7 @@ local bisData = {
 							itemName = "Ezzorak's Gloombind",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 15.1,
+							popularity = 15.4,
 							priority = 2,
 						},
 						{
@@ -8707,7 +8699,7 @@ local bisData = {
 							itemName = "Spellbreaker's Girdle",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 15.0,
+							popularity = 14.9,
 							priority = 3,
 						},
 						{
@@ -8715,7 +8707,7 @@ local bisData = {
 							itemName = "Bent Gold Belt",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 10.7,
+							popularity = 10.6,
 							priority = 4,
 						},
 						{
@@ -8723,7 +8715,7 @@ local bisData = {
 							itemName = "Hate-Tied Waistchain",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 8.1,
+							popularity = 8.0,
 							priority = 5,
 						},
 					},
@@ -8733,7 +8725,7 @@ local bisData = {
 							itemName = "Relentless Rider's Legguards",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 88.9,
+							popularity = 89.1,
 							priority = 1,
 						},
 						{
@@ -8756,7 +8748,7 @@ local bisData = {
 							itemID = 249657,
 							itemName = "Rampant Bramblegreaves",
 							sourceType = "raid",
-							popularity = 1.8,
+							popularity = 1.7,
 							priority = 4,
 						},
 						{
@@ -8774,14 +8766,14 @@ local bisData = {
 							itemName = "Greaves of the Unformed",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 39.0,
+							popularity = 39.3,
 							priority = 1,
 						},
 						{
 							itemID = 249972,
 							itemName = "Relentless Rider's Stompers",
 							sourceType = "raid",
-							popularity = 19.1,
+							popularity = 19.3,
 							priority = 2,
 						},
 						{
@@ -8789,7 +8781,7 @@ local bisData = {
 							itemName = "Parasite Stompers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 14.1,
+							popularity = 14.0,
 							priority = 3,
 						},
 						{
@@ -8805,7 +8797,7 @@ local bisData = {
 							itemName = "Oathsworn Stompers",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 4.2,
+							popularity = 4.1,
 							priority = 5,
 						},
 					},
@@ -8815,7 +8807,7 @@ local bisData = {
 							itemName = "Spellbreaker's Bracers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 56.8,
+							popularity = 56.9,
 							priority = 1,
 						},
 						{
@@ -8823,29 +8815,29 @@ local bisData = {
 							itemName = "Light's March Bracers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 17.9,
+							popularity = 17.7,
 							priority = 2,
 						},
 						{
 							itemID = 249966,
 							itemName = "Relentless Rider's Manacles",
 							sourceType = "raid",
-							popularity = 8.1,
+							popularity = 8.4,
 							priority = 3,
 						},
 						{
 							itemID = 249660,
 							itemName = "Rampant Briarcuffs",
 							sourceType = "raid",
-							popularity = 5.7,
+							popularity = 5.5,
 							priority = 4,
 						},
 						{
-							itemID = 251203,
-							itemName = "Kasreth's Bindings",
-							dropSource = "Nexus-Point Xenas",
+							itemID = 263193,
+							itemName = "Trollhunter's Bands",
+							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 3.5,
+							popularity = 3.6,
 							priority = 5,
 						},
 					},
@@ -8855,7 +8847,7 @@ local bisData = {
 							itemName = "Relentless Rider's Bonegrasps",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 71.6,
+							popularity = 71.8,
 							priority = 1,
 						},
 						{
@@ -8863,7 +8855,7 @@ local bisData = {
 							itemName = "Voidclaw Gauntlets",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 18.4,
+							popularity = 18.5,
 							priority = 2,
 						},
 						{
@@ -8878,7 +8870,7 @@ local bisData = {
 							itemID = 249655,
 							itemName = "Rampant Creepers",
 							sourceType = "raid",
-							popularity = 2.2,
+							popularity = 2.1,
 							priority = 4,
 						},
 						{
@@ -8886,7 +8878,7 @@ local bisData = {
 							itemName = "Embergrove Grasps",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 2.0,
+							popularity = 1.9,
 							priority = 5,
 						},
 					},
@@ -8903,7 +8895,7 @@ local bisData = {
 							itemID = 251513,
 							itemName = "Loa Worshiper's Band",
 							sourceType = "raid",
-							popularity = 25.4,
+							popularity = 25.3,
 							priority = 2,
 						},
 						{
@@ -8911,7 +8903,7 @@ local bisData = {
 							itemName = "Omission of Light",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 25.0,
+							popularity = 25.1,
 							priority = 3,
 						},
 						{
@@ -8919,7 +8911,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 19.9,
+							popularity = 19.7,
 							priority = 4,
 						},
 						{
@@ -8937,7 +8929,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 82.3,
+							popularity = 82.9,
 							priority = 1,
 						},
 						{
@@ -8945,7 +8937,7 @@ local bisData = {
 							itemName = "Light Company Guidon",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 59.9,
+							popularity = 60.6,
 							priority = 2,
 						},
 						{
@@ -8953,7 +8945,7 @@ local bisData = {
 							itemName = "Heart of Ancient Hunger",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 26.1,
+							popularity = 25.7,
 							priority = 3,
 						},
 						{
@@ -8969,7 +8961,7 @@ local bisData = {
 							itemName = "Heart of Wind",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 3.9,
+							popularity = 3.7,
 							priority = 5,
 						},
 					},
@@ -8979,7 +8971,7 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 31.8,
+							popularity = 32.4,
 							priority = 1,
 						},
 						{
@@ -8987,7 +8979,7 @@ local bisData = {
 							itemName = "Imperator's Banner",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 13.1,
+							popularity = 13.0,
 							priority = 2,
 						},
 						{
@@ -8995,7 +8987,7 @@ local bisData = {
 							itemName = "Draconic Nullcape",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 8.4,
+							popularity = 8.5,
 							priority = 3,
 						},
 						{
@@ -9003,14 +8995,14 @@ local bisData = {
 							itemName = "Rigid Scale Greatcloak",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 7.4,
+							popularity = 7.5,
 							priority = 4,
 						},
 						{
 							itemID = 249965,
 							itemName = "Relentless Rider's Drape",
 							sourceType = "raid",
-							popularity = 6.6,
+							popularity = 6.7,
 							priority = 5,
 						},
 					},
@@ -9020,7 +9012,7 @@ local bisData = {
 							itemName = "Blood Knight's Warblade",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 43.0,
+							popularity = 42.4,
 							priority = 1,
 						},
 						{
@@ -9028,7 +9020,7 @@ local bisData = {
 							itemName = "Garfrost's Two-Ton Hammer",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 11.7,
+							popularity = 11.9,
 							priority = 2,
 						},
 						{
@@ -9036,7 +9028,7 @@ local bisData = {
 							itemName = "Bellamy's Final Judgement",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 10.2,
+							popularity = 10.7,
 							priority = 3,
 						},
 						{
@@ -9044,7 +9036,7 @@ local bisData = {
 							itemName = "Liferipper's Cutlass",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 7.9,
+							popularity = 8.1,
 							priority = 4,
 						},
 						{
@@ -9066,7 +9058,7 @@ local bisData = {
 							itemName = "Relentless Rider's Crown",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.5,
+							popularity = 93.7,
 							priority = 1,
 						},
 						{
@@ -9108,7 +9100,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 36.4,
+							popularity = 34.6,
 							priority = 1,
 						},
 						{
@@ -9116,7 +9108,7 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 18.7,
+							popularity = 17.8,
 							priority = 2,
 						},
 						{
@@ -9124,14 +9116,14 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 15.7,
+							popularity = 14.9,
 							priority = 3,
 						},
 						{
 							itemID = 266314,
 							itemName = "Novice Combatant's Necklace",
 							sourceType = "raid",
-							popularity = 11.1,
+							popularity = 10.5,
 							priority = 4,
 						},
 						{
@@ -9139,7 +9131,7 @@ local bisData = {
 							itemName = "Amulet of the Abyssal Hymn",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 9.6,
+							popularity = 9.1,
 							priority = 5,
 						},
 					},
@@ -9149,7 +9141,7 @@ local bisData = {
 							itemName = "Shoulderplates of Frozen Blood",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 43.6,
+							popularity = 41.5,
 							priority = 1,
 						},
 						{
@@ -9157,7 +9149,7 @@ local bisData = {
 							itemName = "Light-Judged Spaulders",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 24.1,
+							popularity = 23.0,
 							priority = 2,
 						},
 						{
@@ -9165,7 +9157,7 @@ local bisData = {
 							itemName = "Amalgamation's Harness",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 7.3,
+							popularity = 6.9,
 							priority = 3,
 						},
 						{
@@ -9173,14 +9165,14 @@ local bisData = {
 							itemName = "Relentless Rider's Dreadthorns",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 7.1,
+							popularity = 6.7,
 							priority = 4,
 						},
 						{
 							itemID = 249658,
 							itemName = "Rampant Thornmantles",
 							sourceType = "raid",
-							popularity = 6.5,
+							popularity = 6.2,
 							priority = 5,
 						},
 					},
@@ -9190,7 +9182,7 @@ local bisData = {
 							itemName = "Relentless Rider's Cuirass",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.6,
+							popularity = 93.8,
 							priority = 1,
 						},
 						{
@@ -9198,7 +9190,7 @@ local bisData = {
 							itemName = "Breastplate of the Final Defense",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 0.3,
+							popularity = 0.2,
 							priority = 2,
 						},
 						{
@@ -9222,7 +9214,7 @@ local bisData = {
 							itemName = "Frost Wyrm Ribcage",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 0.2,
+							popularity = 0.1,
 							priority = 5,
 						},
 					},
@@ -9231,7 +9223,7 @@ local bisData = {
 							itemID = 249967,
 							itemName = "Relentless Rider's Chain",
 							sourceType = "raid",
-							popularity = 70.2,
+							popularity = 66.8,
 							priority = 1,
 						},
 						{
@@ -9239,7 +9231,7 @@ local bisData = {
 							itemName = "Hate-Tied Waistchain",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 12.2,
+							popularity = 11.6,
 							priority = 2,
 						},
 						{
@@ -9247,21 +9239,21 @@ local bisData = {
 							itemName = "Spellbreaker's Girdle",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 8.1,
+							popularity = 7.7,
 							priority = 3,
 						},
 						{
 							itemID = 263269,
 							itemName = "Hara'ti Defender's Greatbelt",
 							sourceType = "raid",
-							popularity = 2.5,
+							popularity = 2.3,
 							priority = 4,
 						},
 						{
 							itemID = 249659,
 							itemName = "Rampant Thornstrap",
 							sourceType = "raid",
-							popularity = 1.7,
+							popularity = 1.6,
 							priority = 5,
 						},
 					},
@@ -9271,7 +9263,7 @@ local bisData = {
 							itemName = "Relentless Rider's Legguards",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.8,
+							popularity = 94.0,
 							priority = 1,
 						},
 						{
@@ -9304,7 +9296,7 @@ local bisData = {
 							itemName = "Greaves of the Unformed",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 71.1,
+							popularity = 67.7,
 							priority = 1,
 						},
 						{
@@ -9312,14 +9304,14 @@ local bisData = {
 							itemName = "Parasite Stompers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 9.6,
+							popularity = 9.1,
 							priority = 2,
 						},
 						{
 							itemID = 249654,
 							itemName = "Rampant Thistlestompers",
 							sourceType = "raid",
-							popularity = 4.5,
+							popularity = 4.3,
 							priority = 3,
 						},
 						{
@@ -9327,7 +9319,7 @@ local bisData = {
 							itemName = "Fading Dawn Sabatons",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 3.5,
+							popularity = 3.3,
 							priority = 4,
 						},
 						{
@@ -9335,7 +9327,7 @@ local bisData = {
 							itemName = "Oathsworn Stompers",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 3.4,
+							popularity = 3.2,
 							priority = 5,
 						},
 					},
@@ -9345,14 +9337,14 @@ local bisData = {
 							itemName = "Spellbreaker's Bracers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 77.2,
+							popularity = 73.5,
 							priority = 1,
 						},
 						{
 							itemID = 249966,
 							itemName = "Relentless Rider's Manacles",
 							sourceType = "raid",
-							popularity = 8.6,
+							popularity = 8.2,
 							priority = 2,
 						},
 						{
@@ -9360,7 +9352,7 @@ local bisData = {
 							itemName = "Light's March Bracers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 6.5,
+							popularity = 6.2,
 							priority = 3,
 						},
 						{
@@ -9368,7 +9360,7 @@ local bisData = {
 							itemName = "Trollhunter's Bands",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 3.7,
+							popularity = 3.6,
 							priority = 4,
 						},
 						{
@@ -9385,7 +9377,7 @@ local bisData = {
 							itemName = "Relentless Rider's Bonegrasps",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.1,
+							popularity = 93.3,
 							priority = 1,
 						},
 						{
@@ -9401,7 +9393,7 @@ local bisData = {
 							itemName = "Voidclaw Gauntlets",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 0.4,
+							popularity = 0.3,
 							priority = 3,
 						},
 						{
@@ -9426,7 +9418,7 @@ local bisData = {
 							itemName = "Platinum Star Band",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 67.4,
+							popularity = 64.1,
 							priority = 1,
 						},
 						{
@@ -9434,7 +9426,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 29.3,
+							popularity = 27.8,
 							priority = 2,
 						},
 						{
@@ -9442,7 +9434,7 @@ local bisData = {
 							itemName = "Bond of Light",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 18.3,
+							popularity = 17.4,
 							priority = 3,
 						},
 						{
@@ -9450,7 +9442,7 @@ local bisData = {
 							itemName = "Bifurcation Band",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 14.3,
+							popularity = 13.6,
 							priority = 4,
 						},
 						{
@@ -9458,7 +9450,7 @@ local bisData = {
 							itemName = "Sin'dorei Band of Hope",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 13.9,
+							popularity = 13.2,
 							priority = 5,
 						},
 					},
@@ -9468,7 +9460,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 89.1,
+							popularity = 84.7,
 							priority = 1,
 						},
 						{
@@ -9476,7 +9468,7 @@ local bisData = {
 							itemName = "Light Company Guidon",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 82.6,
+							popularity = 78.6,
 							priority = 2,
 						},
 						{
@@ -9484,7 +9476,7 @@ local bisData = {
 							itemName = "Heart of Ancient Hunger",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 9.5,
+							popularity = 9.1,
 							priority = 3,
 						},
 						{
@@ -9492,7 +9484,7 @@ local bisData = {
 							itemName = "Algeth'ar Puzzle Box",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 7.8,
+							popularity = 7.4,
 							priority = 4,
 						},
 						{
@@ -9500,7 +9492,7 @@ local bisData = {
 							itemName = "Solarflare Prism",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 3.3,
+							popularity = 3.1,
 							priority = 5,
 						},
 					},
@@ -9510,7 +9502,7 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 62.6,
+							popularity = 59.6,
 							priority = 1,
 						},
 						{
@@ -9518,7 +9510,7 @@ local bisData = {
 							itemName = "Rigid Scale Greatcloak",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 18.7,
+							popularity = 17.8,
 							priority = 2,
 						},
 						{
@@ -9526,7 +9518,7 @@ local bisData = {
 							itemName = "Imperator's Banner",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 4.6,
+							popularity = 4.4,
 							priority = 3,
 						},
 						{
@@ -9534,7 +9526,7 @@ local bisData = {
 							itemName = "Draconic Nullcape",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 2.7,
+							popularity = 2.6,
 							priority = 4,
 						},
 						{
@@ -9542,7 +9534,7 @@ local bisData = {
 							itemName = "Defiant Defender's Drape",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 2.0,
+							popularity = 1.9,
 							priority = 5,
 						},
 					},
@@ -9552,7 +9544,7 @@ local bisData = {
 							itemName = "Blood Knight's Warblade",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 31.7,
+							popularity = 30.2,
 							priority = 1,
 						},
 						{
@@ -9560,7 +9552,7 @@ local bisData = {
 							itemName = "Liferipper's Cutlass",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 24.1,
+							popularity = 22.9,
 							priority = 2,
 						},
 						{
@@ -9568,7 +9560,7 @@ local bisData = {
 							itemName = "Bellamy's Final Judgement",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 18.0,
+							popularity = 17.1,
 							priority = 3,
 						},
 						{
@@ -9576,7 +9568,7 @@ local bisData = {
 							itemName = "Garfrost's Two-Ton Hammer",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 7.0,
+							popularity = 6.7,
 							priority = 4,
 						},
 						{
@@ -9584,7 +9576,7 @@ local bisData = {
 							itemName = "Algeth'ar Hedgecleaver",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 5.2,
+							popularity = 4.9,
 							priority = 5,
 						},
 					},
@@ -9632,7 +9624,7 @@ local bisData = {
 							itemName = "Relentless Rider's Crown",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.6,
+							popularity = 98.4,
 							priority = 1,
 						},
 						{
@@ -9650,7 +9642,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 34.2,
+							popularity = 34.1,
 							priority = 1,
 						},
 						{
@@ -9658,7 +9650,7 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 21.9,
+							popularity = 21.8,
 							priority = 2,
 						},
 						{
@@ -9666,7 +9658,7 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 15.7,
+							popularity = 15.6,
 							priority = 3,
 						},
 						{
@@ -9691,7 +9683,7 @@ local bisData = {
 							itemName = "Shoulderplates of Frozen Blood",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 49.6,
+							popularity = 49.4,
 							priority = 1,
 						},
 						{
@@ -9699,7 +9691,7 @@ local bisData = {
 							itemName = "Light-Judged Spaulders",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 19.4,
+							popularity = 19.3,
 							priority = 2,
 						},
 						{
@@ -9714,7 +9706,7 @@ local bisData = {
 							itemName = "Amalgamation's Harness",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 6.4,
+							popularity = 6.3,
 							priority = 4,
 						},
 						{
@@ -9732,7 +9724,7 @@ local bisData = {
 							itemName = "Relentless Rider's Cuirass",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.8,
+							popularity = 98.6,
 							priority = 1,
 						},
 						{
@@ -9765,7 +9757,7 @@ local bisData = {
 							itemID = 249967,
 							itemName = "Relentless Rider's Chain",
 							sourceType = "raid",
-							popularity = 73.1,
+							popularity = 72.9,
 							priority = 1,
 						},
 						{
@@ -9805,7 +9797,7 @@ local bisData = {
 							itemName = "Relentless Rider's Legguards",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 99.1,
+							popularity = 98.9,
 							priority = 1,
 						},
 						{
@@ -9823,7 +9815,7 @@ local bisData = {
 							itemName = "Greaves of the Unformed",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 67.6,
+							popularity = 67.5,
 							priority = 1,
 						},
 						{
@@ -9864,7 +9856,7 @@ local bisData = {
 							itemName = "Spellbreaker's Bracers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 83.0,
+							popularity = 82.8,
 							priority = 1,
 						},
 						{
@@ -9905,7 +9897,7 @@ local bisData = {
 							itemName = "Relentless Rider's Bonegrasps",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.2,
+							popularity = 97.9,
 							priority = 1,
 						},
 						{
@@ -9939,7 +9931,7 @@ local bisData = {
 							itemName = "Platinum Star Band",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 71.0,
+							popularity = 70.9,
 							priority = 1,
 						},
 						{
@@ -9947,7 +9939,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 30.0,
+							popularity = 29.9,
 							priority = 2,
 						},
 						{
@@ -9971,7 +9963,7 @@ local bisData = {
 							itemName = "Sin'dorei Band of Hope",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 11.5,
+							popularity = 11.4,
 							priority = 5,
 						},
 					},
@@ -9981,7 +9973,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 86.4,
+							popularity = 86.2,
 							priority = 1,
 						},
 						{
@@ -9989,7 +9981,7 @@ local bisData = {
 							itemName = "Light Company Guidon",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 84.7,
+							popularity = 84.5,
 							priority = 2,
 						},
 						{
@@ -9997,7 +9989,7 @@ local bisData = {
 							itemName = "Heart of Ancient Hunger",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 10.0,
+							popularity = 9.9,
 							priority = 3,
 						},
 						{
@@ -10023,7 +10015,7 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 66.1,
+							popularity = 65.9,
 							priority = 1,
 						},
 						{
@@ -10031,7 +10023,7 @@ local bisData = {
 							itemName = "Rigid Scale Greatcloak",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 19.0,
+							popularity = 18.9,
 							priority = 2,
 						},
 						{
@@ -10065,7 +10057,7 @@ local bisData = {
 							itemName = "Blood Knight's Warblade",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 38.6,
+							popularity = 38.5,
 							priority = 1,
 						},
 						{
@@ -10073,7 +10065,7 @@ local bisData = {
 							itemName = "Liferipper's Cutlass",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 24.6,
+							popularity = 24.5,
 							priority = 2,
 						},
 						{
@@ -10081,7 +10073,7 @@ local bisData = {
 							itemName = "Bellamy's Final Judgement",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 10.3,
+							popularity = 10.2,
 							priority = 3,
 						},
 						{
@@ -10115,7 +10107,7 @@ local bisData = {
 							itemName = "Locus of the Primal Core",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 95.7,
+							popularity = 95.4,
 							priority = 1,
 						},
 						{
@@ -10157,7 +10149,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 23.3,
+							popularity = 23.2,
 							priority = 1,
 						},
 						{
@@ -10165,14 +10157,14 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 22.2,
+							popularity = 22.1,
 							priority = 2,
 						},
 						{
 							itemID = 266314,
 							itemName = "Novice Combatant's Necklace",
 							sourceType = "raid",
-							popularity = 17.7,
+							popularity = 17.6,
 							priority = 3,
 						},
 						{
@@ -10198,7 +10190,7 @@ local bisData = {
 							itemName = "Tempests of the Primal Core",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 86.4,
+							popularity = 86.1,
 							priority = 1,
 						},
 						{
@@ -10240,7 +10232,7 @@ local bisData = {
 							itemName = "Embrace of the Primal Core",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 96.9,
+							popularity = 96.6,
 							priority = 1,
 						},
 						{
@@ -10282,14 +10274,14 @@ local bisData = {
 							itemName = "World Tender's Barkclasp",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 38.1,
+							popularity = 37.9,
 							priority = 1,
 						},
 						{
 							itemID = 249976,
 							itemName = "Ceinture of the Primal Core",
 							sourceType = "raid",
-							popularity = 26.3,
+							popularity = 26.2,
 							priority = 2,
 						},
 						{
@@ -10312,7 +10304,7 @@ local bisData = {
 							itemID = 249651,
 							itemName = "Elder Mosscinch",
 							sourceType = "raid",
-							popularity = 4.6,
+							popularity = 4.5,
 							priority = 5,
 						},
 					},
@@ -10322,7 +10314,7 @@ local bisData = {
 							itemName = "Leggings of the Primal Core",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 34.5,
+							popularity = 34.4,
 							priority = 1,
 						},
 						{
@@ -10330,7 +10322,7 @@ local bisData = {
 							itemName = "Greaves of the Divine Guile",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 27.2,
+							popularity = 27.1,
 							priority = 2,
 						},
 						{
@@ -10338,7 +10330,7 @@ local bisData = {
 							itemName = "Farstrider's Reinforced Faulds",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 15.6,
+							popularity = 15.5,
 							priority = 3,
 						},
 						{
@@ -10346,7 +10338,7 @@ local bisData = {
 							itemName = "Wickedweave Trousers",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 13.3,
+							popularity = 13.2,
 							priority = 4,
 						},
 						{
@@ -10364,7 +10356,7 @@ local bisData = {
 							itemName = "World Tender's Rootslippers",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 37.7,
+							popularity = 37.5,
 							priority = 1,
 						},
 						{
@@ -10372,7 +10364,7 @@ local bisData = {
 							itemName = "Whipcoil Sabatons",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 22.4,
+							popularity = 22.3,
 							priority = 2,
 						},
 						{
@@ -10405,7 +10397,7 @@ local bisData = {
 							itemName = "Fallen King's Cuffs",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 34.1,
+							popularity = 33.9,
 							priority = 1,
 						},
 						{
@@ -10413,7 +10405,7 @@ local bisData = {
 							itemName = "Farstrider's Plated Bracers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 25.9,
+							popularity = 25.8,
 							priority = 2,
 						},
 						{
@@ -10421,7 +10413,7 @@ local bisData = {
 							itemName = "Amberfrond Bracers",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 25.8,
+							popularity = 25.7,
 							priority = 3,
 						},
 						{
@@ -10447,7 +10439,7 @@ local bisData = {
 							itemName = "Earthgrips of the Primal Core",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.0,
+							popularity = 97.6,
 							priority = 1,
 						},
 						{
@@ -10488,7 +10480,7 @@ local bisData = {
 							itemName = "Platinum Star Band",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 50.2,
+							popularity = 50.1,
 							priority = 1,
 						},
 						{
@@ -10496,7 +10488,7 @@ local bisData = {
 							itemName = "Occlusion of Void",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 22.7,
+							popularity = 22.6,
 							priority = 2,
 						},
 						{
@@ -10504,7 +10496,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 21.9,
+							popularity = 21.8,
 							priority = 3,
 						},
 						{
@@ -10520,7 +10512,7 @@ local bisData = {
 							itemName = "Bond of Light",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 17.3,
+							popularity = 17.2,
 							priority = 5,
 						},
 					},
@@ -10530,7 +10522,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 68.5,
+							popularity = 68.2,
 							priority = 1,
 						},
 						{
@@ -10538,7 +10530,7 @@ local bisData = {
 							itemName = "Emberwing Feather",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 64.7,
+							popularity = 64.5,
 							priority = 2,
 						},
 						{
@@ -10546,7 +10538,7 @@ local bisData = {
 							itemName = "Vaelgor's Final Stare",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 29.2,
+							popularity = 29.1,
 							priority = 3,
 						},
 						{
@@ -10554,7 +10546,7 @@ local bisData = {
 							itemName = "Locus-Walker's Ribbon",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 19.5,
+							popularity = 19.4,
 							priority = 4,
 						},
 						{
@@ -10571,7 +10563,7 @@ local bisData = {
 							itemID = 249974,
 							itemName = "Guardian of the Primal Core",
 							sourceType = "raid",
-							popularity = 54.4,
+							popularity = 54.2,
 							priority = 1,
 						},
 						{
@@ -10579,7 +10571,7 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 19.8,
+							popularity = 19.7,
 							priority = 2,
 						},
 						{
@@ -10587,7 +10579,7 @@ local bisData = {
 							itemName = "Rigid Scale Greatcloak",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 12.1,
+							popularity = 12.0,
 							priority = 3,
 						},
 						{
@@ -10613,7 +10605,7 @@ local bisData = {
 							itemName = "Aln'hara Cane",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 40.3,
+							popularity = 40.2,
 							priority = 1,
 						},
 						{
@@ -10621,7 +10613,7 @@ local bisData = {
 							itemName = "Excavating Cudgel",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 17.2,
+							popularity = 17.1,
 							priority = 2,
 						},
 						{
@@ -10637,7 +10629,7 @@ local bisData = {
 							itemName = "Umbral Spire of Zuraal",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 6.7,
+							popularity = 6.6,
 							priority = 4,
 						},
 						{
@@ -10655,7 +10647,7 @@ local bisData = {
 							itemName = "Bulwark of Noble Resolve",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 9.3,
+							popularity = 9.2,
 							priority = 1,
 						},
 						{
@@ -10679,7 +10671,7 @@ local bisData = {
 							itemName = "Spellbreaker's Rebuke",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 3.7,
+							popularity = 3.6,
 							priority = 4,
 						},
 						{
@@ -10705,17 +10697,17 @@ local bisData = {
 							priority = 1,
 						},
 						{
-							itemID = 258585,
-							itemName = "Sharpeye Gleam",
-							dropSource = "Skyreach",
+							itemID = 244579,
+							itemName = "Farstrider's Unwavering Visage",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							popularity = 0.2,
 							priority = 2,
 						},
 						{
-							itemID = 244579,
-							itemName = "Farstrider's Unwavering Visage",
-							dropSource = "Crafted",
+							itemID = 258585,
+							itemName = "Sharpeye Gleam",
+							dropSource = "Skyreach",
 							sourceType = "raid",
 							popularity = 0.2,
 							priority = 3,
@@ -10735,14 +10727,14 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 36.3,
+							popularity = 36.4,
 							priority = 1,
 						},
 						{
 							itemID = 266314,
 							itemName = "Novice Combatant's Necklace",
 							sourceType = "raid",
-							popularity = 23.9,
+							popularity = 23.5,
 							priority = 2,
 						},
 						{
@@ -10754,19 +10746,19 @@ local bisData = {
 							priority = 3,
 						},
 						{
-							itemID = 50228,
-							itemName = "Barbed Ymirheim Choker",
-							dropSource = "Pit of Saron",
+							itemID = 249368,
+							itemName = "Eternal Voidsong Chain",
+							dropSource = "The Voidspire",
 							sourceType = "raid",
 							popularity = 7.3,
 							priority = 4,
 						},
 						{
-							itemID = 249368,
-							itemName = "Eternal Voidsong Chain",
-							dropSource = "The Voidspire",
+							itemID = 50228,
+							itemName = "Barbed Ymirheim Choker",
+							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 7.0,
+							popularity = 7.2,
 							priority = 5,
 						},
 					},
@@ -10776,7 +10768,7 @@ local bisData = {
 							itemName = "Tempests of the Primal Core",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 96.7,
+							popularity = 96.8,
 							priority = 1,
 						},
 						{
@@ -10784,7 +10776,7 @@ local bisData = {
 							itemName = "Pauldrons of the Void Hunter",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 1.5,
+							popularity = 1.4,
 							priority = 2,
 						},
 						{
@@ -10818,7 +10810,7 @@ local bisData = {
 							itemName = "Embrace of the Primal Core",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 99.1,
+							popularity = 99.0,
 							priority = 1,
 						},
 						{
@@ -10828,6 +10820,14 @@ local bisData = {
 							sourceType = "raid",
 							popularity = 0.2,
 							priority = 2,
+						},
+						{
+							itemID = 244578,
+							itemName = "Farstrider's Scouting Vest",
+							dropSource = "Crafted",
+							sourceType = "raid",
+							popularity = 0.1,
+							priority = 3,
 						},
 					},
 					[6] = {
@@ -10843,7 +10843,7 @@ local bisData = {
 							itemName = "Scornbane Waistguard",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 33.0,
+							popularity = 33.1,
 							priority = 2,
 						},
 						{
@@ -10851,7 +10851,7 @@ local bisData = {
 							itemName = "Farstrider's Trophy Belt",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 3.6,
+							popularity = 3.5,
 							priority = 3,
 						},
 						{
@@ -10859,7 +10859,7 @@ local bisData = {
 							itemName = "World Tender's Barkclasp",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 3.0,
+							popularity = 3.1,
 							priority = 4,
 						},
 						{
@@ -10867,7 +10867,7 @@ local bisData = {
 							itemName = "Raging Storm Sash",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 2.7,
+							popularity = 2.6,
 							priority = 5,
 						},
 					},
@@ -10877,7 +10877,7 @@ local bisData = {
 							itemName = "Farstrider's Reinforced Faulds",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 46.4,
+							popularity = 46.3,
 							priority = 1,
 						},
 						{
@@ -10901,7 +10901,7 @@ local bisData = {
 							itemName = "Eternal Flame Scaleguards",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 11.1,
+							popularity = 11.3,
 							priority = 4,
 						},
 						{
@@ -10909,7 +10909,7 @@ local bisData = {
 							itemName = "Wickedweave Trousers",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 5.7,
+							popularity = 5.6,
 							priority = 5,
 						},
 					},
@@ -10918,7 +10918,7 @@ local bisData = {
 							itemID = 249981,
 							itemName = "Sollerets of the Primal Core",
 							sourceType = "raid",
-							popularity = 62.2,
+							popularity = 62.6,
 							priority = 1,
 						},
 						{
@@ -10934,7 +10934,7 @@ local bisData = {
 							itemName = "Whipcoil Sabatons",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 7.0,
+							popularity = 6.8,
 							priority = 3,
 						},
 						{
@@ -10942,7 +10942,7 @@ local bisData = {
 							itemName = "Boots of Explosive Growth",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 5.7,
+							popularity = 5.8,
 							priority = 4,
 						},
 						{
@@ -10950,7 +10950,7 @@ local bisData = {
 							itemName = "Farstrider's Razor Talons",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 4.6,
+							popularity = 4.5,
 							priority = 5,
 						},
 					},
@@ -10960,7 +10960,7 @@ local bisData = {
 							itemName = "Fallen King's Cuffs",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 34.3,
+							popularity = 34.1,
 							priority = 1,
 						},
 						{
@@ -10968,7 +10968,7 @@ local bisData = {
 							itemName = "Farstrider's Plated Bracers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 25.5,
+							popularity = 25.7,
 							priority = 2,
 						},
 						{
@@ -10976,7 +10976,7 @@ local bisData = {
 							itemName = "Amberfrond Bracers",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 16.9,
+							popularity = 16.7,
 							priority = 3,
 						},
 						{
@@ -10984,7 +10984,7 @@ local bisData = {
 							itemName = "Corewarden Cuffs",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 10.9,
+							popularity = 11.0,
 							priority = 4,
 						},
 						{
@@ -10992,7 +10992,7 @@ local bisData = {
 							itemName = "Darkfang Scale Wristguards",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 8.8,
+							popularity = 8.9,
 							priority = 5,
 						},
 					},
@@ -11002,7 +11002,7 @@ local bisData = {
 							itemName = "Earthgrips of the Primal Core",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 96.1,
+							popularity = 96.0,
 							priority = 1,
 						},
 						{
@@ -11010,7 +11010,7 @@ local bisData = {
 							itemName = "Grips of Forgotten Honor",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 1.9,
+							popularity = 1.8,
 							priority = 2,
 						},
 						{
@@ -11033,7 +11033,7 @@ local bisData = {
 							itemName = "Untethered Berserker's Grips",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 0.2,
+							popularity = 0.3,
 							priority = 5,
 						},
 					},
@@ -11043,7 +11043,7 @@ local bisData = {
 							itemName = "Omission of Light",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 65.0,
+							popularity = 65.3,
 							priority = 1,
 						},
 						{
@@ -11051,7 +11051,7 @@ local bisData = {
 							itemName = "Bifurcation Band",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 35.8,
+							popularity = 35.9,
 							priority = 2,
 						},
 						{
@@ -11059,7 +11059,7 @@ local bisData = {
 							itemName = "Occlusion of Void",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 31.0,
+							popularity = 31.2,
 							priority = 3,
 						},
 						{
@@ -11067,7 +11067,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 14.2,
+							popularity = 14.3,
 							priority = 4,
 						},
 						{
@@ -11075,7 +11075,7 @@ local bisData = {
 							itemName = "Bond of Light",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 13.7,
+							popularity = 13.5,
 							priority = 5,
 						},
 					},
@@ -11085,7 +11085,7 @@ local bisData = {
 							itemName = "Algeth'ar Puzzle Box",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 90.7,
+							popularity = 91.0,
 							priority = 1,
 						},
 						{
@@ -11117,7 +11117,7 @@ local bisData = {
 							itemName = "Radiant Plume",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 4.6,
+							popularity = 4.5,
 							priority = 5,
 						},
 					},
@@ -11127,14 +11127,14 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 44.3,
+							popularity = 44.4,
 							priority = 1,
 						},
 						{
 							itemID = 249974,
 							itemName = "Guardian of the Primal Core",
 							sourceType = "raid",
-							popularity = 19.0,
+							popularity = 18.9,
 							priority = 2,
 						},
 						{
@@ -11142,7 +11142,7 @@ local bisData = {
 							itemName = "Draconic Nullcape",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 11.2,
+							popularity = 11.0,
 							priority = 3,
 						},
 						{
@@ -11150,7 +11150,7 @@ local bisData = {
 							itemName = "Rigid Scale Greatcloak",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 10.1,
+							popularity = 10.3,
 							priority = 4,
 						},
 						{
@@ -11158,7 +11158,7 @@ local bisData = {
 							itemName = "Defiant Defender's Drape",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 4.9,
+							popularity = 5.0,
 							priority = 5,
 						},
 					},
@@ -11168,7 +11168,7 @@ local bisData = {
 							itemName = "Blazing Sunclaws",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 25.3,
+							popularity = 26.1,
 							priority = 1,
 						},
 						{
@@ -11176,7 +11176,7 @@ local bisData = {
 							itemName = "Clutchmates' Caress",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 22.5,
+							popularity = 22.7,
 							priority = 2,
 						},
 						{
@@ -11184,7 +11184,7 @@ local bisData = {
 							itemName = "Farstrider's Chopper",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 20.4,
+							popularity = 19.8,
 							priority = 3,
 						},
 						{
@@ -11192,7 +11192,7 @@ local bisData = {
 							itemName = "Tormentor's Bladed Fists",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 11.7,
+							popularity = 11.6,
 							priority = 4,
 						},
 						{
@@ -11200,7 +11200,7 @@ local bisData = {
 							itemName = "Soulblight Cleaver",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 5.7,
+							popularity = 5.5,
 							priority = 5,
 						},
 					},
@@ -11210,7 +11210,7 @@ local bisData = {
 							itemName = "Farstrider's Chopper",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 56.1,
+							popularity = 56.4,
 							priority = 1,
 						},
 						{
@@ -11218,7 +11218,7 @@ local bisData = {
 							itemName = "Clutchmates' Caress",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 12.1,
+							popularity = 11.8,
 							priority = 2,
 						},
 						{
@@ -11226,7 +11226,7 @@ local bisData = {
 							itemName = "Bloomforged Claw",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 10.4,
+							popularity = 10.3,
 							priority = 3,
 						},
 						{
@@ -11234,7 +11234,7 @@ local bisData = {
 							itemName = "Blazing Sunclaws",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 6.3,
+							popularity = 6.5,
 							priority = 4,
 						},
 						{
@@ -11242,7 +11242,7 @@ local bisData = {
 							itemName = "Spellbreaker's Ultimatum",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 4.5,
+							popularity = 4.6,
 							priority = 5,
 						},
 					},
@@ -11264,7 +11264,7 @@ local bisData = {
 							itemName = "Frenzy's Rebuke",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 28.2,
+							popularity = 28.3,
 							priority = 2,
 						},
 						{
@@ -11272,7 +11272,7 @@ local bisData = {
 							itemName = "Horns of the Spurned Val'kyr",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 15.9,
+							popularity = 16.2,
 							priority = 3,
 						},
 						{
@@ -11280,7 +11280,7 @@ local bisData = {
 							itemName = "Oblivion Guise",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 6.3,
+							popularity = 6.2,
 							priority = 4,
 						},
 						{
@@ -11298,7 +11298,7 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 37.4,
+							popularity = 37.6,
 							priority = 1,
 						},
 						{
@@ -11306,7 +11306,7 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 23.9,
+							popularity = 24.2,
 							priority = 2,
 						},
 						{
@@ -11321,7 +11321,7 @@ local bisData = {
 							itemID = 249627,
 							itemName = "Arboreal Vine Collar",
 							sourceType = "raid",
-							popularity = 5.4,
+							popularity = 5.3,
 							priority = 4,
 						},
 						{
@@ -11347,7 +11347,7 @@ local bisData = {
 							itemName = "Nullwalker's Dread Epaulettes",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 1.1,
+							popularity = 1.2,
 							priority = 2,
 						},
 						{
@@ -11355,7 +11355,7 @@ local bisData = {
 							itemName = "Spurned Val'kyr Shoulderguards",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 0.9,
+							popularity = 1.0,
 							priority = 3,
 						},
 						{
@@ -11381,7 +11381,7 @@ local bisData = {
 							itemName = "Embrace of the Primal Core",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 90.2,
+							popularity = 90.4,
 							priority = 1,
 						},
 						{
@@ -11389,7 +11389,7 @@ local bisData = {
 							itemName = "Robes of the Voidbound",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 4.0,
+							popularity = 3.9,
 							priority = 2,
 						},
 						{
@@ -11427,19 +11427,19 @@ local bisData = {
 							priority = 1,
 						},
 						{
-							itemID = 249303,
-							itemName = "Waistcord of the Judged",
-							dropSource = "The Voidspire",
+							itemID = 49810,
+							itemName = "Scabrous Zombie Belt",
+							dropSource = "Pit of Saron",
 							sourceType = "raid",
 							popularity = 18.0,
 							priority = 2,
 						},
 						{
-							itemID = 49810,
-							itemName = "Scabrous Zombie Belt",
-							dropSource = "Pit of Saron",
+							itemID = 249303,
+							itemName = "Waistcord of the Judged",
+							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 17.7,
+							popularity = 17.8,
 							priority = 3,
 						},
 						{
@@ -11455,7 +11455,7 @@ local bisData = {
 							itemName = "World Tender's Barkclasp",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 7.8,
+							popularity = 7.7,
 							priority = 5,
 						},
 					},
@@ -11481,7 +11481,7 @@ local bisData = {
 							itemName = "Farstrider's Reinforced Faulds",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 1.1,
+							popularity = 1.0,
 							priority = 3,
 						},
 						{
@@ -11497,7 +11497,7 @@ local bisData = {
 							itemName = "Black Dragonskin Breeches",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 0.7,
+							popularity = 0.8,
 							priority = 5,
 						},
 					},
@@ -11507,7 +11507,7 @@ local bisData = {
 							itemName = "Sabatons of Obscurement",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 45.7,
+							popularity = 45.9,
 							priority = 1,
 						},
 						{
@@ -11515,7 +11515,7 @@ local bisData = {
 							itemName = "Boots of Explosive Growth",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 10.9,
+							popularity = 10.8,
 							priority = 2,
 						},
 						{
@@ -11527,17 +11527,17 @@ local bisData = {
 							priority = 3,
 						},
 						{
-							itemID = 244610,
-							itemName = "World Tender's Rootslippers",
-							dropSource = "Tier / Catalyst",
+							itemID = 251084,
+							itemName = "Whipcoil Sabatons",
+							dropSource = "Windrunner Spire",
 							sourceType = "raid",
 							popularity = 8.1,
 							priority = 4,
 						},
 						{
-							itemID = 251084,
-							itemName = "Whipcoil Sabatons",
-							dropSource = "Windrunner Spire",
+							itemID = 244610,
+							itemName = "World Tender's Rootslippers",
+							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
 							popularity = 8.1,
 							priority = 5,
@@ -11549,14 +11549,14 @@ local bisData = {
 							itemName = "Farstrider's Plated Bracers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 55.3,
+							popularity = 55.2,
 							priority = 1,
 						},
 						{
 							itemID = 249975,
 							itemName = "Cuffs of the Primal Core",
 							sourceType = "raid",
-							popularity = 16.7,
+							popularity = 17.0,
 							priority = 2,
 						},
 						{
@@ -11580,7 +11580,7 @@ local bisData = {
 							itemName = "Darkfang Scale Wristguards",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 5.5,
+							popularity = 5.4,
 							priority = 5,
 						},
 					},
@@ -11613,7 +11613,7 @@ local bisData = {
 							itemName = "Grips of Forgotten Honor",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 0.6,
+							popularity = 0.5,
 							priority = 4,
 						},
 						{
@@ -11631,7 +11631,7 @@ local bisData = {
 							itemName = "Signet of the Starved Beast",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 46.1,
+							popularity = 46.3,
 							priority = 1,
 						},
 						{
@@ -11647,7 +11647,7 @@ local bisData = {
 							itemName = "Purloined Wedding Ring",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 25.6,
+							popularity = 25.9,
 							priority = 3,
 						},
 						{
@@ -11673,14 +11673,14 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 68.0,
+							popularity = 68.7,
 							priority = 1,
 						},
 						{
 							itemID = 264507,
 							itemName = "Crucible of Erratic Energies",
 							sourceType = "raid",
-							popularity = 47.5,
+							popularity = 47.0,
 							priority = 2,
 						},
 						{
@@ -11696,7 +11696,7 @@ local bisData = {
 							itemName = "Heart of Wind",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 13.7,
+							popularity = 13.8,
 							priority = 4,
 						},
 						{
@@ -11704,7 +11704,7 @@ local bisData = {
 							itemName = "Light of the Cosmic Crescendo",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 10.5,
+							popularity = 10.6,
 							priority = 5,
 						},
 					},
@@ -11714,7 +11714,7 @@ local bisData = {
 							itemName = "Imperator's Banner",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 23.9,
+							popularity = 24.1,
 							priority = 1,
 						},
 						{
@@ -11722,7 +11722,7 @@ local bisData = {
 							itemName = "Cloak of the Fallen Cardinal",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 20.7,
+							popularity = 20.8,
 							priority = 2,
 						},
 						{
@@ -11737,7 +11737,7 @@ local bisData = {
 							itemID = 249974,
 							itemName = "Guardian of the Primal Core",
 							sourceType = "raid",
-							popularity = 12.5,
+							popularity = 12.6,
 							priority = 4,
 						},
 						{
@@ -11755,7 +11755,7 @@ local bisData = {
 							itemName = "Weight of Command",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 28.0,
+							popularity = 28.3,
 							priority = 1,
 						},
 						{
@@ -11763,7 +11763,7 @@ local bisData = {
 							itemName = "Aln'hara Cane",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 20.4,
+							popularity = 20.1,
 							priority = 2,
 						},
 						{
@@ -11771,7 +11771,7 @@ local bisData = {
 							itemName = "Surgeon's Needle",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 8.5,
+							popularity = 8.6,
 							priority = 3,
 						},
 						{
@@ -11787,7 +11787,7 @@ local bisData = {
 							itemName = "Magister's Ritual Knife",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 6.4,
+							popularity = 6.3,
 							priority = 5,
 						},
 					},
@@ -11797,7 +11797,7 @@ local bisData = {
 							itemName = "Bulwark of Noble Resolve",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 34.3,
+							popularity = 34.5,
 							priority = 1,
 						},
 						{
@@ -11805,7 +11805,7 @@ local bisData = {
 							itemName = "Spellbreaker's Rebuke",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 11.0,
+							popularity = 11.2,
 							priority = 2,
 						},
 						{
@@ -11813,7 +11813,7 @@ local bisData = {
 							itemName = "Reflux Reflector",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 8.9,
+							popularity = 9.0,
 							priority = 3,
 						},
 						{
@@ -11847,7 +11847,7 @@ local bisData = {
 							itemName = "Voidbreaker's Veil",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 87.5,
+							popularity = 87.7,
 							priority = 1,
 						},
 						{
@@ -11855,7 +11855,7 @@ local bisData = {
 							itemName = "Brambledawn Halo",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 4.6,
+							popularity = 4.5,
 							priority = 2,
 						},
 						{
@@ -11889,7 +11889,7 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 29.6,
+							popularity = 30.0,
 							priority = 1,
 						},
 						{
@@ -11897,7 +11897,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 25.2,
+							popularity = 25.5,
 							priority = 2,
 						},
 						{
@@ -11905,14 +11905,14 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 21.2,
+							popularity = 21.1,
 							priority = 3,
 						},
 						{
 							itemID = 266314,
 							itemName = "Novice Combatant's Necklace",
 							sourceType = "raid",
-							popularity = 6.3,
+							popularity = 6.2,
 							priority = 4,
 						},
 						{
@@ -11920,7 +11920,7 @@ local bisData = {
 							itemName = "Amulet of the Abyssal Hymn",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 6.0,
+							popularity = 5.9,
 							priority = 5,
 						},
 					},
@@ -11930,7 +11930,7 @@ local bisData = {
 							itemName = "Mantle of Dark Devotion",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 35.8,
+							popularity = 36.1,
 							priority = 1,
 						},
 						{
@@ -11938,14 +11938,14 @@ local bisData = {
 							itemName = "Voidbreaker's Leyline Nexi",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 28.9,
+							popularity = 28.7,
 							priority = 2,
 						},
 						{
 							itemID = 249634,
 							itemName = "Sprawling Fibershells",
 							sourceType = "raid",
-							popularity = 9.8,
+							popularity = 9.7,
 							priority = 3,
 						},
 						{
@@ -11953,7 +11953,7 @@ local bisData = {
 							itemName = "Martyr's Mantle",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 6.9,
+							popularity = 7.0,
 							priority = 4,
 						},
 						{
@@ -11971,7 +11971,7 @@ local bisData = {
 							itemName = "Voidbreaker's Robe",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 95.5,
+							popularity = 95.6,
 							priority = 1,
 						},
 						{
@@ -11979,7 +11979,7 @@ local bisData = {
 							itemName = "Despotic Raiment",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 2.9,
+							popularity = 2.8,
 							priority = 2,
 						},
 						{
@@ -12004,7 +12004,7 @@ local bisData = {
 							itemID = 250057,
 							itemName = "Voidbreaker's Sage Cord",
 							sourceType = "raid",
-							popularity = 55.6,
+							popularity = 55.8,
 							priority = 1,
 						},
 						{
@@ -12012,7 +12012,7 @@ local bisData = {
 							itemName = "Martyr's Waistwrap",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 16.0,
+							popularity = 16.1,
 							priority = 2,
 						},
 						{
@@ -12020,7 +12020,7 @@ local bisData = {
 							itemName = "Endless March Waistwrap",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 9.7,
+							popularity = 9.8,
 							priority = 3,
 						},
 						{
@@ -12046,7 +12046,7 @@ local bisData = {
 							itemName = "Voidbreaker's Britches",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 97.2,
+							popularity = 97.3,
 							priority = 1,
 						},
 						{
@@ -12054,7 +12054,7 @@ local bisData = {
 							itemName = "Leggings of the Devouring Advance",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 1.5,
+							popularity = 1.4,
 							priority = 2,
 						},
 						{
@@ -12070,14 +12070,14 @@ local bisData = {
 							itemName = "Martyr's Leggings",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 0.2,
+							popularity = 0.3,
 							priority = 4,
 						},
 						{
 							itemID = 249633,
 							itemName = "Sprawling Rootstockings",
 							sourceType = "raid",
-							popularity = 0.2,
+							popularity = 0.1,
 							priority = 5,
 						},
 					},
@@ -12087,7 +12087,7 @@ local bisData = {
 							itemName = "Dream-Scorched Striders",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 69.1,
+							popularity = 69.5,
 							priority = 1,
 						},
 						{
@@ -12102,7 +12102,7 @@ local bisData = {
 							itemID = 249630,
 							itemName = "Sprawling Rootpads",
 							sourceType = "raid",
-							popularity = 5.4,
+							popularity = 5.3,
 							priority = 3,
 						},
 						{
@@ -12128,7 +12128,7 @@ local bisData = {
 							itemName = "Martyr's Bindings",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 75.8,
+							popularity = 76.1,
 							priority = 1,
 						},
 						{
@@ -12136,14 +12136,14 @@ local bisData = {
 							itemName = "Voracious Wristwraps",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 10.4,
+							popularity = 10.3,
 							priority = 2,
 						},
 						{
 							itemID = 249636,
 							itemName = "Sprawling Wristroots",
 							sourceType = "raid",
-							popularity = 3.4,
+							popularity = 3.3,
 							priority = 3,
 						},
 						{
@@ -12226,7 +12226,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 24.2,
+							popularity = 24.5,
 							priority = 3,
 						},
 						{
@@ -12234,7 +12234,7 @@ local bisData = {
 							itemName = "Signet of the Starved Beast",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 17.4,
+							popularity = 17.6,
 							priority = 4,
 						},
 						{
@@ -12252,7 +12252,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 89.2,
+							popularity = 89.8,
 							priority = 1,
 						},
 						{
@@ -12260,14 +12260,14 @@ local bisData = {
 							itemName = "Vaelgor's Final Stare",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 77.0,
+							popularity = 77.5,
 							priority = 2,
 						},
 						{
 							itemID = 264507,
 							itemName = "Crucible of Erratic Energies",
 							sourceType = "raid",
-							popularity = 8.3,
+							popularity = 7.9,
 							priority = 3,
 						},
 						{
@@ -12293,7 +12293,7 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 40.1,
+							popularity = 40.4,
 							priority = 1,
 						},
 						{
@@ -12301,7 +12301,7 @@ local bisData = {
 							itemName = "Rigid Scale Greatcloak",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 24.0,
+							popularity = 23.7,
 							priority = 2,
 						},
 						{
@@ -12316,7 +12316,7 @@ local bisData = {
 							itemName = "Imperator's Banner",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 5.0,
+							popularity = 5.1,
 							priority = 4,
 						},
 						{
@@ -12324,7 +12324,7 @@ local bisData = {
 							itemName = "Draconic Nullcape",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 4.9,
+							popularity = 5.0,
 							priority = 5,
 						},
 					},
@@ -12334,7 +12334,7 @@ local bisData = {
 							itemName = "Aln'hara Cane",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 62.9,
+							popularity = 62.1,
 							priority = 1,
 						},
 						{
@@ -12342,7 +12342,7 @@ local bisData = {
 							itemName = "Umbral Spire of Zuraal",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 11.0,
+							popularity = 11.2,
 							priority = 2,
 						},
 						{
@@ -12350,7 +12350,7 @@ local bisData = {
 							itemName = "Corespark Multitool",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 6.3,
+							popularity = 6.5,
 							priority = 3,
 						},
 						{
@@ -12358,7 +12358,7 @@ local bisData = {
 							itemName = "Skybreaker's Blade",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 5.9,
+							popularity = 6.1,
 							priority = 4,
 						},
 						{
@@ -12366,7 +12366,7 @@ local bisData = {
 							itemName = "Final Grade",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 5.0,
+							popularity = 5.1,
 							priority = 5,
 						},
 					},
@@ -12376,7 +12376,7 @@ local bisData = {
 							itemName = "Aln'hara Lantern",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 4.9,
+							popularity = 5.0,
 							priority = 1,
 						},
 						{
@@ -12422,7 +12422,7 @@ local bisData = {
 							itemName = "Voidbreaker's Veil",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 84.4,
+							popularity = 84.2,
 							priority = 1,
 						},
 						{
@@ -12438,7 +12438,7 @@ local bisData = {
 							itemName = "Shadow-Weaver's Crown",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 4.3,
+							popularity = 4.1,
 							priority = 3,
 						},
 						{
@@ -12446,7 +12446,7 @@ local bisData = {
 							itemName = "Organized Pontificator's Mask",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 1.9,
+							popularity = 2.0,
 							priority = 4,
 						},
 						{
@@ -12464,7 +12464,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 24.1,
+							popularity = 24.4,
 							priority = 1,
 						},
 						{
@@ -12472,7 +12472,7 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 17.2,
+							popularity = 16.9,
 							priority = 2,
 						},
 						{
@@ -12480,14 +12480,14 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 13.9,
+							popularity = 14.0,
 							priority = 3,
 						},
 						{
 							itemID = 266314,
 							itemName = "Novice Combatant's Necklace",
 							sourceType = "raid",
-							popularity = 12.3,
+							popularity = 12.4,
 							priority = 4,
 						},
 						{
@@ -12495,7 +12495,7 @@ local bisData = {
 							itemName = "Pendant of Aching Grief",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 10.6,
+							popularity = 10.4,
 							priority = 5,
 						},
 					},
@@ -12505,7 +12505,7 @@ local bisData = {
 							itemName = "Voidbreaker's Leyline Nexi",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 71.1,
+							popularity = 70.6,
 							priority = 1,
 						},
 						{
@@ -12513,7 +12513,7 @@ local bisData = {
 							itemName = "Mantle of Dark Devotion",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 13.5,
+							popularity = 14.0,
 							priority = 2,
 						},
 						{
@@ -12521,7 +12521,7 @@ local bisData = {
 							itemName = "Nysarra's Mantle",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 4.7,
+							popularity = 4.9,
 							priority = 3,
 						},
 						{
@@ -12529,7 +12529,7 @@ local bisData = {
 							itemName = "Martyr's Mantle",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 2.8,
+							popularity = 3.0,
 							priority = 4,
 						},
 						{
@@ -12537,7 +12537,7 @@ local bisData = {
 							itemName = "Viceroy's Umbral Mantle",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 2.7,
+							popularity = 2.4,
 							priority = 5,
 						},
 					},
@@ -12563,7 +12563,7 @@ local bisData = {
 							itemName = "Bronze Challenger's Robe",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 1.7,
+							popularity = 1.6,
 							priority = 3,
 						},
 						{
@@ -12571,7 +12571,7 @@ local bisData = {
 							itemName = "Voidbender Robe",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 0.8,
+							popularity = 1.0,
 							priority = 4,
 						},
 						{
@@ -12579,7 +12579,7 @@ local bisData = {
 							itemName = "Wraps of Umbral Descent",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 0.5,
+							popularity = 0.4,
 							priority = 5,
 						},
 					},
@@ -12588,7 +12588,7 @@ local bisData = {
 							itemID = 250057,
 							itemName = "Voidbreaker's Sage Cord",
 							sourceType = "raid",
-							popularity = 27.3,
+							popularity = 27.5,
 							priority = 1,
 						},
 						{
@@ -12596,7 +12596,7 @@ local bisData = {
 							itemName = "Martyr's Waistwrap",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 16.3,
+							popularity = 16.5,
 							priority = 2,
 						},
 						{
@@ -12608,19 +12608,19 @@ local bisData = {
 							priority = 3,
 						},
 						{
-							itemID = 249376,
-							itemName = "Whisper-Inscribed Sash",
-							dropSource = "March on Quel'Danas",
-							sourceType = "raid",
-							popularity = 11.4,
-							priority = 4,
-						},
-						{
 							itemID = 151302,
 							itemName = "Cord of Unraveling Reality",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 11.1,
+							popularity = 11.0,
+							priority = 4,
+						},
+						{
+							itemID = 249376,
+							itemName = "Whisper-Inscribed Sash",
+							dropSource = "March on Quel'Danas",
+							sourceType = "raid",
+							popularity = 11.0,
 							priority = 5,
 						},
 					},
@@ -12630,7 +12630,7 @@ local bisData = {
 							itemName = "Voidbreaker's Britches",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 67.2,
+							popularity = 67.5,
 							priority = 1,
 						},
 						{
@@ -12638,7 +12638,7 @@ local bisData = {
 							itemName = "Commander's Faded Breeches",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 14.1,
+							popularity = 14.2,
 							priority = 2,
 						},
 						{
@@ -12646,7 +12646,7 @@ local bisData = {
 							itemName = "Leggings of the Devouring Advance",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 7.6,
+							popularity = 7.3,
 							priority = 3,
 						},
 						{
@@ -12654,7 +12654,7 @@ local bisData = {
 							itemName = "Leyline Leggings",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 5.7,
+							popularity = 6.0,
 							priority = 4,
 						},
 						{
@@ -12662,7 +12662,7 @@ local bisData = {
 							itemName = "Martyr's Leggings",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 2.6,
+							popularity = 2.4,
 							priority = 5,
 						},
 					},
@@ -12672,7 +12672,7 @@ local bisData = {
 							itemName = "Dream-Scorched Striders",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 55.2,
+							popularity = 56.2,
 							priority = 1,
 						},
 						{
@@ -12680,14 +12680,14 @@ local bisData = {
 							itemName = "Lightbinder Treads",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 8.3,
+							popularity = 8.0,
 							priority = 2,
 						},
 						{
 							itemID = 250062,
 							itemName = "Voidbreaker's Treads",
 							sourceType = "raid",
-							popularity = 7.4,
+							popularity = 7.1,
 							priority = 3,
 						},
 						{
@@ -12713,7 +12713,7 @@ local bisData = {
 							itemName = "Martyr's Bindings",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 40.6,
+							popularity = 40.8,
 							priority = 1,
 						},
 						{
@@ -12721,7 +12721,7 @@ local bisData = {
 							itemName = "Arcanoweave Bracers",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 35.1,
+							popularity = 34.5,
 							priority = 2,
 						},
 						{
@@ -12729,7 +12729,7 @@ local bisData = {
 							itemName = "Voracious Wristwraps",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 6.5,
+							popularity = 6.8,
 							priority = 3,
 						},
 						{
@@ -12737,15 +12737,15 @@ local bisData = {
 							itemName = "Bracers of Blazing Light",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 5.1,
+							popularity = 5.0,
 							priority = 4,
 						},
 						{
-							itemID = 251108,
-							itemName = "Wraps of Watchful Wrath",
-							dropSource = "Magisters' Terrace",
+							itemID = 151305,
+							itemName = "Entropic Wristwraps",
+							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 3.5,
+							popularity = 3.4,
 							priority = 5,
 						},
 					},
@@ -12771,7 +12771,7 @@ local bisData = {
 							itemName = "Fractured Fingerguards",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 0.8,
+							popularity = 0.7,
 							priority = 3,
 						},
 						{
@@ -12779,7 +12779,7 @@ local bisData = {
 							itemName = "Experimental Safety Gloves",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 0.4,
+							popularity = 0.3,
 							priority = 4,
 						},
 						{
@@ -12797,7 +12797,7 @@ local bisData = {
 							itemName = "Platinum Star Band",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 40.3,
+							popularity = 41.1,
 							priority = 1,
 						},
 						{
@@ -12805,7 +12805,7 @@ local bisData = {
 							itemName = "Occlusion of Void",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 33.0,
+							popularity = 33.4,
 							priority = 2,
 						},
 						{
@@ -12813,7 +12813,7 @@ local bisData = {
 							itemName = "Omission of Light",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 31.8,
+							popularity = 31.3,
 							priority = 3,
 						},
 						{
@@ -12821,7 +12821,7 @@ local bisData = {
 							itemName = "Bifurcation Band",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 23.8,
+							popularity = 23.2,
 							priority = 4,
 						},
 						{
@@ -12829,7 +12829,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 15.2,
+							popularity = 15.5,
 							priority = 5,
 						},
 					},
@@ -12839,7 +12839,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 77.4,
+							popularity = 77.9,
 							priority = 1,
 						},
 						{
@@ -12847,7 +12847,7 @@ local bisData = {
 							itemName = "Vaelgor's Final Stare",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 76.0,
+							popularity = 76.1,
 							priority = 2,
 						},
 						{
@@ -12855,7 +12855,7 @@ local bisData = {
 							itemName = "Emberwing Feather",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 15.6,
+							popularity = 15.7,
 							priority = 3,
 						},
 						{
@@ -12863,7 +12863,7 @@ local bisData = {
 							itemName = "Heart of Wind",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 6.8,
+							popularity = 6.9,
 							priority = 4,
 						},
 						{
@@ -12871,7 +12871,7 @@ local bisData = {
 							itemName = "Locus-Walker's Ribbon",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 5.0,
+							popularity = 4.9,
 							priority = 5,
 						},
 					},
@@ -12881,7 +12881,7 @@ local bisData = {
 							itemName = "Arcanoweave Cloak",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 35.5,
+							popularity = 34.8,
 							priority = 1,
 						},
 						{
@@ -12889,14 +12889,14 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 25.8,
+							popularity = 26.7,
 							priority = 2,
 						},
 						{
 							itemID = 250055,
 							itemName = "Voidbreaker's Encryption",
 							sourceType = "raid",
-							popularity = 8.9,
+							popularity = 9.0,
 							priority = 3,
 						},
 						{
@@ -12904,7 +12904,7 @@ local bisData = {
 							itemName = "Rigid Scale Greatcloak",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 8.3,
+							popularity = 8.2,
 							priority = 4,
 						},
 						{
@@ -12912,7 +12912,7 @@ local bisData = {
 							itemName = "Fluxweave Cloak",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 6.4,
+							popularity = 6.2,
 							priority = 5,
 						},
 					},
@@ -12922,7 +12922,7 @@ local bisData = {
 							itemName = "Aln'hara Cane",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 43.3,
+							popularity = 41.8,
 							priority = 1,
 						},
 						{
@@ -12930,7 +12930,7 @@ local bisData = {
 							itemName = "Umbral Spire of Zuraal",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 11.0,
+							popularity = 11.4,
 							priority = 2,
 						},
 						{
@@ -12938,7 +12938,7 @@ local bisData = {
 							itemName = "Corespark Multitool",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 10.7,
+							popularity = 11.0,
 							priority = 3,
 						},
 						{
@@ -12946,7 +12946,7 @@ local bisData = {
 							itemName = "Final Grade",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 9.7,
+							popularity = 10.0,
 							priority = 4,
 						},
 						{
@@ -12954,41 +12954,41 @@ local bisData = {
 							itemName = "Skybreaker's Blade",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 8.6,
+							popularity = 8.4,
 							priority = 5,
 						},
 					},
 					[17] = {
-						{
-							itemID = 249922,
-							itemName = "Tome of Alnscorned Regret",
-							dropSource = "The Dreamrift",
-							sourceType = "raid",
-							popularity = 5.4,
-							priority = 1,
-						},
 						{
 							itemID = 251094,
 							itemName = "Sigil of the Restless Heart",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
 							popularity = 5.2,
-							priority = 2,
+							priority = 1,
 						},
 						{
-							itemID = 245769,
-							itemName = "Aln'hara Lantern",
-							dropSource = "Crafted",
+							itemID = 249922,
+							itemName = "Tome of Alnscorned Regret",
+							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 2.5,
-							priority = 3,
+							popularity = 5.2,
+							priority = 2,
 						},
 						{
 							itemID = 258523,
 							itemName = "Nezhar's Netherclaw",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 2.4,
+							popularity = 2.7,
+							priority = 3,
+						},
+						{
+							itemID = 245769,
+							itemName = "Aln'hara Lantern",
+							dropSource = "Crafted",
+							sourceType = "raid",
+							popularity = 2.3,
 							priority = 4,
 						},
 						{
@@ -12996,7 +12996,7 @@ local bisData = {
 							itemName = "Grimoire of the Eternal Light",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 1.7,
+							popularity = 1.5,
 							priority = 5,
 						},
 					},
@@ -13010,7 +13010,7 @@ local bisData = {
 							itemName = "Voidbreaker's Veil",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 97.5,
+							popularity = 96.4,
 							priority = 1,
 						},
 						{
@@ -13051,7 +13051,7 @@ local bisData = {
 							itemID = 266314,
 							itemName = "Novice Combatant's Necklace",
 							sourceType = "raid",
-							popularity = 23.8,
+							popularity = 23.5,
 							priority = 1,
 						},
 						{
@@ -13059,7 +13059,7 @@ local bisData = {
 							itemName = "Pendant of Aching Grief",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 22.0,
+							popularity = 21.7,
 							priority = 2,
 						},
 						{
@@ -13067,7 +13067,7 @@ local bisData = {
 							itemName = "Necklace of the Twisting Void",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 13.1,
+							popularity = 12.9,
 							priority = 3,
 						},
 						{
@@ -13075,7 +13075,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 11.8,
+							popularity = 11.6,
 							priority = 4,
 						},
 						{
@@ -13083,7 +13083,7 @@ local bisData = {
 							itemName = "Eternal Voidsong Chain",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 10.9,
+							popularity = 10.7,
 							priority = 5,
 						},
 					},
@@ -13093,7 +13093,7 @@ local bisData = {
 							itemName = "Voidbreaker's Leyline Nexi",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 80.0,
+							popularity = 79.1,
 							priority = 1,
 						},
 						{
@@ -13101,7 +13101,7 @@ local bisData = {
 							itemName = "Nysarra's Mantle",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 8.0,
+							popularity = 7.9,
 							priority = 2,
 						},
 						{
@@ -13135,7 +13135,7 @@ local bisData = {
 							itemName = "Voidbreaker's Robe",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 44.9,
+							popularity = 44.4,
 							priority = 1,
 						},
 						{
@@ -13143,7 +13143,7 @@ local bisData = {
 							itemName = "Martyr's Vestments",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 30.8,
+							popularity = 30.4,
 							priority = 2,
 						},
 						{
@@ -13177,7 +13177,7 @@ local bisData = {
 							itemName = "Martyr's Waistwrap",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 26.5,
+							popularity = 26.2,
 							priority = 1,
 						},
 						{
@@ -13185,7 +13185,7 @@ local bisData = {
 							itemName = "Whisper-Inscribed Sash",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 13.8,
+							popularity = 13.6,
 							priority = 2,
 						},
 						{
@@ -13193,7 +13193,7 @@ local bisData = {
 							itemName = "Infernal Greatlock Girdle",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 12.2,
+							popularity = 12.1,
 							priority = 3,
 						},
 						{
@@ -13201,7 +13201,7 @@ local bisData = {
 							itemName = "Endless March Waistwrap",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 11.7,
+							popularity = 11.6,
 							priority = 4,
 						},
 						{
@@ -13209,7 +13209,7 @@ local bisData = {
 							itemName = "Braid of Salt and Fire",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 10.7,
+							popularity = 10.6,
 							priority = 5,
 						},
 					},
@@ -13219,7 +13219,7 @@ local bisData = {
 							itemName = "Voidbreaker's Britches",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 95.3,
+							popularity = 94.2,
 							priority = 1,
 						},
 						{
@@ -13259,7 +13259,7 @@ local bisData = {
 							itemID = 250062,
 							itemName = "Voidbreaker's Treads",
 							sourceType = "raid",
-							popularity = 57.4,
+							popularity = 56.7,
 							priority = 1,
 						},
 						{
@@ -13267,7 +13267,7 @@ local bisData = {
 							itemName = "Lightbinder Treads",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 21.6,
+							popularity = 21.4,
 							priority = 2,
 						},
 						{
@@ -13275,7 +13275,7 @@ local bisData = {
 							itemName = "Martyr's Slippers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 6.3,
+							popularity = 6.2,
 							priority = 3,
 						},
 						{
@@ -13283,7 +13283,7 @@ local bisData = {
 							itemName = "Dream-Scorched Striders",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 6.3,
+							popularity = 6.2,
 							priority = 4,
 						},
 						{
@@ -13301,7 +13301,7 @@ local bisData = {
 							itemName = "Martyr's Bindings",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 59.5,
+							popularity = 58.8,
 							priority = 1,
 						},
 						{
@@ -13309,7 +13309,7 @@ local bisData = {
 							itemName = "Voracious Wristwraps",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 20.8,
+							popularity = 20.6,
 							priority = 2,
 						},
 						{
@@ -13317,7 +13317,7 @@ local bisData = {
 							itemName = "Entropic Wristwraps",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 7.7,
+							popularity = 7.6,
 							priority = 3,
 						},
 						{
@@ -13342,7 +13342,7 @@ local bisData = {
 							itemName = "Voidbreaker's Gloves",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.0,
+							popularity = 96.9,
 							priority = 1,
 						},
 						{
@@ -13383,7 +13383,7 @@ local bisData = {
 							itemName = "Omission of Light",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 68.9,
+							popularity = 68.1,
 							priority = 1,
 						},
 						{
@@ -13391,7 +13391,7 @@ local bisData = {
 							itemName = "Bifurcation Band",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 51.9,
+							popularity = 51.3,
 							priority = 2,
 						},
 						{
@@ -13399,7 +13399,7 @@ local bisData = {
 							itemName = "Bond of Light",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 20.5,
+							popularity = 20.2,
 							priority = 3,
 						},
 						{
@@ -13407,7 +13407,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 16.3,
+							popularity = 16.1,
 							priority = 4,
 						},
 						{
@@ -13415,7 +13415,7 @@ local bisData = {
 							itemName = "Band of the Triumvirate",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 10.3,
+							popularity = 10.2,
 							priority = 5,
 						},
 					},
@@ -13425,7 +13425,7 @@ local bisData = {
 							itemName = "Emberwing Feather",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 86.1,
+							popularity = 85.1,
 							priority = 1,
 						},
 						{
@@ -13433,7 +13433,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 44.9,
+							popularity = 44.3,
 							priority = 2,
 						},
 						{
@@ -13441,7 +13441,7 @@ local bisData = {
 							itemName = "Vaelgor's Final Stare",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 36.4,
+							popularity = 36.0,
 							priority = 3,
 						},
 						{
@@ -13449,7 +13449,7 @@ local bisData = {
 							itemName = "Heart of Wind",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 16.0,
+							popularity = 15.8,
 							priority = 4,
 						},
 						{
@@ -13457,7 +13457,7 @@ local bisData = {
 							itemName = "Locus-Walker's Ribbon",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 7.2,
+							popularity = 7.1,
 							priority = 5,
 						},
 					},
@@ -13467,14 +13467,14 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 43.8,
+							popularity = 43.3,
 							priority = 1,
 						},
 						{
 							itemID = 250055,
 							itemName = "Voidbreaker's Encryption",
 							sourceType = "raid",
-							popularity = 36.6,
+							popularity = 36.2,
 							priority = 2,
 						},
 						{
@@ -13482,7 +13482,7 @@ local bisData = {
 							itemName = "Draconic Nullcape",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 9.5,
+							popularity = 9.4,
 							priority = 3,
 						},
 						{
@@ -13490,7 +13490,7 @@ local bisData = {
 							itemName = "Potion-Stained Cloak",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 2.6,
+							popularity = 2.5,
 							priority = 4,
 						},
 						{
@@ -13498,7 +13498,7 @@ local bisData = {
 							itemName = "Rigid Scale Greatcloak",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 1.8,
+							popularity = 1.7,
 							priority = 5,
 						},
 					},
@@ -13508,7 +13508,7 @@ local bisData = {
 							itemName = "Aln'hara Cane",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 43.2,
+							popularity = 42.7,
 							priority = 1,
 						},
 						{
@@ -13516,7 +13516,7 @@ local bisData = {
 							itemName = "Corespark Multitool",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 24.0,
+							popularity = 23.7,
 							priority = 2,
 						},
 						{
@@ -13524,7 +13524,7 @@ local bisData = {
 							itemName = "Final Grade",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 11.2,
+							popularity = 11.0,
 							priority = 3,
 						},
 						{
@@ -13532,7 +13532,7 @@ local bisData = {
 							itemName = "Spire of the Furious Construct",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 8.7,
+							popularity = 8.6,
 							priority = 4,
 						},
 						{
@@ -13540,7 +13540,7 @@ local bisData = {
 							itemName = "Spellboon Saber",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 3.3,
+							popularity = 3.2,
 							priority = 5,
 						},
 					},
@@ -13550,7 +13550,7 @@ local bisData = {
 							itemName = "Tome of Alnscorned Regret",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 5.5,
+							popularity = 5.4,
 							priority = 1,
 						},
 						{
@@ -13582,7 +13582,7 @@ local bisData = {
 							itemName = "Grimoire of the Eternal Light",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 0.4,
+							popularity = 0.3,
 							priority = 5,
 						},
 					},
@@ -13600,7 +13600,7 @@ local bisData = {
 							itemName = "Abyssal Immolator's Smoldering Flames",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 97.0,
+							popularity = 97.1,
 							priority = 1,
 						},
 						{
@@ -13628,9 +13628,9 @@ local bisData = {
 							priority = 4,
 						},
 						{
-							itemID = 249329,
-							itemName = "Gaze of the Unrestrained",
-							dropSource = "The Voidspire",
+							itemID = 239652,
+							itemName = "Martyr's Crown",
+							dropSource = "Crafted",
 							sourceType = "raid",
 							popularity = 0.3,
 							priority = 5,
@@ -13642,7 +13642,7 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 30.7,
+							popularity = 30.8,
 							priority = 1,
 						},
 						{
@@ -13650,7 +13650,7 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 26.1,
+							popularity = 25.9,
 							priority = 2,
 						},
 						{
@@ -13658,7 +13658,7 @@ local bisData = {
 							itemName = "Eternal Voidsong Chain",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 18.2,
+							popularity = 18.5,
 							priority = 3,
 						},
 						{
@@ -13666,7 +13666,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 7.8,
+							popularity = 7.7,
 							priority = 4,
 						},
 						{
@@ -13674,7 +13674,7 @@ local bisData = {
 							itemName = "Pendant of Aching Grief",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 5.1,
+							popularity = 5.2,
 							priority = 5,
 						},
 					},
@@ -13684,7 +13684,7 @@ local bisData = {
 							itemName = "Mantle of Dark Devotion",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 31.0,
+							popularity = 31.2,
 							priority = 1,
 						},
 						{
@@ -13692,7 +13692,7 @@ local bisData = {
 							itemName = "Abyssal Immolator's Fury",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 25.1,
+							popularity = 24.9,
 							priority = 2,
 						},
 						{
@@ -13700,7 +13700,7 @@ local bisData = {
 							itemName = "Nysarra's Mantle",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 17.3,
+							popularity = 17.5,
 							priority = 3,
 						},
 						{
@@ -13708,7 +13708,7 @@ local bisData = {
 							itemName = "Martyr's Mantle",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 6.8,
+							popularity = 6.9,
 							priority = 4,
 						},
 						{
@@ -13716,7 +13716,7 @@ local bisData = {
 							itemName = "Lightbinder Shoulderguards",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 6.4,
+							popularity = 6.3,
 							priority = 5,
 						},
 					},
@@ -13742,7 +13742,7 @@ local bisData = {
 							itemName = "Despotic Raiment",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 0.9,
+							popularity = 1.0,
 							priority = 3,
 						},
 						{
@@ -13750,7 +13750,7 @@ local bisData = {
 							itemName = "Voidbender Robe",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 0.8,
+							popularity = 0.7,
 							priority = 4,
 						},
 						{
@@ -13767,7 +13767,7 @@ local bisData = {
 							itemID = 250039,
 							itemName = "Abyssal Immolator's Blazing Core",
 							sourceType = "raid",
-							popularity = 39.8,
+							popularity = 40.6,
 							priority = 1,
 						},
 						{
@@ -13775,7 +13775,7 @@ local bisData = {
 							itemName = "Endless March Waistwrap",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 32.5,
+							popularity = 31.9,
 							priority = 2,
 						},
 						{
@@ -13783,7 +13783,7 @@ local bisData = {
 							itemName = "Martyr's Waistwrap",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 13.0,
+							popularity = 12.9,
 							priority = 3,
 						},
 						{
@@ -13836,13 +13836,6 @@ local bisData = {
 							popularity = 0.2,
 							priority = 4,
 						},
-						{
-							itemID = 249633,
-							itemName = "Sprawling Rootstockings",
-							sourceType = "raid",
-							popularity = 0.1,
-							priority = 5,
-						},
 					},
 					[8] = {
 						{
@@ -13850,7 +13843,7 @@ local bisData = {
 							itemName = "Dream-Scorched Striders",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 29.3,
+							popularity = 29.1,
 							priority = 1,
 						},
 						{
@@ -13865,7 +13858,7 @@ local bisData = {
 							itemID = 250044,
 							itemName = "Abyssal Immolator's Ashwalkers",
 							sourceType = "raid",
-							popularity = 14.6,
+							popularity = 14.5,
 							priority = 3,
 						},
 						{
@@ -13881,7 +13874,7 @@ local bisData = {
 							itemName = "Martyr's Slippers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 7.3,
+							popularity = 7.6,
 							priority = 5,
 						},
 					},
@@ -13891,14 +13884,14 @@ local bisData = {
 							itemName = "Martyr's Bindings",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 69.0,
+							popularity = 69.2,
 							priority = 1,
 						},
 						{
 							itemID = 250038,
 							itemName = "Abyssal Immolator's Shackles",
 							sourceType = "raid",
-							popularity = 16.1,
+							popularity = 16.0,
 							priority = 2,
 						},
 						{
@@ -13906,7 +13899,7 @@ local bisData = {
 							itemName = "Voracious Wristwraps",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 8.9,
+							popularity = 8.8,
 							priority = 3,
 						},
 						{
@@ -13921,7 +13914,7 @@ local bisData = {
 							itemID = 249636,
 							itemName = "Sprawling Wristroots",
 							sourceType = "raid",
-							popularity = 1.2,
+							popularity = 1.1,
 							priority = 5,
 						},
 					},
@@ -13951,17 +13944,17 @@ local bisData = {
 							priority = 3,
 						},
 						{
-							itemID = 251172,
-							itemName = "Vilehex Bonds",
-							dropSource = "Maisara Caverns",
+							itemID = 151300,
+							itemName = "Handwraps of the Ascended",
+							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
 							popularity = 0.2,
 							priority = 4,
 						},
 						{
-							itemID = 151300,
-							itemName = "Handwraps of the Ascended",
-							dropSource = "Seat of the Triumvirate",
+							itemID = 251172,
+							itemName = "Vilehex Bonds",
+							dropSource = "Maisara Caverns",
 							sourceType = "raid",
 							popularity = 0.2,
 							priority = 5,
@@ -13973,7 +13966,7 @@ local bisData = {
 							itemName = "Occlusion of Void",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 66.6,
+							popularity = 66.7,
 							priority = 1,
 						},
 						{
@@ -13981,7 +13974,7 @@ local bisData = {
 							itemName = "Omission of Light",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 50.2,
+							popularity = 50.9,
 							priority = 2,
 						},
 						{
@@ -13997,7 +13990,7 @@ local bisData = {
 							itemName = "Signet of the Starved Beast",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 16.2,
+							popularity = 16.1,
 							priority = 4,
 						},
 						{
@@ -14005,7 +13998,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 12.2,
+							popularity = 12.0,
 							priority = 5,
 						},
 					},
@@ -14015,7 +14008,7 @@ local bisData = {
 							itemName = "Emberwing Feather",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 85.9,
+							popularity = 86.2,
 							priority = 1,
 						},
 						{
@@ -14023,7 +14016,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 85.0,
+							popularity = 85.2,
 							priority = 2,
 						},
 						{
@@ -14031,7 +14024,7 @@ local bisData = {
 							itemName = "Heart of Wind",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 9.0,
+							popularity = 9.2,
 							priority = 3,
 						},
 						{
@@ -14039,7 +14032,7 @@ local bisData = {
 							itemName = "Vaelgor's Final Stare",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 6.4,
+							popularity = 6.2,
 							priority = 4,
 						},
 						{
@@ -14047,7 +14040,7 @@ local bisData = {
 							itemName = "Locus-Walker's Ribbon",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 4.0,
+							popularity = 3.9,
 							priority = 5,
 						},
 					},
@@ -14057,7 +14050,7 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 69.3,
+							popularity = 69.5,
 							priority = 1,
 						},
 						{
@@ -14065,7 +14058,7 @@ local bisData = {
 							itemName = "Defiant Defender's Drape",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 7.1,
+							popularity = 6.9,
 							priority = 2,
 						},
 						{
@@ -14073,7 +14066,7 @@ local bisData = {
 							itemName = "Imperator's Banner",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 5.0,
+							popularity = 5.1,
 							priority = 3,
 						},
 						{
@@ -14081,7 +14074,7 @@ local bisData = {
 							itemName = "Rigid Scale Greatcloak",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 4.9,
+							popularity = 5.0,
 							priority = 4,
 						},
 						{
@@ -14099,7 +14092,7 @@ local bisData = {
 							itemName = "Aln'hara Cane",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 45.8,
+							popularity = 45.0,
 							priority = 1,
 						},
 						{
@@ -14107,7 +14100,7 @@ local bisData = {
 							itemName = "Corespark Multitool",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 16.7,
+							popularity = 17.1,
 							priority = 2,
 						},
 						{
@@ -14115,7 +14108,7 @@ local bisData = {
 							itemName = "Spire of the Furious Construct",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 5.9,
+							popularity = 6.0,
 							priority = 3,
 						},
 						{
@@ -14141,7 +14134,7 @@ local bisData = {
 							itemName = "Grimoire of the Eternal Light",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 7.9,
+							popularity = 8.0,
 							priority = 1,
 						},
 						{
@@ -14157,7 +14150,7 @@ local bisData = {
 							itemName = "Sigil of the Restless Heart",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 2.2,
+							popularity = 2.4,
 							priority = 3,
 						},
 						{
@@ -14187,7 +14180,7 @@ local bisData = {
 							itemName = "Abyssal Immolator's Smoldering Flames",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 97.4,
+							popularity = 97.3,
 							priority = 1,
 						},
 						{
@@ -14252,7 +14245,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 7.8,
+							popularity = 7.7,
 							priority = 4,
 						},
 						{
@@ -14310,7 +14303,7 @@ local bisData = {
 							itemName = "Abyssal Immolator's Dreadrobe",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 96.0,
+							popularity = 95.9,
 							priority = 1,
 						},
 						{
@@ -14467,7 +14460,7 @@ local bisData = {
 							itemName = "Martyr's Bindings",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 68.8,
+							popularity = 68.7,
 							priority = 1,
 						},
 						{
@@ -14614,7 +14607,7 @@ local bisData = {
 							itemName = "Vaelgor's Final Stare",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 8.9,
+							popularity = 8.8,
 							priority = 4,
 						},
 						{
@@ -14674,7 +14667,7 @@ local bisData = {
 							itemName = "Aln'hara Cane",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 54.8,
+							popularity = 54.7,
 							priority = 1,
 						},
 						{
@@ -14762,7 +14755,7 @@ local bisData = {
 							itemName = "Abyssal Immolator's Smoldering Flames",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 96.3,
+							popularity = 96.0,
 							priority = 1,
 						},
 						{
@@ -14803,7 +14796,7 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 32.0,
+							popularity = 31.9,
 							priority = 1,
 						},
 						{
@@ -14811,7 +14804,7 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 18.9,
+							popularity = 18.8,
 							priority = 2,
 						},
 						{
@@ -14819,7 +14812,7 @@ local bisData = {
 							itemName = "Eternal Voidsong Chain",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 18.8,
+							popularity = 18.7,
 							priority = 3,
 						},
 						{
@@ -14844,7 +14837,7 @@ local bisData = {
 							itemName = "Abyssal Immolator's Fury",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 33.9,
+							popularity = 33.7,
 							priority = 1,
 						},
 						{
@@ -14852,7 +14845,7 @@ local bisData = {
 							itemName = "Mantle of Dark Devotion",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 23.1,
+							popularity = 23.0,
 							priority = 2,
 						},
 						{
@@ -14885,7 +14878,7 @@ local bisData = {
 							itemName = "Abyssal Immolator's Dreadrobe",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 95.3,
+							popularity = 95.0,
 							priority = 1,
 						},
 						{
@@ -14926,7 +14919,7 @@ local bisData = {
 							itemID = 250039,
 							itemName = "Abyssal Immolator's Blazing Core",
 							sourceType = "raid",
-							popularity = 35.7,
+							popularity = 35.6,
 							priority = 1,
 						},
 						{
@@ -14934,7 +14927,7 @@ local bisData = {
 							itemName = "Endless March Waistwrap",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 33.4,
+							popularity = 33.3,
 							priority = 2,
 						},
 						{
@@ -14942,7 +14935,7 @@ local bisData = {
 							itemName = "Martyr's Waistwrap",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 11.3,
+							popularity = 11.2,
 							priority = 3,
 						},
 						{
@@ -14957,7 +14950,7 @@ local bisData = {
 							itemName = "Infernal Greatlock Girdle",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 3.3,
+							popularity = 3.2,
 							priority = 5,
 						},
 					},
@@ -14967,7 +14960,7 @@ local bisData = {
 							itemName = "Abyssal Immolator's Pillars",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.0,
+							popularity = 97.7,
 							priority = 1,
 						},
 						{
@@ -15008,7 +15001,7 @@ local bisData = {
 							itemName = "Dream-Scorched Striders",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 39.2,
+							popularity = 39.1,
 							priority = 1,
 						},
 						{
@@ -15016,14 +15009,14 @@ local bisData = {
 							itemName = "Slippers of the Midnight Flame",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 27.9,
+							popularity = 27.8,
 							priority = 2,
 						},
 						{
 							itemID = 250044,
 							itemName = "Abyssal Immolator's Ashwalkers",
 							sourceType = "raid",
-							popularity = 9.9,
+							popularity = 9.8,
 							priority = 3,
 						},
 						{
@@ -15031,7 +15024,7 @@ local bisData = {
 							itemName = "Ice-Steeped Sandals",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 7.4,
+							popularity = 7.3,
 							priority = 4,
 						},
 						{
@@ -15039,7 +15032,7 @@ local bisData = {
 							itemName = "Martyr's Slippers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 6.7,
+							popularity = 6.6,
 							priority = 5,
 						},
 					},
@@ -15049,14 +15042,14 @@ local bisData = {
 							itemName = "Martyr's Bindings",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 60.5,
+							popularity = 60.3,
 							priority = 1,
 						},
 						{
 							itemID = 250038,
 							itemName = "Abyssal Immolator's Shackles",
 							sourceType = "raid",
-							popularity = 15.1,
+							popularity = 15.0,
 							priority = 2,
 						},
 						{
@@ -15089,7 +15082,7 @@ local bisData = {
 							itemName = "Abyssal Immolator's Grasps",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 96.9,
+							popularity = 96.6,
 							priority = 1,
 						},
 						{
@@ -15130,7 +15123,7 @@ local bisData = {
 							itemName = "Occlusion of Void",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 48.9,
+							popularity = 48.7,
 							priority = 1,
 						},
 						{
@@ -15138,7 +15131,7 @@ local bisData = {
 							itemName = "Omission of Light",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 40.2,
+							popularity = 40.0,
 							priority = 2,
 						},
 						{
@@ -15146,7 +15139,7 @@ local bisData = {
 							itemName = "Signet of the Starved Beast",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 21.7,
+							popularity = 21.6,
 							priority = 3,
 						},
 						{
@@ -15154,7 +15147,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 21.2,
+							popularity = 21.1,
 							priority = 4,
 						},
 						{
@@ -15172,7 +15165,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 84.9,
+							popularity = 84.7,
 							priority = 1,
 						},
 						{
@@ -15180,7 +15173,7 @@ local bisData = {
 							itemName = "Vaelgor's Final Stare",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 53.6,
+							popularity = 53.4,
 							priority = 2,
 						},
 						{
@@ -15188,7 +15181,7 @@ local bisData = {
 							itemName = "Emberwing Feather",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 18.1,
+							popularity = 18.0,
 							priority = 3,
 						},
 						{
@@ -15214,7 +15207,7 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 60.8,
+							popularity = 60.7,
 							priority = 1,
 						},
 						{
@@ -15222,7 +15215,7 @@ local bisData = {
 							itemName = "Draconic Nullcape",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 8.8,
+							popularity = 8.7,
 							priority = 2,
 						},
 						{
@@ -15256,7 +15249,7 @@ local bisData = {
 							itemName = "Aln'hara Cane",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 56.4,
+							popularity = 56.2,
 							priority = 1,
 						},
 						{
@@ -15264,7 +15257,7 @@ local bisData = {
 							itemName = "Corespark Multitool",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 12.9,
+							popularity = 12.8,
 							priority = 2,
 						},
 						{
@@ -15348,7 +15341,7 @@ local bisData = {
 							itemName = "Fearsome Visage of Ra-den's Chosen",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 76.4,
+							popularity = 76.7,
 							priority = 1,
 						},
 						{
@@ -15390,7 +15383,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 84.0,
+							popularity = 84.3,
 							priority = 1,
 						},
 						{
@@ -15405,7 +15398,7 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 4.3,
+							popularity = 4.4,
 							priority = 3,
 						},
 						{
@@ -15431,7 +15424,7 @@ local bisData = {
 							itemName = "Aurastones of Ra-den's Chosen",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 88.1,
+							popularity = 88.3,
 							priority = 1,
 						},
 						{
@@ -15472,7 +15465,7 @@ local bisData = {
 							itemName = "Battle Garb of Ra-den's Chosen",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 93.9,
+							popularity = 94.1,
 							priority = 1,
 						},
 						{
@@ -15513,7 +15506,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Utility Belt",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 34.4,
+							popularity = 34.5,
 							priority = 1,
 						},
 						{
@@ -15521,7 +15514,7 @@ local bisData = {
 							itemName = "Twisted Twilight Sash",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 24.6,
+							popularity = 24.7,
 							priority = 2,
 						},
 						{
@@ -15537,7 +15530,7 @@ local bisData = {
 							itemName = "Scorn-Scarred Shul'ka's Belt",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 10.5,
+							popularity = 10.6,
 							priority = 4,
 						},
 						{
@@ -15555,7 +15548,7 @@ local bisData = {
 							itemName = "Swiftsweepers of Ra-den's Chosen",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 51.3,
+							popularity = 51.4,
 							priority = 1,
 						},
 						{
@@ -15563,7 +15556,7 @@ local bisData = {
 							itemName = "Shifting Stalker Hide Pants",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 21.0,
+							popularity = 21.1,
 							priority = 2,
 						},
 						{
@@ -15579,7 +15572,7 @@ local bisData = {
 							itemName = "Power Stance Breeches",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 8.0,
+							popularity = 8.1,
 							priority = 4,
 						},
 						{
@@ -15605,7 +15598,7 @@ local bisData = {
 							itemName = "Footpads of Seeping Dread",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 17.7,
+							popularity = 17.8,
 							priority = 2,
 						},
 						{
@@ -15613,7 +15606,7 @@ local bisData = {
 							itemName = "Boots of Burning Focus",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 16.6,
+							popularity = 16.7,
 							priority = 3,
 						},
 						{
@@ -15621,7 +15614,7 @@ local bisData = {
 							itemName = "Void-Claimed Shinkickers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 10.1,
+							popularity = 10.2,
 							priority = 4,
 						},
 						{
@@ -15637,7 +15630,7 @@ local bisData = {
 							itemID = 250011,
 							itemName = "Strikeguards of Ra-den's Chosen",
 							sourceType = "raid",
-							popularity = 68.9,
+							popularity = 69.1,
 							priority = 1,
 						},
 						{
@@ -15645,7 +15638,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Deflectors",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 17.2,
+							popularity = 17.3,
 							priority = 2,
 						},
 						{
@@ -15678,7 +15671,7 @@ local bisData = {
 							itemName = "Thunderfists of Ra-den's Chosen",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.1,
+							popularity = 98.4,
 							priority = 1,
 						},
 						{
@@ -15718,7 +15711,7 @@ local bisData = {
 							itemID = 251513,
 							itemName = "Loa Worshiper's Band",
 							sourceType = "raid",
-							popularity = 60.2,
+							popularity = 60.3,
 							priority = 1,
 						},
 						{
@@ -15726,7 +15719,7 @@ local bisData = {
 							itemName = "Signet of the Starved Beast",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 57.1,
+							popularity = 57.3,
 							priority = 2,
 						},
 						{
@@ -15734,7 +15727,7 @@ local bisData = {
 							itemName = "Eredath Seal of Nobility",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 39.7,
+							popularity = 39.8,
 							priority = 3,
 						},
 						{
@@ -15750,7 +15743,7 @@ local bisData = {
 							itemName = "Platinum Star Band",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 11.6,
+							popularity = 11.7,
 							priority = 5,
 						},
 					},
@@ -15760,7 +15753,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 77.1,
+							popularity = 77.3,
 							priority = 1,
 						},
 						{
@@ -15768,7 +15761,7 @@ local bisData = {
 							itemName = "Solarflare Prism",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 49.1,
+							popularity = 49.3,
 							priority = 2,
 						},
 						{
@@ -15776,7 +15769,7 @@ local bisData = {
 							itemName = "Gloom-Spattered Dreadscale",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 21.4,
+							popularity = 21.5,
 							priority = 3,
 						},
 						{
@@ -15802,7 +15795,7 @@ local bisData = {
 							itemName = "Imperator's Banner",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 42.9,
+							popularity = 43.0,
 							priority = 1,
 						},
 						{
@@ -15810,7 +15803,7 @@ local bisData = {
 							itemName = "Cloak of the Fallen Cardinal",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 17.3,
+							popularity = 17.4,
 							priority = 2,
 						},
 						{
@@ -15844,7 +15837,7 @@ local bisData = {
 							itemName = "Inescapable Reach",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 49.9,
+							popularity = 50.0,
 							priority = 1,
 						},
 						{
@@ -15860,7 +15853,7 @@ local bisData = {
 							itemName = "Aln'hara Pikestaff",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 11.1,
+							popularity = 11.2,
 							priority = 3,
 						},
 						{
@@ -15932,7 +15925,7 @@ local bisData = {
 							itemName = "Fearsome Visage of Ra-den's Chosen",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 95.4,
+							popularity = 95.5,
 							priority = 1,
 						},
 						{
@@ -15974,7 +15967,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 38.5,
+							popularity = 38.7,
 							priority = 1,
 						},
 						{
@@ -15990,22 +15983,22 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 9.1,
+							popularity = 9.3,
 							priority = 3,
-						},
-						{
-							itemID = 266314,
-							itemName = "Novice Combatant's Necklace",
-							sourceType = "raid",
-							popularity = 5.9,
-							priority = 4,
 						},
 						{
 							itemID = 250247,
 							itemName = "Amulet of the Abyssal Hymn",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 5.7,
+							popularity = 5.8,
+							priority = 4,
+						},
+						{
+							itemID = 266314,
+							itemName = "Novice Combatant's Necklace",
+							sourceType = "raid",
+							popularity = 5.8,
 							priority = 5,
 						},
 					},
@@ -16023,7 +16016,7 @@ local bisData = {
 							itemName = "Enthralled Bonespines",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 0.7,
+							popularity = 0.8,
 							priority = 2,
 						},
 						{
@@ -16039,7 +16032,7 @@ local bisData = {
 							itemName = "Twilight's Edge Spaulders",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 0.6,
+							popularity = 0.5,
 							priority = 4,
 						},
 						{
@@ -16057,7 +16050,7 @@ local bisData = {
 							itemName = "Battle Garb of Ra-den's Chosen",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 97.4,
+							popularity = 97.5,
 							priority = 1,
 						},
 						{
@@ -16065,7 +16058,7 @@ local bisData = {
 							itemName = "Vest of the Void's Embrace",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 0.6,
+							popularity = 0.5,
 							priority = 2,
 						},
 						{
@@ -16073,7 +16066,7 @@ local bisData = {
 							itemName = "Bloodfeather Chestguard",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 0.5,
+							popularity = 0.4,
 							priority = 3,
 						},
 						{
@@ -16099,14 +16092,14 @@ local bisData = {
 							itemName = "Scorn-Scarred Shul'ka's Belt",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 34.0,
+							popularity = 34.2,
 							priority = 1,
 						},
 						{
 							itemID = 250012,
 							itemName = "Stormsigil of Ra-den's Chosen",
 							sourceType = "raid",
-							popularity = 29.1,
+							popularity = 29.2,
 							priority = 2,
 						},
 						{
@@ -16114,7 +16107,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Utility Belt",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 14.3,
+							popularity = 14.2,
 							priority = 3,
 						},
 						{
@@ -16122,7 +16115,7 @@ local bisData = {
 							itemName = "Flayer's Black Belt",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 10.4,
+							popularity = 10.3,
 							priority = 4,
 						},
 						{
@@ -16130,7 +16123,7 @@ local bisData = {
 							itemName = "Snapvine Cinch",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 7.5,
+							popularity = 7.4,
 							priority = 5,
 						},
 					},
@@ -16148,7 +16141,7 @@ local bisData = {
 							itemName = "Shifting Stalker Hide Pants",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 1.9,
+							popularity = 2.0,
 							priority = 2,
 						},
 						{
@@ -16164,7 +16157,7 @@ local bisData = {
 							itemName = "Shaggy Wyrmleather Leggings",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 1.3,
+							popularity = 1.4,
 							priority = 4,
 						},
 						{
@@ -16181,7 +16174,7 @@ local bisData = {
 							itemID = 250017,
 							itemName = "Storm Crashers of Ra-den's Chosen",
 							sourceType = "raid",
-							popularity = 53.9,
+							popularity = 54.4,
 							priority = 1,
 						},
 						{
@@ -16197,7 +16190,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Sneakers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 12.2,
+							popularity = 12.1,
 							priority = 3,
 						},
 						{
@@ -16205,7 +16198,7 @@ local bisData = {
 							itemName = "Canopy Walker's Footwraps",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 4.2,
+							popularity = 4.1,
 							priority = 4,
 						},
 						{
@@ -16223,7 +16216,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Deflectors",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 24.9,
+							popularity = 25.0,
 							priority = 1,
 						},
 						{
@@ -16231,7 +16224,7 @@ local bisData = {
 							itemName = "Frenzyroot Cuffs",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 24.4,
+							popularity = 24.3,
 							priority = 2,
 						},
 						{
@@ -16239,7 +16232,7 @@ local bisData = {
 							itemName = "Void-Skinned Bracers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 23.6,
+							popularity = 23.7,
 							priority = 3,
 						},
 						{
@@ -16264,7 +16257,7 @@ local bisData = {
 							itemName = "Thunderfists of Ra-den's Chosen",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 34.4,
+							popularity = 34.3,
 							priority = 1,
 						},
 						{
@@ -16272,7 +16265,7 @@ local bisData = {
 							itemName = "Vaelgor's Fearsome Grasp",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 20.5,
+							popularity = 20.4,
 							priority = 2,
 						},
 						{
@@ -16280,7 +16273,7 @@ local bisData = {
 							itemName = "Gloves of the Dark Shroud",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 14.3,
+							popularity = 14.4,
 							priority = 3,
 						},
 						{
@@ -16313,7 +16306,7 @@ local bisData = {
 							itemName = "Omission of Light",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 25.2,
+							popularity = 25.0,
 							priority = 2,
 						},
 						{
@@ -16321,7 +16314,7 @@ local bisData = {
 							itemName = "Platinum Star Band",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 17.7,
+							popularity = 17.9,
 							priority = 3,
 						},
 						{
@@ -16347,7 +16340,7 @@ local bisData = {
 							itemName = "Algeth'ar Puzzle Box",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 89.9,
+							popularity = 90.0,
 							priority = 1,
 						},
 						{
@@ -16355,7 +16348,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 79.1,
+							popularity = 79.7,
 							priority = 2,
 						},
 						{
@@ -16363,7 +16356,7 @@ local bisData = {
 							itemName = "Solarflare Prism",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 9.6,
+							popularity = 9.4,
 							priority = 3,
 						},
 						{
@@ -16371,7 +16364,7 @@ local bisData = {
 							itemName = "Heart of Wind",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 4.9,
+							popularity = 4.8,
 							priority = 4,
 						},
 						{
@@ -16379,7 +16372,7 @@ local bisData = {
 							itemName = "Radiant Plume",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 3.8,
+							popularity = 3.7,
 							priority = 5,
 						},
 					},
@@ -16388,7 +16381,7 @@ local bisData = {
 							itemID = 250010,
 							itemName = "Windwrap of Ra-den's Chosen",
 							sourceType = "raid",
-							popularity = 50.9,
+							popularity = 51.4,
 							priority = 1,
 						},
 						{
@@ -16404,7 +16397,7 @@ local bisData = {
 							itemName = "Defiant Defender's Drape",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 9.5,
+							popularity = 9.4,
 							priority = 3,
 						},
 						{
@@ -16412,7 +16405,7 @@ local bisData = {
 							itemName = "Rigid Scale Greatcloak",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 8.2,
+							popularity = 8.1,
 							priority = 4,
 						},
 						{
@@ -16430,7 +16423,7 @@ local bisData = {
 							itemName = "Inescapable Reach",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 33.9,
+							popularity = 34.3,
 							priority = 1,
 						},
 						{
@@ -16446,7 +16439,7 @@ local bisData = {
 							itemName = "Traitor's Talon",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 11.9,
+							popularity = 12.0,
 							priority = 3,
 						},
 						{
@@ -16454,7 +16447,7 @@ local bisData = {
 							itemName = "Sunlance of Viryx",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 8.6,
+							popularity = 8.7,
 							priority = 4,
 						},
 						{
@@ -16472,7 +16465,7 @@ local bisData = {
 							itemName = "Bloomforged Claw",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 2.5,
+							popularity = 2.3,
 							priority = 1,
 						},
 						{
@@ -16480,7 +16473,7 @@ local bisData = {
 							itemName = "Spellbreaker's Blade",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 0.9,
+							popularity = 0.8,
 							priority = 2,
 						},
 						{
@@ -16518,7 +16511,7 @@ local bisData = {
 							itemName = "Fearsome Visage of Ra-den's Chosen",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 94.4,
+							popularity = 92.5,
 							priority = 1,
 						},
 						{
@@ -16560,7 +16553,7 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 48.6,
+							popularity = 47.6,
 							priority = 1,
 						},
 						{
@@ -16568,7 +16561,7 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 17.3,
+							popularity = 16.9,
 							priority = 2,
 						},
 						{
@@ -16576,7 +16569,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 10.5,
+							popularity = 10.3,
 							priority = 3,
 						},
 						{
@@ -16584,7 +16577,7 @@ local bisData = {
 							itemName = "Necklace of the Twisting Void",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 8.1,
+							popularity = 7.9,
 							priority = 4,
 						},
 						{
@@ -16592,7 +16585,7 @@ local bisData = {
 							itemName = "Pendant of Aching Grief",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 5.6,
+							popularity = 5.4,
 							priority = 5,
 						},
 					},
@@ -16602,7 +16595,7 @@ local bisData = {
 							itemName = "Aurastones of Ra-den's Chosen",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 60.3,
+							popularity = 59.2,
 							priority = 1,
 						},
 						{
@@ -16610,7 +16603,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Mantle",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 17.1,
+							popularity = 16.7,
 							priority = 2,
 						},
 						{
@@ -16618,14 +16611,14 @@ local bisData = {
 							itemName = "Blooming Barklight Spaulders",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 10.3,
+							popularity = 10.1,
 							priority = 3,
 						},
 						{
 							itemID = 249642,
 							itemName = "Osseoclad Razorspaulders",
 							sourceType = "raid",
-							popularity = 5.5,
+							popularity = 5.4,
 							priority = 4,
 						},
 						{
@@ -16633,7 +16626,7 @@ local bisData = {
 							itemName = "Enthralled Bonespines",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 3.1,
+							popularity = 3.0,
 							priority = 5,
 						},
 					},
@@ -16643,7 +16636,7 @@ local bisData = {
 							itemName = "Battle Garb of Ra-den's Chosen",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.2,
+							popularity = 96.3,
 							priority = 1,
 						},
 						{
@@ -16684,7 +16677,7 @@ local bisData = {
 							itemName = "Scorn-Scarred Shul'ka's Belt",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 52.4,
+							popularity = 51.4,
 							priority = 1,
 						},
 						{
@@ -16692,7 +16685,7 @@ local bisData = {
 							itemName = "Flayer's Black Belt",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 23.5,
+							popularity = 23.0,
 							priority = 2,
 						},
 						{
@@ -16700,7 +16693,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Utility Belt",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 12.5,
+							popularity = 12.2,
 							priority = 3,
 						},
 						{
@@ -16725,7 +16718,7 @@ local bisData = {
 							itemName = "Swiftsweepers of Ra-den's Chosen",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 87.3,
+							popularity = 85.6,
 							priority = 1,
 						},
 						{
@@ -16733,7 +16726,7 @@ local bisData = {
 							itemName = "Legwraps of Lingering Legacies",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 6.7,
+							popularity = 6.6,
 							priority = 2,
 						},
 						{
@@ -16741,7 +16734,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Leggings",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 1.9,
+							popularity = 1.8,
 							priority = 3,
 						},
 						{
@@ -16765,7 +16758,7 @@ local bisData = {
 							itemID = 250017,
 							itemName = "Storm Crashers of Ra-den's Chosen",
 							sourceType = "raid",
-							popularity = 49.7,
+							popularity = 48.7,
 							priority = 1,
 						},
 						{
@@ -16773,7 +16766,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Sneakers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 23.3,
+							popularity = 22.8,
 							priority = 2,
 						},
 						{
@@ -16781,7 +16774,7 @@ local bisData = {
 							itemName = "Void-Claimed Shinkickers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 10.1,
+							popularity = 9.9,
 							priority = 3,
 						},
 						{
@@ -16789,7 +16782,7 @@ local bisData = {
 							itemName = "Eclipse Espadrilles",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 5.9,
+							popularity = 5.8,
 							priority = 4,
 						},
 						{
@@ -16797,7 +16790,7 @@ local bisData = {
 							itemName = "Nullstrider's Boots",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 3.8,
+							popularity = 3.7,
 							priority = 5,
 						},
 					},
@@ -16807,7 +16800,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Deflectors",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 38.5,
+							popularity = 37.7,
 							priority = 1,
 						},
 						{
@@ -16815,7 +16808,7 @@ local bisData = {
 							itemName = "Chewed Leather Wristguards",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 26.5,
+							popularity = 26.0,
 							priority = 2,
 						},
 						{
@@ -16823,7 +16816,7 @@ local bisData = {
 							itemName = "Void-Skinned Bracers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 22.0,
+							popularity = 21.6,
 							priority = 3,
 						},
 						{
@@ -16831,7 +16824,7 @@ local bisData = {
 							itemName = "Custodial Cuffs",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 3.6,
+							popularity = 3.5,
 							priority = 4,
 						},
 						{
@@ -16848,7 +16841,7 @@ local bisData = {
 							itemName = "Thunderfists of Ra-den's Chosen",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 84.4,
+							popularity = 82.8,
 							priority = 1,
 						},
 						{
@@ -16856,7 +16849,7 @@ local bisData = {
 							itemName = "Gloves of the Dark Shroud",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 6.5,
+							popularity = 6.4,
 							priority = 2,
 						},
 						{
@@ -16864,7 +16857,7 @@ local bisData = {
 							itemName = "Corewright's Zappers",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 3.9,
+							popularity = 3.8,
 							priority = 3,
 						},
 						{
@@ -16872,7 +16865,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Handwraps",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 2.5,
+							popularity = 2.4,
 							priority = 4,
 						},
 						{
@@ -16880,7 +16873,7 @@ local bisData = {
 							itemName = "Vaelgor's Fearsome Grasp",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 1.1,
+							popularity = 1.0,
 							priority = 5,
 						},
 					},
@@ -16890,7 +16883,7 @@ local bisData = {
 							itemName = "Purloined Wedding Ring",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 67.1,
+							popularity = 65.8,
 							priority = 1,
 						},
 						{
@@ -16898,7 +16891,7 @@ local bisData = {
 							itemName = "Occlusion of Void",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 35.8,
+							popularity = 35.1,
 							priority = 2,
 						},
 						{
@@ -16906,7 +16899,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 34.0,
+							popularity = 33.3,
 							priority = 3,
 						},
 						{
@@ -16914,7 +16907,7 @@ local bisData = {
 							itemName = "Band of the Triumvirate",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 20.0,
+							popularity = 19.6,
 							priority = 4,
 						},
 						{
@@ -16922,7 +16915,7 @@ local bisData = {
 							itemName = "Signet of the Starved Beast",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 8.9,
+							popularity = 8.7,
 							priority = 5,
 						},
 					},
@@ -16932,7 +16925,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 64.8,
+							popularity = 63.6,
 							priority = 1,
 						},
 						{
@@ -16940,7 +16933,7 @@ local bisData = {
 							itemName = "Litany of Lightblind Wrath",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 53.4,
+							popularity = 52.3,
 							priority = 2,
 						},
 						{
@@ -16948,7 +16941,7 @@ local bisData = {
 							itemName = "Heart of Wind",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 24.5,
+							popularity = 24.1,
 							priority = 3,
 						},
 						{
@@ -16956,14 +16949,14 @@ local bisData = {
 							itemName = "Volatile Void Suffuser",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 20.3,
+							popularity = 19.9,
 							priority = 4,
 						},
 						{
 							itemID = 264507,
 							itemName = "Crucible of Erratic Energies",
 							sourceType = "raid",
-							popularity = 14.2,
+							popularity = 13.9,
 							priority = 5,
 						},
 					},
@@ -16972,7 +16965,7 @@ local bisData = {
 							itemID = 250010,
 							itemName = "Windwrap of Ra-den's Chosen",
 							sourceType = "raid",
-							popularity = 46.4,
+							popularity = 45.5,
 							priority = 1,
 						},
 						{
@@ -16980,7 +16973,7 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 22.8,
+							popularity = 22.3,
 							priority = 2,
 						},
 						{
@@ -16988,7 +16981,7 @@ local bisData = {
 							itemName = "Defiant Defender's Drape",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 10.0,
+							popularity = 9.8,
 							priority = 3,
 						},
 						{
@@ -16996,7 +16989,7 @@ local bisData = {
 							itemName = "Cloak of the Fallen Cardinal",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 5.5,
+							popularity = 5.4,
 							priority = 4,
 						},
 						{
@@ -17004,7 +16997,7 @@ local bisData = {
 							itemName = "Potion-Stained Cloak",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 3.7,
+							popularity = 3.6,
 							priority = 5,
 						},
 					},
@@ -17014,7 +17007,7 @@ local bisData = {
 							itemName = "Aln'hara Cane",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 68.6,
+							popularity = 67.2,
 							priority = 1,
 						},
 						{
@@ -17022,7 +17015,7 @@ local bisData = {
 							itemName = "Weight of Command",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 7.8,
+							popularity = 7.7,
 							priority = 2,
 						},
 						{
@@ -17030,7 +17023,7 @@ local bisData = {
 							itemName = "Arcanic of the High Sage",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 5.8,
+							popularity = 5.7,
 							priority = 3,
 						},
 						{
@@ -17038,7 +17031,7 @@ local bisData = {
 							itemName = "Corespark Multitool",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 2.8,
+							popularity = 2.7,
 							priority = 4,
 						},
 						{
@@ -17046,7 +17039,7 @@ local bisData = {
 							itemName = "Spire of the Furious Construct",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 2.4,
+							popularity = 2.3,
 							priority = 5,
 						},
 					},
@@ -17056,7 +17049,7 @@ local bisData = {
 							itemName = "Grimoire of the Eternal Light",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 10.0,
+							popularity = 9.8,
 							priority = 1,
 						},
 						{
@@ -17064,7 +17057,7 @@ local bisData = {
 							itemName = "Tome of Alnscorned Regret",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 4.9,
+							popularity = 4.8,
 							priority = 2,
 						},
 						{
@@ -17088,7 +17081,7 @@ local bisData = {
 							itemName = "Sigil of the Restless Heart",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 1.0,
+							popularity = 0.9,
 							priority = 5,
 						},
 					},
@@ -17106,7 +17099,7 @@ local bisData = {
 							itemName = "Branches of the Luminous Bloom",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 95.6,
+							popularity = 94.5,
 							priority = 1,
 						},
 						{
@@ -17147,7 +17140,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 20.6,
+							popularity = 20.4,
 							priority = 1,
 						},
 						{
@@ -17155,7 +17148,7 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 20.4,
+							popularity = 20.2,
 							priority = 2,
 						},
 						{
@@ -17163,14 +17156,14 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 17.3,
+							popularity = 17.1,
 							priority = 3,
 						},
 						{
 							itemID = 266314,
 							itemName = "Novice Combatant's Necklace",
 							sourceType = "raid",
-							popularity = 13.9,
+							popularity = 13.7,
 							priority = 4,
 						},
 						{
@@ -17178,7 +17171,7 @@ local bisData = {
 							itemName = "Amulet of the Abyssal Hymn",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 6.6,
+							popularity = 6.5,
 							priority = 5,
 						},
 					},
@@ -17188,7 +17181,7 @@ local bisData = {
 							itemName = "Seedpods of the Luminous Bloom",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 96.1,
+							popularity = 95.0,
 							priority = 1,
 						},
 						{
@@ -17229,7 +17222,7 @@ local bisData = {
 							itemName = "Trunk of the Luminous Bloom",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 91.7,
+							popularity = 90.7,
 							priority = 1,
 						},
 						{
@@ -17237,7 +17230,7 @@ local bisData = {
 							itemName = "Maledict Vest",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 4.2,
+							popularity = 4.1,
 							priority = 2,
 						},
 						{
@@ -17270,7 +17263,7 @@ local bisData = {
 							itemID = 250021,
 							itemName = "Barksash of the Luminous Bloom",
 							sourceType = "raid",
-							popularity = 35.9,
+							popularity = 35.5,
 							priority = 1,
 						},
 						{
@@ -17278,7 +17271,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Utility Belt",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 24.0,
+							popularity = 23.7,
 							priority = 2,
 						},
 						{
@@ -17286,7 +17279,7 @@ local bisData = {
 							itemName = "Scorn-Scarred Shul'ka's Belt",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 18.6,
+							popularity = 18.4,
 							priority = 3,
 						},
 						{
@@ -17294,7 +17287,7 @@ local bisData = {
 							itemName = "Snapvine Cinch",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 7.3,
+							popularity = 7.2,
 							priority = 4,
 						},
 						{
@@ -17312,7 +17305,7 @@ local bisData = {
 							itemName = "Phloemwraps of the Luminous Bloom",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 97.4,
+							popularity = 96.3,
 							priority = 1,
 						},
 						{
@@ -17352,7 +17345,7 @@ local bisData = {
 							itemID = 250026,
 							itemName = "Rootslippers of the Luminous Bloom",
 							sourceType = "raid",
-							popularity = 35.1,
+							popularity = 34.7,
 							priority = 1,
 						},
 						{
@@ -17360,7 +17353,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Sneakers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 14.5,
+							popularity = 14.3,
 							priority = 2,
 						},
 						{
@@ -17368,7 +17361,7 @@ local bisData = {
 							itemName = "Boots of Burning Focus",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 10.9,
+							popularity = 10.7,
 							priority = 3,
 						},
 						{
@@ -17376,14 +17369,14 @@ local bisData = {
 							itemName = "Canopy Walker's Footwraps",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 10.4,
+							popularity = 10.3,
 							priority = 4,
 						},
 						{
 							itemID = 249638,
 							itemName = "Osseoclad Bonecrushers",
 							sourceType = "raid",
-							popularity = 7.3,
+							popularity = 7.2,
 							priority = 5,
 						},
 					},
@@ -17393,7 +17386,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Deflectors",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 63.4,
+							popularity = 62.7,
 							priority = 1,
 						},
 						{
@@ -17401,7 +17394,7 @@ local bisData = {
 							itemName = "Void-Skinned Bracers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 13.2,
+							popularity = 13.1,
 							priority = 2,
 						},
 						{
@@ -17409,14 +17402,14 @@ local bisData = {
 							itemName = "Frenzyroot Cuffs",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 8.9,
+							popularity = 8.8,
 							priority = 3,
 						},
 						{
 							itemID = 249644,
 							itemName = "Osseoclad Ivory Wrist",
 							sourceType = "raid",
-							popularity = 6.5,
+							popularity = 6.4,
 							priority = 4,
 						},
 						{
@@ -17424,7 +17417,7 @@ local bisData = {
 							itemName = "Chewed Leather Wristguards",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 4.1,
+							popularity = 4.0,
 							priority = 5,
 						},
 					},
@@ -17434,7 +17427,7 @@ local bisData = {
 							itemName = "Arbortenders of the Luminous Bloom",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 38.6,
+							popularity = 38.2,
 							priority = 1,
 						},
 						{
@@ -17442,7 +17435,7 @@ local bisData = {
 							itemName = "Vaelgor's Fearsome Grasp",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 29.4,
+							popularity = 29.1,
 							priority = 2,
 						},
 						{
@@ -17450,7 +17443,7 @@ local bisData = {
 							itemName = "Gloves of Viscous Goo",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 12.0,
+							popularity = 11.8,
 							priority = 3,
 						},
 						{
@@ -17458,7 +17451,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Handwraps",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 9.0,
+							popularity = 8.9,
 							priority = 4,
 						},
 						{
@@ -17476,7 +17469,7 @@ local bisData = {
 							itemName = "Omission of Light",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 61.7,
+							popularity = 61.1,
 							priority = 1,
 						},
 						{
@@ -17484,7 +17477,7 @@ local bisData = {
 							itemName = "Occlusion of Void",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 58.8,
+							popularity = 58.1,
 							priority = 2,
 						},
 						{
@@ -17492,7 +17485,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 13.7,
+							popularity = 13.6,
 							priority = 3,
 						},
 						{
@@ -17500,7 +17493,7 @@ local bisData = {
 							itemName = "Bifurcation Band",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 11.7,
+							popularity = 11.5,
 							priority = 4,
 						},
 						{
@@ -17508,7 +17501,7 @@ local bisData = {
 							itemName = "Platinum Star Band",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 11.5,
+							popularity = 11.3,
 							priority = 5,
 						},
 					},
@@ -17518,7 +17511,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 78.9,
+							popularity = 78.1,
 							priority = 1,
 						},
 						{
@@ -17526,7 +17519,7 @@ local bisData = {
 							itemName = "Vaelgor's Final Stare",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 74.8,
+							popularity = 74.0,
 							priority = 2,
 						},
 						{
@@ -17534,7 +17527,7 @@ local bisData = {
 							itemName = "Heart of Wind",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 9.1,
+							popularity = 9.0,
 							priority = 3,
 						},
 						{
@@ -17542,7 +17535,7 @@ local bisData = {
 							itemName = "Locus-Walker's Ribbon",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 8.1,
+							popularity = 8.0,
 							priority = 4,
 						},
 						{
@@ -17550,7 +17543,7 @@ local bisData = {
 							itemName = "Emberwing Feather",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 7.8,
+							popularity = 7.7,
 							priority = 5,
 						},
 					},
@@ -17560,14 +17553,14 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 28.3,
+							popularity = 28.0,
 							priority = 1,
 						},
 						{
 							itemID = 250019,
 							itemName = "Leafdrape of the Luminous Bloom",
 							sourceType = "raid",
-							popularity = 19.6,
+							popularity = 19.4,
 							priority = 2,
 						},
 						{
@@ -17575,7 +17568,7 @@ local bisData = {
 							itemName = "Draconic Nullcape",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 17.9,
+							popularity = 17.7,
 							priority = 3,
 						},
 						{
@@ -17583,7 +17576,7 @@ local bisData = {
 							itemName = "Rigid Scale Greatcloak",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 10.3,
+							popularity = 10.2,
 							priority = 4,
 						},
 						{
@@ -17591,7 +17584,7 @@ local bisData = {
 							itemName = "Fluxweave Cloak",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 7.2,
+							popularity = 7.1,
 							priority = 5,
 						},
 					},
@@ -17601,7 +17594,7 @@ local bisData = {
 							itemName = "Aln'hara Cane",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 54.7,
+							popularity = 54.1,
 							priority = 1,
 						},
 						{
@@ -17609,7 +17602,7 @@ local bisData = {
 							itemName = "Corespark Multitool",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 19.0,
+							popularity = 18.8,
 							priority = 2,
 						},
 						{
@@ -17617,7 +17610,7 @@ local bisData = {
 							itemName = "Final Grade",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 5.5,
+							popularity = 5.4,
 							priority = 3,
 						},
 						{
@@ -17643,7 +17636,7 @@ local bisData = {
 							itemName = "Aln'hara Lantern",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 4.2,
+							popularity = 4.1,
 							priority = 1,
 						},
 						{
@@ -17688,7 +17681,7 @@ local bisData = {
 							itemName = "Branches of the Luminous Bloom",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 93.9,
+							popularity = 91.9,
 							priority = 1,
 						},
 						{
@@ -17696,7 +17689,7 @@ local bisData = {
 							itemName = "Devouring Night's Visage",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 2.2,
+							popularity = 2.1,
 							priority = 2,
 						},
 						{
@@ -17720,7 +17713,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Cover",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 0.6,
+							popularity = 0.5,
 							priority = 5,
 						},
 					},
@@ -17730,14 +17723,14 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 22.9,
+							popularity = 22.4,
 							priority = 1,
 						},
 						{
 							itemID = 266314,
 							itemName = "Novice Combatant's Necklace",
 							sourceType = "raid",
-							popularity = 19.1,
+							popularity = 18.7,
 							priority = 2,
 						},
 						{
@@ -17745,7 +17738,7 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 17.8,
+							popularity = 17.4,
 							priority = 3,
 						},
 						{
@@ -17753,7 +17746,7 @@ local bisData = {
 							itemName = "Amulet of the Abyssal Hymn",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 7.4,
+							popularity = 7.2,
 							priority = 4,
 						},
 						{
@@ -17761,7 +17754,7 @@ local bisData = {
 							itemName = "Necklace of the Twisting Void",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 6.6,
+							popularity = 6.5,
 							priority = 5,
 						},
 					},
@@ -17771,7 +17764,7 @@ local bisData = {
 							itemName = "Seedpods of the Luminous Bloom",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 89.9,
+							popularity = 88.0,
 							priority = 1,
 						},
 						{
@@ -17787,7 +17780,7 @@ local bisData = {
 							itemName = "Enthralled Bonespines",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 2.1,
+							popularity = 2.0,
 							priority = 3,
 						},
 						{
@@ -17813,7 +17806,7 @@ local bisData = {
 							itemName = "Trunk of the Luminous Bloom",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 85.6,
+							popularity = 83.9,
 							priority = 1,
 						},
 						{
@@ -17821,7 +17814,7 @@ local bisData = {
 							itemName = "Maledict Vest",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 5.0,
+							popularity = 4.9,
 							priority = 2,
 						},
 						{
@@ -17837,7 +17830,7 @@ local bisData = {
 							itemName = "Bloodfeather Chestguard",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 2.9,
+							popularity = 2.8,
 							priority = 4,
 						},
 						{
@@ -17855,7 +17848,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Utility Belt",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 29.9,
+							popularity = 29.3,
 							priority = 1,
 						},
 						{
@@ -17863,14 +17856,14 @@ local bisData = {
 							itemName = "Scorn-Scarred Shul'ka's Belt",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 23.6,
+							popularity = 23.1,
 							priority = 2,
 						},
 						{
 							itemID = 250021,
 							itemName = "Barksash of the Luminous Bloom",
 							sourceType = "raid",
-							popularity = 16.4,
+							popularity = 16.0,
 							priority = 3,
 						},
 						{
@@ -17878,7 +17871,7 @@ local bisData = {
 							itemName = "Snapvine Cinch",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 13.2,
+							popularity = 12.9,
 							priority = 4,
 						},
 						{
@@ -17886,7 +17879,7 @@ local bisData = {
 							itemName = "Flayer's Black Belt",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 6.1,
+							popularity = 6.0,
 							priority = 5,
 						},
 					},
@@ -17896,7 +17889,7 @@ local bisData = {
 							itemName = "Phloemwraps of the Luminous Bloom",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 92.9,
+							popularity = 90.9,
 							priority = 1,
 						},
 						{
@@ -17904,7 +17897,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Leggings",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 1.7,
+							popularity = 1.6,
 							priority = 2,
 						},
 						{
@@ -17937,7 +17930,7 @@ local bisData = {
 							itemID = 250026,
 							itemName = "Rootslippers of the Luminous Bloom",
 							sourceType = "raid",
-							popularity = 29.1,
+							popularity = 28.4,
 							priority = 1,
 						},
 						{
@@ -17945,7 +17938,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Sneakers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 17.9,
+							popularity = 17.5,
 							priority = 2,
 						},
 						{
@@ -17953,7 +17946,7 @@ local bisData = {
 							itemName = "Boots of Burning Focus",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 15.3,
+							popularity = 15.0,
 							priority = 3,
 						},
 						{
@@ -17961,7 +17954,7 @@ local bisData = {
 							itemName = "Canopy Walker's Footwraps",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 7.6,
+							popularity = 7.5,
 							priority = 4,
 						},
 						{
@@ -17969,7 +17962,7 @@ local bisData = {
 							itemName = "Void-Claimed Shinkickers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 6.7,
+							popularity = 6.5,
 							priority = 5,
 						},
 					},
@@ -17979,7 +17972,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Deflectors",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 63.2,
+							popularity = 61.9,
 							priority = 1,
 						},
 						{
@@ -17987,7 +17980,7 @@ local bisData = {
 							itemName = "Frenzyroot Cuffs",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 18.1,
+							popularity = 17.7,
 							priority = 2,
 						},
 						{
@@ -17995,7 +17988,7 @@ local bisData = {
 							itemName = "Void-Skinned Bracers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 5.6,
+							popularity = 5.5,
 							priority = 3,
 						},
 						{
@@ -18003,7 +17996,7 @@ local bisData = {
 							itemName = "Chewed Leather Wristguards",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 4.3,
+							popularity = 4.2,
 							priority = 4,
 						},
 						{
@@ -18011,7 +18004,7 @@ local bisData = {
 							itemName = "Custodial Cuffs",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 2.6,
+							popularity = 2.5,
 							priority = 5,
 						},
 					},
@@ -18021,7 +18014,7 @@ local bisData = {
 							itemName = "Arbortenders of the Luminous Bloom",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 54.6,
+							popularity = 53.4,
 							priority = 1,
 						},
 						{
@@ -18029,7 +18022,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Handwraps",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 18.6,
+							popularity = 18.2,
 							priority = 2,
 						},
 						{
@@ -18037,7 +18030,7 @@ local bisData = {
 							itemName = "Gloves of Viscous Goo",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 9.9,
+							popularity = 9.7,
 							priority = 3,
 						},
 						{
@@ -18045,7 +18038,7 @@ local bisData = {
 							itemName = "Vaelgor's Fearsome Grasp",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 5.6,
+							popularity = 5.5,
 							priority = 4,
 						},
 						{
@@ -18053,7 +18046,7 @@ local bisData = {
 							itemName = "Ruby Contestant's Gloves",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 4.2,
+							popularity = 4.1,
 							priority = 5,
 						},
 					},
@@ -18063,7 +18056,7 @@ local bisData = {
 							itemName = "Omission of Light",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 59.5,
+							popularity = 58.2,
 							priority = 1,
 						},
 						{
@@ -18071,7 +18064,7 @@ local bisData = {
 							itemName = "Occlusion of Void",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 43.6,
+							popularity = 42.7,
 							priority = 2,
 						},
 						{
@@ -18079,7 +18072,7 @@ local bisData = {
 							itemName = "Bifurcation Band",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 25.8,
+							popularity = 25.2,
 							priority = 3,
 						},
 						{
@@ -18087,14 +18080,14 @@ local bisData = {
 							itemName = "Platinum Star Band",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 21.9,
+							popularity = 21.4,
 							priority = 4,
 						},
 						{
 							itemID = 251513,
 							itemName = "Loa Worshiper's Band",
 							sourceType = "raid",
-							popularity = 10.9,
+							popularity = 10.6,
 							priority = 5,
 						},
 					},
@@ -18104,7 +18097,7 @@ local bisData = {
 							itemName = "Algeth'ar Puzzle Box",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 91.4,
+							popularity = 89.4,
 							priority = 1,
 						},
 						{
@@ -18112,7 +18105,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 65.3,
+							popularity = 63.9,
 							priority = 2,
 						},
 						{
@@ -18120,7 +18113,7 @@ local bisData = {
 							itemName = "Heart of Wind",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 11.3,
+							popularity = 11.0,
 							priority = 3,
 						},
 						{
@@ -18128,7 +18121,7 @@ local bisData = {
 							itemName = "Radiant Plume",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 10.7,
+							popularity = 10.5,
 							priority = 4,
 						},
 						{
@@ -18136,7 +18129,7 @@ local bisData = {
 							itemName = "Solarflare Prism",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 6.8,
+							popularity = 6.7,
 							priority = 5,
 						},
 					},
@@ -18146,14 +18139,14 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 31.7,
+							popularity = 31.0,
 							priority = 1,
 						},
 						{
 							itemID = 250019,
 							itemName = "Leafdrape of the Luminous Bloom",
 							sourceType = "raid",
-							popularity = 21.8,
+							popularity = 21.4,
 							priority = 2,
 						},
 						{
@@ -18161,7 +18154,7 @@ local bisData = {
 							itemName = "Rigid Scale Greatcloak",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 12.7,
+							popularity = 12.4,
 							priority = 3,
 						},
 						{
@@ -18169,7 +18162,7 @@ local bisData = {
 							itemName = "Draconic Nullcape",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 8.0,
+							popularity = 7.8,
 							priority = 4,
 						},
 						{
@@ -18177,7 +18170,7 @@ local bisData = {
 							itemName = "Potion-Stained Cloak",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 6.9,
+							popularity = 6.8,
 							priority = 5,
 						},
 					},
@@ -18187,7 +18180,7 @@ local bisData = {
 							itemName = "Inescapable Reach",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 29.6,
+							popularity = 29.0,
 							priority = 1,
 						},
 						{
@@ -18195,7 +18188,7 @@ local bisData = {
 							itemName = "Alnscorned Spire",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 18.7,
+							popularity = 18.3,
 							priority = 2,
 						},
 						{
@@ -18203,7 +18196,7 @@ local bisData = {
 							itemName = "Aln'hara Pikestaff",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 13.1,
+							popularity = 12.8,
 							priority = 3,
 						},
 						{
@@ -18211,7 +18204,7 @@ local bisData = {
 							itemName = "Arcaneclaw Spear",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 9.4,
+							popularity = 9.2,
 							priority = 4,
 						},
 						{
@@ -18219,7 +18212,7 @@ local bisData = {
 							itemName = "Roostwarden's Bough",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 9.3,
+							popularity = 9.1,
 							priority = 5,
 						},
 					},
@@ -18233,7 +18226,7 @@ local bisData = {
 							itemName = "Branches of the Luminous Bloom",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 88.0,
+							popularity = 84.9,
 							priority = 1,
 						},
 						{
@@ -18241,7 +18234,7 @@ local bisData = {
 							itemName = "Voidlashed Hood",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 2.8,
+							popularity = 2.7,
 							priority = 2,
 						},
 						{
@@ -18249,7 +18242,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Cover",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 2.1,
+							popularity = 2.0,
 							priority = 3,
 						},
 						{
@@ -18275,7 +18268,7 @@ local bisData = {
 							itemName = "Pendant of Aching Grief",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 29.1,
+							popularity = 28.1,
 							priority = 1,
 						},
 						{
@@ -18283,7 +18276,7 @@ local bisData = {
 							itemName = "Necklace of the Twisting Void",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 29.0,
+							popularity = 28.0,
 							priority = 2,
 						},
 						{
@@ -18291,7 +18284,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 13.5,
+							popularity = 13.0,
 							priority = 3,
 						},
 						{
@@ -18299,7 +18292,7 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 9.4,
+							popularity = 9.1,
 							priority = 4,
 						},
 						{
@@ -18307,7 +18300,7 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 5.7,
+							popularity = 5.5,
 							priority = 5,
 						},
 					},
@@ -18317,7 +18310,7 @@ local bisData = {
 							itemName = "Seedpods of the Luminous Bloom",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 78.2,
+							popularity = 75.4,
 							priority = 1,
 						},
 						{
@@ -18325,7 +18318,7 @@ local bisData = {
 							itemName = "Fallen Grunt's Mantle",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 6.1,
+							popularity = 5.9,
 							priority = 2,
 						},
 						{
@@ -18333,7 +18326,7 @@ local bisData = {
 							itemName = "Enthralled Bonespines",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 4.7,
+							popularity = 4.5,
 							priority = 3,
 						},
 						{
@@ -18341,14 +18334,14 @@ local bisData = {
 							itemName = "Silvermoon Agent's Mantle",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 3.5,
+							popularity = 3.4,
 							priority = 4,
 						},
 						{
 							itemID = 249642,
 							itemName = "Osseoclad Razorspaulders",
 							sourceType = "raid",
-							popularity = 2.0,
+							popularity = 1.9,
 							priority = 5,
 						},
 					},
@@ -18358,7 +18351,7 @@ local bisData = {
 							itemName = "Trunk of the Luminous Bloom",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 71.1,
+							popularity = 68.6,
 							priority = 1,
 						},
 						{
@@ -18366,7 +18359,7 @@ local bisData = {
 							itemName = "Maledict Vest",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 9.5,
+							popularity = 9.2,
 							priority = 2,
 						},
 						{
@@ -18374,7 +18367,7 @@ local bisData = {
 							itemName = "Vest of the Void's Embrace",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 6.3,
+							popularity = 6.1,
 							priority = 3,
 						},
 						{
@@ -18382,7 +18375,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Coat",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 5.8,
+							popularity = 5.6,
 							priority = 4,
 						},
 						{
@@ -18390,7 +18383,7 @@ local bisData = {
 							itemName = "Bloodfeather Chestguard",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 3.8,
+							popularity = 3.7,
 							priority = 5,
 						},
 					},
@@ -18400,7 +18393,7 @@ local bisData = {
 							itemName = "Scorn-Scarred Shul'ka's Belt",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 29.2,
+							popularity = 28.2,
 							priority = 1,
 						},
 						{
@@ -18408,7 +18401,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Utility Belt",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 27.6,
+							popularity = 26.6,
 							priority = 2,
 						},
 						{
@@ -18416,7 +18409,7 @@ local bisData = {
 							itemName = "Falconer's Cinch",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 12.5,
+							popularity = 12.0,
 							priority = 3,
 						},
 						{
@@ -18424,7 +18417,7 @@ local bisData = {
 							itemName = "Snapvine Cinch",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 7.4,
+							popularity = 7.1,
 							priority = 4,
 						},
 						{
@@ -18432,7 +18425,7 @@ local bisData = {
 							itemName = "Flayer's Black Belt",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 6.6,
+							popularity = 6.4,
 							priority = 5,
 						},
 					},
@@ -18442,7 +18435,7 @@ local bisData = {
 							itemName = "Phloemwraps of the Luminous Bloom",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 81.5,
+							popularity = 78.6,
 							priority = 1,
 						},
 						{
@@ -18450,7 +18443,7 @@ local bisData = {
 							itemName = "Legwraps of Lingering Legacies",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 5.3,
+							popularity = 5.1,
 							priority = 2,
 						},
 						{
@@ -18458,7 +18451,7 @@ local bisData = {
 							itemName = "Power Stance Breeches",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 3.6,
+							popularity = 3.5,
 							priority = 3,
 						},
 						{
@@ -18466,7 +18459,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Leggings",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 2.8,
+							popularity = 2.7,
 							priority = 4,
 						},
 						{
@@ -18474,7 +18467,7 @@ local bisData = {
 							itemName = "Shaggy Wyrmleather Leggings",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 2.4,
+							popularity = 2.3,
 							priority = 5,
 						},
 					},
@@ -18484,7 +18477,7 @@ local bisData = {
 							itemName = "Void-Claimed Shinkickers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 25.6,
+							popularity = 24.7,
 							priority = 1,
 						},
 						{
@@ -18492,7 +18485,7 @@ local bisData = {
 							itemName = "Eclipse Espadrilles",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 20.9,
+							popularity = 20.2,
 							priority = 2,
 						},
 						{
@@ -18500,14 +18493,14 @@ local bisData = {
 							itemName = "Silvermoon Agent's Sneakers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 20.5,
+							popularity = 19.7,
 							priority = 3,
 						},
 						{
 							itemID = 250026,
 							itemName = "Rootslippers of the Luminous Bloom",
 							sourceType = "raid",
-							popularity = 14.5,
+							popularity = 14.0,
 							priority = 4,
 						},
 						{
@@ -18515,7 +18508,7 @@ local bisData = {
 							itemName = "Footpads of Seeping Dread",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 4.6,
+							popularity = 4.4,
 							priority = 5,
 						},
 					},
@@ -18525,14 +18518,14 @@ local bisData = {
 							itemName = "Silvermoon Agent's Deflectors",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 56.9,
+							popularity = 54.9,
 							priority = 1,
 						},
 						{
 							itemID = 250020,
 							itemName = "Bindings of the Luminous Bloom",
 							sourceType = "raid",
-							popularity = 10.2,
+							popularity = 9.8,
 							priority = 2,
 						},
 						{
@@ -18540,7 +18533,7 @@ local bisData = {
 							itemName = "Frenzyroot Cuffs",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 9.3,
+							popularity = 8.9,
 							priority = 3,
 						},
 						{
@@ -18548,7 +18541,7 @@ local bisData = {
 							itemName = "Custodial Cuffs",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 7.5,
+							popularity = 7.3,
 							priority = 4,
 						},
 						{
@@ -18556,7 +18549,7 @@ local bisData = {
 							itemName = "Void-Skinned Bracers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 7.1,
+							popularity = 6.9,
 							priority = 5,
 						},
 					},
@@ -18566,7 +18559,7 @@ local bisData = {
 							itemName = "Arbortenders of the Luminous Bloom",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 91.7,
+							popularity = 88.5,
 							priority = 1,
 						},
 						{
@@ -18574,7 +18567,7 @@ local bisData = {
 							itemName = "Corewright's Zappers",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 2.9,
+							popularity = 2.8,
 							priority = 2,
 						},
 						{
@@ -18590,7 +18583,7 @@ local bisData = {
 							itemName = "Gloves of the Dark Shroud",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 1.1,
+							popularity = 1.0,
 							priority = 4,
 						},
 						{
@@ -18608,7 +18601,7 @@ local bisData = {
 							itemName = "Omission of Light",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 52.4,
+							popularity = 50.5,
 							priority = 1,
 						},
 						{
@@ -18616,7 +18609,7 @@ local bisData = {
 							itemName = "Occlusion of Void",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 44.3,
+							popularity = 42.7,
 							priority = 2,
 						},
 						{
@@ -18624,7 +18617,7 @@ local bisData = {
 							itemName = "Band of the Triumvirate",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 26.3,
+							popularity = 25.4,
 							priority = 3,
 						},
 						{
@@ -18632,7 +18625,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 14.1,
+							popularity = 13.6,
 							priority = 4,
 						},
 						{
@@ -18640,7 +18633,7 @@ local bisData = {
 							itemName = "Purloined Wedding Ring",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 10.7,
+							popularity = 10.3,
 							priority = 5,
 						},
 					},
@@ -18650,7 +18643,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 57.4,
+							popularity = 55.3,
 							priority = 1,
 						},
 						{
@@ -18658,7 +18651,7 @@ local bisData = {
 							itemName = "Algeth'ar Puzzle Box",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 43.1,
+							popularity = 41.6,
 							priority = 2,
 						},
 						{
@@ -18666,7 +18659,7 @@ local bisData = {
 							itemName = "Heart of Wind",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 27.2,
+							popularity = 26.2,
 							priority = 3,
 						},
 						{
@@ -18674,7 +18667,7 @@ local bisData = {
 							itemName = "Emberwing Feather",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 15.8,
+							popularity = 15.3,
 							priority = 4,
 						},
 						{
@@ -18682,7 +18675,7 @@ local bisData = {
 							itemName = "Solarflare Prism",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 10.4,
+							popularity = 10.0,
 							priority = 5,
 						},
 					},
@@ -18692,7 +18685,7 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 27.7,
+							popularity = 26.7,
 							priority = 1,
 						},
 						{
@@ -18700,14 +18693,14 @@ local bisData = {
 							itemName = "Potion-Stained Cloak",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 25.2,
+							popularity = 24.3,
 							priority = 2,
 						},
 						{
 							itemID = 250019,
 							itemName = "Leafdrape of the Luminous Bloom",
 							sourceType = "raid",
-							popularity = 15.7,
+							popularity = 15.2,
 							priority = 3,
 						},
 						{
@@ -18715,7 +18708,7 @@ local bisData = {
 							itemName = "Fluxweave Cloak",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 6.7,
+							popularity = 6.5,
 							priority = 4,
 						},
 						{
@@ -18723,7 +18716,7 @@ local bisData = {
 							itemName = "Defiant Defender's Drape",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 5.0,
+							popularity = 4.9,
 							priority = 5,
 						},
 					},
@@ -18733,7 +18726,7 @@ local bisData = {
 							itemName = "Alnscorned Spire",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 46.4,
+							popularity = 44.7,
 							priority = 1,
 						},
 						{
@@ -18741,7 +18734,7 @@ local bisData = {
 							itemName = "Arcaneclaw Spear",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 12.3,
+							popularity = 11.9,
 							priority = 2,
 						},
 						{
@@ -18749,7 +18742,7 @@ local bisData = {
 							itemName = "Aln'hara Pikestaff",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 12.0,
+							popularity = 11.6,
 							priority = 3,
 						},
 						{
@@ -18757,7 +18750,7 @@ local bisData = {
 							itemName = "Inescapable Reach",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 8.0,
+							popularity = 7.7,
 							priority = 4,
 						},
 						{
@@ -18765,7 +18758,7 @@ local bisData = {
 							itemName = "Obsidian Goaltending Spire",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 5.1,
+							popularity = 4.9,
 							priority = 5,
 						},
 					},
@@ -18779,7 +18772,7 @@ local bisData = {
 							itemName = "Branches of the Luminous Bloom",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.4,
+							popularity = 98.1,
 							priority = 1,
 						},
 						{
@@ -18820,14 +18813,14 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 22.1,
+							popularity = 22.0,
 							priority = 1,
 						},
 						{
 							itemID = 266314,
 							itemName = "Novice Combatant's Necklace",
 							sourceType = "raid",
-							popularity = 17.5,
+							popularity = 17.4,
 							priority = 2,
 						},
 						{
@@ -18861,7 +18854,7 @@ local bisData = {
 							itemName = "Seedpods of the Luminous Bloom",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 90.3,
+							popularity = 90.1,
 							priority = 1,
 						},
 						{
@@ -18902,7 +18895,7 @@ local bisData = {
 							itemName = "Maledict Vest",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 41.2,
+							popularity = 41.1,
 							priority = 1,
 						},
 						{
@@ -18926,7 +18919,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Coat",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 7.4,
+							popularity = 7.3,
 							priority = 4,
 						},
 						{
@@ -18944,7 +18937,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Utility Belt",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 41.4,
+							popularity = 41.3,
 							priority = 1,
 						},
 						{
@@ -18952,7 +18945,7 @@ local bisData = {
 							itemName = "Scorn-Scarred Shul'ka's Belt",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 25.9,
+							popularity = 25.8,
 							priority = 2,
 						},
 						{
@@ -18960,7 +18953,7 @@ local bisData = {
 							itemName = "Twisted Twilight Sash",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 11.5,
+							popularity = 11.4,
 							priority = 3,
 						},
 						{
@@ -18985,7 +18978,7 @@ local bisData = {
 							itemName = "Phloemwraps of the Luminous Bloom",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 97.1,
+							popularity = 96.9,
 							priority = 1,
 						},
 						{
@@ -19026,7 +19019,7 @@ local bisData = {
 							itemName = "Eclipse Espadrilles",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 23.5,
+							popularity = 23.4,
 							priority = 1,
 						},
 						{
@@ -19042,7 +19035,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Sneakers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 20.4,
+							popularity = 20.3,
 							priority = 3,
 						},
 						{
@@ -19067,7 +19060,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Deflectors",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 45.5,
+							popularity = 45.4,
 							priority = 1,
 						},
 						{
@@ -19108,7 +19101,7 @@ local bisData = {
 							itemName = "Arbortenders of the Luminous Bloom",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 96.1,
+							popularity = 95.9,
 							priority = 1,
 						},
 						{
@@ -19149,7 +19142,7 @@ local bisData = {
 							itemName = "Omission of Light",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 71.1,
+							popularity = 70.9,
 							priority = 1,
 						},
 						{
@@ -19157,7 +19150,7 @@ local bisData = {
 							itemName = "Bifurcation Band",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 47.6,
+							popularity = 47.5,
 							priority = 2,
 						},
 						{
@@ -19165,7 +19158,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 22.9,
+							popularity = 22.8,
 							priority = 3,
 						},
 						{
@@ -19173,7 +19166,7 @@ local bisData = {
 							itemName = "Bond of Light",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 14.8,
+							popularity = 14.7,
 							priority = 4,
 						},
 						{
@@ -19191,7 +19184,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 73.7,
+							popularity = 73.5,
 							priority = 1,
 						},
 						{
@@ -19199,7 +19192,7 @@ local bisData = {
 							itemName = "Heart of Wind",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 38.5,
+							popularity = 38.4,
 							priority = 2,
 						},
 						{
@@ -19207,7 +19200,7 @@ local bisData = {
 							itemName = "Locus-Walker's Ribbon",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 22.3,
+							popularity = 22.2,
 							priority = 3,
 						},
 						{
@@ -19233,7 +19226,7 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 31.3,
+							popularity = 31.2,
 							priority = 1,
 						},
 						{
@@ -19274,7 +19267,7 @@ local bisData = {
 							itemName = "Aln'hara Cane",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 48.1,
+							popularity = 48.0,
 							priority = 1,
 						},
 						{
@@ -19365,7 +19358,7 @@ local bisData = {
 							itemName = "Devouring Reaver's Intake",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 63.0,
+							popularity = 62.1,
 							priority = 1,
 						},
 						{
@@ -19373,7 +19366,7 @@ local bisData = {
 							itemName = "Devouring Night's Visage",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 19.7,
+							popularity = 19.4,
 							priority = 2,
 						},
 						{
@@ -19381,7 +19374,7 @@ local bisData = {
 							itemName = "Spellsnap Shadowmask",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 13.4,
+							popularity = 13.2,
 							priority = 3,
 						},
 						{
@@ -19389,7 +19382,7 @@ local bisData = {
 							itemName = "Fetid Vilecrown",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 1.2,
+							popularity = 1.1,
 							priority = 4,
 						},
 						{
@@ -19407,7 +19400,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 45.8,
+							popularity = 45.1,
 							priority = 1,
 						},
 						{
@@ -19415,7 +19408,7 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 18.0,
+							popularity = 17.7,
 							priority = 2,
 						},
 						{
@@ -19423,7 +19416,7 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 16.0,
+							popularity = 15.8,
 							priority = 3,
 						},
 						{
@@ -19431,14 +19424,14 @@ local bisData = {
 							itemName = "Amulet of the Abyssal Hymn",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 4.5,
+							popularity = 4.4,
 							priority = 4,
 						},
 						{
 							itemID = 249626,
 							itemName = "Nocturnal Thorncharm",
 							sourceType = "raid",
-							popularity = 3.6,
+							popularity = 3.5,
 							priority = 5,
 						},
 					},
@@ -19448,7 +19441,7 @@ local bisData = {
 							itemName = "Devouring Reaver's Exhaustplates",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.7,
+							popularity = 97.3,
 							priority = 1,
 						},
 						{
@@ -19489,7 +19482,7 @@ local bisData = {
 							itemName = "Devouring Reaver's Engine",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.7,
+							popularity = 97.3,
 							priority = 1,
 						},
 						{
@@ -19531,7 +19524,7 @@ local bisData = {
 							itemName = "Snapvine Cinch",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 33.4,
+							popularity = 32.9,
 							priority = 1,
 						},
 						{
@@ -19539,7 +19532,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Utility Belt",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 22.6,
+							popularity = 22.3,
 							priority = 2,
 						},
 						{
@@ -19547,14 +19540,14 @@ local bisData = {
 							itemName = "Scorn-Scarred Shul'ka's Belt",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 17.7,
+							popularity = 17.5,
 							priority = 3,
 						},
 						{
 							itemID = 250030,
 							itemName = "Devouring Reaver's Emblem",
 							sourceType = "raid",
-							popularity = 8.8,
+							popularity = 8.7,
 							priority = 4,
 						},
 						{
@@ -19562,7 +19555,7 @@ local bisData = {
 							itemName = "Twisted Twilight Sash",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 7.1,
+							popularity = 7.0,
 							priority = 5,
 						},
 					},
@@ -19572,7 +19565,7 @@ local bisData = {
 							itemName = "Devouring Reaver's Pistons",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 51.3,
+							popularity = 50.6,
 							priority = 1,
 						},
 						{
@@ -19580,14 +19573,14 @@ local bisData = {
 							itemName = "Silvermoon Agent's Leggings",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 14.1,
+							popularity = 13.9,
 							priority = 2,
 						},
 						{
 							itemID = 249641,
 							itemName = "Osseoclad Bonesteppers",
 							sourceType = "raid",
-							popularity = 8.4,
+							popularity = 8.3,
 							priority = 3,
 						},
 						{
@@ -19595,7 +19588,7 @@ local bisData = {
 							itemName = "Power Stance Breeches",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 7.0,
+							popularity = 6.9,
 							priority = 4,
 						},
 						{
@@ -19603,7 +19596,7 @@ local bisData = {
 							itemName = "Shaggy Wyrmleather Leggings",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 6.7,
+							popularity = 6.6,
 							priority = 5,
 						},
 					},
@@ -19612,7 +19605,7 @@ local bisData = {
 							itemID = 250035,
 							itemName = "Devouring Reaver's Soul Flatteners",
 							sourceType = "raid",
-							popularity = 45.9,
+							popularity = 45.3,
 							priority = 1,
 						},
 						{
@@ -19620,14 +19613,14 @@ local bisData = {
 							itemName = "Boots of Burning Focus",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 24.8,
+							popularity = 24.4,
 							priority = 2,
 						},
 						{
 							itemID = 249638,
 							itemName = "Osseoclad Bonecrushers",
 							sourceType = "raid",
-							popularity = 9.6,
+							popularity = 9.4,
 							priority = 3,
 						},
 						{
@@ -19635,7 +19628,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Sneakers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 6.9,
+							popularity = 6.8,
 							priority = 4,
 						},
 						{
@@ -19643,7 +19636,7 @@ local bisData = {
 							itemName = "Canopy Walker's Footwraps",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 5.6,
+							popularity = 5.5,
 							priority = 5,
 						},
 					},
@@ -19653,7 +19646,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Deflectors",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 61.6,
+							popularity = 60.7,
 							priority = 1,
 						},
 						{
@@ -19661,14 +19654,14 @@ local bisData = {
 							itemName = "Void-Skinned Bracers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 11.7,
+							popularity = 11.6,
 							priority = 2,
 						},
 						{
 							itemID = 250029,
 							itemName = "Devouring Reaver's Support Straps",
 							sourceType = "raid",
-							popularity = 8.7,
+							popularity = 8.6,
 							priority = 3,
 						},
 						{
@@ -19676,7 +19669,7 @@ local bisData = {
 							itemName = "Frenzyroot Cuffs",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 7.0,
+							popularity = 6.9,
 							priority = 4,
 						},
 						{
@@ -19684,7 +19677,7 @@ local bisData = {
 							itemName = "Chewed Leather Wristguards",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 5.0,
+							popularity = 4.9,
 							priority = 5,
 						},
 					},
@@ -19694,7 +19687,7 @@ local bisData = {
 							itemName = "Devouring Reaver's Essence Grips",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 96.1,
+							popularity = 94.7,
 							priority = 1,
 						},
 						{
@@ -19735,7 +19728,7 @@ local bisData = {
 							itemName = "Platinum Star Band",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 78.1,
+							popularity = 77.0,
 							priority = 1,
 						},
 						{
@@ -19743,7 +19736,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 28.4,
+							popularity = 28.0,
 							priority = 2,
 						},
 						{
@@ -19751,7 +19744,7 @@ local bisData = {
 							itemName = "Occlusion of Void",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 17.1,
+							popularity = 16.8,
 							priority = 3,
 						},
 						{
@@ -19759,7 +19752,7 @@ local bisData = {
 							itemName = "Sin'dorei Band of Hope",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 16.5,
+							popularity = 16.2,
 							priority = 4,
 						},
 						{
@@ -19767,7 +19760,7 @@ local bisData = {
 							itemName = "Signet of the Starved Beast",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 13.9,
+							popularity = 13.7,
 							priority = 5,
 						},
 					},
@@ -19777,7 +19770,7 @@ local bisData = {
 							itemName = "Algeth'ar Puzzle Box",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 83.9,
+							popularity = 82.7,
 							priority = 1,
 						},
 						{
@@ -19785,7 +19778,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 82.8,
+							popularity = 81.6,
 							priority = 2,
 						},
 						{
@@ -19793,14 +19786,14 @@ local bisData = {
 							itemName = "Solarflare Prism",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 9.6,
+							popularity = 9.4,
 							priority = 3,
 						},
 						{
 							itemID = 248583,
 							itemName = "Drum of Renewed Bonds",
 							sourceType = "raid",
-							popularity = 3.8,
+							popularity = 3.7,
 							priority = 4,
 						},
 						{
@@ -19817,7 +19810,7 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 33.3,
+							popularity = 32.8,
 							priority = 1,
 						},
 						{
@@ -19825,14 +19818,14 @@ local bisData = {
 							itemName = "Rigid Scale Greatcloak",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 33.1,
+							popularity = 32.7,
 							priority = 2,
 						},
 						{
 							itemID = 250028,
 							itemName = "Devouring Reaver's Drape",
 							sourceType = "raid",
-							popularity = 11.0,
+							popularity = 10.9,
 							priority = 3,
 						},
 						{
@@ -19840,7 +19833,7 @@ local bisData = {
 							itemName = "Imperator's Banner",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 4.7,
+							popularity = 4.6,
 							priority = 4,
 						},
 						{
@@ -19858,7 +19851,7 @@ local bisData = {
 							itemName = "Spellbreaker's Warglaive",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 38.2,
+							popularity = 37.6,
 							priority = 1,
 						},
 						{
@@ -19866,7 +19859,7 @@ local bisData = {
 							itemName = "Emblazoned Sunglaive",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 21.6,
+							popularity = 21.2,
 							priority = 2,
 						},
 						{
@@ -19874,7 +19867,7 @@ local bisData = {
 							itemName = "Soulblight Cleaver",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 12.7,
+							popularity = 12.5,
 							priority = 3,
 						},
 						{
@@ -19882,7 +19875,7 @@ local bisData = {
 							itemName = "Mystakria's Harvester",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 11.4,
+							popularity = 11.2,
 							priority = 4,
 						},
 						{
@@ -19900,7 +19893,7 @@ local bisData = {
 							itemName = "Spellbreaker's Warglaive",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 51.8,
+							popularity = 51.1,
 							priority = 1,
 						},
 						{
@@ -19908,7 +19901,7 @@ local bisData = {
 							itemName = "Emblazoned Sunglaive",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 16.5,
+							popularity = 16.3,
 							priority = 2,
 						},
 						{
@@ -19916,7 +19909,7 @@ local bisData = {
 							itemName = "Lightless Lament",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 8.8,
+							popularity = 8.7,
 							priority = 3,
 						},
 						{
@@ -19932,7 +19925,7 @@ local bisData = {
 							itemName = "Soulblight Cleaver",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 4.4,
+							popularity = 4.3,
 							priority = 5,
 						},
 					},
@@ -19962,7 +19955,7 @@ local bisData = {
 							itemName = "Mask of Darkest Intent",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 1.1,
+							popularity = 1.2,
 							priority = 3,
 						},
 						{
@@ -19970,13 +19963,13 @@ local bisData = {
 							itemName = "Devouring Night's Visage",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 0.9,
+							popularity = 1.0,
 							priority = 4,
 						},
 						{
-							itemID = 244571,
-							itemName = "Silvermoon Agent's Cover",
-							dropSource = "Crafted",
+							itemID = 251177,
+							itemName = "Fetid Vilecrown",
+							dropSource = "Maisara Caverns",
 							sourceType = "raid",
 							popularity = 0.6,
 							priority = 5,
@@ -19988,7 +19981,7 @@ local bisData = {
 							itemName = "Necklace of the Twisting Void",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 21.3,
+							popularity = 21.2,
 							priority = 1,
 						},
 						{
@@ -19996,7 +19989,7 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 20.2,
+							popularity = 20.6,
 							priority = 2,
 						},
 						{
@@ -20004,7 +19997,7 @@ local bisData = {
 							itemName = "Pendant of Aching Grief",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 15.0,
+							popularity = 14.5,
 							priority = 3,
 						},
 						{
@@ -20012,7 +20005,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 12.8,
+							popularity = 13.1,
 							priority = 4,
 						},
 						{
@@ -20020,7 +20013,7 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 11.2,
+							popularity = 11.0,
 							priority = 5,
 						},
 					},
@@ -20030,7 +20023,7 @@ local bisData = {
 							itemName = "Devouring Reaver's Exhaustplates",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 90.1,
+							popularity = 90.2,
 							priority = 1,
 						},
 						{
@@ -20038,7 +20031,7 @@ local bisData = {
 							itemName = "Fallen Grunt's Mantle",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 2.1,
+							popularity = 2.2,
 							priority = 2,
 						},
 						{
@@ -20050,10 +20043,11 @@ local bisData = {
 							priority = 3,
 						},
 						{
-							itemID = 249642,
-							itemName = "Osseoclad Razorspaulders",
+							itemID = 249333,
+							itemName = "Blooming Barklight Spaulders",
+							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 1.4,
+							popularity = 1.3,
 							priority = 4,
 						},
 						{
@@ -20061,7 +20055,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Mantle",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 1.4,
+							popularity = 1.3,
 							priority = 5,
 						},
 					},
@@ -20071,7 +20065,7 @@ local bisData = {
 							itemName = "Devouring Reaver's Engine",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 59.4,
+							popularity = 59.6,
 							priority = 1,
 						},
 						{
@@ -20079,7 +20073,7 @@ local bisData = {
 							itemName = "Vest of the Void's Embrace",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 19.0,
+							popularity = 19.2,
 							priority = 2,
 						},
 						{
@@ -20087,7 +20081,7 @@ local bisData = {
 							itemName = "Maledict Vest",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 9.2,
+							popularity = 8.8,
 							priority = 3,
 						},
 						{
@@ -20113,14 +20107,14 @@ local bisData = {
 							itemName = "Scorn-Scarred Shul'ka's Belt",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 35.0,
+							popularity = 35.2,
 							priority = 1,
 						},
 						{
 							itemID = 250030,
 							itemName = "Devouring Reaver's Emblem",
 							sourceType = "raid",
-							popularity = 20.6,
+							popularity = 20.7,
 							priority = 2,
 						},
 						{
@@ -20128,7 +20122,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Utility Belt",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 18.4,
+							popularity = 18.5,
 							priority = 3,
 						},
 						{
@@ -20136,7 +20130,7 @@ local bisData = {
 							itemName = "Flayer's Black Belt",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 12.3,
+							popularity = 12.1,
 							priority = 4,
 						},
 						{
@@ -20154,7 +20148,7 @@ local bisData = {
 							itemName = "Devouring Reaver's Pistons",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 84.1,
+							popularity = 84.0,
 							priority = 1,
 						},
 						{
@@ -20162,7 +20156,7 @@ local bisData = {
 							itemName = "Shaggy Wyrmleather Leggings",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 4.2,
+							popularity = 4.3,
 							priority = 2,
 						},
 						{
@@ -20170,7 +20164,7 @@ local bisData = {
 							itemName = "Legwraps of Lingering Legacies",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 3.4,
+							popularity = 3.5,
 							priority = 3,
 						},
 						{
@@ -20185,7 +20179,7 @@ local bisData = {
 							itemID = 249641,
 							itemName = "Osseoclad Bonesteppers",
 							sourceType = "raid",
-							popularity = 2.1,
+							popularity = 1.9,
 							priority = 5,
 						},
 					},
@@ -20195,7 +20189,7 @@ local bisData = {
 							itemName = "Void-Claimed Shinkickers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 33.4,
+							popularity = 33.0,
 							priority = 1,
 						},
 						{
@@ -20203,22 +20197,22 @@ local bisData = {
 							itemName = "Eclipse Espadrilles",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 23.2,
+							popularity = 23.1,
 							priority = 2,
-						},
-						{
-							itemID = 250035,
-							itemName = "Devouring Reaver's Soul Flatteners",
-							sourceType = "raid",
-							popularity = 12.2,
-							priority = 3,
 						},
 						{
 							itemID = 244569,
 							itemName = "Silvermoon Agent's Sneakers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 12.1,
+							popularity = 12.5,
+							priority = 3,
+						},
+						{
+							itemID = 250035,
+							itemName = "Devouring Reaver's Soul Flatteners",
+							sourceType = "raid",
+							popularity = 12.4,
 							priority = 4,
 						},
 						{
@@ -20236,7 +20230,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Deflectors",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 30.1,
+							popularity = 29.8,
 							priority = 1,
 						},
 						{
@@ -20244,7 +20238,7 @@ local bisData = {
 							itemName = "Void-Skinned Bracers",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 22.8,
+							popularity = 22.9,
 							priority = 2,
 						},
 						{
@@ -20252,7 +20246,7 @@ local bisData = {
 							itemName = "Chewed Leather Wristguards",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 18.9,
+							popularity = 19.1,
 							priority = 3,
 						},
 						{
@@ -20260,7 +20254,7 @@ local bisData = {
 							itemName = "Frenzyroot Cuffs",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 8.9,
+							popularity = 8.7,
 							priority = 4,
 						},
 						{
@@ -20278,7 +20272,7 @@ local bisData = {
 							itemName = "Devouring Reaver's Essence Grips",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 95.1,
+							popularity = 95.3,
 							priority = 1,
 						},
 						{
@@ -20294,7 +20288,7 @@ local bisData = {
 							itemName = "Gloves of the Dark Shroud",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 1.0,
+							popularity = 1.1,
 							priority = 3,
 						},
 						{
@@ -20310,7 +20304,7 @@ local bisData = {
 							itemName = "Ruby Contestant's Gloves",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 0.4,
+							popularity = 0.3,
 							priority = 5,
 						},
 					},
@@ -20320,7 +20314,7 @@ local bisData = {
 							itemName = "Occlusion of Void",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 46.8,
+							popularity = 47.0,
 							priority = 1,
 						},
 						{
@@ -20328,7 +20322,7 @@ local bisData = {
 							itemName = "Omission of Light",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 39.3,
+							popularity = 39.2,
 							priority = 2,
 						},
 						{
@@ -20343,7 +20337,7 @@ local bisData = {
 							itemID = 251513,
 							itemName = "Loa Worshiper's Band",
 							sourceType = "raid",
-							popularity = 20.3,
+							popularity = 20.2,
 							priority = 4,
 						},
 						{
@@ -20351,7 +20345,7 @@ local bisData = {
 							itemName = "Band of the Triumvirate",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 18.0,
+							popularity = 18.2,
 							priority = 5,
 						},
 					},
@@ -20361,7 +20355,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 79.7,
+							popularity = 80.3,
 							priority = 1,
 						},
 						{
@@ -20369,7 +20363,7 @@ local bisData = {
 							itemName = "Heart of Wind",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 28.8,
+							popularity = 28.6,
 							priority = 2,
 						},
 						{
@@ -20377,7 +20371,7 @@ local bisData = {
 							itemName = "Solarflare Prism",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 23.7,
+							popularity = 23.9,
 							priority = 3,
 						},
 						{
@@ -20385,7 +20379,7 @@ local bisData = {
 							itemName = "Light Company Guidon",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 21.6,
+							popularity = 21.7,
 							priority = 4,
 						},
 						{
@@ -20393,7 +20387,7 @@ local bisData = {
 							itemName = "Gloom-Spattered Dreadscale",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 11.4,
+							popularity = 11.2,
 							priority = 5,
 						},
 					},
@@ -20403,14 +20397,14 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 33.2,
+							popularity = 33.3,
 							priority = 1,
 						},
 						{
 							itemID = 250028,
 							itemName = "Devouring Reaver's Drape",
 							sourceType = "raid",
-							popularity = 29.2,
+							popularity = 29.3,
 							priority = 2,
 						},
 						{
@@ -20418,7 +20412,7 @@ local bisData = {
 							itemName = "Potion-Stained Cloak",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 8.3,
+							popularity = 8.2,
 							priority = 3,
 						},
 						{
@@ -20426,7 +20420,7 @@ local bisData = {
 							itemName = "Defiant Defender's Drape",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 8.1,
+							popularity = 8.0,
 							priority = 4,
 						},
 						{
@@ -20434,7 +20428,7 @@ local bisData = {
 							itemName = "Imperator's Banner",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 5.7,
+							popularity = 5.5,
 							priority = 5,
 						},
 					},
@@ -20444,7 +20438,7 @@ local bisData = {
 							itemName = "Spellbreaker's Warglaive",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 43.3,
+							popularity = 42.7,
 							priority = 1,
 						},
 						{
@@ -20452,7 +20446,7 @@ local bisData = {
 							itemName = "Tormentor's Bladed Fists",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 18.7,
+							popularity = 18.8,
 							priority = 2,
 						},
 						{
@@ -20460,7 +20454,7 @@ local bisData = {
 							itemName = "Emblazoned Sunglaive",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 7.7,
+							popularity = 8.1,
 							priority = 3,
 						},
 						{
@@ -20486,7 +20480,7 @@ local bisData = {
 							itemName = "Spellbreaker's Warglaive",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 52.3,
+							popularity = 52.5,
 							priority = 1,
 						},
 						{
@@ -20494,7 +20488,7 @@ local bisData = {
 							itemName = "Tormentor's Bladed Fists",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 12.9,
+							popularity = 12.6,
 							priority = 2,
 						},
 						{
@@ -20502,7 +20496,7 @@ local bisData = {
 							itemName = "Lightless Lament",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 6.2,
+							popularity = 6.3,
 							priority = 3,
 						},
 						{
@@ -20510,7 +20504,7 @@ local bisData = {
 							itemName = "Emblazoned Sunglaive",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 5.6,
+							popularity = 5.8,
 							priority = 4,
 						},
 						{
@@ -20532,7 +20526,7 @@ local bisData = {
 							itemName = "Devouring Reaver's Intake",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.9,
+							popularity = 98.4,
 							priority = 1,
 						},
 						{
@@ -20540,7 +20534,7 @@ local bisData = {
 							itemName = "Devouring Night's Visage",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 0.4,
+							popularity = 0.3,
 							priority = 2,
 						},
 						{
@@ -20557,7 +20551,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 36.4,
+							popularity = 36.3,
 							priority = 1,
 						},
 						{
@@ -20565,14 +20559,14 @@ local bisData = {
 							itemName = "Eternal Voidsong Chain",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 25.0,
+							popularity = 24.9,
 							priority = 2,
 						},
 						{
 							itemID = 266314,
 							itemName = "Novice Combatant's Necklace",
 							sourceType = "raid",
-							popularity = 23.8,
+							popularity = 23.7,
 							priority = 3,
 						},
 						{
@@ -20598,7 +20592,7 @@ local bisData = {
 							itemName = "Devouring Reaver's Exhaustplates",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 96.8,
+							popularity = 96.3,
 							priority = 1,
 						},
 						{
@@ -20639,7 +20633,7 @@ local bisData = {
 							itemName = "Devouring Reaver's Engine",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 96.7,
+							popularity = 96.2,
 							priority = 1,
 						},
 						{
@@ -20673,7 +20667,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Utility Belt",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 67.5,
+							popularity = 67.2,
 							priority = 1,
 						},
 						{
@@ -20681,14 +20675,14 @@ local bisData = {
 							itemName = "Scorn-Scarred Shul'ka's Belt",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 12.6,
+							popularity = 12.5,
 							priority = 2,
 						},
 						{
 							itemID = 250030,
 							itemName = "Devouring Reaver's Emblem",
 							sourceType = "raid",
-							popularity = 12.5,
+							popularity = 12.4,
 							priority = 3,
 						},
 						{
@@ -20714,7 +20708,7 @@ local bisData = {
 							itemName = "Shaggy Wyrmleather Leggings",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 37.0,
+							popularity = 36.9,
 							priority = 1,
 						},
 						{
@@ -20722,7 +20716,7 @@ local bisData = {
 							itemName = "Devouring Reaver's Pistons",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 19.6,
+							popularity = 19.5,
 							priority = 2,
 						},
 						{
@@ -20730,7 +20724,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Leggings",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 14.3,
+							popularity = 14.2,
 							priority = 3,
 						},
 						{
@@ -20738,7 +20732,7 @@ local bisData = {
 							itemName = "Nightblade's Pantaloons",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 13.9,
+							popularity = 13.8,
 							priority = 4,
 						},
 						{
@@ -20755,7 +20749,7 @@ local bisData = {
 							itemID = 250035,
 							itemName = "Devouring Reaver's Soul Flatteners",
 							sourceType = "raid",
-							popularity = 56.9,
+							popularity = 56.6,
 							priority = 1,
 						},
 						{
@@ -20763,7 +20757,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Sneakers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 18.4,
+							popularity = 18.3,
 							priority = 2,
 						},
 						{
@@ -20771,7 +20765,7 @@ local bisData = {
 							itemName = "Nullstrider's Boots",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 7.3,
+							popularity = 7.2,
 							priority = 3,
 						},
 						{
@@ -20779,7 +20773,7 @@ local bisData = {
 							itemName = "Canopy Walker's Footwraps",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 3.9,
+							popularity = 3.8,
 							priority = 4,
 						},
 						{
@@ -20795,7 +20789,7 @@ local bisData = {
 							itemID = 250029,
 							itemName = "Devouring Reaver's Support Straps",
 							sourceType = "raid",
-							popularity = 38.3,
+							popularity = 38.2,
 							priority = 1,
 						},
 						{
@@ -20803,7 +20797,7 @@ local bisData = {
 							itemName = "Frenzyroot Cuffs",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 30.2,
+							popularity = 30.1,
 							priority = 2,
 						},
 						{
@@ -20811,7 +20805,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Deflectors",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 20.5,
+							popularity = 20.4,
 							priority = 3,
 						},
 						{
@@ -20836,7 +20830,7 @@ local bisData = {
 							itemName = "Devouring Reaver's Essence Grips",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 97.0,
+							popularity = 96.6,
 							priority = 1,
 						},
 						{
@@ -20860,7 +20854,7 @@ local bisData = {
 							itemName = "Silvermoon Agent's Handwraps",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 0.6,
+							popularity = 0.5,
 							priority = 4,
 						},
 						{
@@ -20878,7 +20872,7 @@ local bisData = {
 							itemName = "Omission of Light",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 67.5,
+							popularity = 67.2,
 							priority = 1,
 						},
 						{
@@ -20886,7 +20880,7 @@ local bisData = {
 							itemName = "Bifurcation Band",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 48.9,
+							popularity = 48.7,
 							priority = 2,
 						},
 						{
@@ -20894,7 +20888,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 30.0,
+							popularity = 29.9,
 							priority = 3,
 						},
 						{
@@ -20902,7 +20896,7 @@ local bisData = {
 							itemName = "Bond of Light",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 24.2,
+							popularity = 24.1,
 							priority = 4,
 						},
 						{
@@ -20920,7 +20914,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 91.7,
+							popularity = 91.3,
 							priority = 1,
 						},
 						{
@@ -20928,7 +20922,7 @@ local bisData = {
 							itemName = "Vaelgor's Final Stare",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 73.2,
+							popularity = 72.8,
 							priority = 2,
 						},
 						{
@@ -20944,7 +20938,7 @@ local bisData = {
 							itemName = "Emberwing Feather",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 6.9,
+							popularity = 6.8,
 							priority = 4,
 						},
 						{
@@ -20952,7 +20946,7 @@ local bisData = {
 							itemName = "Locus-Walker's Ribbon",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 6.5,
+							popularity = 6.4,
 							priority = 5,
 						},
 					},
@@ -20962,14 +20956,14 @@ local bisData = {
 							itemName = "Draconic Nullcape",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 35.9,
+							popularity = 35.7,
 							priority = 1,
 						},
 						{
 							itemID = 250028,
 							itemName = "Devouring Reaver's Drape",
 							sourceType = "raid",
-							popularity = 26.4,
+							popularity = 26.3,
 							priority = 2,
 						},
 						{
@@ -20977,7 +20971,7 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 21.3,
+							popularity = 21.2,
 							priority = 3,
 						},
 						{
@@ -21003,7 +20997,7 @@ local bisData = {
 							itemName = "Spellbreaker's Warglaive",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 35.1,
+							popularity = 35.0,
 							priority = 1,
 						},
 						{
@@ -21011,7 +21005,7 @@ local bisData = {
 							itemName = "Spellboon Saber",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 23.6,
+							popularity = 23.4,
 							priority = 2,
 						},
 						{
@@ -21019,7 +21013,7 @@ local bisData = {
 							itemName = "Emblazoned Sunglaive",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 14.5,
+							popularity = 14.4,
 							priority = 3,
 						},
 						{
@@ -21027,7 +21021,7 @@ local bisData = {
 							itemName = "Blade of the Blind Verdict",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 10.6,
+							popularity = 10.5,
 							priority = 4,
 						},
 						{
@@ -21045,7 +21039,7 @@ local bisData = {
 							itemName = "Spellbreaker's Warglaive",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 66.5,
+							popularity = 66.1,
 							priority = 1,
 						},
 						{
@@ -21061,7 +21055,7 @@ local bisData = {
 							itemName = "Spellboon Saber",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 6.9,
+							popularity = 6.8,
 							priority = 3,
 						},
 						{
@@ -21069,7 +21063,7 @@ local bisData = {
 							itemName = "Blade of the Blind Verdict",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 5.7,
+							popularity = 5.6,
 							priority = 4,
 						},
 						{
@@ -21095,7 +21089,7 @@ local bisData = {
 							itemName = "Frenzy's Rebuke",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 34.0,
+							popularity = 33.9,
 							priority = 1,
 						},
 						{
@@ -21103,7 +21097,7 @@ local bisData = {
 							itemName = "Hornhelm of the Black Talon",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 32.1,
+							popularity = 32.0,
 							priority = 2,
 						},
 						{
@@ -21111,7 +21105,7 @@ local bisData = {
 							itemName = "Horns of the Spurned Val'kyr",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 27.3,
+							popularity = 27.2,
 							priority = 3,
 						},
 						{
@@ -21137,7 +21131,7 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 46.9,
+							popularity = 46.7,
 							priority = 1,
 						},
 						{
@@ -21145,7 +21139,7 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 36.3,
+							popularity = 36.2,
 							priority = 2,
 						},
 						{
@@ -21153,7 +21147,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 4.5,
+							popularity = 4.4,
 							priority = 3,
 						},
 						{
@@ -21178,7 +21172,7 @@ local bisData = {
 							itemName = "Beacons of the Black Talon",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 96.2,
+							popularity = 95.8,
 							priority = 1,
 						},
 						{
@@ -21220,7 +21214,7 @@ local bisData = {
 							itemName = "Frenzyward of the Black Talon",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.7,
+							popularity = 98.4,
 							priority = 1,
 						},
 						{
@@ -21246,7 +21240,7 @@ local bisData = {
 							itemName = "Scabrous Zombie Belt",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 39.2,
+							popularity = 39.0,
 							priority = 1,
 						},
 						{
@@ -21254,7 +21248,7 @@ local bisData = {
 							itemName = "Scornbane Waistguard",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 20.9,
+							popularity = 20.8,
 							priority = 2,
 						},
 						{
@@ -21270,7 +21264,7 @@ local bisData = {
 							itemName = "Farstrider's Trophy Belt",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 9.7,
+							popularity = 9.6,
 							priority = 4,
 						},
 						{
@@ -21288,7 +21282,7 @@ local bisData = {
 							itemName = "Greaves of the Black Talon",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 94.7,
+							popularity = 94.4,
 							priority = 1,
 						},
 						{
@@ -21329,7 +21323,7 @@ local bisData = {
 							itemID = 249999,
 							itemName = "Spelltreads of the Black Talon",
 							sourceType = "raid",
-							popularity = 63.6,
+							popularity = 63.4,
 							priority = 1,
 						},
 						{
@@ -21360,7 +21354,7 @@ local bisData = {
 							itemID = 249646,
 							itemName = "Elder Mossclogs",
 							sourceType = "raid",
-							popularity = 5.4,
+							popularity = 5.3,
 							priority = 5,
 						},
 					},
@@ -21370,7 +21364,7 @@ local bisData = {
 							itemName = "Farstrider's Plated Bracers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 81.8,
+							popularity = 81.5,
 							priority = 1,
 						},
 						{
@@ -21411,7 +21405,7 @@ local bisData = {
 							itemName = "Enforcer's Grips of the Black Talon",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 86.0,
+							popularity = 85.6,
 							priority = 1,
 						},
 						{
@@ -21452,7 +21446,7 @@ local bisData = {
 							itemName = "Purloined Wedding Ring",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 64.4,
+							popularity = 64.1,
 							priority = 1,
 						},
 						{
@@ -21460,7 +21454,7 @@ local bisData = {
 							itemName = "Occlusion of Void",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 62.6,
+							popularity = 62.3,
 							priority = 2,
 						},
 						{
@@ -21468,7 +21462,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 22.4,
+							popularity = 22.3,
 							priority = 3,
 						},
 						{
@@ -21476,7 +21470,7 @@ local bisData = {
 							itemName = "Signet of the Starved Beast",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 15.5,
+							popularity = 15.4,
 							priority = 4,
 						},
 						{
@@ -21494,7 +21488,7 @@ local bisData = {
 							itemName = "Soulcatcher's Charm",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 41.2,
+							popularity = 41.0,
 							priority = 1,
 						},
 						{
@@ -21502,7 +21496,7 @@ local bisData = {
 							itemName = "Heart of Wind",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 39.4,
+							popularity = 39.3,
 							priority = 2,
 						},
 						{
@@ -21510,7 +21504,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 36.0,
+							popularity = 35.9,
 							priority = 3,
 						},
 						{
@@ -21518,7 +21512,7 @@ local bisData = {
 							itemName = "Vaelgor's Final Stare",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 27.1,
+							popularity = 27.0,
 							priority = 4,
 						},
 						{
@@ -21526,7 +21520,7 @@ local bisData = {
 							itemName = "Shadow of the Empyrean Requiem",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 18.2,
+							popularity = 18.1,
 							priority = 5,
 						},
 					},
@@ -21536,7 +21530,7 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 58.0,
+							popularity = 57.8,
 							priority = 1,
 						},
 						{
@@ -21578,7 +21572,7 @@ local bisData = {
 							itemName = "Aln'hara Cane",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 50.6,
+							popularity = 50.4,
 							priority = 1,
 						},
 						{
@@ -21620,7 +21614,7 @@ local bisData = {
 							itemName = "Grimoire of the Eternal Light",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 22.7,
+							popularity = 22.6,
 							priority = 1,
 						},
 						{
@@ -21636,7 +21630,7 @@ local bisData = {
 							itemName = "Vexamus' Expulsion Rod",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 2.9,
+							popularity = 2.8,
 							priority = 3,
 						},
 						{
@@ -21666,7 +21660,7 @@ local bisData = {
 							itemName = "Hornhelm of the Black Talon",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 63.9,
+							popularity = 63.6,
 							priority = 1,
 						},
 						{
@@ -21674,7 +21668,7 @@ local bisData = {
 							itemName = "Frenzy's Rebuke",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 20.5,
+							popularity = 20.6,
 							priority = 2,
 						},
 						{
@@ -21682,7 +21676,7 @@ local bisData = {
 							itemName = "Horns of the Spurned Val'kyr",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 10.2,
+							popularity = 10.5,
 							priority = 3,
 						},
 						{
@@ -21698,7 +21692,7 @@ local bisData = {
 							itemName = "Sharpeye Gleam",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 0.9,
+							popularity = 0.8,
 							priority = 5,
 						},
 					},
@@ -21708,7 +21702,7 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 39.2,
+							popularity = 39.9,
 							priority = 1,
 						},
 						{
@@ -21716,7 +21710,7 @@ local bisData = {
 							itemName = "Barbed Ymirheim Choker",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 37.6,
+							popularity = 36.9,
 							priority = 2,
 						},
 						{
@@ -21738,7 +21732,7 @@ local bisData = {
 							itemID = 265739,
 							itemName = "Amani Heartstring Pendant",
 							sourceType = "raid",
-							popularity = 4.0,
+							popularity = 3.9,
 							priority = 5,
 						},
 					},
@@ -21748,7 +21742,7 @@ local bisData = {
 							itemName = "Beacons of the Black Talon",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 96.9,
+							popularity = 97.0,
 							priority = 1,
 						},
 						{
@@ -21780,7 +21774,7 @@ local bisData = {
 							itemName = "Farstrider's Brilliant Plumes",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 0.2,
+							popularity = 0.1,
 							priority = 5,
 						},
 					},
@@ -21790,7 +21784,7 @@ local bisData = {
 							itemName = "Frenzyward of the Black Talon",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 98.1,
+							popularity = 98.2,
 							priority = 1,
 						},
 						{
@@ -21798,7 +21792,7 @@ local bisData = {
 							itemName = "Robes of the Voidbound",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 0.9,
+							popularity = 0.8,
 							priority = 2,
 						},
 						{
@@ -21806,7 +21800,7 @@ local bisData = {
 							itemName = "Sharpeye Chestguard",
 							dropSource = "Skyreach",
 							sourceType = "raid",
-							popularity = 0.3,
+							popularity = 0.4,
 							priority = 3,
 						},
 						{
@@ -21824,7 +21818,7 @@ local bisData = {
 							itemName = "Scabrous Zombie Belt",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 31.1,
+							popularity = 31.4,
 							priority = 1,
 						},
 						{
@@ -21832,14 +21826,14 @@ local bisData = {
 							itemName = "Scornbane Waistguard",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 23.5,
+							popularity = 23.8,
 							priority = 2,
 						},
 						{
 							itemID = 249994,
 							itemName = "Girdle of the Black Talon",
 							sourceType = "raid",
-							popularity = 12.9,
+							popularity = 12.8,
 							priority = 3,
 						},
 						{
@@ -21855,7 +21849,7 @@ local bisData = {
 							itemName = "Waistcord of the Judged",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 9.0,
+							popularity = 8.6,
 							priority = 5,
 						},
 					},
@@ -21906,7 +21900,7 @@ local bisData = {
 							itemID = 249999,
 							itemName = "Spelltreads of the Black Talon",
 							sourceType = "raid",
-							popularity = 58.3,
+							popularity = 59.0,
 							priority = 1,
 						},
 						{
@@ -21922,14 +21916,14 @@ local bisData = {
 							itemName = "Farstrider's Razor Talons",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 7.7,
+							popularity = 7.4,
 							priority = 3,
 						},
 						{
 							itemID = 249646,
 							itemName = "Elder Mossclogs",
 							sourceType = "raid",
-							popularity = 6.7,
+							popularity = 6.6,
 							priority = 4,
 						},
 						{
@@ -21937,7 +21931,7 @@ local bisData = {
 							itemName = "Darkstrider Treads",
 							dropSource = "March on Quel'Danas",
 							sourceType = "raid",
-							popularity = 6.6,
+							popularity = 6.5,
 							priority = 5,
 						},
 					},
@@ -21947,7 +21941,7 @@ local bisData = {
 							itemName = "Farstrider's Plated Bracers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 74.5,
+							popularity = 74.8,
 							priority = 1,
 						},
 						{
@@ -21963,14 +21957,14 @@ local bisData = {
 							itemName = "Amberfrond Bracers",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 4.0,
+							popularity = 3.8,
 							priority = 3,
 						},
 						{
 							itemID = 249652,
 							itemName = "Elder Mossbands",
 							sourceType = "raid",
-							popularity = 3.6,
+							popularity = 3.5,
 							priority = 4,
 						},
 						{
@@ -21978,7 +21972,7 @@ local bisData = {
 							itemName = "Darkfang Scale Wristguards",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 3.3,
+							popularity = 3.2,
 							priority = 5,
 						},
 					},
@@ -21988,7 +21982,7 @@ local bisData = {
 							itemName = "Enforcer's Grips of the Black Talon",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 63.0,
+							popularity = 63.1,
 							priority = 1,
 						},
 						{
@@ -21996,14 +21990,14 @@ local bisData = {
 							itemName = "Farstrider's Sharpened Claws",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 13.9,
+							popularity = 14.4,
 							priority = 2,
 						},
 						{
 							itemID = 249647,
 							itemName = "Elder Mossfeelers",
 							sourceType = "raid",
-							popularity = 8.7,
+							popularity = 8.4,
 							priority = 3,
 						},
 						{
@@ -22011,7 +22005,7 @@ local bisData = {
 							itemName = "Untethered Berserker's Grips",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 8.6,
+							popularity = 8.3,
 							priority = 4,
 						},
 						{
@@ -22029,7 +22023,7 @@ local bisData = {
 							itemName = "Occlusion of Void",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 57.9,
+							popularity = 58.5,
 							priority = 1,
 						},
 						{
@@ -22037,7 +22031,7 @@ local bisData = {
 							itemName = "Purloined Wedding Ring",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
-							popularity = 38.5,
+							popularity = 38.9,
 							priority = 2,
 						},
 						{
@@ -22053,7 +22047,7 @@ local bisData = {
 							itemName = "Signet of the Starved Beast",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 23.0,
+							popularity = 22.9,
 							priority = 4,
 						},
 						{
@@ -22061,7 +22055,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 21.4,
+							popularity = 21.5,
 							priority = 5,
 						},
 					},
@@ -22071,7 +22065,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 64.7,
+							popularity = 65.3,
 							priority = 1,
 						},
 						{
@@ -22079,7 +22073,7 @@ local bisData = {
 							itemName = "Vaelgor's Final Stare",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 64.0,
+							popularity = 64.1,
 							priority = 2,
 						},
 						{
@@ -22087,7 +22081,7 @@ local bisData = {
 							itemName = "Soulcatcher's Charm",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 13.5,
+							popularity = 13.8,
 							priority = 3,
 						},
 						{
@@ -22095,7 +22089,7 @@ local bisData = {
 							itemName = "Locus-Walker's Ribbon",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 13.3,
+							popularity = 13.0,
 							priority = 4,
 						},
 						{
@@ -22103,7 +22097,7 @@ local bisData = {
 							itemName = "Heart of Wind",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 12.6,
+							popularity = 12.7,
 							priority = 5,
 						},
 					},
@@ -22113,7 +22107,7 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 47.8,
+							popularity = 48.1,
 							priority = 1,
 						},
 						{
@@ -22121,7 +22115,7 @@ local bisData = {
 							itemName = "Defiant Defender's Drape",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 10.9,
+							popularity = 10.6,
 							priority = 2,
 						},
 						{
@@ -22129,7 +22123,7 @@ local bisData = {
 							itemName = "Draconic Nullcape",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 8.0,
+							popularity = 8.3,
 							priority = 3,
 						},
 						{
@@ -22154,7 +22148,7 @@ local bisData = {
 							itemName = "Aln'hara Cane",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 54.4,
+							popularity = 53.7,
 							priority = 1,
 						},
 						{
@@ -22162,7 +22156,7 @@ local bisData = {
 							itemName = "Ceremonial Hexblade",
 							dropSource = "Maisara Caverns",
 							sourceType = "raid",
-							popularity = 5.5,
+							popularity = 5.7,
 							priority = 2,
 						},
 						{
@@ -22170,23 +22164,23 @@ local bisData = {
 							itemName = "Magister's Valediction",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 5.4,
+							popularity = 5.3,
 							priority = 3,
-						},
-						{
-							itemID = 249293,
-							itemName = "Weight of Command",
-							dropSource = "The Voidspire",
-							sourceType = "raid",
-							popularity = 4.6,
-							priority = 4,
 						},
 						{
 							itemID = 251201,
 							itemName = "Corespark Multitool",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 4.4,
+							popularity = 4.7,
+							priority = 4,
+						},
+						{
+							itemID = 249293,
+							itemName = "Weight of Command",
+							dropSource = "The Voidspire",
+							sourceType = "raid",
+							popularity = 4.7,
 							priority = 5,
 						},
 					},
@@ -22196,7 +22190,7 @@ local bisData = {
 							itemName = "Grimoire of the Eternal Light",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 18.7,
+							popularity = 18.9,
 							priority = 1,
 						},
 						{
@@ -22204,7 +22198,7 @@ local bisData = {
 							itemName = "Tome of Alnscorned Regret",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 5.3,
+							popularity = 5.6,
 							priority = 2,
 						},
 						{
@@ -22212,7 +22206,7 @@ local bisData = {
 							itemName = "Vexamus' Expulsion Rod",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 1.6,
+							popularity = 1.5,
 							priority = 3,
 						},
 						{
@@ -22220,7 +22214,7 @@ local bisData = {
 							itemName = "Aln'hara Lantern",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 1.2,
+							popularity = 1.1,
 							priority = 4,
 						},
 						{
@@ -22228,7 +22222,7 @@ local bisData = {
 							itemName = "Sigil of the Restless Heart",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 0.9,
+							popularity = 1.0,
 							priority = 5,
 						},
 					},
@@ -22242,7 +22236,7 @@ local bisData = {
 							itemName = "Hornhelm of the Black Talon",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 85.6,
+							popularity = 85.2,
 							priority = 1,
 						},
 						{
@@ -22284,7 +22278,7 @@ local bisData = {
 							itemName = "Ribbon of Coiled Malice",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 21.6,
+							popularity = 21.5,
 							priority = 1,
 						},
 						{
@@ -22292,7 +22286,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Amulet",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 19.8,
+							popularity = 19.7,
 							priority = 2,
 						},
 						{
@@ -22307,7 +22301,7 @@ local bisData = {
 							itemID = 266314,
 							itemName = "Novice Combatant's Necklace",
 							sourceType = "raid",
-							popularity = 13.0,
+							popularity = 12.9,
 							priority = 4,
 						},
 						{
@@ -22325,7 +22319,7 @@ local bisData = {
 							itemName = "Beacons of the Black Talon",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 92.5,
+							popularity = 92.0,
 							priority = 1,
 						},
 						{
@@ -22367,7 +22361,7 @@ local bisData = {
 							itemName = "Frenzyward of the Black Talon",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 93.6,
+							popularity = 93.1,
 							priority = 1,
 						},
 						{
@@ -22408,7 +22402,7 @@ local bisData = {
 							itemID = 249994,
 							itemName = "Girdle of the Black Talon",
 							sourceType = "raid",
-							popularity = 26.7,
+							popularity = 26.5,
 							priority = 1,
 						},
 						{
@@ -22416,7 +22410,7 @@ local bisData = {
 							itemName = "Scornbane Waistguard",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 26.3,
+							popularity = 26.1,
 							priority = 2,
 						},
 						{
@@ -22424,7 +22418,7 @@ local bisData = {
 							itemName = "World Tender's Barkclasp",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 20.3,
+							popularity = 20.2,
 							priority = 3,
 						},
 						{
@@ -22450,7 +22444,7 @@ local bisData = {
 							itemName = "Greaves of the Black Talon",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 93.6,
+							popularity = 93.1,
 							priority = 1,
 						},
 						{
@@ -22473,7 +22467,7 @@ local bisData = {
 							itemID = 249649,
 							itemName = "Elder Mossvein Breeches",
 							sourceType = "raid",
-							popularity = 1.0,
+							popularity = 0.9,
 							priority = 4,
 						},
 						{
@@ -22490,7 +22484,7 @@ local bisData = {
 							itemID = 249999,
 							itemName = "Spelltreads of the Black Talon",
 							sourceType = "raid",
-							popularity = 23.2,
+							popularity = 23.1,
 							priority = 1,
 						},
 						{
@@ -22498,7 +22492,7 @@ local bisData = {
 							itemName = "World Tender's Rootslippers",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 19.7,
+							popularity = 19.6,
 							priority = 2,
 						},
 						{
@@ -22514,7 +22508,7 @@ local bisData = {
 							itemName = "Sabatons of Obscurement",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 12.7,
+							popularity = 12.6,
 							priority = 4,
 						},
 						{
@@ -22532,7 +22526,7 @@ local bisData = {
 							itemName = "Fallen King's Cuffs",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 35.5,
+							popularity = 35.3,
 							priority = 1,
 						},
 						{
@@ -22540,7 +22534,7 @@ local bisData = {
 							itemName = "Farstrider's Plated Bracers",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 35.3,
+							popularity = 35.2,
 							priority = 2,
 						},
 						{
@@ -22548,7 +22542,7 @@ local bisData = {
 							itemName = "Amberfrond Bracers",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 10.0,
+							popularity = 9.9,
 							priority = 3,
 						},
 						{
@@ -22564,7 +22558,7 @@ local bisData = {
 							itemName = "Darkfang Scale Wristguards",
 							dropSource = "Seat of the Triumvirate",
 							sourceType = "raid",
-							popularity = 5.6,
+							popularity = 5.5,
 							priority = 5,
 						},
 					},
@@ -22574,7 +22568,7 @@ local bisData = {
 							itemName = "Enforcer's Grips of the Black Talon",
 							dropSource = "Tier / Catalyst",
 							sourceType = "raid",
-							popularity = 56.5,
+							popularity = 56.2,
 							priority = 1,
 						},
 						{
@@ -22590,7 +22584,7 @@ local bisData = {
 							itemName = "Grips of Forgotten Honor",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 10.6,
+							popularity = 10.5,
 							priority = 3,
 						},
 						{
@@ -22615,7 +22609,7 @@ local bisData = {
 							itemName = "Bond of Light",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 27.5,
+							popularity = 27.3,
 							priority = 1,
 						},
 						{
@@ -22623,7 +22617,7 @@ local bisData = {
 							itemName = "Masterwork Sin'dorei Band",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 24.8,
+							popularity = 24.6,
 							priority = 2,
 						},
 						{
@@ -22631,7 +22625,7 @@ local bisData = {
 							itemName = "Bifurcation Band",
 							dropSource = "Magisters' Terrace",
 							sourceType = "raid",
-							popularity = 24.7,
+							popularity = 24.6,
 							priority = 3,
 						},
 						{
@@ -22639,7 +22633,7 @@ local bisData = {
 							itemName = "Platinum Star Band",
 							dropSource = "Algeth'ar Academy",
 							sourceType = "raid",
-							popularity = 24.1,
+							popularity = 24.0,
 							priority = 4,
 						},
 						{
@@ -22647,7 +22641,7 @@ local bisData = {
 							itemName = "Omission of Light",
 							dropSource = "Nexus-Point Xenas",
 							sourceType = "raid",
-							popularity = 22.4,
+							popularity = 22.3,
 							priority = 5,
 						},
 					},
@@ -22657,7 +22651,7 @@ local bisData = {
 							itemName = "Gaze of the Alnseer",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 77.8,
+							popularity = 77.5,
 							priority = 1,
 						},
 						{
@@ -22665,7 +22659,7 @@ local bisData = {
 							itemName = "Locus-Walker's Ribbon",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 32.7,
+							popularity = 32.6,
 							priority = 2,
 						},
 						{
@@ -22673,7 +22667,7 @@ local bisData = {
 							itemName = "Vaelgor's Final Stare",
 							dropSource = "The Voidspire",
 							sourceType = "raid",
-							popularity = 22.8,
+							popularity = 22.7,
 							priority = 3,
 						},
 						{
@@ -22688,7 +22682,7 @@ local bisData = {
 							itemName = "Heart of Wind",
 							dropSource = "Windrunner Spire",
 							sourceType = "raid",
-							popularity = 10.6,
+							popularity = 10.5,
 							priority = 5,
 						},
 					},
@@ -22697,7 +22691,7 @@ local bisData = {
 							itemID = 249992,
 							itemName = "Shroud of the Black Talon",
 							sourceType = "raid",
-							popularity = 31.3,
+							popularity = 31.2,
 							priority = 1,
 						},
 						{
@@ -22705,7 +22699,7 @@ local bisData = {
 							itemName = "Adherent's Silken Shroud",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 19.3,
+							popularity = 19.2,
 							priority = 2,
 						},
 						{
@@ -22739,7 +22733,7 @@ local bisData = {
 							itemName = "Aln'hara Cane",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 52.7,
+							popularity = 52.4,
 							priority = 1,
 						},
 						{
@@ -22755,7 +22749,7 @@ local bisData = {
 							itemName = "Magister's Valediction",
 							dropSource = "Crafted",
 							sourceType = "raid",
-							popularity = 6.7,
+							popularity = 6.6,
 							priority = 3,
 						},
 						{
@@ -22781,7 +22775,7 @@ local bisData = {
 							itemName = "Tome of Alnscorned Regret",
 							dropSource = "The Dreamrift",
 							sourceType = "raid",
-							popularity = 6.8,
+							popularity = 6.7,
 							priority = 1,
 						},
 						{
