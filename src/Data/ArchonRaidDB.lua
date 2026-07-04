@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.ArchonRaidDB = addonTable.ArchonRaidDB or {}
 
 local bisData = {
-	updated = "2026-07-03 03:03:00",
+	updated = "2026-07-04 03:02:46",
 
 	[1] = {
 		specs = {
@@ -3981,7 +3981,7 @@ local bisData = {
 						},
 						{
 							itemID = 50228,
-							itemName = "Barbed Ymirheim Choker",
+							itemName = "尖刺伊米亚颈饰",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
 							popularity = 5.8,
@@ -5058,7 +5058,7 @@ local bisData = {
 					[2] = {
 						{
 							itemID = 50228,
-							itemName = "Barbed Ymirheim Choker",
+							itemName = "尖刺伊米亚颈饰",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
 							popularity = 48.2,
@@ -5184,7 +5184,7 @@ local bisData = {
 						},
 						{
 							itemID = 49806,
-							itemName = "Flayer's Black Belt",
+							itemName = "鞭笞者的黑色腰带",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
 							popularity = 26.4,
@@ -5234,7 +5234,7 @@ local bisData = {
 						},
 						{
 							itemID = 49817,
-							itemName = "Shaggy Wyrmleather Leggings",
+							itemName = "蓬松的龙皮护腿",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
 							popularity = 15.1,
@@ -5309,7 +5309,7 @@ local bisData = {
 						},
 						{
 							itemID = 50264,
-							itemName = "Chewed Leather Wristguards",
+							itemName = "碎羽护腕",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
 							popularity = 24.6,
@@ -5368,7 +5368,7 @@ local bisData = {
 					[11] = {
 						{
 							itemID = 49812,
-							itemName = "Purloined Wedding Ring",
+							itemName = "被盗的婚戒",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
 							popularity = 46.8,
@@ -5476,7 +5476,7 @@ local bisData = {
 						},
 						{
 							itemID = 49823,
-							itemName = "Cloak of the Fallen Cardinal",
+							itemName = "阵亡主教斗篷",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
 							popularity = 13.1,
@@ -5494,7 +5494,7 @@ local bisData = {
 					[16] = {
 						{
 							itemID = 49807,
-							itemName = "Krick's Beetle Stabber",
+							itemName = "科瑞克的甲虫刀",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
 							popularity = 53.8,
@@ -5544,7 +5544,7 @@ local bisData = {
 						},
 						{
 							itemID = 49807,
-							itemName = "Krick's Beetle Stabber",
+							itemName = "科瑞克的甲虫刀",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
 							popularity = 3.7,
@@ -6232,7 +6232,7 @@ local bisData = {
 						},
 						{
 							itemID = 50228,
-							itemName = "Barbed Ymirheim Choker",
+							itemName = "尖刺伊米亚颈饰",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
 							popularity = 11.9,
@@ -6326,7 +6326,7 @@ local bisData = {
 						},
 						{
 							itemID = 49806,
-							itemName = "Flayer's Black Belt",
+							itemName = "鞭笞者的黑色腰带",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
 							popularity = 7.7,
@@ -6344,7 +6344,7 @@ local bisData = {
 					[7] = {
 						{
 							itemID = 49817,
-							itemName = "Shaggy Wyrmleather Leggings",
+							itemName = "蓬松的龙皮护腿",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
 							popularity = 35.5,
@@ -6443,7 +6443,7 @@ local bisData = {
 						},
 						{
 							itemID = 50264,
-							itemName = "Chewed Leather Wristguards",
+							itemName = "碎羽护腕",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
 							popularity = 9.9,
@@ -6659,7 +6659,7 @@ local bisData = {
 						},
 						{
 							itemID = 49807,
-							itemName = "Krick's Beetle Stabber",
+							itemName = "科瑞克的甲虫刀",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
 							popularity = 15.6,
@@ -6693,7 +6693,7 @@ local bisData = {
 						},
 						{
 							itemID = 49807,
-							itemName = "Krick's Beetle Stabber",
+							itemName = "科瑞克的甲虫刀",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
 							popularity = 2.6,
@@ -14136,7 +14136,7 @@ local bisData = {
 						},
 						{
 							itemID = 50228,
-							itemName = "Barbed Ymirheim Choker",
+							itemName = "尖刺伊米亚颈饰",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
 							popularity = 19.1,
@@ -14228,7 +14228,7 @@ local bisData = {
 						},
 						{
 							itemID = 49825,
-							itemName = "Palebone Robes",
+							itemName = "灰骨法袍",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
 							popularity = 0.5,
@@ -14345,7 +14345,7 @@ local bisData = {
 						},
 						{
 							itemID = 49805,
-							itemName = "Ice-Steeped Sandals",
+							itemName = "踏冰软鞋",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
 							popularity = 8.8,
@@ -15292,7 +15292,7 @@ local bisData = {
 						},
 						{
 							itemID = 50228,
-							itemName = "Barbed Ymirheim Choker",
+							itemName = "尖刺伊米亚颈饰",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
 							popularity = 2.3,
@@ -15541,7 +15541,7 @@ local bisData = {
 						},
 						{
 							itemID = 50264,
-							itemName = "Chewed Leather Wristguards",
+							itemName = "碎羽护腕",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
 							popularity = 1.8,
@@ -15683,7 +15683,7 @@ local bisData = {
 						},
 						{
 							itemID = 49823,
-							itemName = "Cloak of the Fallen Cardinal",
+							itemName = "阵亡主教斗篷",
 							dropSource = "Pit of Saron",
 							sourceType = "raid",
 							popularity = 10.8,
