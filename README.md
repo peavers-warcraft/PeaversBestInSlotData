@@ -1,25 +1,21 @@
 # PeaversBestInSlotData
 
-A data library addon for World of Warcraft that provides Best in Slot gear recommendations for all classes and specs.
-
-**Website:** [peavers.io](https://peavers.io) | **Addon Backup:** [vault.peavers.io](https://vault.peavers.io) | **Issues:** [GitHub](https://github.com/peavers-warcraft/PeaversBestInSlotData/issues)
-
-## Data Source
-
-This addon is updated daily with Best in Slot recommendations from [wowcompare.io](https://wowcompare.io), a trusted source for high-end WoW theorycrafting and gear optimization.
+A data library addon for World of Warcraft that provides daily updated Best-in-Slot gear information from wowcompare.io.
 
 ## Features
 
+<!-- peavers:features -->
 - Best in Slot gear data for all classes and specializations
 - Supports both Raid and Mythic+ content
 - Drop source information (boss/dungeon names)
 - Priority rankings (BiS vs alternatives)
 - Designed for integration with other addons
+<!-- /peavers:features -->
 
-## Installation
+<!-- peavers:custom -->
+## Data Source
 
-1. Download from [CurseForge](https://www.curseforge.com/wow/addons/peaversbestinslotdata)
-2. This library is used by other addons and doesn't require direct user interaction
+This addon is updated daily with Best in Slot recommendations from [wowcompare.io](https://wowcompare.io), a trusted source for high-end WoW theorycrafting and gear optimization.
 
 ## For Developers
 
@@ -47,3 +43,12 @@ local sources = BiSData.API.GetSources()
 ```
 
 See [PeaversBestInSlot](https://github.com/peavers-warcraft/PeaversBestInSlot) for a practical implementation example.
+<!-- /peavers:custom -->
+
+## Installation
+
+This is a data library used by other Peavers addons and doesn't require direct user interaction. [PeaversUpdater](https://github.com/peavers-warcraft/PeaversUpdater/releases/latest) installs and updates it automatically alongside its parent addon, or download it directly from [CurseForge](https://www.curseforge.com/wow/addons/peaversbestinslotdata).
+
+---
+
+*Part of the [Peavers](https://peavers.io) addon collection · [Report an issue](https://github.com/peavers-warcraft/PeaversBestInSlotData/issues) · [Support development on Patreon](https://www.patreon.com/Peavers)*
