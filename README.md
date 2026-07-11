@@ -45,6 +45,7 @@ local sources = BiSData.API.GetSources()
 See [PeaversBestInSlot](https://github.com/peavers-warcraft/PeaversBestInSlot) for a practical implementation example.
 <!-- /peavers:custom -->
 
+
 ## Installation
 
 This is a data library used by other Peavers addons and doesn't require direct user interaction. [PeaversUpdater](https://github.com/peavers-warcraft/PeaversUpdater/releases/latest) installs and updates it automatically alongside its parent addon, or download it directly from [CurseForge](https://www.curseforge.com/wow/addons/peaversbestinslotdata).
