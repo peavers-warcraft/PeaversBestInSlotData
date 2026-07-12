@@ -1,5 +1,7 @@
 # PeaversBestInSlotData
 
+[![AddonSentry](https://api.addonsentry.io/api/public/repos/peavers-warcraft/PeaversBestInSlotData/badge.svg)](https://addonsentry.io/dashboard/peavers-warcraft/PeaversBestInSlotData)
+
 A data library addon for World of Warcraft that provides daily updated Best-in-Slot gear information from wowcompare.io.
 
 ## Features
