@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.WowCompareDB = addonTable.WowCompareDB or {}
 
 local bisData = {
-	updated = "2026-07-26 03:02:53",
+	updated = "2026-07-27 03:02:44",
 
 	[1] = {
 		specs = {
