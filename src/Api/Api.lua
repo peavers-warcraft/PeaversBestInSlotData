@@ -11,300 +11,214 @@ local API = publicAPI.API
 -- Constants for error messages
 local ERR_INVALID_CLASS = "Invalid class ID provided"
 local ERR_INVALID_SPEC = "Invalid specialization ID provided"
-local ERR_INVALID_SOURCE = "Invalid source provided. Valid sources are: 'wowcompare'"
-local ERR_INVALID_CONTENT = "Invalid content type. Valid types are: 'raid', 'dungeon'"
 local ERR_INVALID_SLOT = "Invalid slot ID provided"
 
--- Provider configuration
-local PROVIDERS = {
-    wowcompare = {
-        databases = {
-            raid = { db = "WowCompareRaidDB", category = "raid" },
-            dungeon = { db = "WowCompareMythicDB", category = "dungeon" },
-        }
-    },
-}
+-- The table src/Data/BestInSlot.lua installs on the addon table. Both that name
+-- and the file's are deliberately source-agnostic: the sibling data addon named
+-- its file after its source, a source change renamed it, the TOC kept loading
+-- the old name, and thirty green bot commits landed in a file the game never
+-- opened. Do not rename this after a source; it is the contract with the
+-- generator.
+local DB = "BestInSlotData"
 
--- Valid slot IDs (excluding shirt slot 4)
-local VALID_SLOTS = {1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17}
+-- Slot IDs that carry data. Rings and trinkets collapse onto the first of each
+-- pair -- 11 and 13 -- because the source recommends a set for the pair rather
+-- than one item per finger, so both entries live in one ranked list. Callers
+-- normalise 12 and 14 onto them; NormalizeSlotID does it for you.
+local VALID_SLOTS = { 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 13, 15, 16, 17 }
 
 -- Slot ID to display name mapping
 local SLOT_NAMES = {
-    [1] = "Head",
-    [2] = "Neck",
-    [3] = "Shoulder",
-    [5] = "Chest",
-    [6] = "Waist",
-    [7] = "Legs",
-    [8] = "Feet",
-    [9] = "Wrist",
-    [10] = "Hands",
-    [11] = "Ring",
-    [12] = "Ring",
-    [13] = "Trinket",
-    [14] = "Trinket",
-    [15] = "Back",
-    [16] = "Main Hand",
-    [17] = "Off Hand",
+	[1] = "Head",
+	[2] = "Neck",
+	[3] = "Shoulder",
+	[5] = "Chest",
+	[6] = "Waist",
+	[7] = "Legs",
+	[8] = "Feet",
+	[9] = "Wrist",
+	[10] = "Hands",
+	[11] = "Ring",
+	[13] = "Trinket",
+	[15] = "Back",
+	[16] = "Main Hand",
+	[17] = "Off Hand",
 }
+
+-- Paired slots the data does not key separately
+local PAIRED_SLOTS = {
+	[12] = 11, -- second ring
+	[14] = 13, -- second trinket
+}
+
+---Fold the second ring or trinket slot onto the one the data is keyed by
+---@param slotID number An equipment slot ID
+---@return number slotID The slot ID to look data up under
+function API.NormalizeSlotID(slotID)
+	return PAIRED_SLOTS[slotID] or slotID
+end
 
 ---Helper function to validate inputs for API functions
 ---@param classID number The WoW class ID (1-13)
 ---@param specID number|nil The specialization ID
----@param source string|nil The source of BiS data
----@param contentType string|nil The content type ("raid" or "dungeon")
 ---@param slotID number|nil The equipment slot ID
 ---@return boolean isValid Whether the inputs are valid
 ---@return string|nil errorMsg Error message if validation fails
-local function ValidateInputs(classID, specID, source, contentType, slotID)
-    if not classID or type(classID) ~= "number" or classID < 1 or classID > 13 then
-        return false, ERR_INVALID_CLASS
-    end
+local function ValidateInputs(classID, specID, slotID)
+	if not classID or type(classID) ~= "number" or classID < 1 or classID > 13 then
+		return false, ERR_INVALID_CLASS
+	end
 
-    if specID and (type(specID) ~= "number" or specID < 1) then
-        return false, ERR_INVALID_SPEC
-    end
+	if specID and (type(specID) ~= "number" or specID < 1) then
+		return false, ERR_INVALID_SPEC
+	end
 
-    if source and not PROVIDERS[source] then
-        return false, ERR_INVALID_SOURCE
-    end
+	if slotID then
+		if type(slotID) ~= "number" or not SLOT_NAMES[API.NormalizeSlotID(slotID)] then
+			return false, ERR_INVALID_SLOT
+		end
+	end
 
-    if contentType and contentType ~= "raid" and contentType ~= "dungeon" then
-        return false, ERR_INVALID_CONTENT
-    end
-
-    if slotID then
-        local validSlot = false
-        for _, id in ipairs(VALID_SLOTS) do
-            if id == slotID then
-                validSlot = true
-                break
-            end
-        end
-        if not validSlot then
-            return false, ERR_INVALID_SLOT
-        end
-    end
-
-    return true, nil
+	return true, nil
 end
 
----Get BiS items for a specific slot
+---Get the Best-in-Slot items for one equipment slot
 ---@param classID number The WoW class ID (1-13)
 ---@param specID number The specialization ID
----@param slotID number The equipment slot ID (1-17, excluding 4)
----@param contentType string|nil "raid" or "dungeon" (default: "raid")
----@param source string|nil "wowcompare" (default: all sources)
----@return table|nil items Array of BiS item tables
+---@param slotID number The equipment slot ID (12 and 14 fold onto 11 and 13)
+---@return table|nil items Array of item tables, best first
 ---@return string|nil errorMsg Error message if request fails
-function API.GetBiSForSlot(classID, specID, slotID, contentType, source)
-    local isValid, errorMsg = ValidateInputs(classID, specID, source, contentType, slotID)
-    if not isValid then
-        return nil, errorMsg
-    end
+function API.GetBiSForSlot(classID, specID, slotID)
+	local isValid, errorMsg = ValidateInputs(classID, specID, slotID)
+	if not isValid then
+		return nil, errorMsg
+	end
 
-    contentType = contentType or "raid"
-    local items = {}
+	local db = addon[DB]
+	if not db then return {} end
+	if not db[classID] then return {} end
+	if not db[classID].specs then return {} end
 
-    local function ProcessProvider(providerName, config)
-        local dbConfig = config.databases[contentType]
-        if not dbConfig then return end
+	local spec = db[classID].specs[specID]
+	if not spec then return {} end
 
-        local db = addon[dbConfig.db]
-        if not db then return end
-        if not db[classID] then return end
-        if not db[classID].specs then return end
-        if not db[classID].specs[specID] then return end
-        if not db[classID].specs[specID][contentType] then return end
-        if not db[classID].specs[specID][contentType][slotID] then return end
+	local slotItems = spec[API.NormalizeSlotID(slotID)]
+	if not slotItems then return {} end
 
-        local slotItems = db[classID].specs[specID][contentType][slotID]
-        for _, item in ipairs(slotItems) do
-            -- Prefer dropSource baked into DB, fall back to runtime lookup
-            local dropSource = item.dropSource
-            if (not dropSource or dropSource == "") and addon.DropSourceProvider then
-                dropSource = addon.DropSourceProvider:GetDropSource(item.itemID)
-            end
+	local items = {}
+	for _, item in ipairs(slotItems) do
+		table.insert(items, {
+			itemID = item.itemID,
+			itemName = item.itemName,
+			quality = item.quality,
+			dropSource = item.dropSource,
+			variant = item.variant,
+			priority = item.priority or 1,
+			slotID = API.NormalizeSlotID(slotID),
+			updated = db.updated,
+		})
+	end
 
-            table.insert(items, {
-                source = providerName,
-                itemID = item.itemID,
-                itemName = item.itemName,
-                dropSource = dropSource,
-                sourceType = item.sourceType,
-                priority = item.priority or 1,
-                popularity = item.popularity or 0,
-                updated = db.updated,
-            })
-        end
-    end
-
-    if source then
-        ProcessProvider(source, PROVIDERS[source])
-    else
-        for providerName, config in pairs(PROVIDERS) do
-            ProcessProvider(providerName, config)
-        end
-    end
-
-    -- Sort by priority (lower is better)
-    table.sort(items, function(a, b)
-        return (a.priority or 99) < (b.priority or 99)
-    end)
-
-    return items
+	-- The data file already lists a slot best-first, so no re-sort here
+	return items
 end
 
----Check if an item is BiS for any spec
----@param itemID number The item ID to check
----@param contentType string|nil "raid" or "dungeon" (default: both)
----@param source string|nil "wowcompare" (default: all sources)
----@return table|nil bisInfo Table with class/spec/slot info where this item is BiS
-function API.IsItemBiS(itemID, contentType, source)
-    if not itemID or type(itemID) ~= "number" then
-        return nil
-    end
-
-    local results = {}
-
-    local function SearchInProvider(providerName, config)
-        local contentTypes = contentType and {contentType} or {"raid", "dungeon"}
-
-        for _, cType in ipairs(contentTypes) do
-            local dbConfig = config.databases[cType]
-            if dbConfig then
-                local db = addon[dbConfig.db]
-                if db then
-                    for classID, classData in pairs(db) do
-                        if type(classID) == "number" and classData.specs then
-                            for specID, specData in pairs(classData.specs) do
-                                if specData[cType] then
-                                    for slotID, slotItems in pairs(specData[cType]) do
-                                        for _, item in ipairs(slotItems) do
-                                            if item.itemID == itemID then
-                                                -- Prefer dropSource baked into DB, fall back to runtime lookup
-                                                local dropSource = item.dropSource
-                                                if (not dropSource or dropSource == "") and addon.DropSourceProvider then
-                                                    dropSource = addon.DropSourceProvider:GetDropSource(item.itemID)
-                                                end
-
-                                                table.insert(results, {
-                                                    source = providerName,
-                                                    contentType = cType,
-                                                    classID = classID,
-                                                    specID = specID,
-                                                    slotID = slotID,
-                                                    itemID = item.itemID,
-                                                    priority = item.priority or 1,
-                                                    popularity = item.popularity or 0,
-                                                    dropSource = dropSource,
-                                                })
-                                            end
-                                        end
-                                    end
-                                end
-                            end
-                        end
-                    end
-                end
-            end
-        end
-    end
-
-    if source then
-        SearchInProvider(source, PROVIDERS[source])
-    else
-        for providerName, config in pairs(PROVIDERS) do
-            SearchInProvider(providerName, config)
-        end
-    end
-
-    if #results > 0 then
-        return results
-    end
-    return nil
-end
-
----Get all BiS items for a spec
+---Get every Best-in-Slot item for a spec
 ---@param classID number The WoW class ID (1-13)
 ---@param specID number The specialization ID
----@param contentType string|nil "raid" or "dungeon" (default: "raid")
----@param source string|nil "wowcompare" (default: all sources)
----@return table|nil bisList Table of slotID -> items
+---@return table|nil bisList Table of slotID -> items array (only slots with data)
 ---@return string|nil errorMsg Error message if request fails
-function API.GetFullBiSList(classID, specID, contentType, source)
-    local isValid, errorMsg = ValidateInputs(classID, specID, source, contentType, nil)
-    if not isValid then
-        return nil, errorMsg
-    end
+function API.GetFullBiSList(classID, specID)
+	local isValid, errorMsg = ValidateInputs(classID, specID, nil)
+	if not isValid then
+		return nil, errorMsg
+	end
 
-    local bisList = {}
+	local bisList = {}
 
-    for _, slotID in ipairs(VALID_SLOTS) do
-        local items = API.GetBiSForSlot(classID, specID, slotID, contentType, source)
-        if items and #items > 0 then
-            bisList[slotID] = items
-        end
-    end
+	for _, slotID in ipairs(VALID_SLOTS) do
+		local items = API.GetBiSForSlot(classID, specID, slotID)
+		if items and #items > 0 then
+			bisList[slotID] = items
+		end
+	end
 
-    return bisList
+	return bisList
 end
 
----Get available sources with their last update timestamps
----@param source string|nil Optional source filter
----@return table updates Table of source -> contentType -> timestamp
-function API.GetLastUpdate(source)
-    local updates = {}
+---Find every class and spec that wants an item
+---@param itemID number The item ID to look for
+---@return table|nil matches Array of { classID, specID, slotID, priority, variant, dropSource }
+function API.IsItemBiS(itemID)
+	if not itemID or type(itemID) ~= "number" then
+		return nil
+	end
 
-    local function ProcessProvider(providerName, config)
-        updates[providerName] = {}
-        for contentType, dbConfig in pairs(config.databases) do
-            local db = addon[dbConfig.db]
-            updates[providerName][contentType] = db and db.updated
-        end
-    end
+	local db = addon[DB]
+	if not db then return nil end
 
-    if source then
-        if PROVIDERS[source] then
-            ProcessProvider(source, PROVIDERS[source])
-        end
-    else
-        for providerName, config in pairs(PROVIDERS) do
-            ProcessProvider(providerName, config)
-        end
-    end
+	local matches = {}
 
-    return updates
+	for classID, classData in pairs(db) do
+		if type(classID) == "number" and classData.specs then
+			for specID, specData in pairs(classData.specs) do
+				for slotID, slotItems in pairs(specData) do
+					for _, item in ipairs(slotItems) do
+						if item.itemID == itemID then
+							table.insert(matches, {
+								classID = classID,
+								specID = specID,
+								slotID = slotID,
+								itemID = item.itemID,
+								itemName = item.itemName,
+								quality = item.quality,
+								dropSource = item.dropSource,
+								variant = item.variant,
+								priority = item.priority or 1,
+							})
+						end
+					end
+				end
+			end
+		end
+	end
+
+	if #matches > 0 then
+		return matches
+	end
+	return nil
 end
 
----Get list of available data sources
----@return table sources Array of source names with data
-function API.GetSources()
-    local sources = {}
+---Check whether any gear data exists for a spec
+---@param classID number The WoW class ID (1-13)
+---@param specID number The specialization ID
+---@return boolean hasData
+function API.HasData(classID, specID)
+	local bisList = API.GetFullBiSList(classID, specID)
+	if not bisList then
+		return false
+	end
+	return next(bisList) ~= nil
+end
 
-    for providerName, config in pairs(PROVIDERS) do
-        for _, dbConfig in pairs(config.databases) do
-            if addon[dbConfig.db] then
-                table.insert(sources, providerName)
-                break
-            end
-        end
-    end
-
-    return sources
+---When the data was last refreshed
+---@return string|nil timestamp "YYYY-MM-DD HH:MM:SS", or nil when no data is loaded
+function API.GetLastUpdate()
+	local db = addon[DB]
+	return db and db.updated
 end
 
 ---Get slot name for a slot ID
 ---@param slotID number The slot ID
 ---@return string|nil slotName The display name
 function API.GetSlotName(slotID)
-    return SLOT_NAMES[slotID]
+	return SLOT_NAMES[API.NormalizeSlotID(slotID)]
 end
 
----Get all valid slot IDs
----@return table slotIDs Array of valid slot IDs
+---Get all slot IDs that carry data
+---@return table slotIDs Array of slot IDs
 function API.GetValidSlots()
-    return VALID_SLOTS
+	return VALID_SLOTS
 end
 
 return API

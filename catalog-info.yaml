@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: PeaversBestInSlotData
-  description: "A data library addon for World of Warcraft that provides daily updated Best-in-Slot gear information from wowcompare.io."
+  description: "A data library addon for World of Warcraft that provides daily updated Best-in-Slot gear for every class and specialization."
   annotations:
     github.com/project-slug: peavers-warcraft/PeaversBestInSlotData
 spec:
