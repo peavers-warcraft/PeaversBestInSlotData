@@ -14,8 +14,6 @@
 
 Changelog.lua
 
-src\Data\WowCompareRaidDB.lua
-src\Data\WowCompareMythicDB.lua
+src\Data\BestInSlot.lua
 
-src\Api\DropSourceProvider.lua
 src\Api\Api.lua

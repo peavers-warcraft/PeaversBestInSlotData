@@ -2,49 +2,56 @@
 
 [![AddonSentry](https://addonsentry.io/api/public/repos/peavers-warcraft/PeaversBestInSlotData/badge.svg)](https://addonsentry.io/dashboard/peavers-warcraft/PeaversBestInSlotData)
 
-A data library addon for World of Warcraft that provides daily updated Best-in-Slot gear information from wowcompare.io.
+A data library addon for World of Warcraft that provides daily updated Best-in-Slot gear for every class and specialization.
 
 ## Features
 
 <!-- peavers:features -->
-- Best in Slot gear data for all classes and specializations
-- Supports both Raid and Mythic+ content
-- Drop source information (boss/dungeon names)
-- Priority rankings (BiS vs alternatives)
-- Designed for integration with other addons
+- Best-in-Slot gear for all 40 specializations, refreshed daily
+- Drop source for each piece: the boss, the dungeon, or how it is crafted
+- Ranked per slot, so the alternatives are there when the first pick is not
+- Clean public API consumed by [PeaversBestInSlot](https://github.com/peavers-warcraft/PeaversBestInSlot) and available to any addon
+- No configuration, no saved variables — pure data provider
 <!-- /peavers:features -->
 
 <!-- peavers:custom -->
-## Data Source
+## API
 
-This addon is updated daily with Best in Slot recommendations from [wowcompare.io](https://wowcompare.io), a trusted source for high-end WoW theorycrafting and gear optimization.
-
-## For Developers
-
-Import the library in your addon and access BiS data through the provided API.
-
-### API Methods
+The addon exposes a global `PeaversBestInSlotData.API`:
 
 ```lua
-local BiSData = _G.PeaversBestInSlotData
+local API = PeaversBestInSlotData.API
 
--- Get BiS items for a specific slot
-local items = BiSData.API.GetBiSForSlot(classID, specID, slotID, contentType, source)
+-- Every slot for a spec (Warrior = 1, Fury = 72)
+local bisList = API.GetFullBiSList(1, 72)
 
--- Check if an item is BiS for any spec
-local bisInfo = BiSData.API.IsItemBiS(itemID, contentType, source)
+-- One slot. 12 and 14 fold onto 11 and 13; NormalizeSlotID does it for you
+local rings = API.GetBiSForSlot(1, 72, 11)
 
--- Get full BiS list for a spec
-local bisList = BiSData.API.GetFullBiSList(classID, specID, contentType, source)
+-- Who else wants this item
+local matches = API.IsItemBiS(268265)
 
--- Get data freshness timestamps
-local updates = BiSData.API.GetLastUpdate(source)
-
--- Get available data sources
-local sources = BiSData.API.GetSources()
+-- Metadata
+API.HasData(1, 72)        -- boolean
+API.GetLastUpdate()       -- "2026-08-24 22:21:36"
+API.GetValidSlots()       -- slot ids that carry data
+API.GetSlotName(16)       -- "Main Hand"
 ```
 
-See [PeaversBestInSlot](https://github.com/peavers-warcraft/PeaversBestInSlot) for a practical implementation example.
+Each item row carries `itemID`, `itemName`, `quality`, `dropSource`, `variant`, `priority` and `slotID`.
+
+`variant` is set only where a spec has more than one recommended set — a hero
+talent, say, or a Mythic+ list beside the general one. It names every list that
+wants the item ("Deathbringer, San'layn"), and is an empty string on the usual
+single-list spec.
+
+Rings and trinkets are keyed under the first slot of each pair, 11 and 13, and
+hold both picks in one ranked list. The pair is interchangeable, and the source
+recommends a set rather than one item per finger.
+
+There is no source parameter and no content-type parameter. The data has one
+source at a time and the name of it is not part of this API — see
+`src/Data/BestInSlot.lua`, whose name is deliberately source-agnostic.
 <!-- /peavers:custom -->
 
 
