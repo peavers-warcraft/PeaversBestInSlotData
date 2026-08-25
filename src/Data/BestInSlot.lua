@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.BestInSlotData = addonTable.BestInSlotData or {}
 
 local bisData = {
-	updated = "2026-08-24 22:50:32",
+	updated = "2026-08-25 05:01:14",
 
 	[1] = {
 		specs = {
@@ -4069,10 +4069,10 @@ local bisData = {
 						priority = 1,
 					},
 					{
-						itemID = 250215,
-						itemName = "Freightrunner's Flask",
+						itemID = 273796,
+						itemName = "Vile Vial of Volatile Venom",
 						quality = 3,
-						dropSource = "Zaen Bladesorrow",
+						dropSource = "Rav'i",
 						variant = "",
 						priority = 2,
 					},
