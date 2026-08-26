@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.BestInSlotData = addonTable.BestInSlotData or {}
 
 local bisData = {
-	updated = "2026-08-25 05:01:14",
+	updated = "2026-08-26 05:01:11",
 
 	[1] = {
 		specs = {
@@ -883,10 +883,10 @@ local bisData = {
 				},
 				[11] = {
 					{
-						itemID = 252258,
-						itemName = "Sickening Signet of Atroxus",
-						quality = 3,
-						dropSource = "Voidscar Arena",
+						itemID = 268249,
+						itemName = "Vile Alchemist's Band",
+						quality = 4,
+						dropSource = "Vashnik the Malignant",
 						variant = "",
 						priority = 1,
 					},
