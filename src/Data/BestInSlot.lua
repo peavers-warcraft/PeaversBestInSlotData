@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.BestInSlotData = addonTable.BestInSlotData or {}
 
 local bisData = {
-	updated = "2026-08-26 05:01:11",
+	updated = "2026-08-27 05:01:13",
 
 	[1] = {
 		specs = {
@@ -3188,7 +3188,7 @@ local bisData = {
 						itemID = 271486,
 						itemName = "Fanged Raiment of the Ophidian Oracle",
 						quality = 4,
-						dropSource = "Ula'tek (Raid) & Catalyst",
+						dropSource = "Kings Rest & Catalyst",
 						variant = "",
 						priority = 1,
 					},
@@ -3208,7 +3208,7 @@ local bisData = {
 						itemID = 271482,
 						itemName = "Leggings of the Ophidian Oracle",
 						quality = 4,
-						dropSource = "The Coiled Altar (Raid) & Catalyst",
+						dropSource = "Temple of Sethraliss & Catalyst",
 						variant = "",
 						priority = 1,
 					},
@@ -3225,10 +3225,10 @@ local bisData = {
 				},
 				[9] = {
 					{
-						itemID = 251200,
-						itemName = "Saptorbane Guards",
+						itemID = 159380,
+						itemName = "Arc-Glass Bindings",
 						quality = 3,
-						dropSource = "The Blinding Vale",
+						dropSource = "Temple of Sethraliss",
 						variant = "",
 						priority = 1,
 					},
@@ -3238,7 +3238,7 @@ local bisData = {
 						itemID = 271484,
 						itemName = "Hexing Grips of the Ophidian Oracle",
 						quality = 4,
-						dropSource = "Nymrissa Wavebinder (Raid) & Catalyst",
+						dropSource = "The Blinding Vale & Catalyst",
 						variant = "",
 						priority = 1,
 					},
@@ -3253,10 +3253,10 @@ local bisData = {
 						priority = 1,
 					},
 					{
-						itemID = 159459,
-						itemName = "Ritual Binder's Ring",
+						itemID = 251148,
+						itemName = "Pilfered Precious Band",
 						quality = 3,
-						dropSource = "Kings Rest",
+						dropSource = "Den of Nalorakk",
 						variant = "",
 						priority = 2,
 					},
@@ -3271,20 +3271,20 @@ local bisData = {
 						priority = 1,
 					},
 					{
-						itemID = 270164,
-						itemName = "Gebbo's Bottomless Bag",
+						itemID = 270167,
+						itemName = "Wavecaller's Seastone",
 						quality = 4,
-						dropSource = "The Lost Explorers (Raid)",
+						dropSource = "Nymrissa Wavebinder (Raid)",
 						variant = "",
 						priority = 2,
 					},
 				},
 				[15] = {
 					{
-						itemID = 268253,
-						itemName = "Silken Voodoo Drape",
+						itemID = 268248,
+						itemName = "Amani Summoning Shawl",
 						quality = 4,
-						dropSource = "The Coiled Altar (Raid)",
+						dropSource = "Nek'zali the Soulcoiler (Raid)",
 						variant = "",
 						priority = 1,
 					},
