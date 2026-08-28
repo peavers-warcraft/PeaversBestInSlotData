@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.BestInSlotData = addonTable.BestInSlotData or {}
 
 local bisData = {
-	updated = "2026-08-27 05:01:13",
+	updated = "2026-08-28 05:01:14",
 
 	[1] = {
 		specs = {
@@ -4828,7 +4828,7 @@ local bisData = {
 						itemID = 268246,
 						itemName = "Frothing Venom Spaulders",
 						quality = 4,
-						dropSource = "The Lost Explorers",
+						dropSource = "Vashnik the Malignant",
 						variant = "",
 						priority = 1,
 					},
