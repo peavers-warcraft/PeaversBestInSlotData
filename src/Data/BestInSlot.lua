@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.BestInSlotData = addonTable.BestInSlotData or {}
 
 local bisData = {
-	updated = "2026-08-28 05:01:14",
+	updated = "2026-08-29 05:01:16",
 
 	[1] = {
 		specs = {
@@ -5575,10 +5575,10 @@ local bisData = {
 				},
 				[11] = {
 					{
-						itemID = 268249,
-						itemName = "Vile Alchemist's Band",
-						quality = 4,
-						dropSource = "Vashnik the Malignant",
+						itemID = 251136,
+						itemName = "Signet of Snarling Servitude",
+						quality = 3,
+						dropSource = "Murder Row",
 						variant = "",
 						priority = 1,
 					},
@@ -5601,8 +5601,8 @@ local bisData = {
 						priority = 1,
 					},
 					{
-						itemID = 270175,
-						itemName = "Voracious Heart of Ula'tek",
+						itemID = 270168,
+						itemName = "Font of Venomous Rage",
 						quality = 4,
 						dropSource = "Ula'tek",
 						variant = "",
