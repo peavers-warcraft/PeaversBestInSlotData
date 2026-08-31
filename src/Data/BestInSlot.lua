@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.BestInSlotData = addonTable.BestInSlotData or {}
 
 local bisData = {
-	updated = "2026-08-30 05:01:17",
+	updated = "2026-08-31 05:01:17",
 
 	[1] = {
 		specs = {
@@ -1005,10 +1005,10 @@ local bisData = {
 				},
 				[8] = {
 					{
-						itemID = 268233,
-						itemName = "Ferocious Scaleboots",
-						quality = 4,
-						dropSource = "Sszorak",
+						itemID = 159388,
+						itemName = "Sabatons of Coruscating Energy",
+						quality = 3,
+						dropSource = "Temple of Sethraliss",
 						variant = "",
 						priority = 1,
 					},
