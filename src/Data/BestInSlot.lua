@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.BestInSlotData = addonTable.BestInSlotData or {}
 
 local bisData = {
-	updated = "2026-09-01 05:01:15",
+	updated = "2026-09-02 05:01:12",
 
 	[1] = {
 		specs = {
@@ -1705,10 +1705,10 @@ local bisData = {
 				},
 				[17] = {
 					{
-						itemID = 275070,
-						itemName = "Sharpened Lightwood Slasher",
-						quality = 3,
-						dropSource = "Altar of Fangs",
+						itemID = 271093,
+						itemName = "Zatha'tek, Breath of Corruption",
+						quality = 4,
+						dropSource = "Ula'tek",
 						variant = "",
 						priority = 1,
 					},
