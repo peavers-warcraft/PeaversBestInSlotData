@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.BestInSlotData = addonTable.BestInSlotData or {}
 
 local bisData = {
-	updated = "2026-09-02 05:01:12",
+	updated = "2026-09-03 05:01:13",
 
 	[1] = {
 		specs = {
@@ -1217,10 +1217,10 @@ local bisData = {
 						priority = 1,
 					},
 					{
-						itemID = 270173,
-						itemName = "Zul'jin's Guillotine Technique",
+						itemID = 270168,
+						itemName = "Font of Venomous Rage",
 						quality = 4,
-						dropSource = "The Coiled Altar",
+						dropSource = "Ula'tek",
 						variant = "",
 						priority = 2,
 					},
@@ -2559,8 +2559,8 @@ local bisData = {
 				},
 				[5] = {
 					{
-						itemID = 271474,
-						itemName = "Baleful Grave-Knight's Casque",
+						itemID = 271477,
+						itemName = "Baleful Grave-Knight's Breastplate",
 						quality = 4,
 						dropSource = "The Coiled Altar",
 						variant = "",
@@ -6335,10 +6335,10 @@ local bisData = {
 				},
 				[6] = {
 					{
-						itemID = 268254,
-						itemName = "Serpentine Mixing Belt",
+						itemID = 244581,
+						itemName = "Farstrider's Trophy Belt",
 						quality = 4,
-						dropSource = "Vashnik the Malignant",
+						dropSource = "Crafting",
 						variant = "",
 						priority = 1,
 					},
@@ -6403,18 +6403,18 @@ local bisData = {
 				},
 				[13] = {
 					{
-						itemID = 250224,
-						itemName = "Mindpiercer's Sigil",
-						quality = 3,
-						dropSource = "Voidscar Arena",
+						itemID = 270168,
+						itemName = "Font of Venomous Rage",
+						quality = 4,
+						dropSource = "Ula'tek",
 						variant = "",
 						priority = 1,
 					},
 					{
-						itemID = 270164,
-						itemName = "Gebbo's Bottomless Bag",
-						quality = 4,
-						dropSource = "The Lost Explorers",
+						itemID = 250224,
+						itemName = "Mindpiercer's Sigil",
+						quality = 3,
+						dropSource = "Voidscar Arena",
 						variant = "",
 						priority = 2,
 					},
@@ -6441,10 +6441,10 @@ local bisData = {
 				},
 				[17] = {
 					{
-						itemID = 245769,
-						itemName = "Aln'hara Lantern",
+						itemID = 268197,
+						itemName = "Spine of the Hissing Abyss",
 						quality = 4,
-						dropSource = "Crafting",
+						dropSource = "Entombed Sentinels",
 						variant = "",
 						priority = 1,
 					},
