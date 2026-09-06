@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.BestInSlotData = addonTable.BestInSlotData or {}
 
 local bisData = {
-	updated = "2026-09-05 05:01:16",
+	updated = "2026-09-06 05:01:17",
 
 	[1] = {
 		specs = {
@@ -2777,10 +2777,10 @@ local bisData = {
 				},
 				[11] = {
 					{
-						itemID = 273792,
-						itemName = "Band of the Amani Warlord",
-						quality = 3,
-						dropSource = "Altar of Fangs",
+						itemID = 268249,
+						itemName = "Vile Alchemist's Band",
+						quality = 4,
+						dropSource = "Vashnik",
 						variant = "",
 						priority = 1,
 					},
