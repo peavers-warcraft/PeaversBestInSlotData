@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.BestInSlotData = addonTable.BestInSlotData or {}
 
 local bisData = {
-	updated = "2026-09-06 05:01:17",
+	updated = "2026-09-07 05:01:13",
 
 	[1] = {
 		specs = {
@@ -1461,10 +1461,10 @@ local bisData = {
 				},
 				[8] = {
 					{
-						itemID = 251153,
-						itemName = "Arctic Explorer's Legwraps",
-						quality = 3,
-						dropSource = "Den of Nalorakk",
+						itemID = 244569,
+						itemName = "Silvermoon Agent's Sneakers",
+						quality = 4,
+						dropSource = "Crafted",
 						variant = "",
 						priority = 1,
 					},
@@ -1547,10 +1547,10 @@ local bisData = {
 				},
 				[17] = {
 					{
-						itemID = 237837,
-						itemName = "Farstrider's Mercy",
-						quality = 4,
-						dropSource = "Crafting/Misc",
+						itemID = 275070,
+						itemName = "Sharpened Lightwood Slasher",
+						quality = 3,
+						dropSource = "Altar of Fangs",
 						variant = "",
 						priority = 1,
 					},
