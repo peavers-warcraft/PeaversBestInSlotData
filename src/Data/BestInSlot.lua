@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.BestInSlotData = addonTable.BestInSlotData or {}
 
 local bisData = {
-	updated = "2026-09-07 05:01:13",
+	updated = "2026-09-08 05:01:15",
 
 	[1] = {
 		specs = {
@@ -1069,10 +1069,10 @@ local bisData = {
 						priority = 2,
 					},
 					{
-						itemID = 270165,
-						itemName = "Keeper's Seething Core",
+						itemID = 270168,
+						itemName = "Font of Venomous Rage",
 						quality = 4,
-						dropSource = "Entombed Sentinels",
+						dropSource = "Ula'tek",
 						variant = "",
 						priority = 3,
 					},
