@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.BestInSlotData = addonTable.BestInSlotData or {}
 
 local bisData = {
-	updated = "2026-09-08 05:01:15",
+	updated = "2026-09-09 05:01:15",
 
 	[1] = {
 		specs = {
@@ -5269,10 +5269,10 @@ local bisData = {
 				},
 				[2] = {
 					{
-						itemID = 268251,
-						itemName = "Amulet of the Twin Fangs",
+						itemID = 268265,
+						itemName = "Aqirbane Reliquary",
 						quality = 4,
-						dropSource = "The Twin Fangs (Raid)",
+						dropSource = "Ula'tek (Raid)",
 						variant = "Overall",
 						priority = 1,
 					},
