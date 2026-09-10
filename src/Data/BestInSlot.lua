@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.BestInSlotData = addonTable.BestInSlotData or {}
 
 local bisData = {
-	updated = "2026-09-09 05:01:15",
+	updated = "2026-09-10 05:01:17",
 
 	[1] = {
 		specs = {
@@ -1161,10 +1161,10 @@ local bisData = {
 				},
 				[8] = {
 					{
-						itemID = 268233,
-						itemName = "Ferocious Scaleboots",
+						itemID = 268258,
+						itemName = "Boots of the Reckless Wayfarer",
 						quality = 4,
-						dropSource = "Sszorak",
+						dropSource = "The Lost Explorers",
 						variant = "",
 						priority = 1,
 					},
@@ -1199,10 +1199,10 @@ local bisData = {
 						priority = 1,
 					},
 					{
-						itemID = 268249,
-						itemName = "Vile Alchemist's Band",
-						quality = 4,
-						dropSource = "Vashnik the Malignant",
+						itemID = 158366,
+						itemName = "Charged Sandstone Band",
+						quality = 3,
+						dropSource = "Temple of Sethraliss",
 						variant = "",
 						priority = 2,
 					},
