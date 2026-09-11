@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.BestInSlotData = addonTable.BestInSlotData or {}
 
 local bisData = {
-	updated = "2026-09-10 05:01:17",
+	updated = "2026-09-11 05:01:15",
 
 	[1] = {
 		specs = {
