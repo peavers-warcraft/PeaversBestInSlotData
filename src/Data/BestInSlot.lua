@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.BestInSlotData = addonTable.BestInSlotData or {}
 
 local bisData = {
-	updated = "2026-09-22 05:01:14",
+	updated = "2026-09-23 05:01:14",
 
 	[1] = {
 		specs = {
@@ -5373,10 +5373,10 @@ local bisData = {
 				},
 				[11] = {
 					{
-						itemID = 268266,
-						itemName = "Alluring Bubbleband",
+						itemID = 240949,
+						itemName = "Masterwork Sin'dorei Band",
 						quality = 4,
-						dropSource = "Nymrissa Wavebinder (Raid)",
+						dropSource = "Jewelcrafting (Crafted)",
 						variant = "Overall",
 						priority = 1,
 					},
