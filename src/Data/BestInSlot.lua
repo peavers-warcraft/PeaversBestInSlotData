@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.BestInSlotData = addonTable.BestInSlotData or {}
 
 local bisData = {
-	updated = "2026-10-06 05:01:15",
+	updated = "2026-10-07 05:01:16",
 
 	[1] = {
 		specs = {
@@ -1800,7 +1800,7 @@ local bisData = {
 						itemID = 271511,
 						itemName = "Chosen Bloodslayer's Fanged Grips",
 						quality = 4,
-						dropSource = "Tier Set - Sszorak",
+						dropSource = "Tier Set - Temple of Sethraliss",
 						variant = "",
 						priority = 1,
 					},
