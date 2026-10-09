@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.BestInSlotData = addonTable.BestInSlotData or {}
 
 local bisData = {
-	updated = "2026-10-08 05:01:17",
+	updated = "2026-10-09 05:01:18",
 
 	[1] = {
 		specs = {
@@ -480,7 +480,7 @@ local bisData = {
 						itemID = 271465,
 						itemName = "Warhelm of the Consecrated Flame",
 						quality = 4,
-						dropSource = "Murder Row",
+						dropSource = "Kith'ix",
 						variant = "",
 						priority = 1,
 					},
@@ -575,10 +575,10 @@ local bisData = {
 						priority = 1,
 					},
 					{
-						itemID = 252258,
-						itemName = "Sickening Signet of Atroxus",
-						quality = 3,
-						dropSource = "Voidscar Arena",
+						itemID = 281029,
+						itemName = "Band of the Swarmcaller",
+						quality = 4,
+						dropSource = "Kith'ix",
 						variant = "",
 						priority = 2,
 					},
@@ -599,6 +599,14 @@ local bisData = {
 						dropSource = "The Lost Explorers",
 						variant = "",
 						priority = 2,
+					},
+					{
+						itemID = 281215,
+						itemName = "Twisted Horror's Tendril",
+						quality = 4,
+						dropSource = "Kith'ix",
+						variant = "",
+						priority = 3,
 					},
 				},
 				[15] = {
