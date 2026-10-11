@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.BestInSlotData = addonTable.BestInSlotData or {}
 
 local bisData = {
-	updated = "2026-10-10 05:01:18",
+	updated = "2026-10-11 05:01:19",
 
 	[1] = {
 		specs = {
@@ -1036,7 +1036,7 @@ local bisData = {
 						itemID = 271493,
 						itemName = "Skulking Viper's Hidepiercers",
 						quality = 4,
-						dropSource = "King's Rest",
+						dropSource = "Kith'ix",
 						variant = "",
 						priority = 1,
 					},
@@ -1051,20 +1051,20 @@ local bisData = {
 						priority = 1,
 					},
 					{
-						itemID = 252258,
-						itemName = "Sickening Signet of Atroxus",
-						quality = 3,
-						dropSource = "Voidscar Arena",
+						itemID = 281029,
+						itemName = "Band of the Swarmcaller",
+						quality = 4,
+						dropSource = "Kith'ix",
 						variant = "",
 						priority = 2,
 					},
 				},
 				[13] = {
 					{
-						itemID = 270173,
-						itemName = "Zul'jin's Guillotine Technique",
+						itemID = 281215,
+						itemName = "Twisted Horror's Tendril",
 						quality = 4,
-						dropSource = "The Coiled Altar",
+						dropSource = "Kith'ix",
 						variant = "",
 						priority = 1,
 					},
@@ -5493,8 +5493,8 @@ local bisData = {
 			[577] = {
 				[1] = {
 					{
-						itemID = 271875,
-						itemName = "Gaze of the Coiled Watcher",
+						itemID = 271537,
+						itemName = "Abyssal Doomhound's Relentless Stare",
 						quality = 4,
 						dropSource = "Ula'tek",
 						variant = "",
@@ -5523,10 +5523,10 @@ local bisData = {
 				},
 				[5] = {
 					{
-						itemID = 271540,
-						itemName = "Abyssal Doomhound's Coreguard",
+						itemID = 281236,
+						itemName = "Chestwrap of Palpable Terror",
 						quality = 4,
-						dropSource = "King's Rest",
+						dropSource = "Kith'ix",
 						variant = "",
 						priority = 1,
 					},
@@ -6313,10 +6313,10 @@ local bisData = {
 				},
 				[2] = {
 					{
-						itemID = 268265,
-						itemName = "Aqirbane Reliquary",
+						itemID = 268251,
+						itemName = "Amulet of the Twin Fangs",
 						quality = 4,
-						dropSource = "Ula'tek",
+						dropSource = "Twin Fangs",
 						variant = "",
 						priority = 1,
 					},
@@ -6401,10 +6401,10 @@ local bisData = {
 						priority = 1,
 					},
 					{
-						itemID = 158366,
-						itemName = "Charged Sandstone Band",
-						quality = 3,
-						dropSource = "Temple of Sethraliss",
+						itemID = 281029,
+						itemName = "Band of the Swarmcaller",
+						quality = 4,
+						dropSource = "Kith'ix",
 						variant = "",
 						priority = 2,
 					},
@@ -6419,10 +6419,10 @@ local bisData = {
 						priority = 1,
 					},
 					{
-						itemID = 250224,
-						itemName = "Mindpiercer's Sigil",
-						quality = 3,
-						dropSource = "Voidscar Arena",
+						itemID = 281215,
+						itemName = "Twisted Horror's Tendril",
+						quality = 4,
+						dropSource = "Kith'ix",
 						variant = "",
 						priority = 2,
 					},
