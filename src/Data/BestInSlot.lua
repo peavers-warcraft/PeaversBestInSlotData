@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.BestInSlotData = addonTable.BestInSlotData or {}
 
 local bisData = {
-	updated = "2026-10-11 05:01:19",
+	updated = "2026-10-12 05:01:22",
 
 	[1] = {
 		specs = {
@@ -315,10 +315,10 @@ local bisData = {
 			[73] = {
 				[1] = {
 					{
-						itemID = 271456,
-						itemName = "Tempered Horns of the Jade Warlord",
+						itemID = 281239,
+						itemName = "Corroded Hulk's Skullcap",
 						quality = 4,
-						dropSource = "Tier Set",
+						dropSource = "Kith'ix",
 						variant = "",
 						priority = 1,
 					},
@@ -413,10 +413,10 @@ local bisData = {
 						priority = 1,
 					},
 					{
-						itemID = 268249,
-						itemName = "Vile Alchemist's Band",
+						itemID = 281029,
+						itemName = "Band of the Swarmcaller",
 						quality = 4,
-						dropSource = "Vashnik the Malignant",
+						dropSource = "Kith'ix",
 						variant = "",
 						priority = 2,
 					},
@@ -643,10 +643,10 @@ local bisData = {
 			[66] = {
 				[1] = {
 					{
-						itemID = 271465,
-						itemName = "Warhelm of the Consecrated Flame",
+						itemID = 281239,
+						itemName = "Corroded Hulk's Skullcap",
 						quality = 4,
-						dropSource = "Tier Set",
+						dropSource = "Kith'ix",
 						variant = "",
 						priority = 1,
 					},
@@ -741,10 +741,10 @@ local bisData = {
 						priority = 1,
 					},
 					{
-						itemID = 268249,
-						itemName = "Vile Alchemist's Band",
+						itemID = 281029,
+						itemName = "Band of the Swarmcaller",
 						quality = 4,
-						dropSource = "Vashnik the Malignant",
+						dropSource = "Kith'ix",
 						variant = "",
 						priority = 2,
 					},
@@ -2785,18 +2785,18 @@ local bisData = {
 				},
 				[11] = {
 					{
-						itemID = 268249,
-						itemName = "Vile Alchemist's Band",
+						itemID = 281029,
+						itemName = "Band of the Swarmcaller",
 						quality = 4,
-						dropSource = "Vashnik",
+						dropSource = "Kyth'ix",
 						variant = "",
 						priority = 1,
 					},
 					{
-						itemID = 252258,
-						itemName = "Sickening Signet of Atroxus",
+						itemID = 273792,
+						itemName = "Band of the Amani Warlord",
 						quality = 3,
-						dropSource = "Voidscar Arena",
+						dropSource = "Altar of Fangs",
 						variant = "",
 						priority = 2,
 					},
@@ -3279,10 +3279,10 @@ local bisData = {
 						priority = 1,
 					},
 					{
-						itemID = 270167,
-						itemName = "Wavecaller's Seastone",
+						itemID = 281215,
+						itemName = "Twisted Horror's Tendril",
 						quality = 4,
-						dropSource = "Nymrissa Wavebinder (Raid)",
+						dropSource = "Kith'ix (Raid)",
 						variant = "",
 						priority = 2,
 					},
@@ -4284,7 +4284,7 @@ local bisData = {
 						itemID = 271519,
 						itemName = "Monkey King's Unyielding Visage",
 						quality = 4,
-						dropSource = "Catalyst|Raid|Vault",
+						dropSource = "Catalyst|Mythic+|Vault",
 						variant = "",
 						priority = 1,
 					},
@@ -4341,10 +4341,10 @@ local bisData = {
 				},
 				[8] = {
 					{
-						itemID = 159304,
-						itemName = "Goldfeather Boots",
-						quality = 3,
-						dropSource = "Kings' Rest",
+						itemID = 272240,
+						itemName = "Miststalker's Striders",
+						quality = 4,
+						dropSource = "(Labyrinth of Kindo'jan)",
 						variant = "",
 						priority = 1,
 					},
@@ -4397,10 +4397,10 @@ local bisData = {
 						priority = 1,
 					},
 					{
-						itemID = 270173,
-						itemName = "Zul'jin's Guillotine Technique",
+						itemID = 281215,
+						itemName = "Twisted Horror's Tendril",
 						quality = 4,
-						dropSource = "The Coiled Altar",
+						dropSource = "Kith'ix",
 						variant = "",
 						priority = 2,
 					},
@@ -5149,10 +5149,10 @@ local bisData = {
 				},
 				[5] = {
 					{
-						itemID = 271531,
-						itemName = "Enigmatic Dreamwatcher's Lunar Raiment",
+						itemID = 281236,
+						itemName = "Chestwrap of Palpable Terror",
 						quality = 4,
-						dropSource = "Tier Set",
+						dropSource = "Kith'ix",
 						variant = "",
 						priority = 1,
 					},
@@ -5217,10 +5217,10 @@ local bisData = {
 						priority = 1,
 					},
 					{
-						itemID = 268249,
-						itemName = "Vile Alchemist's Band",
+						itemID = 281029,
+						itemName = "Band of the Swarmcaller",
 						quality = 4,
-						dropSource = "Vashnik the Malignant",
+						dropSource = "Kith'ix",
 						variant = "",
 						priority = 2,
 					},
@@ -5684,7 +5684,7 @@ local bisData = {
 						itemID = 271540,
 						itemName = "Abyssal Doomhound's Coreguard",
 						quality = 4,
-						dropSource = "Vashnik the Malignant",
+						dropSource = "The Unbinding of Kith'ix",
 						variant = "",
 						priority = 1,
 					},
@@ -5759,10 +5759,10 @@ local bisData = {
 				},
 				[13] = {
 					{
-						itemID = 270164,
-						itemName = "Gebbo's Bottomless Bag",
+						itemID = 281215,
+						itemName = "Twisted Horror's Tendril",
 						quality = 4,
-						dropSource = "The Lost Explorers",
+						dropSource = "The Unbinding of Kith'ix",
 						variant = "",
 						priority = 1,
 					},
@@ -5781,6 +5781,14 @@ local bisData = {
 						dropSource = "The Coiled Altar",
 						variant = "",
 						priority = 3,
+					},
+					{
+						itemID = 280617,
+						itemName = "Lightbearer's Shield Fragment",
+						quality = 4,
+						dropSource = "The Unbinding of Kith'ix",
+						variant = "",
+						priority = 4,
 					},
 				},
 				[15] = {
@@ -5840,7 +5848,7 @@ local bisData = {
 						itemID = 271535,
 						itemName = "Abyssal Doomhound's Jaws",
 						quality = 4,
-						dropSource = "Voidscar Arena",
+						dropSource = "Vashnik the Malignant",
 						variant = "",
 						priority = 1,
 					},
@@ -5850,7 +5858,7 @@ local bisData = {
 						itemID = 271540,
 						itemName = "Abyssal Doomhound's Coreguard",
 						quality = 4,
-						dropSource = "Den of Nalorakk",
+						dropSource = "General Kith'ix",
 						variant = "",
 						priority = 1,
 					},
@@ -5907,10 +5915,10 @@ local bisData = {
 				},
 				[11] = {
 					{
-						itemID = 268249,
-						itemName = "Vile Alchemist's Band",
+						itemID = 281029,
+						itemName = "Band of the Swarmcaller",
 						quality = 4,
-						dropSource = "Vashnik the Malignant",
+						dropSource = "General Kith'ix",
 						variant = "",
 						priority = 1,
 					},
@@ -5925,20 +5933,12 @@ local bisData = {
 				},
 				[13] = {
 					{
-						itemID = 250215,
-						itemName = "Freightrunner's Flask",
-						quality = 3,
-						dropSource = "Murder Row",
+						itemID = 281215,
+						itemName = "Twisted Horror's Tendril",
+						quality = 4,
+						dropSource = "General Kith'ix",
 						variant = "",
 						priority = 1,
-					},
-					{
-						itemID = 270167,
-						itemName = "Wavecaller's Seastone",
-						quality = 4,
-						dropSource = "Nymrissa Wavecaller",
-						variant = "",
-						priority = 2,
 					},
 					{
 						itemID = 270164,
@@ -5946,7 +5946,7 @@ local bisData = {
 						quality = 4,
 						dropSource = "The Lost Explorers",
 						variant = "",
-						priority = 3,
+						priority = 2,
 					},
 				},
 				[15] = {
