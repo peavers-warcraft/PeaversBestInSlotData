@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.BestInSlotData = addonTable.BestInSlotData or {}
 
 local bisData = {
-	updated = "2026-10-14 05:01:15",
+	updated = "2026-10-15 05:01:16",
 
 	[1] = {
 		specs = {
@@ -3386,7 +3386,7 @@ local bisData = {
 						itemID = 271563,
 						itemName = "Primal Leywarden's Tailored Legwraps",
 						quality = 4,
-						dropSource = "Nek'zali the Soulcoiler",
+						dropSource = "Kith'ix",
 						variant = "",
 						priority = 1,
 					},
@@ -3423,10 +3423,10 @@ local bisData = {
 				},
 				[11] = {
 					{
-						itemID = 268266,
-						itemName = "Alluring Bubbleband",
+						itemID = 281029,
+						itemName = "Band of the Swarmcaller",
 						quality = 4,
-						dropSource = "Nymrissa Wavecaller",
+						dropSource = "Kith'ix",
 						variant = "",
 						priority = 1,
 					},
@@ -3449,10 +3449,10 @@ local bisData = {
 						priority = 1,
 					},
 					{
-						itemID = 270164,
-						itemName = "Gebbo's Bottomless Bag",
+						itemID = 281215,
+						itemName = "Twisted Horror's Tendril",
 						quality = 4,
-						dropSource = "The Lost Explorers",
+						dropSource = "Kith'ix",
 						variant = "",
 						priority = 2,
 					},
