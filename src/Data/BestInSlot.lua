@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.BestInSlotData = addonTable.BestInSlotData or {}
 
 local bisData = {
-	updated = "2026-10-17 05:01:17",
+	updated = "2026-10-18 05:01:16",
 
 	[1] = {
 		specs = {
@@ -3851,10 +3851,10 @@ local bisData = {
 				},
 				[6] = {
 					{
-						itemID = 239649,
-						itemName = "Martyr's Waistwrap",
-						quality = 4,
-						dropSource = "Crafting",
+						itemID = 251222,
+						itemName = "Ethereal Netherwrap",
+						quality = 3,
+						dropSource = "Voidscar Arena",
 						variant = "",
 						priority = 1,
 					},
@@ -3864,7 +3864,7 @@ local bisData = {
 						itemID = 271545,
 						itemName = "Damned Necrolyte's Leg Bindings",
 						quality = 4,
-						dropSource = "Sszorak",
+						dropSource = "Kith'ix",
 						variant = "",
 						priority = 1,
 					},
@@ -3894,7 +3894,7 @@ local bisData = {
 						itemID = 271547,
 						itemName = "Damned Necrolyte's Charred Grasps",
 						quality = 4,
-						dropSource = "Entombed Sentinels",
+						dropSource = "The Coiled Altar",
 						variant = "",
 						priority = 1,
 					},
@@ -3912,17 +3912,17 @@ local bisData = {
 						itemID = 281029,
 						itemName = "Band of the Swarmcaller",
 						quality = 4,
-						dropSource = "Kith'Ix",
+						dropSource = "Kith'ix",
 						variant = "",
 						priority = 2,
 					},
 				},
 				[13] = {
 					{
-						itemID = 270164,
-						itemName = "Gebbo's Bottomless Bag",
+						itemID = 281215,
+						itemName = "Twisted Horror's Tendril",
 						quality = 4,
-						dropSource = "The Lost Explorers",
+						dropSource = "Kith'ix",
 						variant = "",
 						priority = 1,
 					},
@@ -3957,10 +3957,10 @@ local bisData = {
 				},
 				[17] = {
 					{
-						itemID = 273779,
-						itemName = "Nocuous Focal Fang",
-						quality = 3,
-						dropSource = "The Writhing Coil",
+						itemID = 245769,
+						itemName = "Aln'hara Lantern",
+						quality = 4,
+						dropSource = "Crafting",
 						variant = "",
 						priority = 1,
 					},
@@ -5625,8 +5625,8 @@ local bisData = {
 						priority = 1,
 					},
 					{
-						itemID = 270168,
-						itemName = "Font of Venomous Rage",
+						itemID = 270175,
+						itemName = "Voracious Heart of Ula'tek",
 						quality = 4,
 						dropSource = "Ula'tek",
 						variant = "",
