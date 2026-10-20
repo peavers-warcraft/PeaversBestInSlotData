@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.BestInSlotData = addonTable.BestInSlotData or {}
 
 local bisData = {
-	updated = "2026-10-19 05:01:13",
+	updated = "2026-10-20 05:01:19",
 
 	[1] = {
 		specs = {
@@ -4002,7 +4002,7 @@ local bisData = {
 						itemID = 271549,
 						itemName = "Damned Necrolyte's Rattling Robes",
 						quality = 4,
-						dropSource = "Vashnik the Malignant",
+						dropSource = "Nymrissa",
 						variant = "",
 						priority = 1,
 					},
