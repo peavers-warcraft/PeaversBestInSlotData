@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.BestInSlotData = addonTable.BestInSlotData or {}
 
 local bisData = {
-	updated = "2026-10-20 05:01:19",
+	updated = "2026-10-21 05:01:15",
 
 	[1] = {
 		specs = {
@@ -4690,7 +4690,7 @@ local bisData = {
 						itemID = 268247,
 						itemName = "Breakwater Boots",
 						quality = 4,
-						dropSource = "Nymrissa Wavebinder",
+						dropSource = "Nymrissa Wavecaller",
 						variant = "Raid",
 						priority = 1,
 					},
@@ -4728,7 +4728,7 @@ local bisData = {
 						itemID = 268266,
 						itemName = "Alluring Bubbleband",
 						quality = 4,
-						dropSource = "Nymrissa Wavebinder",
+						dropSource = "Nymrissa Wavecaller",
 						variant = "Raid, Mythic+",
 						priority = 1,
 					},
@@ -4754,7 +4754,7 @@ local bisData = {
 						itemID = 270167,
 						itemName = "Wavecaller's Seastone",
 						quality = 4,
-						dropSource = "Nymrissa Wavebinder",
+						dropSource = "Nymrissa Wavecaller",
 						variant = "Raid",
 						priority = 1,
 					},
@@ -4816,7 +4816,7 @@ local bisData = {
 						itemID = 268197,
 						itemName = "Spine of the Hissing Abyss",
 						quality = 4,
-						dropSource = "Entomed Sentinels",
+						dropSource = "Entombed Sentinels",
 						variant = "Mythic+",
 						priority = 1,
 					},
