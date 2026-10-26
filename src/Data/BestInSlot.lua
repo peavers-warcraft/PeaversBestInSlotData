@@ -2,7 +2,7 @@ local addonName, addonTable = ...
 addonTable.BestInSlotData = addonTable.BestInSlotData or {}
 
 local bisData = {
-	updated = "2026-10-25 05:01:17",
+	updated = "2026-10-26 05:01:20",
 
 	[1] = {
 		specs = {
@@ -4243,8 +4243,8 @@ local bisData = {
 						priority = 1,
 					},
 					{
-						itemID = 280835,
-						itemName = "Sigil of the Impending Eclipse",
+						itemID = 281215,
+						itemName = "Twisted Horror's Tendril",
 						quality = 4,
 						dropSource = "Kith'Ix",
 						variant = "",
